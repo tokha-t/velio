@@ -1,0 +1,58 @@
+{
+  "address_id": "A0295",
+  "attempts": [
+    {
+      "method": "census_oneline",
+      "response": {
+        "result": {
+          "addressMatches": [],
+          "input": {
+            "address": {
+              "address": "Harvard ST LOT 2A-13, Dorchester, MA 02124"
+            },
+            "benchmark": {
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "benchmarkName": "Public_AR_Current",
+              "id": "4",
+              "isDefault": true
+            },
+            "vintage": {
+              "id": "4",
+              "isDefault": true,
+              "vintageDescription": "Current Vintage - Current Benchmark",
+              "vintageName": "Current_Current"
+            }
+          }
+        }
+      }
+    },
+    {
+      "method": "census_components",
+      "response": {
+        "result": {
+          "addressMatches": [],
+          "input": {
+            "address": {
+              "city": "Dorchester",
+              "state": "MA",
+              "street": "Harvard ST LOT 2A-13",
+              "zip": "02124"
+            },
+            "benchmark": {
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "benchmarkName": "Public_AR_Current",
+              "id": "4",
+              "isDefault": true
+            },
+            "vintage": {
+              "id": "4",
+              "isDefault": true,
+              "vintageDescription": "Current Vintage - Current Benchmark",
+              "vintageName": "Current_Current"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

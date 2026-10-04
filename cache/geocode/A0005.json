@@ -1,0 +1,477 @@
+{
+  "address_id": "A0005",
+  "attempts": [
+    {
+      "method": "census_oneline",
+      "response": {
+        "result": {
+          "addressMatches": [
+            {
+              "addressComponents": {
+                "city": "BERKELEY",
+                "fromAddress": "1601",
+                "preDirection": "",
+                "preQualifier": "",
+                "preType": "",
+                "state": "CA",
+                "streetName": "ADDISON",
+                "suffixDirection": "",
+                "suffixQualifier": "",
+                "suffixType": "ST",
+                "toAddress": "1625",
+                "zip": "94703"
+              },
+              "coordinates": {
+                "x": -122.279293972449,
+                "y": 37.869830696926
+              },
+              "geographies": {
+                "120th Congressional Districts": [
+                  {
+                    "AREALAND": 239856546,
+                    "AREAWATER": 126063294,
+                    "BASENAME": "12",
+                    "CD120": "12",
+                    "CDSESSN": "120",
+                    "CENTLAT": "+37.7796226",
+                    "CENTLON": "-122.2417918",
+                    "FUNCSTAT": "N",
+                    "GEOID": "0612",
+                    "INTPTLAT": "+37.7801271",
+                    "INTPTLON": "-122.2408008",
+                    "LSADC": "C2",
+                    "MTFCC": "G5200",
+                    "NAME": "Congressional District 12",
+                    "OBJECTID": 267,
+                    "OID": "2119042393002050",
+                    "STATE": "06",
+                    "STGEOMETRY_Area": 586753221.8901463,
+                    "STGEOMETRY_Length": 124358.16352812851
+                  }
+                ],
+                "2020 Census Blocks": [
+                  {
+                    "AREALAND": 6252,
+                    "AREAWATER": 0,
+                    "BASENAME": "1011",
+                    "BLKGRP": "1",
+                    "BLOCK": "1011",
+                    "CENTLAT": "+37.8700645",
+                    "CENTLON": "-122.2791045",
+                    "COUNTY": "001",
+                    "FUNCSTAT": "S",
+                    "GEOID": "060014230001011",
+                    "INTPTLAT": "+37.8700645",
+                    "INTPTLON": "-122.2791045",
+                    "LSADC": "BK",
+                    "LWBLKTYP": "L",
+                    "MTFCC": "G5040",
+                    "NAME": "Block 1011",
+                    "OBJECTID": 6594590,
+                    "OID": "210701000678394",
+                    "STATE": "06",
+                    "SUFFIX": "",
+                    "TRACT": "423000",
+                    "UR": "U"
+                  }
+                ],
+                "2020 Census Public Use Microdata Areas": [
+                  {
+                    "AREALAND": 31654342,
+                    "AREAWATER": 8608712,
+                    "BASENAME": "Alameda County (North)--Berkeley & Albany Cities",
+                    "CENTLAT": "+37.8741432",
+                    "CENTLON": "-122.2869270",
+                    "FUNCSTAT": "S",
+                    "GEOID": "0600101",
+                    "INTPTLAT": "+37.8739149",
+                    "INTPTLON": "-122.2865585",
+                    "LSADC": "P0",
+                    "MTFCC": "G6120",
+                    "NAME": "Alameda County (North)--Berkeley & Albany Cities PUMA",
+                    "OBJECTID": 421,
+                    "OID": "217704486282574",
+                    "PUMA": "00101",
+                    "STATE": "06"
+                  }
+                ],
+                "2020 Census ZIP Code Tabulation Areas": [
+                  {
+                    "AREALAND": 3335067,
+                    "AREAWATER": 0,
+                    "BASENAME": "94703",
+                    "CENTLAT": "+37.8637146",
+                    "CENTLON": "-122.2756841",
+                    "FUNCSTAT": "S",
+                    "GEOID": "94703",
+                    "INTPTLAT": "+37.8637146",
+                    "INTPTLON": "-122.2756841",
+                    "LSADC": "Z5",
+                    "MTFCC": "G6350",
+                    "NAME": "ZCTA5 94703",
+                    "OBJECTID": 26366,
+                    "OID": "221704258476870",
+                    "ZCTA5": "94703",
+                    "ZCTA5CC": "B5"
+                  }
+                ],
+                "2026 State Legislative Districts - Lower": [
+                  {
+                    "AREALAND": 244826945,
+                    "AREAWATER": 147251377,
+                    "BASENAME": "14",
+                    "CENTLAT": "+37.9462090",
+                    "CENTLON": "-122.3125208",
+                    "FUNCSTAT": "N",
+                    "GEOID": "06014",
+                    "INTPTLAT": "+37.9424368",
+                    "INTPTLON": "-122.3091943",
+                    "LDTYP": "O",
+                    "LSADC": "L3",
+                    "LSY": "2026",
+                    "MTFCC": "G5220",
+                    "NAME": "Assembly District 14",
+                    "OBJECTID": 1187,
+                    "OID": "2139042393385512",
+                    "SLDL": "014",
+                    "STATE": "06"
+                  }
+                ],
+                "2026 State Legislative Districts - Upper": [
+                  {
+                    "AREALAND": 377165074,
+                    "AREAWATER": 239408112,
+                    "BASENAME": "7",
+                    "CENTLAT": "+37.8760853",
+                    "CENTLON": "-122.2860823",
+                    "FUNCSTAT": "N",
+                    "GEOID": "06007",
+                    "INTPTLAT": "+37.8755933",
+                    "INTPTLON": "-122.2854775",
+                    "LDTYP": "O",
+                    "LSADC": "LU",
+                    "LSY": "2026",
+                    "MTFCC": "G5210",
+                    "NAME": "State Senate District 7",
+                    "OBJECTID": 1559,
+                    "OID": "2129042393385050",
+                    "SLDU": "007",
+                    "STATE": "06"
+                  }
+                ],
+                "Census Block Groups": [
+                  {
+                    "AREALAND": 244945,
+                    "AREAWATER": 0,
+                    "BASENAME": "1",
+                    "BLKGRP": "1",
+                    "CENTLAT": "+37.8695460",
+                    "CENTLON": "-122.2774644",
+                    "COUNTY": "001",
+                    "FUNCSTAT": "S",
+                    "GEOID": "060014230001",
+                    "INTPTLAT": "+37.8695460",
+                    "INTPTLON": "-122.2774644",
+                    "LSADC": "BG",
+                    "MTFCC": "G5030",
+                    "NAME": "Block Group 1",
+                    "OBJECTID": 58131,
+                    "OID": "20890141211551",
+                    "STATE": "06",
+                    "TRACT": "423000"
+                  }
+                ],
+                "Census Divisions": [
+                  {
+                    "AREALAND": 2321006265148,
+                    "AREAWATER": 295057188152,
+                    "BASENAME": "Pacific",
+                    "CENTLAT": "+56.3785915",
+                    "CENTLON": "-138.8914236",
+                    "DIVISION": "9",
+                    "FUNCSTAT": "S",
+                    "GEOID": "9",
+                    "INTPTLAT": "+19.8281671",
+                    "INTPTLON": "-155.4950421",
+                    "LSADC": "69",
+                    "MTFCC": "G1200",
+                    "NAME": "Pacific Division",
+                    "OBJECTID": 4,
+                    "OID": "2739020719804",
+                    "REGION": "4"
+                  }
+                ],
+                "Census Regions": [
+                  {
+                    "AREALAND": 4538933004900,
+                    "AREAWATER": 313750173666,
+                    "BASENAME": "West",
+                    "CENTLAT": "+49.9401545",
+                    "CENTLON": "-124.1894076",
+                    "FUNCSTAT": "S",
+                    "GEOID": "4",
+                    "INTPTLAT": "+19.8281671",
+                    "INTPTLON": "-155.4950421",
+                    "LSADC": "68",
+                    "MTFCC": "G1100",
+                    "NAME": "West Region",
+                    "OBJECTID": 2,
+                    "OID": "2729020719823",
+                    "REGION": "4"
+                  }
+                ],
+                "Census Tracts": [
+                  {
+                    "AREALAND": 730083,
+                    "AREAWATER": 0,
+                    "BASENAME": "4230",
+                    "CENTLAT": "+37.8668441",
+                    "CENTLON": "-122.2771352",
+                    "COUNTY": "001",
+                    "FUNCSTAT": "S",
+                    "GEOID": "06001423000",
+                    "INTPTLAT": "+37.8668441",
+                    "INTPTLON": "-122.2771352",
+                    "LSADC": "CT",
+                    "MTFCC": "G5020",
+                    "NAME": "Census Tract 4230",
+                    "OBJECTID": 32397,
+                    "OID": "20790141323858",
+                    "STATE": "06",
+                    "TRACT": "423000"
+                  }
+                ],
+                "Combined Statistical Areas": [
+                  {
+                    "AREALAND": 31066455166,
+                    "AREAWATER": 3498492869,
+                    "BASENAME": "San Jose-San Francisco-Oakland, CA",
+                    "CENTLAT": "+37.5500108",
+                    "CENTLON": "-121.5762227",
+                    "CSA": "488",
+                    "FUNCSTAT": "S",
+                    "GEOID": "488",
+                    "HU100": "",
+                    "INTPTLAT": "+37.5199375",
+                    "INTPTLON": "-121.5755749",
+                    "LSADC": "M0",
+                    "MTFCC": "G3100",
+                    "NAME": "San Jose-San Francisco-Oakland, CA CSA",
+                    "OBJECTID": 69,
+                    "OID": "2619034687908125",
+                    "POP100": ""
+                  }
+                ],
+                "Counties": [
+                  {
+                    "AREALAND": 1910039574,
+                    "AREAWATER": 216909643,
+                    "BASENAME": "Alameda",
+                    "CENTLAT": "+37.6505880",
+                    "CENTLON": "-121.9178012",
+                    "COUNTY": "001",
+                    "COUNTYCC": "H1",
+                    "COUNTYNS": "01675839",
+                    "FUNCSTAT": "A",
+                    "GEOID": "06001",
+                    "INTPTLAT": "+37.6401043",
+                    "INTPTLON": "-121.9068063",
+                    "LSADC": "06",
+                    "MTFCC": "G4020",
+                    "NAME": "Alameda County",
+                    "OBJECTID": 1338,
+                    "OID": "27590141293924",
+                    "STATE": "06"
+                  }
+                ],
+                "County Subdivisions": [
+                  {
+                    "AREALAND": 31654342,
+                    "AREAWATER": 28234508,
+                    "BASENAME": "Berkeley",
+                    "CENTLAT": "+37.8707096",
+                    "CENTLON": "-122.3060389",
+                    "COUNTY": "001",
+                    "COUSUB": "90200",
+                    "COUSUBCC": "Z5",
+                    "COUSUBNS": "01935024",
+                    "FUNCSTAT": "S",
+                    "GEOID": "0600190200",
+                    "INTPTLAT": "+37.8681604",
+                    "INTPTLON": "-122.3088934",
+                    "LSADC": "22",
+                    "MTFCC": "G4040",
+                    "NAME": "Berkeley CCD",
+                    "OBJECTID": 140,
+                    "OID": "27690141295674",
+                    "STATE": "06"
+                  }
+                ],
+                "Incorporated Places": [
+                  {
+                    "AREALAND": 27018307,
+                    "AREAWATER": 18712737,
+                    "BASENAME": "Berkeley",
+                    "CBSAPCI": "Y",
+                    "CENTLAT": "+37.8663942",
+                    "CENTLON": "-122.2989164",
+                    "DISP_CLR": 1,
+                    "FUNCSTAT": "A",
+                    "GEOID": "0606000",
+                    "INTPTLAT": "+37.8656733",
+                    "INTPTLON": "-122.2987247",
+                    "LSADC": "25",
+                    "MTFCC": "G4110",
+                    "NAME": "Berkeley city",
+                    "NECTAPCI": "N",
+                    "OBJECTID": 29139,
+                    "OID": "27890141296443",
+                    "PLACE": "06000",
+                    "PLACECC": "C1",
+                    "PLACENS": "02409837",
+                    "STATE": "06",
+                    "STGEOMETRY_Area": 73500529.50584412,
+                    "STGEOMETRY_Length": 47846.05588900032
+                  }
+                ],
+                "Metropolitan Divisions": [
+                  {
+                    "AREALAND": 3766794668,
+                    "AREAWATER": 442216307,
+                    "BASENAME": "Oakland-Fremont-Berkeley, CA",
+                    "CBSA": "41860",
+                    "CENTLAT": "+37.7856156",
+                    "CENTLON": "-121.9341678",
+                    "CSA": "488",
+                    "FUNCSTAT": "S",
+                    "GEOID": "4186036084",
+                    "HU100": "",
+                    "INTPTLAT": "+37.7836992",
+                    "INTPTLON": "-121.9309005",
+                    "LSADC": "M3",
+                    "METDIV": "36084",
+                    "MTFCC": "G3120",
+                    "NAME": "Oakland-Fremont-Berkeley, CA Metro Division",
+                    "OBJECTID": 27,
+                    "OID": "2639034687908177",
+                    "POP100": ""
+                  }
+                ],
+                "Metropolitan Statistical Areas": [
+                  {
+                    "AREALAND": 6396743976,
+                    "AREAWATER": 2476934175,
+                    "BASENAME": "San Francisco-Oakland-Fremont, CA",
+                    "CBSA": "41860",
+                    "CENTLAT": "+37.7739317",
+                    "CENTLON": "-122.2732807",
+                    "CSA": "488",
+                    "FUNCSTAT": "S",
+                    "GEOID": "41860",
+                    "HU100": "",
+                    "INTPTLAT": "+37.7737310",
+                    "INTPTLON": "-122.2747780",
+                    "LSADC": "M1",
+                    "MTFCC": "G3110",
+                    "NAME": "San Francisco-Oakland-Fremont, CA Metro Area",
+                    "OBJECTID": 222,
+                    "OID": "2629034687907787",
+                    "POP100": ""
+                  }
+                ],
+                "States": [
+                  {
+                    "AREALAND": 403676534536,
+                    "AREAWATER": 20288534055,
+                    "BASENAME": "California",
+                    "CENTLAT": "+37.1547616",
+                    "CENTLON": "-119.5277735",
+                    "DIVISION": "9",
+                    "FUNCSTAT": "A",
+                    "GEOID": "06",
+                    "INTPTLAT": "+37.1626642",
+                    "INTPTLON": "-119.5713456",
+                    "LSADC": "00",
+                    "MTFCC": "G4000",
+                    "NAME": "California",
+                    "OBJECTID": 6,
+                    "OID": "2749018475066",
+                    "REGION": "4",
+                    "STATE": "06",
+                    "STATENS": "01779778",
+                    "STUSAB": "CA"
+                  }
+                ],
+                "Unified School Districts": [
+                  {
+                    "AREALAND": 27024790,
+                    "AREAWATER": 18712737,
+                    "BASENAME": "Berkeley Unified School District",
+                    "CENTLAT": "+37.8663921",
+                    "CENTLON": "-122.2989119",
+                    "FUNCSTAT": "E",
+                    "GEOID": "0604740",
+                    "HIGRADE": "12",
+                    "INTPTLAT": "+37.8656733",
+                    "INTPTLON": "-122.2987247",
+                    "LOGRADE": "KG",
+                    "LSADC": "00",
+                    "MTFCC": "G5420",
+                    "NAME": "Berkeley Unified School District",
+                    "OBJECTID": 8071,
+                    "OID": "28490141325330",
+                    "SDTYP": "",
+                    "SDUNI": "04740",
+                    "STATE": "06"
+                  }
+                ],
+                "Urban Areas": [
+                  {
+                    "AREALAND": 1330135792,
+                    "AREAWATER": 31792944,
+                    "BASENAME": "San Francisco--Oakland, CA",
+                    "CENTLAT": "+37.7442567",
+                    "CENTLON": "-122.2913733",
+                    "FUNCSTAT": "S",
+                    "GEOID": "78904",
+                    "INTPTLAT": "+37.7849693",
+                    "INTPTLON": "-122.2701107",
+                    "LSADC": "67",
+                    "MTFCC": "G3500",
+                    "NAME": "San Francisco--Oakland, CA Urban Area",
+                    "OBJECTID": 105,
+                    "OID": "27021141325051",
+                    "UA": "78904"
+                  }
+                ]
+              },
+              "matchedAddress": "1609 ADDISON ST, BERKELEY, CA, 94703",
+              "tigerLine": {
+                "side": "L",
+                "tigerLineId": "124993919"
+              }
+            }
+          ],
+          "input": {
+            "address": {
+              "address": "1609 ADDISON ST, Berkeley, CA 94703"
+            },
+            "benchmark": {
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "benchmarkName": "Public_AR_Current",
+              "id": "4",
+              "isDefault": true
+            },
+            "vintage": {
+              "id": "4",
+              "isDefault": true,
+              "vintageDescription": "Current Vintage - Current Benchmark",
+              "vintageName": "Current_Current"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "selected_method": "census_oneline"
+}

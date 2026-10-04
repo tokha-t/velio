@@ -1,0 +1,477 @@
+{
+  "address_id": "A0084",
+  "attempts": [
+    {
+      "method": "census_oneline",
+      "response": {
+        "result": {
+          "addressMatches": [
+            {
+              "addressComponents": {
+                "city": "SAN FRANCISCO",
+                "fromAddress": "1701",
+                "preDirection": "",
+                "preQualifier": "",
+                "preType": "",
+                "state": "CA",
+                "streetName": "CHESTNUT",
+                "suffixDirection": "",
+                "suffixQualifier": "",
+                "suffixType": "ST",
+                "toAddress": "1799",
+                "zip": "94123"
+              },
+              "coordinates": {
+                "x": -122.431739349227,
+                "y": 37.801332618559
+              },
+              "geographies": {
+                "120th Congressional Districts": [
+                  {
+                    "AREALAND": 107297587,
+                    "AREAWATER": 479610902,
+                    "BASENAME": "11",
+                    "CD120": "11",
+                    "CDSESSN": "120",
+                    "CENTLAT": "+37.7610466",
+                    "CENTLON": "-122.7003196",
+                    "FUNCSTAT": "N",
+                    "GEOID": "0611",
+                    "INTPTLAT": "+37.7272391",
+                    "INTPTLON": "-123.0322294",
+                    "LSADC": "C2",
+                    "MTFCC": "G5200",
+                    "NAME": "Congressional District 11",
+                    "OBJECTID": 266,
+                    "OID": "2119042393002049",
+                    "STATE": "06",
+                    "STGEOMETRY_Area": 940632026.9744955,
+                    "STGEOMETRY_Length": 210705.60664996534
+                  }
+                ],
+                "2020 Census Blocks": [
+                  {
+                    "AREALAND": 7624,
+                    "AREAWATER": 0,
+                    "BASENAME": "2003",
+                    "BLKGRP": "2",
+                    "BLOCK": "2003",
+                    "CENTLAT": "+37.8011095",
+                    "CENTLON": "-122.4320887",
+                    "COUNTY": "075",
+                    "FUNCSTAT": "S",
+                    "GEOID": "060750129022003",
+                    "INTPTLAT": "+37.8011095",
+                    "INTPTLON": "-122.4320887",
+                    "LSADC": "BK",
+                    "LWBLKTYP": "L",
+                    "MTFCC": "G5040",
+                    "NAME": "Block 2003",
+                    "OBJECTID": 6661872,
+                    "OID": "210701000438666",
+                    "STATE": "06",
+                    "SUFFIX": "",
+                    "TRACT": "012902",
+                    "UR": "U"
+                  }
+                ],
+                "2020 Census Public Use Microdata Areas": [
+                  {
+                    "AREALAND": 8247917,
+                    "AREAWATER": 788333,
+                    "BASENAME": "San Francisco County (Northwest)--Western Addition & Marina",
+                    "CENTLAT": "+37.7904152",
+                    "CENTLON": "-122.4340108",
+                    "FUNCSTAT": "S",
+                    "GEOID": "0607514",
+                    "INTPTLAT": "+37.7903781",
+                    "INTPTLON": "-122.4332939",
+                    "LSADC": "P0",
+                    "MTFCC": "G6120",
+                    "NAME": "San Francisco County (Northwest)--Western Addition & Marina PUMA",
+                    "OBJECTID": 139,
+                    "OID": "2177029730288202",
+                    "PUMA": "07514",
+                    "STATE": "06"
+                  }
+                ],
+                "2020 Census ZIP Code Tabulation Areas": [
+                  {
+                    "AREALAND": 2777979,
+                    "AREAWATER": 788333,
+                    "BASENAME": "94123",
+                    "CENTLAT": "+37.8026764",
+                    "CENTLON": "-122.4365080",
+                    "FUNCSTAT": "S",
+                    "GEOID": "94123",
+                    "INTPTLAT": "+37.8020446",
+                    "INTPTLON": "-122.4339686",
+                    "LSADC": "Z5",
+                    "MTFCC": "G6350",
+                    "NAME": "ZCTA5 94123",
+                    "OBJECTID": 2280,
+                    "OID": "221704258476637",
+                    "ZCTA5": "94123",
+                    "ZCTA5CC": "B5"
+                  }
+                ],
+                "2026 State Legislative Districts - Lower": [
+                  {
+                    "AREALAND": 103511407,
+                    "AREAWATER": 380022018,
+                    "BASENAME": "19",
+                    "CENTLAT": "+37.7371970",
+                    "CENTLON": "-122.7847964",
+                    "FUNCSTAT": "N",
+                    "GEOID": "06019",
+                    "INTPTLAT": "+37.7272391",
+                    "INTPTLON": "-123.0322294",
+                    "LDTYP": "O",
+                    "LSADC": "L3",
+                    "LSY": "2026",
+                    "MTFCC": "G5220",
+                    "NAME": "Assembly District 19",
+                    "OBJECTID": 1192,
+                    "OID": "2139042393385517",
+                    "SLDL": "019",
+                    "STATE": "06"
+                  }
+                ],
+                "2026 State Legislative Districts - Upper": [
+                  {
+                    "AREALAND": 166462350,
+                    "AREAWATER": 510554648,
+                    "BASENAME": "11",
+                    "CENTLAT": "+37.7512734",
+                    "CENTLON": "-122.6708513",
+                    "FUNCSTAT": "N",
+                    "GEOID": "06011",
+                    "INTPTLAT": "+37.7046374",
+                    "INTPTLON": "-122.4998106",
+                    "LDTYP": "O",
+                    "LSADC": "LU",
+                    "LSY": "2026",
+                    "MTFCC": "G5210",
+                    "NAME": "State Senate District 11",
+                    "OBJECTID": 1562,
+                    "OID": "2129042393385072",
+                    "SLDU": "011",
+                    "STATE": "06"
+                  }
+                ],
+                "Census Block Groups": [
+                  {
+                    "AREALAND": 76132,
+                    "AREAWATER": 0,
+                    "BASENAME": "2",
+                    "BLKGRP": "2",
+                    "CENTLAT": "+37.8014093",
+                    "CENTLON": "-122.4307921",
+                    "COUNTY": "075",
+                    "FUNCSTAT": "S",
+                    "GEOID": "060750129022",
+                    "INTPTLAT": "+37.8014093",
+                    "INTPTLON": "-122.4307921",
+                    "LSADC": "BG",
+                    "MTFCC": "G5030",
+                    "NAME": "Block Group 2",
+                    "OBJECTID": 120490,
+                    "OID": "208903717106510",
+                    "STATE": "06",
+                    "TRACT": "012902"
+                  }
+                ],
+                "Census Divisions": [
+                  {
+                    "AREALAND": 2321006265148,
+                    "AREAWATER": 295057188152,
+                    "BASENAME": "Pacific",
+                    "CENTLAT": "+56.3785915",
+                    "CENTLON": "-138.8914236",
+                    "DIVISION": "9",
+                    "FUNCSTAT": "S",
+                    "GEOID": "9",
+                    "INTPTLAT": "+19.8281671",
+                    "INTPTLON": "-155.4950421",
+                    "LSADC": "69",
+                    "MTFCC": "G1200",
+                    "NAME": "Pacific Division",
+                    "OBJECTID": 4,
+                    "OID": "2739020719804",
+                    "REGION": "4"
+                  }
+                ],
+                "Census Regions": [
+                  {
+                    "AREALAND": 4538933004900,
+                    "AREAWATER": 313750173666,
+                    "BASENAME": "West",
+                    "CENTLAT": "+49.9401545",
+                    "CENTLON": "-124.1894076",
+                    "FUNCSTAT": "S",
+                    "GEOID": "4",
+                    "INTPTLAT": "+19.8281671",
+                    "INTPTLON": "-155.4950421",
+                    "LSADC": "68",
+                    "MTFCC": "G1100",
+                    "NAME": "West Region",
+                    "OBJECTID": 2,
+                    "OID": "2729020719823",
+                    "REGION": "4"
+                  }
+                ],
+                "Census Tracts": [
+                  {
+                    "AREALAND": 352884,
+                    "AREAWATER": 0,
+                    "BASENAME": "129.02",
+                    "CENTLAT": "+37.8006183",
+                    "CENTLON": "-122.4321105",
+                    "COUNTY": "075",
+                    "FUNCSTAT": "S",
+                    "GEOID": "06075012902",
+                    "INTPTLAT": "+37.8006183",
+                    "INTPTLON": "-122.4321105",
+                    "LSADC": "CT",
+                    "MTFCC": "G5020",
+                    "NAME": "Census Tract 129.02",
+                    "OBJECTID": 11969,
+                    "OID": "207903717106288",
+                    "STATE": "06",
+                    "TRACT": "012902"
+                  }
+                ],
+                "Combined Statistical Areas": [
+                  {
+                    "AREALAND": 31066455166,
+                    "AREAWATER": 3498492869,
+                    "BASENAME": "San Jose-San Francisco-Oakland, CA",
+                    "CENTLAT": "+37.5500108",
+                    "CENTLON": "-121.5762227",
+                    "CSA": "488",
+                    "FUNCSTAT": "S",
+                    "GEOID": "488",
+                    "HU100": "",
+                    "INTPTLAT": "+37.5199375",
+                    "INTPTLON": "-121.5755749",
+                    "LSADC": "M0",
+                    "MTFCC": "G3100",
+                    "NAME": "San Jose-San Francisco-Oakland, CA CSA",
+                    "OBJECTID": 69,
+                    "OID": "2619034687908125",
+                    "POP100": ""
+                  }
+                ],
+                "Counties": [
+                  {
+                    "AREALAND": 120913761,
+                    "AREAWATER": 479701779,
+                    "BASENAME": "San Francisco",
+                    "CENTLAT": "+37.7600883",
+                    "CENTLON": "-122.6941393",
+                    "COUNTY": "075",
+                    "COUNTYCC": "H6",
+                    "COUNTYNS": "00277302",
+                    "FUNCSTAT": "C",
+                    "GEOID": "06075",
+                    "INTPTLAT": "+37.7272391",
+                    "INTPTLON": "-123.0322294",
+                    "LSADC": "06",
+                    "MTFCC": "G4020",
+                    "NAME": "San Francisco County",
+                    "OBJECTID": 1652,
+                    "OID": "27590355701186",
+                    "STATE": "06"
+                  }
+                ],
+                "County Subdivisions": [
+                  {
+                    "AREALAND": 24381265,
+                    "AREAWATER": 26703830,
+                    "BASENAME": "Richmond-Presidio-Marina",
+                    "CENTLAT": "+37.7981221",
+                    "CENTLON": "-122.4809947",
+                    "COUNTY": "075",
+                    "COUSUB": "92605",
+                    "COUSUBCC": "Z5",
+                    "COUSUBNS": "02804911",
+                    "FUNCSTAT": "S",
+                    "GEOID": "0607592605",
+                    "INTPTLAT": "+37.7984438",
+                    "INTPTLON": "-122.4803138",
+                    "LSADC": "22",
+                    "MTFCC": "G4040",
+                    "NAME": "Richmond-Presidio-Marina CCD",
+                    "OBJECTID": 15161,
+                    "OID": "2769015925627463",
+                    "STATE": "06"
+                  }
+                ],
+                "Incorporated Places": [
+                  {
+                    "AREALAND": 120913761,
+                    "AREAWATER": 479701779,
+                    "BASENAME": "San Francisco",
+                    "CBSAPCI": "Y",
+                    "CENTLAT": "+37.7600883",
+                    "CENTLON": "-122.6941393",
+                    "DISP_CLR": 4,
+                    "FUNCSTAT": "A",
+                    "GEOID": "0667000",
+                    "INTPTLAT": "+37.7272391",
+                    "INTPTLON": "-123.0322294",
+                    "LSADC": "25",
+                    "MTFCC": "G4110",
+                    "NAME": "San Francisco city",
+                    "NECTAPCI": "N",
+                    "OBJECTID": 32302,
+                    "OID": "27890355730719",
+                    "PLACE": "67000",
+                    "PLACECC": "C1",
+                    "PLACENS": "02411786",
+                    "STATE": "06",
+                    "STGEOMETRY_Area": 962575373.572042,
+                    "STGEOMETRY_Length": 205688.61291983497
+                  }
+                ],
+                "Metropolitan Divisions": [
+                  {
+                    "AREALAND": 1282789251,
+                    "AREAWATER": 1236910567,
+                    "BASENAME": "San Francisco-San Mateo-Redwood City, CA",
+                    "CBSA": "41860",
+                    "CENTLAT": "+37.5132745",
+                    "CENTLON": "-122.4360113",
+                    "CSA": "488",
+                    "FUNCSTAT": "S",
+                    "GEOID": "4186041884",
+                    "HU100": "",
+                    "INTPTLAT": "+37.5126658",
+                    "INTPTLON": "-122.4361768",
+                    "LSADC": "M3",
+                    "METDIV": "41884",
+                    "MTFCC": "G3120",
+                    "NAME": "San Francisco-San Mateo-Redwood City, CA Metro Division",
+                    "OBJECTID": 35,
+                    "OID": "2639034687908181",
+                    "POP100": ""
+                  }
+                ],
+                "Metropolitan Statistical Areas": [
+                  {
+                    "AREALAND": 6396743976,
+                    "AREAWATER": 2476934175,
+                    "BASENAME": "San Francisco-Oakland-Fremont, CA",
+                    "CBSA": "41860",
+                    "CENTLAT": "+37.7739317",
+                    "CENTLON": "-122.2732807",
+                    "CSA": "488",
+                    "FUNCSTAT": "S",
+                    "GEOID": "41860",
+                    "HU100": "",
+                    "INTPTLAT": "+37.7737310",
+                    "INTPTLON": "-122.2747780",
+                    "LSADC": "M1",
+                    "MTFCC": "G3110",
+                    "NAME": "San Francisco-Oakland-Fremont, CA Metro Area",
+                    "OBJECTID": 222,
+                    "OID": "2629034687907787",
+                    "POP100": ""
+                  }
+                ],
+                "States": [
+                  {
+                    "AREALAND": 403676534536,
+                    "AREAWATER": 20288534055,
+                    "BASENAME": "California",
+                    "CENTLAT": "+37.1547616",
+                    "CENTLON": "-119.5277735",
+                    "DIVISION": "9",
+                    "FUNCSTAT": "A",
+                    "GEOID": "06",
+                    "INTPTLAT": "+37.1626642",
+                    "INTPTLON": "-119.5713456",
+                    "LSADC": "00",
+                    "MTFCC": "G4000",
+                    "NAME": "California",
+                    "OBJECTID": 6,
+                    "OID": "2749018475066",
+                    "REGION": "4",
+                    "STATE": "06",
+                    "STATENS": "01779778",
+                    "STUSAB": "CA"
+                  }
+                ],
+                "Unified School Districts": [
+                  {
+                    "AREALAND": 120913761,
+                    "AREAWATER": 479701779,
+                    "BASENAME": "San Francisco Unified School District",
+                    "CENTLAT": "+37.7600883",
+                    "CENTLON": "-122.6941393",
+                    "FUNCSTAT": "E",
+                    "GEOID": "0634410",
+                    "HIGRADE": "12",
+                    "INTPTLAT": "+37.7272391",
+                    "INTPTLON": "-123.0322294",
+                    "LOGRADE": "KG",
+                    "LSADC": "00",
+                    "MTFCC": "G5420",
+                    "NAME": "San Francisco Unified School District",
+                    "OBJECTID": 9042,
+                    "OID": "28490355767183",
+                    "SDTYP": "",
+                    "SDUNI": "34410",
+                    "STATE": "06"
+                  }
+                ],
+                "Urban Areas": [
+                  {
+                    "AREALAND": 1330135792,
+                    "AREAWATER": 31792944,
+                    "BASENAME": "San Francisco--Oakland, CA",
+                    "CENTLAT": "+37.7442567",
+                    "CENTLON": "-122.2913733",
+                    "FUNCSTAT": "S",
+                    "GEOID": "78904",
+                    "INTPTLAT": "+37.7849693",
+                    "INTPTLON": "-122.2701107",
+                    "LSADC": "67",
+                    "MTFCC": "G3500",
+                    "NAME": "San Francisco--Oakland, CA Urban Area",
+                    "OBJECTID": 105,
+                    "OID": "27021141325051",
+                    "UA": "78904"
+                  }
+                ]
+              },
+              "matchedAddress": "1725 CHESTNUT ST, SAN FRANCISCO, CA, 94123",
+              "tigerLine": {
+                "side": "L",
+                "tigerLineId": "192279795"
+              }
+            }
+          ],
+          "input": {
+            "address": {
+              "address": "1725 CHESTNUT ST, San Francisco, CA "
+            },
+            "benchmark": {
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "benchmarkName": "Public_AR_Current",
+              "id": "4",
+              "isDefault": true
+            },
+            "vintage": {
+              "id": "4",
+              "isDefault": true,
+              "vintageDescription": "Current Vintage - Current Benchmark",
+              "vintageName": "Current_Current"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "selected_method": "census_oneline"
+}

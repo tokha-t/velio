@@ -1,0 +1,26 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# inputs not redistributed (organizer data licensing TBD; judges have the pack)
+starter_pack/
+notes/
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# web
+node_modules/
+web/dist/
+.vercel/
+
+# media and OS junk
+*.mp4
+*.mov
+*.zip
+.DS_Store
+.omc/
