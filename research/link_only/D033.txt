@@ -1,0 +1,15 @@
+SOURCE: https://ecode360.com/15252470
+RETRIEVED: 2026-10-04 09:13 UTC
+NOTE: research copy, not supplied corpus (manifest D033, Hoboken Code Chapter 155 Rent Control, Article II General Regulations). Excerpts: opening paragraph of § 155-4 and all of § 155-5, copied verbatim from a single page read in a browser.
+
+§ 155-4
+Controls; increase restrictions; disclosure statement.
+
+[Amended 3-2-2011 by Ord. No. Z-88; 2-1-2023 by Ord. No. B-532; 10-22-2025 by Ord. No. B-818]All rents for rental of housing space and services in dwellings to which this act is applicable are hereby controlled at the base rent level received by the landlord as of October 1, 1985, and no rental increases shall be hereinafter demanded, paid or accepted, except as provided in this chapter. Any rent increases imposed after October 1, 1985, to the extent that such increases are in excess of the rent increases allowed under this ordinance, are hereby declared to be null and void, and subject to the limitations and repose period set forth herein, such excess rents shall be refunded or credited to the tenant by the landlord forthwith. All rents may be rounded up or down to the nearest dollar after making the computations. Landlords shall report all increases of rents imposed after October 1, 1985, to the Rent Leveling and Stabilization Board. Any landlord seeking an increase shall notify the tenant, in writing, at least 30 days prior to the effective date of the increase and explain, in detail, the reason for the increase. Determinations under this section shall be made by the Rent Regulation Officer.
+
+----- excerpt break: rest of § 155-4 omitted -----
+
+§ 155-5
+Expiration or termination of lease.
+
+[Amended 2-1-2023 by Ord. No. B-532]At the expiration of a lease or at the termination of a lease of a periodic tenant, no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less. For a periodic tenant or for a tenant whose lease terms shall be less than one year, said tenant shall not suffer or be caused to pay more than one rent increase in any twelve-month period which exceeds 5% or the consumer price index percentage differential for the twelve-month period commencing 15 months prior to and ending three months prior to the effective date of the proposed increase, whichever is less. No more than one such cost-of-living rental increase in any one twelve-month period shall be permitted irrespective of the number of different tenants occupying said housing space during said twelve-month period.
