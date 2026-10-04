@@ -1172,7 +1172,9 @@
       "yields_to_local": false
     },
     {
-      "also_in_docs": [],
+      "also_in_docs": [
+        "D033"
+      ],
       "base_status": "in_force",
       "category": "rent_increase_limits",
       "citation": "Hoboken Code ch. 155 (Rent Control)",
@@ -1211,7 +1213,7 @@
       "enacted_date": null,
       "exemptions": "Building completely vacant on and since January 1, 1984, if registered before renting; later rents are covered; Housing owned and operated by other government agencies; Housing provided for students by a school, college or similar institution that owns or controls it; Industrial property; Motels and hotels; Multiple dwellings constructed after June 25, 1987, for the shorter of the initial mortgage amortization period or 30 years after completion of construction (30 years if no initial mortgage), only if the landlord complied with N.J.S.A. 2A:42-84.1 et seq. notice and lease requirements; Newly constructed dwellings rented for the first time, if registered with the Rent Regulation Officer before first rental; later rents are covered; Nonresidential and commercial property (apartment units in mixed buildings remain covered)",
       "jurisdiction": "Hoboken, NJ",
-      "key_value": null,
+      "key_value": "Increase capped at the lesser of 5% or the CPI percentage change; base rent fixed at the October 1, 1985 level; 30 days' written notice",
       "level": "city",
       "quote_char_range": [
         283,
@@ -1229,51 +1231,6 @@
       "team_rule_id": "r-0025",
       "test_rule_ids": [],
       "title": "Hoboken Rent Control: limitation of applicability",
-      "yields_to_local": false
-    },
-    {
-      "also_in_docs": [],
-      "base_status": "in_force",
-      "category": "rent_increase_limits",
-      "citation": "Hoboken Mun. Code ch. 155, \u00a7\u00a7 155-4, 155-5",
-      "confidence": 0.85,
-      "corpus_text": false,
-      "coverage_conditions": {
-        "predicates": [
-          {
-            "parameters": {
-              "text": "The percentage cap applies at lease expiration or at termination of a periodic tenancy; periodic tenants and tenants with leases under one year are limited to one increase above the cap in any twelve-month period."
-            },
-            "type": "tenant_level_conditions"
-          }
-        ],
-        "text": "Applies to rental of housing space and services in dwellings to which the act is applicable. The excerpted text does not state which dwellings are covered or exempt, so coverage depends on other provisions of the chapter not in this excerpt."
-      },
-      "doc_kind": "ordinance",
-      "effective_date": null,
-      "effective_date_text": null,
-      "effective_rule_text": null,
-      "enacted_date": null,
-      "exemptions": null,
-      "jurisdiction": "Hoboken, NJ",
-      "key_value": "Increase capped at the lesser of 5% or the CPI percentage change; base rent fixed at the October 1, 1985 level; 30 days' written notice",
-      "level": "city",
-      "quote_char_range": [
-        1809,
-        2106
-      ],
-      "quote_match_method": "normalized_exact",
-      "quote_verified": true,
-      "quoted_span": "no landlord may request or receive a percentage increase in rent which is greater than 5% or the percentage difference between the consumer price index three months prior to the expiration or termination of the lease and three months prior to the commencement of the lease term, whichever is less.",
-      "requirement": "Rents in dwellings covered by the chapter are controlled at the base rent level the landlord received on October 1, 1985, and increases are allowed only as the chapter provides. Excess increases are void and must be refunded or credited. A landlord seeking an increase must report it to the Rent Leveling and Stabilization Board and give the tenant written notice at least 30 days before it takes effect, with a detailed reason. At lease expiration or termination of a periodic tenancy, the increase may not exceed the lesser of 5% or the consumer price index change. A periodic tenant or a tenant with a lease shorter than one year may not be charged more than one such increase in any twelve-month period.",
-      "retrieved_at": "2026-10-04 09:13 UTC",
-      "source_doc_id": "D033",
-      "source_tier": "link_only_research",
-      "source_url": "https://ecode360.com/15252470",
-      "status": "in_force",
-      "team_rule_id": "r-0026",
-      "test_rule_ids": [],
-      "title": "Hoboken Rent Control: base rent control and annual increase cap",
       "yields_to_local": false
     },
     {
@@ -1309,7 +1266,7 @@
       "source_tier": "link_only_research",
       "source_url": "https://cityofjerseycity.civicweb.net/document/433505/",
       "status": "in_force",
-      "team_rule_id": "r-0027",
+      "team_rule_id": "r-0026",
       "test_rule_ids": [
         "JC-ALG-01"
       ],
@@ -1362,7 +1319,7 @@
       "source_tier": "official",
       "source_url": "https://www.jerseycitynj.gov/landlordtenant",
       "status": "in_force",
-      "team_rule_id": "r-0028",
+      "team_rule_id": "r-0027",
       "test_rule_ids": [],
       "title": "Jersey City Rent Control Ordinance (Chapter 260)",
       "yields_to_local": false
@@ -1423,7 +1380,7 @@
       "source_tier": "official",
       "source_url": "https://housing.lacity.gov/residents/rso-overview",
       "status": "in_force",
-      "team_rule_id": "r-0029",
+      "team_rule_id": "r-0028",
       "test_rule_ids": [],
       "title": "Los Angeles RSO eviction grounds and relocation assistance",
       "yields_to_local": false
@@ -1474,7 +1431,7 @@
       "source_tier": "official",
       "source_url": "https://housing.lacity.gov/wp-content/uploads/2026/08/Relocation-Assistance-Bulletins-A-and-B-Combined.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0030",
+      "team_rule_id": "r-0029",
       "test_rule_ids": [],
       "title": "Relocation assistance and filing duties for no-fault evictions (RSO & JCO)",
       "yields_to_local": false
@@ -1525,7 +1482,7 @@
       "source_tier": "official",
       "source_url": "https://housing.lacity.gov/wp-content/uploads/2026/08/Relocation-Assistance-Bulletins-A-and-B-Combined.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0031",
+      "team_rule_id": "r-0030",
       "test_rule_ids": [],
       "title": "Los Angeles RSO/JCO relocation assistance for no-fault evictions",
       "yields_to_local": false
@@ -1587,13 +1544,15 @@
       "source_tier": "official",
       "source_url": "https://housing.lacity.gov/residents/just-cause-for-eviction-ordinance-jco",
       "status": "in_force",
-      "team_rule_id": "r-0032",
+      "team_rule_id": "r-0031",
       "test_rule_ids": [],
       "title": "Los Angeles Just Cause for Eviction Ordinance (JCO)",
       "yields_to_local": false
     },
     {
-      "also_in_docs": [],
+      "also_in_docs": [
+        "D042"
+      ],
       "base_status": "in_force",
       "category": "rent_increase_limits",
       "citation": "L.A. Mun. Code ch. XV (RSO)",
@@ -1649,47 +1608,9 @@
       "source_tier": "official",
       "source_url": "https://housing.lacity.gov/residents/rso-overview",
       "status": "in_force",
-      "team_rule_id": "r-0033",
+      "team_rule_id": "r-0032",
       "test_rule_ids": [],
       "title": "Los Angeles Rent Stabilization Ordinance (RSO) annual rent increase limit",
-      "yields_to_local": false
-    },
-    {
-      "also_in_docs": [],
-      "base_status": "in_force",
-      "category": "rent_increase_limits",
-      "citation": "Los Angeles Rent Stabilization Ordinance (RSO)",
-      "confidence": 0.85,
-      "corpus_text": true,
-      "coverage_conditions": {
-        "predicates": [],
-        "text": "Rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO). This page does not state the construction-date or unit-count criteria for RSO coverage. Non-RSO properties are directed to the Housing Department for allowable rent increases."
-      },
-      "doc_kind": "agency_guidance",
-      "effective_date": "2025-07-01",
-      "effective_date_text": "effective July 1, 2025, through June 30, 2026",
-      "effective_rule_text": "effective July 1, 2025, through June 30, 2026",
-      "enacted_date": null,
-      "exemptions": null,
-      "jurisdiction": "Los Angeles, CA",
-      "key_value": "3% annual allowable increase (July 1, 2025 - June 30, 2026); no added utility percentage beginning February 2, 2026",
-      "level": "city",
-      "quote_char_range": [
-        257,
-        418
-      ],
-      "quote_match_method": "normalized_exact",
-      "quote_verified": true,
-      "quoted_span": "Annual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), effective\nJuly 1, 2025, through June 30, 2026\nis\n3%",
-      "requirement": "For rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), the annual allowable rent increase is 3% for July 1, 2025 through June 30, 2026. Beginning February 2, 2026, a landlord can no longer add any extra percentage increase for utilities. RSO and SCEP surcharges are separate from rent and can be collected only after the landlord registers the units and gives the tenant written notice.",
-      "retrieved_at": "2026-10-01T22:36Z",
-      "source_doc_id": "D042",
-      "source_tier": "official",
-      "source_url": "https://housing.lacity.gov/rso-rent-increase-calculator",
-      "status": "in_force",
-      "team_rule_id": "r-0034",
-      "test_rule_ids": [],
-      "title": "Los Angeles RSO annual allowable rent increase",
       "yields_to_local": false
     },
     {
@@ -1725,7 +1646,7 @@
       "source_tier": "official",
       "source_url": "https://malegislature.gov/Bills/194/H5222",
       "status": "pending",
-      "team_rule_id": "r-0035",
+      "team_rule_id": "r-0033",
       "test_rule_ids": [
         "MA-ALG-P2"
       ],
@@ -1765,7 +1686,7 @@
       "source_tier": "official",
       "source_url": "https://malegislature.gov/Bills/194/S2983",
       "status": "pending",
-      "team_rule_id": "r-0036",
+      "team_rule_id": "r-0034",
       "test_rule_ids": [
         "MA-ALG-P1"
       ],
@@ -1805,7 +1726,7 @@
       "source_tier": "official",
       "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter112/Section87DDD%201~2",
       "status": "in_force",
-      "team_rule_id": "r-0037",
+      "team_rule_id": "r-0035",
       "test_rule_ids": [],
       "title": "Massachusetts broker fee payable only by the party who hired the broker",
       "yields_to_local": false
@@ -1853,7 +1774,7 @@
       "source_tier": "official",
       "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section12",
       "status": "in_force",
-      "team_rule_id": "r-0038",
+      "team_rule_id": "r-0036",
       "test_rule_ids": [],
       "title": "Notice required to terminate a tenancy at will",
       "yields_to_local": false
@@ -1900,7 +1821,7 @@
       "source_tier": "official",
       "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section18",
       "status": "in_force",
-      "team_rule_id": "r-0039",
+      "team_rule_id": "r-0037",
       "test_rule_ids": [],
       "title": "Reprisal against tenants for protected activity prohibited",
       "yields_to_local": false
@@ -1938,7 +1859,7 @@
       "source_tier": "official",
       "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40P/Section4",
       "status": "in_force",
-      "team_rule_id": "r-0040",
+      "team_rule_id": "r-0038",
       "test_rule_ids": [],
       "title": "General prohibition on local rent control",
       "yields_to_local": false
@@ -1987,7 +1908,7 @@
       "source_tier": "official",
       "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter151B/Section4",
       "status": "in_force",
-      "team_rule_id": "r-0041",
+      "team_rule_id": "r-0039",
       "test_rule_ids": [],
       "title": "Massachusetts anti-discrimination law: unlawful housing practices",
       "yields_to_local": false
@@ -2025,7 +1946,7 @@
       "source_tier": "official",
       "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter151B/Section4",
       "status": "in_force",
-      "team_rule_id": "r-0042",
+      "team_rule_id": "r-0040",
       "test_rule_ids": [],
       "title": "Massachusetts bar on discrimination against public assistance and housing subsidy recipients",
       "yields_to_local": false
@@ -2063,7 +1984,7 @@
       "source_tier": "official",
       "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section15B",
       "status": "in_force",
-      "team_rule_id": "r-0043",
+      "team_rule_id": "r-0041",
       "test_rule_ids": [],
       "title": "Massachusetts residential security deposit and prepaid rent limits",
       "yields_to_local": false
@@ -2113,7 +2034,7 @@
       "source_tier": "official",
       "source_url": "https://pub.njleg.state.nj.us/Bills/2026/AL26/43_.HTM",
       "status": "not_yet_effective",
-      "team_rule_id": "r-0044",
+      "team_rule_id": "r-0042",
       "test_rule_ids": [
         "NJ-ALG-01"
       ],
@@ -2169,7 +2090,7 @@
       "source_tier": "official",
       "source_url": "https://pub.njleg.gov/bills/2024/PL25/405_.HTM",
       "status": "in_force",
-      "team_rule_id": "r-0045",
+      "team_rule_id": "r-0043",
       "test_rule_ids": [],
       "title": "Residential rental application fee capped at $50",
       "yields_to_local": false
@@ -2221,7 +2142,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0046",
+      "team_rule_id": "r-0044",
       "test_rule_ids": [],
       "title": "New Jersey Anti-Eviction Act: eviction only for listed causes, with notice to quit",
       "yields_to_local": false
@@ -2276,7 +2197,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0047",
+      "team_rule_id": "r-0045",
       "test_rule_ids": [],
       "title": "New Jersey Anti-Eviction Act (good cause required for eviction)",
       "yields_to_local": false
@@ -2326,7 +2247,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0048",
+      "team_rule_id": "r-0046",
       "test_rule_ids": [],
       "title": "Senior Citizens and Disabled Protected Tenancy Act (condo/co-op conversion)",
       "yields_to_local": false
@@ -2381,7 +2302,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0049",
+      "team_rule_id": "r-0047",
       "test_rule_ids": [],
       "title": "Good cause required to refuse lease renewal",
       "yields_to_local": false
@@ -2419,7 +2340,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0050",
+      "team_rule_id": "r-0048",
       "test_rule_ids": [],
       "title": "Tenant protections after foreclosure (Foreclosure Fairness Act)",
       "yields_to_local": false
@@ -2457,7 +2378,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0051",
+      "team_rule_id": "r-0049",
       "test_rule_ids": [],
       "title": "NJ Anti-Eviction Act: rent increases must not be unconscionable",
       "yields_to_local": false
@@ -2495,7 +2416,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0052",
+      "team_rule_id": "r-0050",
       "test_rule_ids": [],
       "title": "NJ: no rent increase to cover costs of building conversion",
       "yields_to_local": false
@@ -2548,7 +2469,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0053",
+      "team_rule_id": "r-0051",
       "test_rule_ids": [],
       "title": "NJ rent control is local only; newly constructed multiple dwellings exempt for 30 years",
       "yields_to_local": false
@@ -2600,7 +2521,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/oag/dcr/downloads/kyrhousing02.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0054",
+      "team_rule_id": "r-0052",
       "test_rule_ids": [],
       "title": "NJ Law Against Discrimination: source of lawful income protection in rental housing",
       "yields_to_local": false
@@ -2655,7 +2576,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0055",
+      "team_rule_id": "r-0053",
       "test_rule_ids": [],
       "title": "NJ Law Against Discrimination: housing, including source of lawful income",
       "yields_to_local": false
@@ -2701,7 +2622,7 @@
       "source_tier": "official",
       "source_url": "https://pub.njleg.gov/bills/2020/PL21/110_.HTM",
       "status": "in_force",
-      "team_rule_id": "r-0056",
+      "team_rule_id": "r-0054",
       "test_rule_ids": [],
       "title": "New Jersey Fair Chance in Housing Act",
       "yields_to_local": false
@@ -2748,7 +2669,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0057",
+      "team_rule_id": "r-0055",
       "test_rule_ids": [],
       "title": "NJ Security Deposit Law: interest, notice and return within 30 days",
       "yields_to_local": false
@@ -2794,7 +2715,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0058",
+      "team_rule_id": "r-0056",
       "test_rule_ids": [],
       "title": "New Jersey Security Deposit Law: deposit cap, increase limit and handling",
       "yields_to_local": false
@@ -2842,7 +2763,7 @@
       "effective_date_text": "effective 6-24-2023 (O-21647 N.S.); amended 2-27-2024 by O-21769 N.S., effective 3-28-2024",
       "effective_rule_text": "effective 6-24-2023 (O-21647 N.S.); amended 2-27-2024 by O-21769 N.S., effective 3-28-2024",
       "enacted_date": null,
-      "exemptions": "Dormitories owned and operated by a higher education institution or K-12 institution; Housing in a nonprofit hospital, religious facility, extended care facility, licensed residential care facility for the elderly, adult residential facility, or non-profit transitional housing; Housing issued a certificate of occupancy within the previous 15 years (not mobilehomes); Housing restricted as affordable by deed, regulatory agreement or other document; Housing under an affordable housing subsidy agreement (Section 8 not exempt); Mobilehomes subject to the Mobilehome Residency Law; Separately alienable residential property whose landlord is not a REIT, a corporation, an LLC with a corporate member, or a mobilehome park management, and where tenants received the required written exemption notice; Short-term residential occupancy; Single-family residence occupied by the landlord as principal residence (renting no more than two bedrooms, two ADUs or two JADUs) and mobilehomes; Tenant shares bathroom or kitchen with a landlord who lives on the property as principal residence; Transient and tourist hotel occupancy; Two dwelling units in a single structure where the landlord occupies one as principal residence at the start of the tenancy and continues in occupancy",
+      "exemptions": "Dormitories owned and operated by a higher education institution or K-12 institution; Housing in a nonprofit hospital, religious facility, extended care facility, licensed residential care facility for the elderly, adult residential facility, or non-profit transitional housing; Housing issued a certificate of occupancy within the previous 15 years (not mobilehomes); Housing restricted as affordable by deed, regulatory agreement or other document; Housing under an affordable housing subsidy agreement (Section 8 not exempt); Mobilehomes subject to the Mobilehome Residency Law; Relocation assistance is credited against any other relocation assistance required by federal, state, or other local law; Separately alienable residential property whose landlord is not a REIT, a corporation, an LLC with a corporate member, or a mobilehome park management, and where tenants received the required written exemption notice; Short-term residential occupancy; Single-family residence occupied by the landlord as principal residence (renting no more than two bedrooms, two ADUs or two JADUs) and mobilehomes; Tenant shares bathroom or kitchen with a landlord who lives on the property as principal residence; The landlord may screen a displaced tenant before re-offering the unit, using industry accepted methods; Transient and tourist hotel occupancy; Two dwelling units in a single structure where the landlord occupies one as principal residence at the start of the tenancy and continues in occupancy",
       "jurisdiction": "San Diego, CA",
       "key_value": "Just cause required; at-fault and no-fault grounds; relocation assistance in specified circumstances",
       "level": "city",
@@ -2859,54 +2780,9 @@
       "source_tier": "official",
       "source_url": "https://docs.sandiego.gov/municode/municodechapter09/ch09art08division07.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0059",
+      "team_rule_id": "r-0057",
       "test_rule_ids": [],
       "title": "San Diego Residential Tenant Protections: just cause required for termination of tenancy",
-      "yields_to_local": false
-    },
-    {
-      "also_in_docs": [],
-      "base_status": "in_force",
-      "category": "just_cause_eviction",
-      "citation": "San Diego Mun. Code ch. 9, art. 8, div. 7",
-      "confidence": 0.8,
-      "corpus_text": true,
-      "coverage_conditions": {
-        "predicates": [
-          {
-            "parameters": {
-              "text": "Relocation amount rises from two to three months of rent if the tenant is a senior or disabled; the right to an offer to renew depends on the tenant's written request within 30 days of the termination notice"
-            },
-            "type": "tenant_level_conditions"
-          }
-        ],
-        "text": "Applies to residential rental property subject to Division 7. The coverage definition (section 98.0705(a)) and the just cause grounds (section 98.0704) are not in this chunk. Relocation assistance is owed regardless of the tenant's income or length of tenancy."
-      },
-      "doc_kind": "ordinance",
-      "effective_date": null,
-      "effective_date_text": "effective 6-24-2023",
-      "effective_rule_text": "effective 6-24-2023",
-      "enacted_date": null,
-      "exemptions": "Relocation assistance is credited against any other relocation assistance required by federal, state, or other local law; The landlord may screen a displaced tenant before re-offering the unit, using industry accepted methods",
-      "jurisdiction": "San Diego, CA",
-      "key_value": "No-fault just cause: relocation assistance of 2 months' actual rent (3 months if tenant is a senior or disabled), by direct payment or rent waiver",
-      "level": "city",
-      "quote_char_range": [
-        29210,
-        29301
-      ],
-      "quote_match_method": "normalized_exact",
-      "quote_verified": true,
-      "quoted_span": "the direct \npayment to the tenant shall be in an amount equal to \ntwo months of actual rent",
-      "requirement": "Before ending a tenancy for at-fault just cause that can be cured, the landlord must give written notice and a chance to cure. For no-fault just cause, the landlord must give 30 or 60 days' written notice that states the basis for termination and the tenant's right to relocation assistance. The landlord must also notify the San Diego Housing Commission within three business days. For no-fault terminations, the landlord must pay relocation assistance equal to two months of actual rent, or three months if the tenant is a senior or disabled. The landlord may instead waive that amount of rent. If the unit is offered for rent again within five years, the landlord must first offer it to the displaced tenant. A landlord who fails to comply voids the termination notice. A landlord who attempts to recover possession in violation faces liability of at least three times actual economic damages.",
-      "retrieved_at": "2026-10-01T22:37Z",
-      "source_doc_id": "D073",
-      "source_tier": "official",
-      "source_url": "https://docs.sandiego.gov/municode/municodechapter09/ch09art08division07.pdf",
-      "status": "in_force",
-      "team_rule_id": "r-0060",
-      "test_rule_ids": [],
-      "title": "San Diego Tenant Protection: termination notice and relocation assistance for just cause evictions",
       "yields_to_local": false
     },
     {
@@ -2942,7 +2818,7 @@
       "source_tier": "official",
       "source_url": "https://www.sf.gov/news/new-law-prohibits-algorithmic-devices-used-set-rents-san-francisco",
       "status": "in_force",
-      "team_rule_id": "r-0061",
+      "team_rule_id": "r-0058",
       "test_rule_ids": [],
       "title": "San Francisco ban on algorithmic devices used to set rents (Rent Ordinance \u00a7 37.10C)",
       "yields_to_local": false
@@ -2980,7 +2856,7 @@
       "source_tier": "official",
       "source_url": "https://sf.gov/information/overview-just-cause-evictions",
       "status": "in_force",
-      "team_rule_id": "r-0062",
+      "team_rule_id": "r-0059",
       "test_rule_ids": [],
       "title": "San Francisco Rent Ordinance just cause eviction requirement",
       "yields_to_local": false
@@ -3031,7 +2907,7 @@
       "source_tier": "official",
       "source_url": "https://www.sf.gov/reports--current-rates-including-rent-increase-relocation-sec-deposit",
       "status": "in_force",
-      "team_rule_id": "r-0063",
+      "team_rule_id": "r-0060",
       "test_rule_ids": [],
       "title": "San Francisco relocation payments for no-fault evictions, notices served 3/01/26 \u2013 2/28/27",
       "yields_to_local": false
@@ -3069,7 +2945,7 @@
       "source_tier": "official",
       "source_url": "https://www.sf.gov/reports--current-rates-including-rent-increase-relocation-sec-deposit",
       "status": "in_force",
-      "team_rule_id": "r-0064",
+      "team_rule_id": "r-0061",
       "test_rule_ids": [],
       "title": "San Francisco allowable annual rent increase, March 1, 2026 \u2013 February 28, 2027",
       "yields_to_local": false
@@ -3107,7 +2983,7 @@
       "source_tier": "official",
       "source_url": "https://www.sf.gov/news--annual-rent-increase-3126-22827-announced",
       "status": "in_force",
-      "team_rule_id": "r-0065",
+      "team_rule_id": "r-0062",
       "test_rule_ids": [],
       "title": "San Francisco annual allowable rent increase, 3/1/2026 to 2/28/2027",
       "yields_to_local": false
@@ -3152,7 +3028,7 @@
       "source_tier": "official",
       "source_url": "https://sf-hrc.org/fair-chance-ordinance",
       "status": "in_force",
-      "team_rule_id": "r-0066",
+      "team_rule_id": "r-0063",
       "test_rule_ids": [],
       "title": "San Francisco Fair Chance Ordinance (affordable housing)",
       "yields_to_local": false
@@ -3190,7 +3066,7 @@
       "source_tier": "official",
       "source_url": "https://www.sf.gov/reports--current-rates-including-rent-increase-relocation-sec-deposit",
       "status": "in_force",
-      "team_rule_id": "r-0067",
+      "team_rule_id": "r-0064",
       "test_rule_ids": [],
       "title": "San Francisco security deposit interest rate, March 1, 2026 \u2013 February 28, 2027",
       "yields_to_local": false
@@ -3247,7 +3123,7 @@
       "source_tier": "official",
       "source_url": "https://santa-ana.gov/santa-ana-city-council-adopts-rent-stabilization-and-just-cause-eviction-ordinances-effective-nov-19",
       "status": "in_force",
-      "team_rule_id": "r-0068",
+      "team_rule_id": "r-0065",
       "test_rule_ids": [],
       "title": "Santa Ana Just Cause Eviction Ordinance",
       "yields_to_local": false
@@ -3285,7 +3161,7 @@
       "source_tier": "official",
       "source_url": "https://santa-ana.gov/departments/rent-stabilization",
       "status": "in_force",
-      "team_rule_id": "r-0069",
+      "team_rule_id": "r-0066",
       "test_rule_ids": [],
       "title": "Santa Ana Just Cause Eviction protections",
       "yields_to_local": false
@@ -3337,7 +3213,7 @@
       "source_tier": "official",
       "source_url": "https://santa-ana.gov/santa-ana-city-council-adopts-rent-stabilization-and-just-cause-eviction-ordinances-effective-nov-19",
       "status": "in_force",
-      "team_rule_id": "r-0070",
+      "team_rule_id": "r-0067",
       "test_rule_ids": [],
       "title": "Santa Ana Rent Stabilization Ordinance",
       "yields_to_local": false
@@ -3375,7 +3251,7 @@
       "source_tier": "official",
       "source_url": "https://santa-ana.gov/departments/rent-stabilization",
       "status": "in_force",
-      "team_rule_id": "r-0071",
+      "team_rule_id": "r-0068",
       "test_rule_ids": [],
       "title": "Santa Ana Rent Stabilization: annual maximum rent increase",
       "yields_to_local": false

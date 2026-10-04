@@ -176,6 +176,28 @@ def test_owner_data_is_unknown_unless_units_rule_out_exception():
     assert results(got, "small")["owner"]["result"] == "unknown"
 
 
+def test_five_plus_units_rule_out_owner_type_even_without_extracted_cap():
+    owner = rule("owner", "CA", "rent_increase_limits", coverage_conditions={"text": "owner exception", "predicates": [
+        {"type": "owner_type", "parameters": {}}
+    ]})
+    got = evaluate_lookups([address("large", ["CA"], units=None)], [owner], date(2026, 10, 1))
+    row = address("large", ["CA"], units=None)
+    row["facts"]["units_range"] = [5, None]
+    got = evaluate_lookups([row], [owner], date(2026, 10, 1))
+    item = results(got, "large")["owner"]
+    assert item["result"] == "applies"
+    assert "5+ unit building, so the owner-type exemption can't apply" in item["explanation"]
+
+
+def test_dnd_only_coverage_is_unknown_without_dnd_or_idp_fact():
+    dnd = rule("dnd", "Boston, MA", "screening_restrictions", coverage_conditions={"text": "DND-only", "predicates": [
+        {"type": "special_status_exemptions", "parameters": {"text": "Covers only DND-funded or IDP income-restricted units"}}
+    ]})
+    item = results(evaluate_lookups([address("boston", ["MA", "Boston, MA"], units=8)], [dnd], date(2026, 10, 1)), "boston")["dnd"]
+    assert item["result"] == "unknown"
+    assert "DND funding or IDP income-restriction status" in item["explanation"]
+
+
 def test_open_ended_unit_range_can_satisfy_minimum():
     minimum = rule("minimum", "NJ", "rent_increase_limits", coverage_conditions={"text": "five plus", "predicates": [
         {"type": "min_units", "parameters": {"n": 5}}

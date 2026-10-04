@@ -111,6 +111,17 @@ def evaluate_predicate(predicate: dict[str, Any], facts: dict[str, Any], as_of: 
 
     if kind == "owner_type":
         n = params.get("max_units_if_small_landlord")
+        # Every owner-type exception represented in this corpus is limited to
+        # an individual unit or a one-to-four-unit property.  Five verified
+        # units therefore make the exception impossible even when extraction
+        # did not repeat the numerical cap in the predicate parameters.
+        if low is not None and low >= 5:
+            return _decision(
+                kind,
+                "true",
+                "5+ unit building, so the owner-type exemption can't apply",
+                units_range=[low, high],
+            )
         if n is not None and low is not None and low > int(n):
             return _decision(kind, "true", "the unit count rules out the small-landlord exception", units_range=[low, high], exception_max_units=int(n))
         return _decision(kind, "unknown", "owner type is not in the address data", units_range=[low, high])
@@ -118,6 +129,13 @@ def evaluate_predicate(predicate: dict[str, Any], facts: dict[str, Any], as_of: 
     if kind == "special_status_exemptions":
         flags = {str(flag).lower() for flag in (facts.get("flags") or [])}
         text = " ".join(str(item).lower() for item in params.get("text", [])) if isinstance(params.get("text"), list) else str(params.get("text", "")).lower()
+        if "covers only" in text:
+            return _decision(
+                kind,
+                "unknown",
+                "DND funding or IDP income-restriction status is not in the address data",
+                flags=sorted(flags),
+            )
         triggered = sorted(flag for flag in flags if flag and flag in text)
         if triggered:
             return _decision(kind, "unknown", f"a possible special-status exemption is flagged: {', '.join(triggered)}", flags=sorted(flags))

@@ -188,18 +188,9 @@
       "team_rule_id": "r-0025"
     },
     {
-      "included": true,
-      "jurisdiction": "Hoboken, NJ",
-      "predicates": [
-        {
-          "facts_used": {},
-          "predicate": "tenant_level_conditions",
-          "reason": "tenant-level conditions do not block an address-level result",
-          "result": "true"
-        }
-      ],
-      "result": "applies",
-      "status": "in_force",
+      "included": false,
+      "jurisdiction": "Jersey City, NJ",
+      "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0026"
     },
     {
@@ -210,7 +201,7 @@
     },
     {
       "included": false,
-      "jurisdiction": "Jersey City, NJ",
+      "jurisdiction": "Los Angeles, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0028"
     },
@@ -240,13 +231,13 @@
     },
     {
       "included": false,
-      "jurisdiction": "Los Angeles, CA",
+      "jurisdiction": "MA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0033"
     },
     {
       "included": false,
-      "jurisdiction": "Los Angeles, CA",
+      "jurisdiction": "MA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0034"
     },
@@ -293,18 +284,6 @@
       "team_rule_id": "r-0041"
     },
     {
-      "included": false,
-      "jurisdiction": "MA",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0042"
-    },
-    {
-      "included": false,
-      "jurisdiction": "MA",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0043"
-    },
-    {
       "included": true,
       "jurisdiction": "NJ",
       "predicates": [
@@ -316,6 +295,64 @@
           },
           "predicate": "special_status_exemptions",
           "reason": "no special-status exemption is flagged in the supplied facts",
+          "result": "true"
+        }
+      ],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0042"
+    },
+    {
+      "included": true,
+      "jurisdiction": "NJ",
+      "predicates": [
+        {
+          "facts_used": {
+            "exemption_max_units": 2,
+            "units_range": [
+              6,
+              6
+            ]
+          },
+          "predicate": "owner_occupied_exempt_max_units",
+          "reason": "the unit count rules out the small owner-occupied exemption",
+          "result": "true"
+        },
+        {
+          "facts_used": {
+            "flags": [
+              "affordable"
+            ]
+          },
+          "predicate": "special_status_exemptions",
+          "reason": "no special-status exemption is flagged in the supplied facts",
+          "result": "true"
+        }
+      ],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0043"
+    },
+    {
+      "included": true,
+      "jurisdiction": "NJ",
+      "predicates": [
+        {
+          "facts_used": {
+            "exemption_max_units": 3,
+            "units_range": [
+              6,
+              6
+            ]
+          },
+          "predicate": "owner_occupied_exempt_max_units",
+          "reason": "the unit count rules out the small owner-occupied exemption",
+          "result": "true"
+        },
+        {
+          "facts_used": {},
+          "predicate": "tenant_level_conditions",
+          "reason": "tenant-level conditions do not block an address-level result",
           "result": "true"
         }
       ],
@@ -359,18 +396,6 @@
       "jurisdiction": "NJ",
       "predicates": [
         {
-          "facts_used": {
-            "exemption_max_units": 3,
-            "units_range": [
-              6,
-              6
-            ]
-          },
-          "predicate": "owner_occupied_exempt_max_units",
-          "reason": "the unit count rules out the small owner-occupied exemption",
-          "result": "true"
-        },
-        {
           "facts_used": {},
           "predicate": "tenant_level_conditions",
           "reason": "tenant-level conditions do not block an address-level result",
@@ -387,7 +412,7 @@
       "predicates": [
         {
           "facts_used": {
-            "exemption_max_units": 2,
+            "exemption_max_units": 3,
             "units_range": [
               6,
               6
@@ -415,14 +440,7 @@
     {
       "included": true,
       "jurisdiction": "NJ",
-      "predicates": [
-        {
-          "facts_used": {},
-          "predicate": "tenant_level_conditions",
-          "reason": "tenant-level conditions do not block an address-level result",
-          "result": "true"
-        }
-      ],
+      "predicates": [],
       "result": "applies",
       "status": "in_force",
       "team_rule_id": "r-0048"
@@ -430,30 +448,7 @@
     {
       "included": true,
       "jurisdiction": "NJ",
-      "predicates": [
-        {
-          "facts_used": {
-            "exemption_max_units": 3,
-            "units_range": [
-              6,
-              6
-            ]
-          },
-          "predicate": "owner_occupied_exempt_max_units",
-          "reason": "the unit count rules out the small owner-occupied exemption",
-          "result": "true"
-        },
-        {
-          "facts_used": {
-            "flags": [
-              "affordable"
-            ]
-          },
-          "predicate": "special_status_exemptions",
-          "reason": "no special-status exemption is flagged in the supplied facts",
-          "result": "true"
-        }
-      ],
+      "predicates": [],
       "result": "applies",
       "status": "in_force",
       "team_rule_id": "r-0049"
@@ -465,22 +460,6 @@
       "result": "applies",
       "status": "in_force",
       "team_rule_id": "r-0050"
-    },
-    {
-      "included": true,
-      "jurisdiction": "NJ",
-      "predicates": [],
-      "result": "applies",
-      "status": "in_force",
-      "team_rule_id": "r-0051"
-    },
-    {
-      "included": true,
-      "jurisdiction": "NJ",
-      "predicates": [],
-      "result": "applies",
-      "status": "in_force",
-      "team_rule_id": "r-0052"
     },
     {
       "included": true,
@@ -508,7 +487,7 @@
       ],
       "result": "unknown",
       "status": "in_force",
-      "team_rule_id": "r-0053"
+      "team_rule_id": "r-0051"
     },
     {
       "included": true,
@@ -539,7 +518,7 @@
       ],
       "result": "applies",
       "status": "in_force",
-      "team_rule_id": "r-0054"
+      "team_rule_id": "r-0052"
     },
     {
       "included": true,
@@ -557,6 +536,46 @@
           "reason": "the unit count rules out the small owner-occupied exemption",
           "result": "true"
         },
+        {
+          "facts_used": {
+            "flags": [
+              "affordable"
+            ]
+          },
+          "predicate": "special_status_exemptions",
+          "reason": "no special-status exemption is flagged in the supplied facts",
+          "result": "true"
+        }
+      ],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0053"
+    },
+    {
+      "included": true,
+      "jurisdiction": "NJ",
+      "predicates": [
+        {
+          "facts_used": {
+            "exemption_max_units": 4,
+            "units_range": [
+              6,
+              6
+            ]
+          },
+          "predicate": "owner_occupied_exempt_max_units",
+          "reason": "the unit count rules out the small owner-occupied exemption",
+          "result": "true"
+        }
+      ],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0054"
+    },
+    {
+      "included": true,
+      "jurisdiction": "NJ",
+      "predicates": [
         {
           "facts_used": {
             "flags": [
@@ -578,7 +597,7 @@
       "predicates": [
         {
           "facts_used": {
-            "exemption_max_units": 4,
+            "exemption_max_units": 3,
             "units_range": [
               6,
               6
@@ -594,54 +613,26 @@
       "team_rule_id": "r-0056"
     },
     {
-      "included": true,
-      "jurisdiction": "NJ",
-      "predicates": [
-        {
-          "facts_used": {
-            "flags": [
-              "affordable"
-            ]
-          },
-          "predicate": "special_status_exemptions",
-          "reason": "no special-status exemption is flagged in the supplied facts",
-          "result": "true"
-        }
-      ],
-      "result": "applies",
-      "status": "in_force",
+      "included": false,
+      "jurisdiction": "San Diego, CA",
+      "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0057"
     },
     {
-      "included": true,
-      "jurisdiction": "NJ",
-      "predicates": [
-        {
-          "facts_used": {
-            "exemption_max_units": 3,
-            "units_range": [
-              6,
-              6
-            ]
-          },
-          "predicate": "owner_occupied_exempt_max_units",
-          "reason": "the unit count rules out the small owner-occupied exemption",
-          "result": "true"
-        }
-      ],
-      "result": "applies",
-      "status": "in_force",
+      "included": false,
+      "jurisdiction": "San Francisco, CA",
+      "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0058"
     },
     {
       "included": false,
-      "jurisdiction": "San Diego, CA",
+      "jurisdiction": "San Francisco, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0059"
     },
     {
       "included": false,
-      "jurisdiction": "San Diego, CA",
+      "jurisdiction": "San Francisco, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0060"
     },
@@ -671,19 +662,19 @@
     },
     {
       "included": false,
-      "jurisdiction": "San Francisco, CA",
+      "jurisdiction": "Santa Ana, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0065"
     },
     {
       "included": false,
-      "jurisdiction": "San Francisco, CA",
+      "jurisdiction": "Santa Ana, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0066"
     },
     {
       "included": false,
-      "jurisdiction": "San Francisco, CA",
+      "jurisdiction": "Santa Ana, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0067"
     },
@@ -692,24 +683,6 @@
       "jurisdiction": "Santa Ana, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0068"
-    },
-    {
-      "included": false,
-      "jurisdiction": "Santa Ana, CA",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0069"
-    },
-    {
-      "included": false,
-      "jurisdiction": "Santa Ana, CA",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0070"
-    },
-    {
-      "included": false,
-      "jurisdiction": "Santa Ana, CA",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0071"
     }
   ],
   "facts": {
@@ -740,101 +713,95 @@
       "team_rule_id": "r-0025"
     },
     {
-      "conflict_flag": false,
-      "explanation": "Applies: Hoboken Rent Control: base rent control and annual increase cap covers this address because tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
-      "result": "applies",
-      "team_rule_id": "r-0026"
-    },
-    {
       "conflict_flag": true,
       "conflict_note": "Possible conflict \u2014 human review: the FAIR Act bars municipalities from enacting conflicting ordinances but does not name or void the existing local ban.",
       "explanation": "Applies: Forbidding the Algorithmic Inflation of Rent (FAIR) Act covers this address because no special-status exemption is flagged in the supplied facts. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0044"
+      "team_rule_id": "r-0042"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: Residential rental application fee capped at $50 covers this address because the unit count rules out the small owner-occupied exemption; no special-status exemption is flagged in the supplied facts. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0045"
+      "team_rule_id": "r-0043"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: New Jersey Anti-Eviction Act: eviction only for listed causes, with notice to quit covers this address because the unit count rules out the small owner-occupied exemption; tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0046"
+      "team_rule_id": "r-0044"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: New Jersey Anti-Eviction Act (good cause required for eviction) covers this address because the unit count rules out the small owner-occupied exemption; no special-status exemption is flagged in the supplied facts. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0047"
+      "team_rule_id": "r-0045"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: Senior Citizens and Disabled Protected Tenancy Act (condo/co-op conversion) covers this address because tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0048"
+      "team_rule_id": "r-0046"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: Good cause required to refuse lease renewal covers this address because the unit count rules out the small owner-occupied exemption; no special-status exemption is flagged in the supplied facts. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0049"
+      "team_rule_id": "r-0047"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: Tenant protections after foreclosure (Foreclosure Fairness Act) covers this address. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0050"
+      "team_rule_id": "r-0048"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: NJ Anti-Eviction Act: rent increases must not be unconscionable covers this address. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0051"
+      "team_rule_id": "r-0049"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: NJ: no rent increase to cover costs of building conversion covers this address. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0052"
+      "team_rule_id": "r-0050"
     },
     {
       "conflict_flag": false,
       "explanation": "Unknown: NJ rent control is local only; newly constructed multiple dwellings exempt for 30 years may cover this address, but the construction year needed for the rolling exemption is missing. As of 2027-07-02. Not legal advice.",
       "result": "unknown",
-      "team_rule_id": "r-0053"
+      "team_rule_id": "r-0051"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: NJ Law Against Discrimination: source of lawful income protection in rental housing covers this address because the unit count rules out the small owner-occupied exemption; no special-status exemption is flagged in the supplied facts. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0054"
+      "team_rule_id": "r-0052"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: NJ Law Against Discrimination: housing, including source of lawful income covers this address because the unit count rules out the small owner-occupied exemption; no special-status exemption is flagged in the supplied facts. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0055"
+      "team_rule_id": "r-0053"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: New Jersey Fair Chance in Housing Act covers this address because the unit count rules out the small owner-occupied exemption. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0056"
+      "team_rule_id": "r-0054"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: NJ Security Deposit Law: interest, notice and return within 30 days covers this address because no special-status exemption is flagged in the supplied facts. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0057"
+      "team_rule_id": "r-0055"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: New Jersey Security Deposit Law: deposit cap, increase limit and handling covers this address because the unit count rules out the small owner-occupied exemption. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0058"
+      "team_rule_id": "r-0056"
     }
   ]
 }

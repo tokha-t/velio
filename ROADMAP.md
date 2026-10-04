@@ -21,6 +21,7 @@ Agents: update the **Status** block when you finish a step: tick it, add one lin
 - Notes: 16:30 — P5 generated deterministic no-rule findings (36) and conflict notes (4), and added public README plus METHOD. P6 warm-cache reproducibility and release checks are next; public deployment remains a Human H1 action.
 - Notes: 16:45 — Main worktree warm-cache rerun reproduced submission JSON byte-for-byte and 32 tests pass. Fresh checkout reproduction is blocked by the missing `uv` executable. D032–D035 are now committed as explicitly authorized saved research inputs; no corpus input remains untracked.
 - Notes: 17:00 — Consolidated all committed work into `/Users/lost_home/Documents/hack-nation` on `main` and pushed `4954449` to GitHub. The Pages workflow builds successfully, but GitHub rejects deployment because this private repository's current plan does not support Pages. Public visibility was not changed.
+- Notes: 17:07 — Fix pack passed: owner-type exemptions are impossible for verified 5+ unit buildings; the DND-only Boston policy is unknown without a DND/IDP fact; and predicate-less companion pages now merge into their covered law. Regenerated outputs validate with 68 rules and unchanged T1–T5 counts (250/0, 90/0, 140/90, 110/0, 0/0); 36 tests pass.
 
 ## Lanes
 

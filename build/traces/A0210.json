@@ -1,6 +1,6 @@
 {
   "address_id": "A0210",
-  "as_of": "2027-07-02",
+  "as_of": "2026-10-01",
   "evaluations": [
     {
       "included": false,
@@ -123,7 +123,7 @@
       "predicates": [
         {
           "facts_used": {
-            "boundary_year": 2012,
+            "boundary_year": 2011,
             "year_built": 2016
           },
           "predicate": "rolling_new_construction_exempt_years",
@@ -132,14 +132,13 @@
         },
         {
           "facts_used": {
-            "exception_max_units": 2,
             "units_range": [
               9,
               9
             ]
           },
           "predicate": "owner_type",
-          "reason": "the unit count rules out the small-landlord exception",
+          "reason": "5+ unit building, so the owner-type exemption can't apply",
           "result": "true"
         },
         {
@@ -167,7 +166,7 @@
       "predicates": [
         {
           "facts_used": {
-            "boundary_year": 2012,
+            "boundary_year": 2011,
             "year_built": 2016
           },
           "predicate": "rolling_new_construction_exempt_years",
@@ -194,8 +193,8 @@
             ]
           },
           "predicate": "owner_type",
-          "reason": "owner type is not in the address data",
-          "result": "unknown"
+          "reason": "5+ unit building, so the owner-type exemption can't apply",
+          "result": "true"
         },
         {
           "facts_used": {
@@ -245,14 +244,13 @@
       "predicates": [
         {
           "facts_used": {
-            "exception_max_units": 4,
             "units_range": [
               9,
               9
             ]
           },
           "predicate": "owner_type",
-          "reason": "the unit count rules out the small-landlord exception",
+          "reason": "5+ unit building, so the owner-type exemption can't apply",
           "result": "true"
         }
       ],
@@ -266,14 +264,13 @@
       "predicates": [
         {
           "facts_used": {
-            "exception_max_units": 4,
             "units_range": [
               9,
               9
             ]
           },
           "predicate": "owner_type",
-          "reason": "the unit count rules out the small-landlord exception",
+          "reason": "5+ unit building, so the owner-type exemption can't apply",
           "result": "true"
         },
         {
@@ -307,7 +304,7 @@
     },
     {
       "included": false,
-      "jurisdiction": "Hoboken, NJ",
+      "jurisdiction": "Jersey City, NJ",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0026"
     },
@@ -316,12 +313,6 @@
       "jurisdiction": "Jersey City, NJ",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0027"
-    },
-    {
-      "included": false,
-      "jurisdiction": "Jersey City, NJ",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0028"
     },
     {
       "included": false,
@@ -359,7 +350,7 @@
       ],
       "reason": "coverage_false",
       "status": "in_force",
-      "team_rule_id": "r-0029"
+      "team_rule_id": "r-0028"
     },
     {
       "included": true,
@@ -377,6 +368,29 @@
           },
           "predicate": "special_status_exemptions",
           "reason": "no special-status exemption is flagged in the supplied facts",
+          "result": "true"
+        }
+      ],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0029"
+    },
+    {
+      "included": true,
+      "jurisdiction": "Los Angeles, CA",
+      "predicates": [
+        {
+          "facts_used": {
+            "flags": []
+          },
+          "predicate": "special_status_exemptions",
+          "reason": "no special-status exemption is flagged in the supplied facts",
+          "result": "true"
+        },
+        {
+          "facts_used": {},
+          "predicate": "tenant_level_conditions",
+          "reason": "tenant-level conditions do not block an address-level result",
           "result": "true"
         }
       ],
@@ -408,29 +422,6 @@
       "team_rule_id": "r-0031"
     },
     {
-      "included": true,
-      "jurisdiction": "Los Angeles, CA",
-      "predicates": [
-        {
-          "facts_used": {
-            "flags": []
-          },
-          "predicate": "special_status_exemptions",
-          "reason": "no special-status exemption is flagged in the supplied facts",
-          "result": "true"
-        },
-        {
-          "facts_used": {},
-          "predicate": "tenant_level_conditions",
-          "reason": "tenant-level conditions do not block an address-level result",
-          "result": "true"
-        }
-      ],
-      "result": "applies",
-      "status": "in_force",
-      "team_rule_id": "r-0032"
-    },
-    {
       "included": false,
       "jurisdiction": "Los Angeles, CA",
       "predicates": [
@@ -466,14 +457,18 @@
       ],
       "reason": "coverage_false",
       "status": "in_force",
+      "team_rule_id": "r-0032"
+    },
+    {
+      "included": false,
+      "jurisdiction": "MA",
+      "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0033"
     },
     {
-      "included": true,
-      "jurisdiction": "Los Angeles, CA",
-      "predicates": [],
-      "result": "applies",
-      "status": "in_force",
+      "included": false,
+      "jurisdiction": "MA",
+      "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0034"
     },
     {
@@ -520,13 +515,13 @@
     },
     {
       "included": false,
-      "jurisdiction": "MA",
+      "jurisdiction": "NJ",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0042"
     },
     {
       "included": false,
-      "jurisdiction": "MA",
+      "jurisdiction": "NJ",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0043"
     },
@@ -610,25 +605,25 @@
     },
     {
       "included": false,
-      "jurisdiction": "NJ",
+      "jurisdiction": "San Diego, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0057"
     },
     {
       "included": false,
-      "jurisdiction": "NJ",
+      "jurisdiction": "San Francisco, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0058"
     },
     {
       "included": false,
-      "jurisdiction": "San Diego, CA",
+      "jurisdiction": "San Francisco, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0059"
     },
     {
       "included": false,
-      "jurisdiction": "San Diego, CA",
+      "jurisdiction": "San Francisco, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0060"
     },
@@ -658,19 +653,19 @@
     },
     {
       "included": false,
-      "jurisdiction": "San Francisco, CA",
+      "jurisdiction": "Santa Ana, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0065"
     },
     {
       "included": false,
-      "jurisdiction": "San Francisco, CA",
+      "jurisdiction": "Santa Ana, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0066"
     },
     {
       "included": false,
-      "jurisdiction": "San Francisco, CA",
+      "jurisdiction": "Santa Ana, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0067"
     },
@@ -679,24 +674,6 @@
       "jurisdiction": "Santa Ana, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0068"
-    },
-    {
-      "included": false,
-      "jurisdiction": "Santa Ana, CA",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0069"
-    },
-    {
-      "included": false,
-      "jurisdiction": "Santa Ana, CA",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0070"
-    },
-    {
-      "included": false,
-      "jurisdiction": "Santa Ana, CA",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0071"
     }
   ],
   "facts": {
@@ -713,65 +690,58 @@
   "results": [
     {
       "conflict_flag": false,
-      "explanation": "Applies: Cartwright Act: common pricing algorithm prohibition (AB 325) covers this address. As of 2027-07-02. Not legal advice.",
+      "explanation": "Applies: Cartwright Act: common pricing algorithm prohibition (AB 325) covers this address. As of 2026-10-01. Not legal advice.",
       "result": "applies",
       "team_rule_id": "r-0015"
     },
     {
       "conflict_flag": true,
       "conflict_note": "Source conflict \u2014 human review: the corpus provides a statutory formula but no single official 2026 screening-fee amount.",
-      "explanation": "Applies: California limits on residential application screening fees covers this address because no special-status exemption is flagged in the supplied facts; tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
+      "explanation": "Applies: California limits on residential application screening fees covers this address because no special-status exemption is flagged in the supplied facts; tenant-level conditions do not block an address-level result. As of 2026-10-01. Not legal advice.",
       "result": "applies",
       "team_rule_id": "r-0016"
     },
     {
       "conflict_flag": false,
-      "explanation": "Applies: California housing discrimination ban, including source of income covers this address because tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
+      "explanation": "Applies: California housing discrimination ban, including source of income covers this address because tenant-level conditions do not block an address-level result. As of 2026-10-01. Not legal advice.",
       "result": "applies",
       "team_rule_id": "r-0019"
     },
     {
       "conflict_flag": false,
-      "explanation": "Applies: California FEHA limits on using criminal history in tenant screening covers this address. As of 2027-07-02. Not legal advice.",
+      "explanation": "Applies: California FEHA limits on using criminal history in tenant screening covers this address. As of 2026-10-01. Not legal advice.",
       "result": "applies",
       "team_rule_id": "r-0020"
     },
     {
       "conflict_flag": false,
-      "explanation": "Applies: California security deposit cap (AB 12) covers this address because the unit count rules out the small-landlord exception. As of 2027-07-02. Not legal advice.",
+      "explanation": "Applies: California security deposit cap (AB 12) covers this address because 5+ unit building, so the owner-type exemption can't apply. As of 2026-10-01. Not legal advice.",
       "result": "applies",
       "team_rule_id": "r-0021"
     },
     {
       "conflict_flag": false,
-      "explanation": "Applies: California residential security deposit limits and return rules covers this address because the unit count rules out the small-landlord exception; tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
+      "explanation": "Applies: California residential security deposit limits and return rules covers this address because 5+ unit building, so the owner-type exemption can't apply; tenant-level conditions do not block an address-level result. As of 2026-10-01. Not legal advice.",
       "result": "applies",
       "team_rule_id": "r-0022"
     },
     {
       "conflict_flag": false,
-      "explanation": "Applies: Relocation assistance and filing duties for no-fault evictions (RSO & JCO) covers this address because tenant-level conditions do not block an address-level result; no special-status exemption is flagged in the supplied facts. As of 2027-07-02. Not legal advice.",
+      "explanation": "Applies: Relocation assistance and filing duties for no-fault evictions (RSO & JCO) covers this address because tenant-level conditions do not block an address-level result; no special-status exemption is flagged in the supplied facts. As of 2026-10-01. Not legal advice.",
+      "result": "applies",
+      "team_rule_id": "r-0029"
+    },
+    {
+      "conflict_flag": false,
+      "explanation": "Applies: Los Angeles RSO/JCO relocation assistance for no-fault evictions covers this address because no special-status exemption is flagged in the supplied facts; tenant-level conditions do not block an address-level result. As of 2026-10-01. Not legal advice.",
       "result": "applies",
       "team_rule_id": "r-0030"
     },
     {
       "conflict_flag": false,
-      "explanation": "Applies: Los Angeles RSO/JCO relocation assistance for no-fault evictions covers this address because no special-status exemption is flagged in the supplied facts; tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
+      "explanation": "Applies: Los Angeles Just Cause for Eviction Ordinance (JCO) covers this address because no special-status exemption is flagged in the supplied facts; tenant-level conditions do not block an address-level result. As of 2026-10-01. Not legal advice.",
       "result": "applies",
       "team_rule_id": "r-0031"
-    },
-    {
-      "conflict_flag": false,
-      "explanation": "Applies: Los Angeles Just Cause for Eviction Ordinance (JCO) covers this address because no special-status exemption is flagged in the supplied facts; tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
-      "result": "applies",
-      "team_rule_id": "r-0032"
-    },
-    {
-      "conflict_flag": true,
-      "conflict_note": "Source conflict \u2014 human review: official sources give February 2, 2026 for the new RSO formula; a landlord-association source gives January 24, 2026.",
-      "explanation": "Applies: Los Angeles RSO annual allowable rent increase covers this address. As of 2027-07-02. Not legal advice.",
-      "result": "applies",
-      "team_rule_id": "r-0034"
     }
   ]
 }

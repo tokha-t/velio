@@ -107,6 +107,64 @@ def _merge_group(records: list[dict[str, Any]], source_texts: dict[str, str], pa
     return result
 
 
+def _coverage_predicates(record: dict[str, Any]) -> list[dict[str, Any]]:
+    # Tenant-level predicates are informative but never decide whether a rule
+    # reaches an address.  A record containing only those is a companion page
+    # with no address-coverage predicates.
+    return [
+        predicate
+        for predicate in (record.get("coverage_conditions") or {}).get("predicates", [])
+        if predicate.get("type") != "tenant_level_conditions"
+    ]
+
+
+def _same_law_markers(record: dict[str, Any]) -> set[str]:
+    """Extract conservative law identifiers from a citation/title pair."""
+    text = f"{record.get('citation', '')} {record.get('title', '')}"
+    markers = {
+        f"chapter:{value}"
+        for value in re.findall(r"\bch(?:apter)?\.?\s*(\d+(?:\.\d+)*)\b", text, re.IGNORECASE)
+    }
+    markers.update(
+        f"acronym:{value.lower()}"
+        for value in re.findall(r"\(([A-Z][A-Z0-9]{1,})\)", text)
+    )
+    return markers
+
+
+def _merge_same_law_records(records: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Fold a predicate-less companion page into the covered version of a law."""
+    covered = [copy.deepcopy(record) for record in records if _coverage_predicates(record)]
+    companions = [record for record in records if not _coverage_predicates(record)]
+    retained = covered[:]
+    for companion in companions:
+        markers = _same_law_markers(companion)
+        candidates = [record for record in retained if markers & _same_law_markers(record)]
+        if not candidates:
+            retained.append(copy.deepcopy(companion))
+            continue
+        target = sorted(candidates, key=_source_rank, reverse=True)[0]
+        documents = {
+            target.get("source_doc_id"),
+            companion.get("source_doc_id"),
+            *(target.get("also_in_docs") or []),
+            *(companion.get("also_in_docs") or []),
+        }
+        target["also_in_docs"] = sorted(
+            document for document in documents if document and document != target.get("source_doc_id")
+        )
+        target["exemptions"] = sorted({
+            item.strip()
+            for record in (target, companion)
+            for item in (record.get("exemptions") or [])
+            if item.strip()
+        })
+        for field in ("key_value", "requirement"):
+            if not target.get(field) and companion.get(field):
+                target[field] = companion[field]
+    return retained
+
+
 def merge_records(records: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], int]:
     patterns = _load_test_patterns()
     source_texts = _source_texts()
@@ -124,6 +182,9 @@ def merge_records(records: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], 
             dropped_motions += 1
         else:
             merged.append(item)
+    merged = _merge_same_law_records(merged)
+    for item in merged:
+        item["test_rule_ids"] = _test_rule_ids(item, patterns)
     merged.sort(key=lambda item: (item["jurisdiction"], item["category"], item["citation"]))
     for index, item in enumerate(merged, start=1):
         item["team_rule_id"] = f"r-{index:04d}"

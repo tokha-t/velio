@@ -6,7 +6,7 @@
       "passed": true
     },
     {
-      "detail": "71 rules validate",
+      "detail": "68 rules validate",
       "name": "schema",
       "passed": true
     },
@@ -21,7 +21,7 @@
       "passed": true
     },
     {
-      "detail": "5721/5851 applies backed by corpus text",
+      "detail": "5553/5643 applies backed by corpus text",
       "name": "citation_share",
       "passed": true
     },

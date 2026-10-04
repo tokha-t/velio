@@ -132,14 +132,13 @@
         },
         {
           "facts_used": {
-            "exception_max_units": 2,
             "units_range": [
               72,
               72
             ]
           },
           "predicate": "owner_type",
-          "reason": "the unit count rules out the small-landlord exception",
+          "reason": "5+ unit building, so the owner-type exemption can't apply",
           "result": "true"
         },
         {
@@ -194,8 +193,8 @@
             ]
           },
           "predicate": "owner_type",
-          "reason": "owner type is not in the address data",
-          "result": "unknown"
+          "reason": "5+ unit building, so the owner-type exemption can't apply",
+          "result": "true"
         },
         {
           "facts_used": {
@@ -212,7 +211,7 @@
           "result": "true"
         }
       ],
-      "result": "unknown",
+      "result": "applies",
       "status": "in_force",
       "team_rule_id": "r-0018"
     },
@@ -245,14 +244,13 @@
       "predicates": [
         {
           "facts_used": {
-            "exception_max_units": 4,
             "units_range": [
               72,
               72
             ]
           },
           "predicate": "owner_type",
-          "reason": "the unit count rules out the small-landlord exception",
+          "reason": "5+ unit building, so the owner-type exemption can't apply",
           "result": "true"
         }
       ],
@@ -266,14 +264,13 @@
       "predicates": [
         {
           "facts_used": {
-            "exception_max_units": 4,
             "units_range": [
               72,
               72
             ]
           },
           "predicate": "owner_type",
-          "reason": "the unit count rules out the small-landlord exception",
+          "reason": "5+ unit building, so the owner-type exemption can't apply",
           "result": "true"
         },
         {
@@ -307,7 +304,7 @@
     },
     {
       "included": false,
-      "jurisdiction": "Hoboken, NJ",
+      "jurisdiction": "Jersey City, NJ",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0026"
     },
@@ -319,7 +316,7 @@
     },
     {
       "included": false,
-      "jurisdiction": "Jersey City, NJ",
+      "jurisdiction": "Los Angeles, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0028"
     },
@@ -349,13 +346,13 @@
     },
     {
       "included": false,
-      "jurisdiction": "Los Angeles, CA",
+      "jurisdiction": "MA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0033"
     },
     {
       "included": false,
-      "jurisdiction": "Los Angeles, CA",
+      "jurisdiction": "MA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0034"
     },
@@ -403,13 +400,13 @@
     },
     {
       "included": false,
-      "jurisdiction": "MA",
+      "jurisdiction": "NJ",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0042"
     },
     {
       "included": false,
-      "jurisdiction": "MA",
+      "jurisdiction": "NJ",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0043"
     },
@@ -493,26 +490,39 @@
     },
     {
       "included": false,
-      "jurisdiction": "NJ",
+      "jurisdiction": "San Diego, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0057"
     },
     {
-      "included": false,
-      "jurisdiction": "NJ",
-      "reason": "jurisdiction_not_in_stack",
+      "included": true,
+      "jurisdiction": "San Francisco, CA",
+      "predicates": [],
+      "result": "applies",
+      "status": "in_force",
       "team_rule_id": "r-0058"
     },
     {
-      "included": false,
-      "jurisdiction": "San Diego, CA",
-      "reason": "jurisdiction_not_in_stack",
+      "included": true,
+      "jurisdiction": "San Francisco, CA",
+      "predicates": [],
+      "result": "applies",
+      "status": "in_force",
       "team_rule_id": "r-0059"
     },
     {
-      "included": false,
-      "jurisdiction": "San Diego, CA",
-      "reason": "jurisdiction_not_in_stack",
+      "included": true,
+      "jurisdiction": "San Francisco, CA",
+      "predicates": [
+        {
+          "facts_used": {},
+          "predicate": "tenant_level_conditions",
+          "reason": "tenant-level conditions do not block an address-level result",
+          "result": "true"
+        }
+      ],
+      "result": "applies",
+      "status": "in_force",
       "team_rule_id": "r-0060"
     },
     {
@@ -536,9 +546,11 @@
       "jurisdiction": "San Francisco, CA",
       "predicates": [
         {
-          "facts_used": {},
-          "predicate": "tenant_level_conditions",
-          "reason": "tenant-level conditions do not block an address-level result",
+          "facts_used": {
+            "flags": []
+          },
+          "predicate": "special_status_exemptions",
+          "reason": "no special-status exemption is flagged in the supplied facts",
           "result": "true"
         }
       ],
@@ -555,36 +567,21 @@
       "team_rule_id": "r-0064"
     },
     {
-      "included": true,
-      "jurisdiction": "San Francisco, CA",
-      "predicates": [],
-      "result": "applies",
-      "status": "in_force",
+      "included": false,
+      "jurisdiction": "Santa Ana, CA",
+      "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0065"
     },
     {
-      "included": true,
-      "jurisdiction": "San Francisco, CA",
-      "predicates": [
-        {
-          "facts_used": {
-            "flags": []
-          },
-          "predicate": "special_status_exemptions",
-          "reason": "no special-status exemption is flagged in the supplied facts",
-          "result": "true"
-        }
-      ],
-      "result": "applies",
-      "status": "in_force",
+      "included": false,
+      "jurisdiction": "Santa Ana, CA",
+      "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0066"
     },
     {
-      "included": true,
-      "jurisdiction": "San Francisco, CA",
-      "predicates": [],
-      "result": "applies",
-      "status": "in_force",
+      "included": false,
+      "jurisdiction": "Santa Ana, CA",
+      "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0067"
     },
     {
@@ -592,24 +589,6 @@
       "jurisdiction": "Santa Ana, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0068"
-    },
-    {
-      "included": false,
-      "jurisdiction": "Santa Ana, CA",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0069"
-    },
-    {
-      "included": false,
-      "jurisdiction": "Santa Ana, CA",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0070"
-    },
-    {
-      "included": false,
-      "jurisdiction": "Santa Ana, CA",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0071"
     }
   ],
   "facts": {
@@ -645,8 +624,8 @@
     },
     {
       "conflict_flag": false,
-      "explanation": "Unknown: California statewide residential rent increase cap (AB 1482 as continued by SB 567) may cover this address, but owner type is not in the address data. As of 2027-07-02. Not legal advice.",
-      "result": "unknown",
+      "explanation": "Superseded: California statewide residential rent increase cap (AB 1482 as continued by SB 567) covers this address, but a more protective local rule governs. As of 2027-07-02. Not legal advice.",
+      "result": "superseded",
       "team_rule_id": "r-0018"
     },
     {
@@ -663,13 +642,13 @@
     },
     {
       "conflict_flag": false,
-      "explanation": "Applies: California security deposit cap (AB 12) covers this address because the unit count rules out the small-landlord exception. As of 2027-07-02. Not legal advice.",
+      "explanation": "Applies: California security deposit cap (AB 12) covers this address because 5+ unit building, so the owner-type exemption can't apply. As of 2027-07-02. Not legal advice.",
       "result": "applies",
       "team_rule_id": "r-0021"
     },
     {
       "conflict_flag": false,
-      "explanation": "Applies: California residential security deposit limits and return rules covers this address because the unit count rules out the small-landlord exception; tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
+      "explanation": "Applies: California residential security deposit limits and return rules covers this address because 5+ unit building, so the owner-type exemption can't apply; tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
       "result": "applies",
       "team_rule_id": "r-0022"
     },
@@ -677,43 +656,43 @@
       "conflict_flag": false,
       "explanation": "Applies: San Francisco ban on algorithmic devices used to set rents (Rent Ordinance \u00a7 37.10C) covers this address. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0061"
+      "team_rule_id": "r-0058"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: San Francisco Rent Ordinance just cause eviction requirement covers this address. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0062"
+      "team_rule_id": "r-0059"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: San Francisco relocation payments for no-fault evictions, notices served 3/01/26 \u2013 2/28/27 covers this address because tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0063"
+      "team_rule_id": "r-0060"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: San Francisco allowable annual rent increase, March 1, 2026 \u2013 February 28, 2027 covers this address. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0064"
+      "team_rule_id": "r-0061"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: San Francisco annual allowable rent increase, 3/1/2026 to 2/28/2027 covers this address. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0065"
+      "team_rule_id": "r-0062"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: San Francisco Fair Chance Ordinance (affordable housing) covers this address because no special-status exemption is flagged in the supplied facts. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0066"
+      "team_rule_id": "r-0063"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: San Francisco security deposit interest rate, March 1, 2026 \u2013 February 28, 2027 covers this address. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0067"
+      "team_rule_id": "r-0064"
     }
   ]
 }

@@ -3,10 +3,10 @@
 Overall: PASS
 
 - [x] extraction_complete: retry-exhausted chunks: 0
-- [x] schema: 71 rules validate
+- [x] schema: 68 rules validate
 - [x] quote_verification: unverified: none
 - [x] address_coverage: 500 lookup addresses
-- [x] citation_share: 5721/5851 applies backed by corpus text
+- [x] citation_share: 5553/5643 applies backed by corpus text
 - [x] city_boundaries: invalid city rules: []
 - [x] pending_failed_never_apply: invalid applies: []
 - [x] no_ma_rent_cap: MA cap rules: []

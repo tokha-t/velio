@@ -132,14 +132,13 @@
         },
         {
           "facts_used": {
-            "exception_max_units": 2,
             "units_range": [
               5,
               5
             ]
           },
           "predicate": "owner_type",
-          "reason": "the unit count rules out the small-landlord exception",
+          "reason": "5+ unit building, so the owner-type exemption can't apply",
           "result": "true"
         },
         {
@@ -194,8 +193,8 @@
             ]
           },
           "predicate": "owner_type",
-          "reason": "owner type is not in the address data",
-          "result": "unknown"
+          "reason": "5+ unit building, so the owner-type exemption can't apply",
+          "result": "true"
         },
         {
           "facts_used": {
@@ -245,14 +244,13 @@
       "predicates": [
         {
           "facts_used": {
-            "exception_max_units": 4,
             "units_range": [
               5,
               5
             ]
           },
           "predicate": "owner_type",
-          "reason": "the unit count rules out the small-landlord exception",
+          "reason": "5+ unit building, so the owner-type exemption can't apply",
           "result": "true"
         }
       ],
@@ -266,14 +264,13 @@
       "predicates": [
         {
           "facts_used": {
-            "exception_max_units": 4,
             "units_range": [
               5,
               5
             ]
           },
           "predicate": "owner_type",
-          "reason": "the unit count rules out the small-landlord exception",
+          "reason": "5+ unit building, so the owner-type exemption can't apply",
           "result": "true"
         },
         {
@@ -307,7 +304,7 @@
     },
     {
       "included": false,
-      "jurisdiction": "Hoboken, NJ",
+      "jurisdiction": "Jersey City, NJ",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0026"
     },
@@ -319,7 +316,7 @@
     },
     {
       "included": false,
-      "jurisdiction": "Jersey City, NJ",
+      "jurisdiction": "Los Angeles, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0028"
     },
@@ -349,13 +346,13 @@
     },
     {
       "included": false,
-      "jurisdiction": "Los Angeles, CA",
+      "jurisdiction": "MA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0033"
     },
     {
       "included": false,
-      "jurisdiction": "Los Angeles, CA",
+      "jurisdiction": "MA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0034"
     },
@@ -403,13 +400,13 @@
     },
     {
       "included": false,
-      "jurisdiction": "MA",
+      "jurisdiction": "NJ",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0042"
     },
     {
       "included": false,
-      "jurisdiction": "MA",
+      "jurisdiction": "NJ",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0043"
     },
@@ -492,18 +489,6 @@
       "team_rule_id": "r-0056"
     },
     {
-      "included": false,
-      "jurisdiction": "NJ",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0057"
-    },
-    {
-      "included": false,
-      "jurisdiction": "NJ",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0058"
-    },
-    {
       "included": true,
       "jurisdiction": "San Diego, CA",
       "predicates": [
@@ -524,8 +509,8 @@
             ]
           },
           "predicate": "owner_type",
-          "reason": "owner type is not in the address data",
-          "result": "unknown"
+          "reason": "5+ unit building, so the owner-type exemption can't apply",
+          "result": "true"
         },
         {
           "facts_used": {
@@ -544,21 +529,24 @@
       ],
       "result": "unknown",
       "status": "in_force",
+      "team_rule_id": "r-0057"
+    },
+    {
+      "included": false,
+      "jurisdiction": "San Francisco, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0058"
+    },
+    {
+      "included": false,
+      "jurisdiction": "San Francisco, CA",
+      "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0059"
     },
     {
-      "included": true,
-      "jurisdiction": "San Diego, CA",
-      "predicates": [
-        {
-          "facts_used": {},
-          "predicate": "tenant_level_conditions",
-          "reason": "tenant-level conditions do not block an address-level result",
-          "result": "true"
-        }
-      ],
-      "result": "applies",
-      "status": "in_force",
+      "included": false,
+      "jurisdiction": "San Francisco, CA",
+      "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0060"
     },
     {
@@ -587,19 +575,19 @@
     },
     {
       "included": false,
-      "jurisdiction": "San Francisco, CA",
+      "jurisdiction": "Santa Ana, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0065"
     },
     {
       "included": false,
-      "jurisdiction": "San Francisco, CA",
+      "jurisdiction": "Santa Ana, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0066"
     },
     {
       "included": false,
-      "jurisdiction": "San Francisco, CA",
+      "jurisdiction": "Santa Ana, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0067"
     },
@@ -608,24 +596,6 @@
       "jurisdiction": "Santa Ana, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0068"
-    },
-    {
-      "included": false,
-      "jurisdiction": "Santa Ana, CA",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0069"
-    },
-    {
-      "included": false,
-      "jurisdiction": "Santa Ana, CA",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0070"
-    },
-    {
-      "included": false,
-      "jurisdiction": "Santa Ana, CA",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0071"
     }
   ],
   "facts": {
@@ -661,7 +631,7 @@
     },
     {
       "conflict_flag": false,
-      "explanation": "Unknown: California statewide residential rent increase cap (AB 1482 as continued by SB 567) may cover this address, but the construction year needed for the rolling exemption is missing; owner type is not in the address data. As of 2027-07-02. Not legal advice.",
+      "explanation": "Unknown: California statewide residential rent increase cap (AB 1482 as continued by SB 567) may cover this address, but the construction year needed for the rolling exemption is missing. As of 2027-07-02. Not legal advice.",
       "result": "unknown",
       "team_rule_id": "r-0018"
     },
@@ -679,27 +649,21 @@
     },
     {
       "conflict_flag": false,
-      "explanation": "Applies: California security deposit cap (AB 12) covers this address because the unit count rules out the small-landlord exception. As of 2027-07-02. Not legal advice.",
+      "explanation": "Applies: California security deposit cap (AB 12) covers this address because 5+ unit building, so the owner-type exemption can't apply. As of 2027-07-02. Not legal advice.",
       "result": "applies",
       "team_rule_id": "r-0021"
     },
     {
       "conflict_flag": false,
-      "explanation": "Applies: California residential security deposit limits and return rules covers this address because the unit count rules out the small-landlord exception; tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
+      "explanation": "Applies: California residential security deposit limits and return rules covers this address because 5+ unit building, so the owner-type exemption can't apply; tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
       "result": "applies",
       "team_rule_id": "r-0022"
     },
     {
       "conflict_flag": false,
-      "explanation": "Unknown: San Diego Residential Tenant Protections: just cause required for termination of tenancy may cover this address, but the construction year needed for the rolling exemption is missing; owner type is not in the address data. As of 2027-07-02. Not legal advice.",
+      "explanation": "Unknown: San Diego Residential Tenant Protections: just cause required for termination of tenancy may cover this address, but the construction year needed for the rolling exemption is missing. As of 2027-07-02. Not legal advice.",
       "result": "unknown",
-      "team_rule_id": "r-0059"
-    },
-    {
-      "conflict_flag": false,
-      "explanation": "Applies: San Diego Tenant Protection: termination notice and relocation assistance for just cause evictions covers this address because tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
-      "result": "applies",
-      "team_rule_id": "r-0060"
+      "team_rule_id": "r-0057"
     }
   ]
 }

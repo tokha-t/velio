@@ -84,11 +84,11 @@
             "flags": []
           },
           "predicate": "special_status_exemptions",
-          "reason": "no special-status exemption is flagged in the supplied facts",
-          "result": "true"
+          "reason": "DND funding or IDP income-restriction status is not in the address data",
+          "result": "unknown"
         }
       ],
-      "result": "applies",
+      "result": "unknown",
       "status": "in_force",
       "team_rule_id": "r-0013"
     },
@@ -168,7 +168,7 @@
     },
     {
       "included": false,
-      "jurisdiction": "Hoboken, NJ",
+      "jurisdiction": "Jersey City, NJ",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0026"
     },
@@ -180,7 +180,7 @@
     },
     {
       "included": false,
-      "jurisdiction": "Jersey City, NJ",
+      "jurisdiction": "Los Angeles, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0028"
     },
@@ -209,32 +209,20 @@
       "team_rule_id": "r-0032"
     },
     {
-      "included": false,
-      "jurisdiction": "Los Angeles, CA",
-      "reason": "jurisdiction_not_in_stack",
+      "included": true,
+      "jurisdiction": "MA",
+      "predicates": [],
+      "result": "pending",
+      "status": "pending",
       "team_rule_id": "r-0033"
     },
     {
-      "included": false,
-      "jurisdiction": "Los Angeles, CA",
-      "reason": "jurisdiction_not_in_stack",
+      "included": true,
+      "jurisdiction": "MA",
+      "predicates": [],
+      "result": "pending",
+      "status": "pending",
       "team_rule_id": "r-0034"
-    },
-    {
-      "included": true,
-      "jurisdiction": "MA",
-      "predicates": [],
-      "result": "pending",
-      "status": "pending",
-      "team_rule_id": "r-0035"
-    },
-    {
-      "included": true,
-      "jurisdiction": "MA",
-      "predicates": [],
-      "result": "pending",
-      "status": "pending",
-      "team_rule_id": "r-0036"
     },
     {
       "included": true,
@@ -242,7 +230,7 @@
       "predicates": [],
       "result": "applies",
       "status": "in_force",
-      "team_rule_id": "r-0037"
+      "team_rule_id": "r-0035"
     },
     {
       "included": true,
@@ -257,7 +245,7 @@
       ],
       "result": "applies",
       "status": "in_force",
-      "team_rule_id": "r-0038"
+      "team_rule_id": "r-0036"
     },
     {
       "included": true,
@@ -267,6 +255,31 @@
           "facts_used": {},
           "predicate": "tenant_level_conditions",
           "reason": "tenant-level conditions do not block an address-level result",
+          "result": "true"
+        }
+      ],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0037"
+    },
+    {
+      "included": true,
+      "jurisdiction": "MA",
+      "predicates": [],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0038"
+    },
+    {
+      "included": true,
+      "jurisdiction": "MA",
+      "predicates": [
+        {
+          "facts_used": {
+            "flags": []
+          },
+          "predicate": "special_status_exemptions",
+          "reason": "no special-status exemption is flagged in the supplied facts",
           "result": "true"
         }
       ],
@@ -285,34 +298,21 @@
     {
       "included": true,
       "jurisdiction": "MA",
-      "predicates": [
-        {
-          "facts_used": {
-            "flags": []
-          },
-          "predicate": "special_status_exemptions",
-          "reason": "no special-status exemption is flagged in the supplied facts",
-          "result": "true"
-        }
-      ],
+      "predicates": [],
       "result": "applies",
       "status": "in_force",
       "team_rule_id": "r-0041"
     },
     {
-      "included": true,
-      "jurisdiction": "MA",
-      "predicates": [],
-      "result": "applies",
-      "status": "in_force",
+      "included": false,
+      "jurisdiction": "NJ",
+      "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0042"
     },
     {
-      "included": true,
-      "jurisdiction": "MA",
-      "predicates": [],
-      "result": "applies",
-      "status": "in_force",
+      "included": false,
+      "jurisdiction": "NJ",
+      "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0043"
     },
     {
@@ -395,25 +395,25 @@
     },
     {
       "included": false,
-      "jurisdiction": "NJ",
+      "jurisdiction": "San Diego, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0057"
     },
     {
       "included": false,
-      "jurisdiction": "NJ",
+      "jurisdiction": "San Francisco, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0058"
     },
     {
       "included": false,
-      "jurisdiction": "San Diego, CA",
+      "jurisdiction": "San Francisco, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0059"
     },
     {
       "included": false,
-      "jurisdiction": "San Diego, CA",
+      "jurisdiction": "San Francisco, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0060"
     },
@@ -443,19 +443,19 @@
     },
     {
       "included": false,
-      "jurisdiction": "San Francisco, CA",
+      "jurisdiction": "Santa Ana, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0065"
     },
     {
       "included": false,
-      "jurisdiction": "San Francisco, CA",
+      "jurisdiction": "Santa Ana, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0066"
     },
     {
       "included": false,
-      "jurisdiction": "San Francisco, CA",
+      "jurisdiction": "Santa Ana, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0067"
     },
@@ -464,24 +464,6 @@
       "jurisdiction": "Santa Ana, CA",
       "reason": "jurisdiction_not_in_stack",
       "team_rule_id": "r-0068"
-    },
-    {
-      "included": false,
-      "jurisdiction": "Santa Ana, CA",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0069"
-    },
-    {
-      "included": false,
-      "jurisdiction": "Santa Ana, CA",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0070"
-    },
-    {
-      "included": false,
-      "jurisdiction": "Santa Ana, CA",
-      "reason": "jurisdiction_not_in_stack",
-      "team_rule_id": "r-0071"
     }
   ],
   "facts": {
@@ -498,8 +480,8 @@
   "results": [
     {
       "conflict_flag": false,
-      "explanation": "Applies: Boston Fair Chance Tenant Selection Policy covers this address because no special-status exemption is flagged in the supplied facts. As of 2027-07-02. Not legal advice.",
-      "result": "applies",
+      "explanation": "Unknown: Boston Fair Chance Tenant Selection Policy may cover this address, but DND funding or IDP income-restriction status is not in the address data. As of 2027-07-02. Not legal advice.",
+      "result": "unknown",
       "team_rule_id": "r-0013"
     },
     {
@@ -512,55 +494,55 @@
       "conflict_flag": false,
       "explanation": "Pending: H.5222: An Act relative to preventing algorithmic rent fixing in the rental housing market has not been enacted. As of 2027-07-02. Not legal advice.",
       "result": "pending",
-      "team_rule_id": "r-0035"
+      "team_rule_id": "r-0033"
     },
     {
       "conflict_flag": false,
       "explanation": "Pending: An Act prohibiting algorithmic rent setting (S.2983) has not been enacted. As of 2027-07-02. Not legal advice.",
       "result": "pending",
-      "team_rule_id": "r-0036"
+      "team_rule_id": "r-0034"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: Massachusetts broker fee payable only by the party who hired the broker covers this address. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0037"
+      "team_rule_id": "r-0035"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: Notice required to terminate a tenancy at will covers this address because tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0038"
+      "team_rule_id": "r-0036"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: Reprisal against tenants for protected activity prohibited covers this address because tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0039"
+      "team_rule_id": "r-0037"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: General prohibition on local rent control covers this address. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0040"
+      "team_rule_id": "r-0038"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: Massachusetts anti-discrimination law: unlawful housing practices covers this address because no special-status exemption is flagged in the supplied facts. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0041"
+      "team_rule_id": "r-0039"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: Massachusetts bar on discrimination against public assistance and housing subsidy recipients covers this address. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0042"
+      "team_rule_id": "r-0040"
     },
     {
       "conflict_flag": false,
       "explanation": "Applies: Massachusetts residential security deposit and prepaid rent limits covers this address. As of 2027-07-02. Not legal advice.",
       "result": "applies",
-      "team_rule_id": "r-0043"
+      "team_rule_id": "r-0041"
     }
   ]
 }
