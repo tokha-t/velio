@@ -17,7 +17,7 @@ Agents: update the **Status** block when you finish a step: tick it, add one lin
 - Notes: P1 pipeline unblocked in code — four-worker chunk extraction, one retry per job, deterministic error artifact, link-only research loading, source-text date/status resolution, merge/export, schema validation, and test-ID mapping added. Full run produced 47 partial merged rules with 100% verified quotes; rerun when the Claude CLI limit resets to fill the 17 recorded misses. CP1/CP3 remain unclaimed.
 - Notes: P3 implemented against the deterministic lookup contract — changes and validation outputs are generated, with T1 250, T3 140/90, T4 110, and T5 0 already matching. Validation remains deliberately red for the 17 extraction failures, missing CP3 lookups, and T2 (0/90 until human-saved Hoboken/Jersey City research copies arrive).
 - Notes: 16:16 — Human-saved D032–D035 research copies loaded successfully as `link_only_research` / `corpus_text=false`; full cached extraction completed with zero retry-exhausted chunks. CP1 passed: 71 schema-valid records, 100% quote verification, 21/23 recall checks found, and all required AB 325, FAIR, S.2983, H.5222, c.40P, Hoboken and Jersey City anchors present.
-- Notes: 16:16 — Fixed a deterministic cache-key collision between the identical D046/D047 chunks, regenerated all four dated lookup sets, and passed CP3/CP4: 500 addresses; 29 tests; T1 250/0, T2 90/0, T3 140/90, T4 110/0, T5 0/0; validation report all green.
+- Notes: 16:16 — Fixed a deterministic cache-key collision between the identical D046/D047 chunks, regenerated all four dated lookup sets, and passed CP3/CP4: 500 addresses; 31 tests; T1 250/0, T2 90/0, T3 140/90, T4 110/0, T5 0/0; validation report all green.
 
 ## Lanes
 
