@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
@@ -26,10 +27,18 @@ def _prompt(document, chunk_text: str) -> tuple[str, str]:
     return template.replace("{metadata}", metadata).replace("{chunk}", chunk_text), version
 
 
-def _extract_chunk(document, chunk) -> list[dict]:
+def _extract_chunk(document, chunk, *, allow_legacy_cache: bool) -> list[dict]:
     records = []
     prompt, version = _prompt(document, chunk.text)
-    payload = complete(prompt, doc_id=document.doc_id, chunk_hash=chunk.sha256, prompt_version=version)
+    cache_identity = f"{document.doc_id}|{chunk.sha256}"
+    payload = complete(
+        prompt,
+        doc_id=document.doc_id,
+        chunk_hash=chunk.sha256,
+        prompt_version=version,
+        cache_identity=cache_identity,
+        allow_legacy_cache=allow_legacy_cache,
+    )
     try:
         parsed = ExtractionResponse.model_validate(payload)
     except ValidationError as exc:
@@ -40,7 +49,14 @@ def _extract_chunk(document, chunk) -> list[dict]:
             # §7.8 requires one copy-verbatim retry before a record is dropped.
             retry = prompt + "\n\nRETRY: The previous quote was not found. Return the same records but copy each quoted_span exactly from SECTION TEXT."
             retry_hash = hashlib.sha256((chunk.sha256 + "|quote-retry").encode()).hexdigest()
-            retried = ExtractionResponse.model_validate(complete(retry, doc_id=document.doc_id, chunk_hash=retry_hash, prompt_version=version + "-quote-retry"))
+            retried = ExtractionResponse.model_validate(complete(
+                retry,
+                doc_id=document.doc_id,
+                chunk_hash=retry_hash,
+                prompt_version=version + "-quote-retry",
+                cache_identity=f"{document.doc_id}|{retry_hash}",
+                allow_legacy_cache=allow_legacy_cache,
+            ))
             matching = [item for item in retried.rules if item.category == rule.category and item.citation == rule.citation]
             if matching:
                 rule = matching[0]
@@ -63,12 +79,12 @@ def _extract_chunk(document, chunk) -> list[dict]:
     return records
 
 
-def _extract_job(document, chunk) -> tuple[list[dict], dict | None]:
+def _extract_job(document, chunk, allow_legacy_cache: bool) -> tuple[list[dict], dict | None]:
     """Run one (document, chunk) extraction job with one retry and no fail-fast."""
     error: Exception | None = None
     for _attempt in range(2):
         try:
-            return _extract_chunk(document, chunk), None
+            return _extract_chunk(document, chunk, allow_legacy_cache=allow_legacy_cache), None
         except Exception as exc:  # A failed chunk must not stop other documents.
             error = exc
     return [], {
@@ -102,10 +118,14 @@ def run(*, pilot: bool = False, smoke: bool = False) -> None:
         return
     selected = [doc for doc in all_documents if not pilot or doc.doc_id in PILOT_DOCS]
     jobs = [(document, chunk) for document in selected for chunk in chunks(document)]
+    chunk_counts = Counter(chunk.sha256 for _, chunk in jobs)
     records: list[dict] = []
     errors: list[dict] = []
     with ThreadPoolExecutor(max_workers=4, thread_name_prefix="extract") as executor:
-        futures = {executor.submit(_extract_job, document, chunk): (document, chunk) for document, chunk in jobs}
+        futures = {
+            executor.submit(_extract_job, document, chunk, chunk_counts[chunk.sha256] == 1): (document, chunk)
+            for document, chunk in jobs
+        }
         for future in as_completed(futures):
             document, chunk = futures[future]
             try:

@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 15103,
+  "duration_ms": 15537,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 3578,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 70148,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.3009896,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1799,
+      "provider": "firstParty",
+      "thinkingTokens": 980,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"San Francisco, CA\",\"level\":\"city\",\"category\":\"just_cause_eviction\",\"title\":\"San Francisco Rent Ordinance just cause eviction requirement\",\"requirement\":\"A landlord may evict a tenant from a rental unit covered by the San Francisco Rent Ordinance only for one of the 17 listed just cause reasons in Ordinance Section 37.9(a), and that reason must be the landlord's dominant motive for the eviction. Expiration of a rental agreement or a change in ownership is not just cause. A landlord also needs just cause to take away or remove access to certain housing services, such as parking, storage and laundry rooms. The just cause reasons include non-payment of rent, an uncured breach, nuisance, illegal use, refusal to renew on like terms, refusal of access, owner or family occupancy, condominium conversion sale, demolition or removal from housing use, capital improvements, substantial rehabilitation, Ellis Act withdrawal, lead remediation, a development agreement, an expired Good Samaritan tenancy, and a Planning Code Section 317 demolition project.\",\"citation\":\"S.F. Admin. Code \u00a7 37.9(a)\",\"quoted_span\":\"In order to evict a tenant from a rental unit covered by the Rent Ordinance, a landlord must have a \\\"just cause\\\" reason that is the dominant motive for pursuing the eviction.\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"17 just cause reasons under Ordinance Section 37.9(a); just cause must be the dominant motive\",\"exemptions\":[\"A landlord who has complied with Ordinance Section 37.2(r) may temporarily remove certain housing services, including parking and storage spaces, to perform mandatory soft-story seismic retrofit work required by the Building Code.\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to rental units covered by the San Francisco Rent Ordinance. Tenancies exempt from the rent increase limits are still subject to the just cause eviction provisions. These include newly constructed units that first obtained a Certificate of Occupancy after June 13, 1979, tenancies eligible for a rent increase under the Costa-Hawkins Rental Housing Act, and some tenancies where the rent is regulated by another government agency.\",\"predicates\":[]},\"confidence\":0.85}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "014cea03-8acf-422d-b32d-b3a71051370a",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 327,
+  "total_cost_usd": 0.3009896,
+  "ttft_ms": 10516,
+  "ttft_stream_ms": 3577,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 70148,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 70148,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 70148,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 70148,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 1799,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1799,
+    "output_tokens_details": {
+      "thinking_tokens": 980
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "0e46661e-e20c-4ef7-996c-17bab6e53647"
+}

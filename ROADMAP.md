@@ -4,9 +4,9 @@ Agents: update the **Status** block when you finish a step: tick it, add one lin
 
 ## Status
 
-- Current phase: **2 — Coverage engine complete; production lookup generation blocked on CP1**
-- Last checkpoint passed: **CP2 address resolution** (500 rows; jurisdiction report complete)
-- Blockers: P1 full extraction reached the Claude CLI session limit after 37 successful chunk responses; 17 retry-exhausted chunks are recorded in `build/extract_errors.json`. Partial `rules_internal.json` and `submission/rules.json` exist but are not eligible for CP1/CP3. Vercel login remains a Human H1 task.
+- Current phase: **3 — P1–P3 complete; CP4 passed**
+- Last checkpoint passed: **CP4 changes and validation** (all checks green)
+- Blockers: No Lane A extraction or validation blocker. CP5 still needs Lane B's deployed web app; Vercel login remains a Human H1 task.
 - Notes: 10:10 — Read CLAUDE.md and ROADMAP.md fully; confirmed a fresh repo and began Lane A P0.
 - Notes: 10:14 — Python 3.12 pinned; CLI works; Claude smoke response cached; 54 source-text hashes recorded. Creating/pushing private GitHub repo `velio`.
 - Notes: 10:24 — Five-document pilot verified after fixing cached Claude-envelope decoding: 7 records, all 7 quotes normalized-exact verified; 8 tests pass. Two cached reruns are byte-identical (`e0a6904e…`); stopped for human review before status integration/full run.
@@ -16,6 +16,8 @@ Agents: update the **Status** block when you finish a step: tick it, add one lin
 - Notes: P2 re-verified after the P1 pilot — 12 §8/CP3 golden tests and 22 total tests pass; compilation passes; 500 distinct resolved address IDs contain no Santa Ana rows. `rules_internal.json` is still absent, so production lookups were intentionally not generated and CP3 remains unclaimed.
 - Notes: P1 pipeline unblocked in code — four-worker chunk extraction, one retry per job, deterministic error artifact, link-only research loading, source-text date/status resolution, merge/export, schema validation, and test-ID mapping added. Full run produced 47 partial merged rules with 100% verified quotes; rerun when the Claude CLI limit resets to fill the 17 recorded misses. CP1/CP3 remain unclaimed.
 - Notes: P3 implemented against the deterministic lookup contract — changes and validation outputs are generated, with T1 250, T3 140/90, T4 110, and T5 0 already matching. Validation remains deliberately red for the 17 extraction failures, missing CP3 lookups, and T2 (0/90 until human-saved Hoboken/Jersey City research copies arrive).
+- Notes: 16:16 — Human-saved D032–D035 research copies loaded successfully as `link_only_research` / `corpus_text=false`; full cached extraction completed with zero retry-exhausted chunks. CP1 passed: 71 schema-valid records, 100% quote verification, 21/23 recall checks found, and all required AB 325, FAIR, S.2983, H.5222, c.40P, Hoboken and Jersey City anchors present.
+- Notes: 16:16 — Fixed a deterministic cache-key collision between the identical D046/D047 chunks, regenerated all four dated lookup sets, and passed CP3/CP4: 500 addresses; 29 tests; T1 250/0, T2 90/0, T3 140/90, T4 110/0, T5 0/0; validation report all green.
 
 ## Lanes
 
@@ -62,10 +64,10 @@ Agents: update the **Status** block when you finish a step: tick it, add one lin
 - [x] `extract.py` + `prompts/extract_v1.md`: pydantic output model with the CLAUDE.md §6.1 fields and predicate vocabulary.
   - The prompt lists the 6 categories, the citation style (§7.8), "only rules stated in this text", and the `doc_kind` labels.
 - [x] **Pilot** on D024 (AB 1482), D069 (FAIR), D036 (JC), D045 (H.5222), D009 (Berkeley coverage). Print the records. **The human reviews for 5 min at ~10:15.** *(Awaiting human review; full run deliberately not started.)*
-- [ ] `status.py`: doc kind → status; bill session logic (193rd dead, 194th pending); relative effective-date resolver. Unit test: FAIR → 2027-07-01.
-- [ ] Full run on all 54 docs, plus `research/link_only/*.txt` once saved (`corpus_text=false`).
-- [ ] `merge.py`: dedupe on (jurisdiction, category, citation), prefer official sources, deterministic sort, `r-0001` IDs, `config/test_rule_map.yaml` by citation pattern.
-- [ ] Write `submission/rules.json` and `build/rules_internal.json`. Print stats: rules per jurisdiction × category, quote verification rate, recall checklist.
+- [x] `status.py`: doc kind → status; bill session logic (193rd dead, 194th pending); relative effective-date resolver. Unit test: FAIR → 2027-07-01.
+- [x] Full run on all 54 docs, plus `research/link_only/*.txt` once saved (`corpus_text=false`).
+- [x] `merge.py`: dedupe on (jurisdiction, category, citation), prefer official sources, deterministic sort, `r-0001` IDs, `config/test_rule_map.yaml` by citation pattern.
+- [x] Write `submission/rules.json` and `build/rules_internal.json`. Print stats: rules per jurisdiction × category, quote verification rate, recall checklist.
 
 **CP1 (11:45)**
 - `rules.json` validates against the schema.
@@ -106,16 +108,16 @@ Nice to have:
   - decision table §7.3;
   - trace writer implemented; production traces await `build/rules_internal.json`.
 - [x] `explain.py`: plain-language templates; every string ends "As of {date}. Not legal advice."
-- [ ] Write `submission/lookups.json` (as_of 2026-10-01, all 500), plus `build/lookups_{2025-12-31,2026-01-02,2027-07-02}.json`.
+- [x] Write `submission/lookups.json` (as_of 2026-10-01, all 500), plus `build/lookups_{2025-12-31,2026-01-02,2027-07-02}.json`.
 - [x] `tests/test_golden.py` from the CLAUDE.md §8 expected behaviors.
 
 **CP3 (13:45):** all 500 addresses present; golden tests pass; invariants pass (city rules stay in their city; no MA rent cap; Santa Ana absent; pending/failed never `applies`).
 
 ## P3 — Module C + validation (Lane A), 13:45–14:45
 
-- [ ] `changes.py`: T1–T5 per CLAUDE.md §5. Every test always has all three keys. Notes name our rule IDs, the key rule IDs and the dates. Per-rule split goes to `submission/changes_detail.json`.
-- [ ] `lookup --as-of <any date> [--address ID]` works from the CLI (the as-of query requirement).
-- [ ] `validate.py` covers all 8 checks in CLAUDE.md §9 → `submission/validation_report.md` + `web/data/validation.json`.
+- [x] `changes.py`: T1–T5 per CLAUDE.md §5. Every test always has all three keys. Notes name our rule IDs, the key rule IDs and the dates. Per-rule split goes to `submission/changes_detail.json`.
+- [x] `lookup --as-of <any date> [--address ID]` works from the CLI (the as-of query requirement).
+- [x] `validate.py` covers all 8 checks in CLAUDE.md §9 → `submission/validation_report.md` + `web/data/validation.json`.
 
 **CP4 (14:45)**
 - T1 250 · T2 90 (HOB 40 / JC 50 / Newark 0) · T3 140 + 90 flagged · T4 110 · T5 0.

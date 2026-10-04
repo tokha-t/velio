@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 12289,
+  "duration_ms": 12557,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 3028,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 68638,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.2927096,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1575,
+      "provider": "firstParty",
+      "thinkingTokens": 756,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"Santa Ana, CA\",\"level\":\"city\",\"category\":\"rent_increase_limits\",\"title\":\"Santa Ana Rent Stabilization: annual maximum rent increase\",\"requirement\":\"A landlord may raise rent only once per year by a limited amount. The increase cannot exceed 3% of current rent or 80% of the change in the Consumer Price Index, whichever is less. The city publishes the current maximum allowable increase: 2.87% for September 1, 2026 through August 31, 2027. Tenants and landlords may petition for rent adjustments or contest unauthorized pass-through costs.\",\"citation\":\"Santa Ana Rent Stabilization and Just Cause Eviction Ordinance\",\"quoted_span\":\"The increase cannot be more than 3% of your current rent or 80% of the Consumer Price Index (CPI) change, whichever is less.\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"Lesser of 3% or 80% of CPI change; 2.87% for 2026-09-01 through 2027-08-31\",\"exemptions\":[],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"The page does not state which rental units are covered or exempt.\",\"predicates\":[]},\"confidence\":0.8},{\"jurisdiction\":\"Santa Ana, CA\",\"level\":\"city\",\"category\":\"just_cause_eviction\",\"title\":\"Santa Ana Just Cause Eviction protections\",\"requirement\":\"A landlord must have a valid reason to evict a tenant, such as not paying rent, breaking the lease, or the landlord wanting to move into the property. For certain evictions, the landlord may have to help pay the tenant's moving costs (relocation assistance).\",\"citation\":\"Santa Ana Rent Stabilization and Just Cause Eviction Ordinance\",\"quoted_span\":\"Your landlord must have a valid reason to evict you. This could be for not paying rent, breaking the lease, or if the landlord wants to move into the property themselves.\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"Valid reason required for eviction; relocation assistance for certain evictions\",\"exemptions\":[],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"The page does not state which rental units are covered or exempt.\",\"predicates\":[]},\"confidence\":0.8}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "b85ab516-66c4-48bc-b690-09d95575aad5",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 166,
+  "total_cost_usd": 0.2927096,
+  "ttft_ms": 8343,
+  "ttft_stream_ms": 3028,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 68638,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 68638,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 68638,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 68638,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 1575,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1575,
+    "output_tokens_details": {
+      "thinking_tokens": 756
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "6d047960-04aa-4839-a9e5-f3e2b1fd97ce"
+}

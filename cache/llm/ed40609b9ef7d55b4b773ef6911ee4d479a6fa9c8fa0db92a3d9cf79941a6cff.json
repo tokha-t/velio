@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 10401,
+  "duration_ms": 10666,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 2882,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 69294,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.29143359999999996,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1185,
+      "provider": "firstParty",
+      "thinkingTokens": 751,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"San Francisco, CA\",\"level\":\"city\",\"category\":\"screening_restrictions\",\"title\":\"San Francisco Fair Chance Ordinance (affordable housing)\",\"requirement\":\"San Francisco's Fair Chance Ordinance protects residents with an arrest or conviction history in affordable housing decisions. This page only summarizes the protection. It does not give the ordinance's specific limits, covered housing types or procedures.\",\"citation\":\"San Francisco Fair Chance Ordinance\",\"quoted_span\":\"San Francisco's Fair Chance Ordinance protects residents with arrest or conviction history in affordable housing decisions.\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"Protects residents with arrest or conviction history in affordable housing decisions\",\"exemptions\":[],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Page describes protection in affordable housing decisions only. Scope beyond affordable housing is not stated.\",\"predicates\":[{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":\"Applies to affordable housing decisions; whether a given building is affordable housing is not stated in this text\"}}]},\"confidence\":0.4}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "559216fe-a866-4e81-8186-3e56242e4403",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 144,
+  "total_cost_usd": 0.29143359999999996,
+  "ttft_ms": 8054,
+  "ttft_stream_ms": 2881,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 69294,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 69294,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 69294,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 69294,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 1185,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1185,
+    "output_tokens_details": {
+      "thinking_tokens": 751
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "24d8e63c-1b62-48e8-bc73-ae8bb87e75f9"
+}

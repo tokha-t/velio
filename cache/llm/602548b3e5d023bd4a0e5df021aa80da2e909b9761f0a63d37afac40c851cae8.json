@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 15384,
+  "duration_ms": 15888,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 2188,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 60510,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.2642576,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1981,
+      "provider": "firstParty",
+      "thinkingTokens": 950,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "```json\n{\"rules\":[{\"jurisdiction\":\"Hoboken, NJ\",\"level\":\"city\",\"category\":\"rent_increase_limits\",\"title\":\"Hoboken Rent Control: limitation of applicability\",\"requirement\":\"Hoboken's rent control chapter applies to all dwelling units as defined in \u00a7 155-1, except motels and hotels, first rentals of registered newly constructed dwellings, industrial and nonresidential property, school-owned student housing, government-owned housing, registered buildings vacant since January 1, 1984, and multiple dwellings built after June 25, 1987 that qualify for the N.J.S.A. 2A:42-84.1 et seq. exemption. This excerpt states coverage and exemptions only; it states no rent-increase percentage.\",\"citation\":\"Hoboken Code ch. 155 (Rent Control)\",\"quoted_span\":\"This chapter shall apply to all dwelling units as defined in \u00a7 155-1 above, except that the following shall be exempt:\",\"doc_kind\":\"ordinance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":null,\"exemptions\":[\"Motels and hotels\",\"Newly constructed dwellings rented for the first time, if registered with the Rent Regulation Officer before first rental; later rents are covered\",\"Industrial property\",\"Nonresidential and commercial property (apartment units in mixed buildings remain covered)\",\"Housing provided for students by a school, college or similar institution that owns or controls it\",\"Housing owned and operated by other government agencies\",\"Building completely vacant on and since January 1, 1984, if registered before renting; later rents are covered\",\"Multiple dwellings constructed after June 25, 1987, for the shorter of the initial mortgage amortization period or 30 years after completion of construction (30 years if no initial mortgage), only if the landlord complied with N.J.S.A. 2A:42-84.1 et seq. notice and lease requirements\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Covers all dwelling units as defined in \u00a7 155-1 unless an exemption applies. The post-June 25, 1987 multiple-dwelling exemption lasts at most 30 years after completion of construction and depends on landlord compliance with N.J.S.A. 2A:42-84.1 et seq. Owner filings and registrations are not in building facts.\",\"predicates\":[{\"type\":\"rolling_new_construction_exempt_years\",\"parameters\":{\"n\":30,\"text\":\"Multiple dwellings constructed after June 25, 1987 are exempt for the shorter of the initial mortgage amortization period or 30 years following completion of construction, only where the landlord complied with N.J.S.A. 2A:42-84.1 et seq.\"}},{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":[\"Motels and hotels\",\"Industrial property\",\"Nonresidential and commercial property\",\"School-owned or school-controlled student housing\",\"Housing owned and operated by government agencies\",\"Registered newly constructed dwellings on first rental\",\"Registered building vacant since January 1, 1984\"]}}]},\"confidence\":0.8}],\"no_rule_reason\":null}\n```",
+  "result_index": 0,
+  "session_id": "4f925ba1-4bdc-492a-94bc-60a4d4c09555",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 334,
+  "total_cost_usd": 0.2642576,
+  "ttft_ms": 9636,
+  "ttft_stream_ms": 2188,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 60510,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 60510,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 60510,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 60510,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 1981,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1981,
+    "output_tokens_details": {
+      "thinking_tokens": 950
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "cbef36e3-c17d-4f29-a77c-eb0c093f3774"
+}

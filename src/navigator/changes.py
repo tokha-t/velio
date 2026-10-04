@@ -84,13 +84,23 @@ def run() -> dict[str, Any]:
             affected = []
         else:
             affected = _reached_addresses(addresses, current, team_ids)
+        # Only tests which explicitly name a conflicting rule pair report a
+        # conflict set.  T2 is a jurisdiction-boundary check; T3 owns the
+        # FAIR/local-ban preemption question and evaluates it after FAIR's
+        # effective date.
+        conflict_team_ids = [
+            rule_id
+            for key_id in test.get("conflict_with", [])
+            for rule_id in mapping.get(key_id, [])
+        ]
+        conflict_lookups = lookups[test.get("as_of_after", test.get("as_of", "2026-10-01"))]
         conflicts = sorted(
             address["address_id"]
             for address in addresses
             if any(
                 entry.get("conflict_flag")
-                for rule_id, entry in _entries_by_rule(current, address["address_id"]).items()
-                if rule_id in team_ids
+                for rule_id, entry in _entries_by_rule(conflict_lookups, address["address_id"]).items()
+                if rule_id in conflict_team_ids
             )
         )
         changes[test_id] = {

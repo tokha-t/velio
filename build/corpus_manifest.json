@@ -176,6 +176,38 @@
     "text_sha256": "65ffa9dca5815b925debf63d1ff0974f710aed6614723f28d722209094a36b20"
   },
   {
+    "bytes": 3645,
+    "chunks": 1,
+    "corpus_text": false,
+    "doc_id": "D032",
+    "jurisdictions": "Hoboken, NJ",
+    "text_sha256": "1940452e01cf2aa640f3c5e38e9af820109d82a508756efb0e592909a707235b"
+  },
+  {
+    "bytes": 2738,
+    "chunks": 1,
+    "corpus_text": false,
+    "doc_id": "D033",
+    "jurisdictions": "Hoboken, NJ",
+    "text_sha256": "85959b13a720aa984945dbc1da66a3b39b46391f720ef67968cd412c106d5ab4"
+  },
+  {
+    "bytes": 3191,
+    "chunks": 1,
+    "corpus_text": false,
+    "doc_id": "D034",
+    "jurisdictions": "Hoboken, NJ",
+    "text_sha256": "5a2f71315bb7282126bea63c18661d6d9a935450985879101f23fde47fed360a"
+  },
+  {
+    "bytes": 3300,
+    "chunks": 1,
+    "corpus_text": false,
+    "doc_id": "D035",
+    "jurisdictions": "Jersey City, NJ",
+    "text_sha256": "1bb8402499c63485a7b8a42dd074465066095378ef066d4de85e9fc8ce705afe"
+  },
+  {
     "bytes": 7531,
     "chunks": 1,
     "corpus_text": true,

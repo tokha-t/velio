@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 9045,
+  "duration_ms": 9437,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1783,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 62231,
+      "cacheReadInputTokens": 10346,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.2615772,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1058,
+      "provider": "firstParty",
+      "thinkingTokens": 755,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"MA\",\"level\":\"state\",\"category\":\"algorithmic_rent_setting\",\"title\":\"An Act prohibiting algorithmic rent setting (S.2983)\",\"requirement\":\"Bill reported favorably by the Senate Committee on Housing on March 12, 2026, that would prohibit algorithmic rent setting. The bill's operative provisions are not shown on this page; only its title, committee report and history appear.\",\"citation\":\"Mass. S.2983 (194th)\",\"quoted_span\":\"An Act prohibiting algorithmic rent setting\",\"doc_kind\":\"bill\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":null,\"exemptions\":[],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Operative coverage terms are not stated in this text.\",\"predicates\":[]},\"confidence\":0.6}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "7096d2f6-d7a6-4caa-a1d1-7049ee72778b",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 256,
+  "total_cost_usd": 0.2615772,
+  "ttft_ms": 7692,
+  "ttft_stream_ms": 1783,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 62231,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 62231,
+    "cache_read_input_tokens": 10346,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 62231,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 62231,
+        "cache_read_input_tokens": 10346,
+        "input_tokens": 2,
+        "output_tokens": 1058,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1058,
+    "output_tokens_details": {
+      "thinking_tokens": 755
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "b263302e-b745-4a5b-ab12-42ec1e07fab0"
+}

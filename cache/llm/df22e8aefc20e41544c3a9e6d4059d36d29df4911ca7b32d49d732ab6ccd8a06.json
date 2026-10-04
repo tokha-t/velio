@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 16156,
+  "duration_ms": 16395,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1363,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 74851,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.3244116,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2260,
+      "provider": "firstParty",
+      "thinkingTokens": 849,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"San Diego, CA\",\"level\":\"city\",\"category\":\"just_cause_eviction\",\"title\":\"San Diego Residential Tenant Protections: just cause required for termination of tenancy\",\"requirement\":\"A landlord may not end a tenancy without just cause. Just cause is either at-fault (for example nonpayment of rent, breach of a material lease term, nuisance, waste, criminal activity, unlawful use, refusal to sign a substantially similar lease renewal, refusal of authorized entry) or no-fault (owner or family move-in for at least 12 continuous months, withdrawal from the rental market, compliance with a government or court vacate order or local ordinance, demolition or substantial remodel). No-fault terminations carry notice, permit and re-rental offer conditions, and the Division adds tenant relocation assistance and a required notice to tenants.\",\"citation\":\"S.D. Mun. Code ch. 9, art. 8, div. 7 (\u00a7\u00a7 98.0701-98.0705)\",\"quoted_span\":\"A landlord shall not terminate a tenancy without just cause.\",\"doc_kind\":\"ordinance\",\"enacted_date\":\"2023-05-25\",\"effective_date_text\":\"effective 6-24-2023 (O-21647 N.S.); amended 2-27-2024 by O-21769 N.S., effective 3-28-2024\",\"key_value\":\"Just cause required; at-fault and no-fault grounds; relocation assistance in specified circumstances\",\"exemptions\":[\"Transient and tourist hotel occupancy\",\"Short-term residential occupancy\",\"Housing restricted as affordable by deed, regulatory agreement or other document\",\"Housing under an affordable housing subsidy agreement (Section 8 not exempt)\",\"Mobilehomes subject to the Mobilehome Residency Law\",\"Housing in a nonprofit hospital, religious facility, extended care facility, licensed residential care facility for the elderly, adult residential facility, or non-profit transitional housing\",\"Dormitories owned and operated by a higher education institution or K-12 institution\",\"Tenant shares bathroom or kitchen with a landlord who lives on the property as principal residence\",\"Single-family residence occupied by the landlord as principal residence (renting no more than two bedrooms, two ADUs or two JADUs) and mobilehomes\",\"Two dwelling units in a single structure where the landlord occupies one as principal residence at the start of the tenancy and continues in occupancy\",\"Housing issued a certificate of occupancy within the previous 15 years (not mobilehomes)\",\"Separately alienable residential property whose landlord is not a REIT, a corporation, an LLC with a corporate member, or a mobilehome park management, and where tenants received the required written exemption notice\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Covers residential rental property with a tenancy of more than 30 days, except the exempt types listed in \u00a7 98.0703, including housing with a certificate of occupancy issued within the previous 15 years.\",\"predicates\":[{\"type\":\"rolling_new_construction_exempt_years\",\"parameters\":{\"n\":15,\"basis\":\"certificate_of_occupancy\",\"text\":\"housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome\"}},{\"type\":\"owner_type\",\"parameters\":{\"text\":\"Exempt: separately alienable property whose landlord is not a REIT, corporation, LLC with a corporate member, or mobilehome park management, with written exemption notice to tenants; also exempt: owner-occupied single-family residence or two-unit structure with owner-occupant\"}},{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":\"deed-restricted or subsidized affordable housing (Section 8 not exempt), mobilehomes under the Mobilehome Residency Law, hotels, short-term occupancy, care facilities, transitional housing, dormitories, shared bathroom or kitchen with resident landlord\"}},{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":\"Tenancy means the right to occupy for more than 30 days; fixed-term leases of three months or less (with renewals of three months or less) are not a tenancy\"}}]},\"confidence\":0.9}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "ac800e9a-efa4-405e-b00d-af11526be51d",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 136,
+  "total_cost_usd": 0.3244116,
+  "ttft_ms": 7310,
+  "ttft_stream_ms": 1363,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 74851,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 74851,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 74851,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 74851,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 2260,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 2260,
+    "output_tokens_details": {
+      "thinking_tokens": 849
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "5e9d1f5d-b90f-45b5-b010-19201f6535a4"
+}

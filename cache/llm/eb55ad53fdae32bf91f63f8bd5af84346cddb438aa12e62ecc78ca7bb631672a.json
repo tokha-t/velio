@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 26466,
+  "duration_ms": 26716,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 2686,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 75185,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.3389576,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3581,
+      "provider": "firstParty",
+      "thinkingTokens": 2422,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "```json\n{\"rules\":[{\"jurisdiction\":\"NJ\",\"level\":\"state\",\"category\":\"just_cause_eviction\",\"title\":\"New Jersey Anti-Eviction Act: eviction only for listed causes, with notice to quit\",\"requirement\":\"A landlord may bring an eviction suit only on one of the causes the Anti-Eviction Act lists, and must first serve a Notice to Quit. The notice period depends on the cause: 3 days for employment-based tenancy, drug, assault or theft convictions; 1 month for lease-term changes or habitual late payment; 2 months for owner-occupancy after conversion; 18 months to retire the property from residential use; and 3 years for condominium, cooperative or fee-simple conversion. Landlords must give a Notice to Cease before suing for habitual late payment. A tenant evicted for illegal occupancy is owed relocation assistance of six times monthly rent. A landlord who removes a tenant to occupy the unit must occupy it for at least 6 months. A landlord who removes a tenant to retire the property must not use it residentially for 5 years. Penalties include treble damages plus fees and a civil penalty of up to $10,000 per violation. Rooming and boarding houses and public housing authorities must also follow these eviction rules.\",\"citation\":\"N.J.S.A. 2A:18-61.1\",\"quoted_span\":\"If the tenant continuously fails to pay rent or habitually pays late, after written Notice to Cease, the landlord may file a suit for eviction.\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"Notice to Quit from 3 days to 3 years depending on cause; eviction only for statutory causes\",\"exemptions\":[\"Tenants of landlord-occupied two- and three-family dwellings are governed by N.J.S.A. 2A:18-61.2, which lists a narrower set of causes: lease expiration, non-payment, disorderly conduct, willful damage, repeated rule violations, and violation of a lease provision that reserves a right of re-entry.\",\"Owners of three or fewer residential units, or three or fewer condominium or cooperative units, may evict to personally occupy a unit or to sell to a buyer who will occupy it (N.J.S.A. 2A:18-61.1(l)).\",\"Some causes bar eviction of senior citizen or disabled tenants who hold protected tenancy status under the Senior Citizens and Disabled Protected Tenancy Act.\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to residential rental tenancies in New Jersey. Owner-occupied two- and three-family dwellings are evicted under N.J.S.A. 2A:18-61.2 with a narrower list of causes. Tenant-level conditions such as protected tenancy status, conviction history and notice type depend on facts about the tenancy.\",\"predicates\":[{\"type\":\"owner_occupied_exempt_max_units\",\"parameters\":{\"n\":3,\"text\":\"Landlord-occupied two- and three-family dwellings fall under N.J.S.A. 2A:18-61.2 instead of the full cause list in 2A:18-61.1\"}},{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":\"Cause-specific Notice to Quit periods; protected tenancy status for senior citizen and disabled tenants; conviction-based causes limited to two years after the event\"}}]},\"confidence\":0.8}],\"no_rule_reason\":null}\n```",
+  "result_index": 0,
+  "session_id": "602d4494-03e2-4269-9678-28672cbcddf6",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 148,
+  "total_cost_usd": 0.3389576,
+  "ttft_ms": 19289,
+  "ttft_stream_ms": 2686,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 75185,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 75185,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 75185,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 75185,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 3581,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 3581,
+    "output_tokens_details": {
+      "thinking_tokens": 2422
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "f3ef8656-7539-4317-826e-c905c00d1b4d"
+}

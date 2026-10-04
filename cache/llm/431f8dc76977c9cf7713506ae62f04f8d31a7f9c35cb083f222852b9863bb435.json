@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 16108,
+  "duration_ms": 16373,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 2277,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 67472,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.29572560000000003,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2343,
+      "provider": "firstParty",
+      "thinkingTokens": 946,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"Santa Ana, CA\",\"level\":\"city\",\"category\":\"rent_increase_limits\",\"title\":\"Santa Ana Rent Stabilization Ordinance\",\"requirement\":\"Annual residential rent increases are capped at the lower of 3% or 80% of the change in the Consumer Price Index over the most recent 12 months. If the CPI is negative, no increase is allowed. Owners may petition the City for relief from the cap by showing that a larger increase is needed for a fair and reasonable return. Owners must give written notice of the ordinance and tenant rights at lease start or with any rent-increase notice.\",\"citation\":\"Santa Ana Rent Stabilization Ordinance\",\"quoted_span\":\"Increase in residential rents are limited to the lower of 3% per year, or 80% of the percent change in the Consumer Price Index over the most recent 12-month period.\",\"doc_kind\":\"news\",\"enacted_date\":null,\"effective_date_text\":\"November 19, 2021\",\"key_value\":\"Lower of 3% per year or 80% of the 12-month CPI change; no increase if CPI is negative\",\"exemptions\":[\"Residential buildings constructed after February 1, 1995\",\"Mobile home spaces offered for rent after January 1, 1990\",\"Owner may petition the City Manager for relief from the cap to ensure a fair and reasonable return\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Residential rental property is covered unless the building was constructed after February 1, 1995 (or the mobile home space was first offered for rent after January 1, 1990).\",\"predicates\":[{\"type\":\"built_on_or_before\",\"parameters\":{\"date\":\"1995-02-01\",\"basis\":\"year_built\"}},{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":\"Mobile home spaces offered for rent after January 1, 1990 are exempt\"}}]},\"confidence\":0.9},{\"jurisdiction\":\"Santa Ana, CA\",\"level\":\"city\",\"category\":\"just_cause_eviction\",\"title\":\"Santa Ana Just Cause Eviction Ordinance\",\"requirement\":\"After 30 days of tenancy, an owner may not end a tenancy without just cause, and the cause must be stated in a written notice. Just cause includes at-fault causes (such as nonpayment of rent, breach of a material lease term, nuisance, criminal activity) and no-fault causes (such as owner move-in, withdrawal of the property from the rental market, demolition or substantial remodel). Before a just-cause termination notice, the owner must first give notice of the violation and time to fix it. For no-fault terminations, the owner must provide 3 months of relocation assistance or waive rent for the final 3 months. Owners must notify tenants of the protections.\",\"citation\":\"Santa Ana Just Cause Eviction Ordinance\",\"quoted_span\":\"After 30 days, an owner shall not terminate a tenancy without just cause, which shall be stated in a written notice.\",\"doc_kind\":\"news\",\"enacted_date\":null,\"effective_date_text\":\"November 19, 2021\",\"key_value\":\"No-fault termination: 3 months of relocation assistance or waiver of the final 3 months of rent\",\"exemptions\":[\"Housing produced in the last 15 years\",\"Deed-restricted affordable housing\",\"Hotel and transient occupancy\",\"Hospital and care facilities\",\"Dormitories\",\"Other shared living quarters\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to residential tenancies after the first 30 days; exempt are housing produced in the last 15 years, deed-restricted affordable housing, hotels and transient occupancy, hospitals and care facilities, dormitories and other shared living quarters.\",\"predicates\":[{\"type\":\"rolling_new_construction_exempt_years\",\"parameters\":{\"n\":15}},{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":\"deed-restricted affordable housing; hotel and transient occupancy; hospital and care facilities; dormitories; other shared living quarters\"}},{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":\"Protection applies after the first 30 days of tenancy\"}}]},\"confidence\":0.9}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "d1143cf3-50f3-4173-937f-290187d648f7",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 151,
+  "total_cost_usd": 0.29572560000000003,
+  "ttft_ms": 8497,
+  "ttft_stream_ms": 2277,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 67472,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 67472,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 67472,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 67472,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 2343,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 2343,
+    "output_tokens_details": {
+      "thinking_tokens": 946
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "9159645d-3c57-4a16-91c3-112b9bb7d53c"
+}

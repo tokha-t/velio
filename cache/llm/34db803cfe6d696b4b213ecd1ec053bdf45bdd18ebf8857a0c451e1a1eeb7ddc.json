@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 24607,
+  "duration_ms": 24876,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1028,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 68689,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.3155536,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3839,
+      "provider": "firstParty",
+      "thinkingTokens": 2158,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"San Francisco, CA\",\"level\":\"city\",\"category\":\"rent_increase_limits\",\"title\":\"San Francisco allowable annual rent increase, March 1, 2026 \u2013 February 28, 2027\",\"requirement\":\"The Rent Board sets the allowable annual rent increase at 1.6% for the period March 1, 2026 through February 28, 2027. The prior periods were 1.4% (March 2025 to February 2026) and 1.7% (March 2024 to February 2025).\",\"citation\":\"S.F. Admin. Code ch. 37\",\"quoted_span\":\"1.6% for March 1, 2026 \u2013 February 28, 2027\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":\"March 1, 2026 \u2013 February 28, 2027\",\"key_value\":\"1.6% allowable annual increase (March 1, 2026 \u2013 February 28, 2027)\",\"exemptions\":[],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"The page lists the rate only. It states no coverage conditions.\",\"predicates\":[]},\"confidence\":0.7},{\"jurisdiction\":\"San Francisco, CA\",\"level\":\"city\",\"category\":\"security_deposits\",\"title\":\"San Francisco security deposit interest rate, March 1, 2026 \u2013 February 28, 2027\",\"requirement\":\"The Rent Board publishes a security deposit interest rate of 4.2% for the period March 1, 2026 through February 28, 2027. The prior periods were 5.0% (March 2025 to February 2026) and 5.2% (March 2024 to February 2025).\",\"citation\":\"S.F. Rent Board, Current Rates (security deposit interest)\",\"quoted_span\":\"4.2% for March 1, 2026 \u2013 February 28, 2027\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":\"March 1, 2026 \u2013 February 28, 2027\",\"key_value\":\"4.2% security deposit interest (March 1, 2026 \u2013 February 28, 2027)\",\"exemptions\":[],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"The page lists the rate only. It states no coverage conditions.\",\"predicates\":[]},\"confidence\":0.5},{\"jurisdiction\":\"San Francisco, CA\",\"level\":\"city\",\"category\":\"just_cause_eviction\",\"title\":\"San Francisco relocation payments for no-fault evictions, notices served 3/01/26 \u2013 2/28/27\",\"requirement\":\"For evictions based on owner or relative move-in, demolition or permanent removal of the unit from housing use, temporary capital improvement work, or substantial rehabilitation, relocation payments are due as set out in Rent Ordinance Section 37.9C. For notices of termination served 3/01/26 \u2013 2/28/27, the amount is $8,245.00 per tenant, up to $24,733.00 per unit, plus $5,497.00 for each elderly (60 or older) or disabled tenant or household with minor children. Ellis Act evictions (Section 37.9A) have separate amounts: $11,110.05 per tenant, up to $33,330.13 per unit, plus $7,443.90 for each elderly (62 or older) or disabled tenant. Temporary displacement of less than 20 days is governed by California Civil Code Section 1947.9 at $446.00 per day per tenant household plus actual moving expenses.\",\"citation\":\"S.F. Admin. Code \u00a7 37.9C\",\"quoted_span\":\"Relocation Payments for Evictions based on Owner/Relative Move-in OR Demolition/Permanent Removal of Unit from Housing Use OR Temporary Capital Improvement Work* OR Substantial Rehabilitation\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":\"3/01/26 \u2013 2/28/27\",\"key_value\":\"$8,245.00 per tenant; max $24,733.00 per unit; plus $5,497.00 per elderly (60+) or disabled tenant or household with minor child (notices served 3/01/26 \u2013 2/28/27). Ellis Act (37.9A): $11,110.05 per tenant; max $33,330.13 per unit; plus $7,443.90 per elderly (62+) or disabled tenant.\",\"exemptions\":[\"Temporary capital improvement evictions of less than 20 days are governed by Cal. Civ. Code \u00a7 1947.9, not Section 37.9C.\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to the listed no-fault eviction grounds. The amount depends on the date the eviction notice is served and on tenant age, disability or household composition.\",\"predicates\":[{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":[\"Additional amount for each elderly (60 years or older) or disabled tenant or household with minor child(ren)\",\"Ellis Act additional amount for each elderly (62 years or older) or disabled tenant\",\"Amount depends on the date of service of the Notice of Termination of Tenancy\"]}}]},\"confidence\":0.75}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "2b3271d6-5eeb-4544-9f52-cd6220afffaa",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 160,
+  "total_cost_usd": 0.3155536,
+  "ttft_ms": 16053,
+  "ttft_stream_ms": 1028,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 68689,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 68689,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 68689,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 68689,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 3839,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 3839,
+    "output_tokens_details": {
+      "thinking_tokens": 2158
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "0774f65c-1f5a-4f6a-93e4-bec57989eb20"
+}

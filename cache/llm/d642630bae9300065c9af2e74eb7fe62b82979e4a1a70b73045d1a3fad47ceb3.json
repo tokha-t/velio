@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 12811,
+  "duration_ms": 13644,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 3243,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 62655,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.26785760000000003,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1483,
+      "provider": "firstParty",
+      "thinkingTokens": 927,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"Jersey City, NJ\",\"level\":\"city\",\"category\":\"algorithmic_rent_setting\",\"title\":\"Jersey City ban on algorithmic rent-fixing (Preventing Algorithmic Rent Fixing in the Rental Housing Market)\",\"requirement\":\"A landlord, agent, or subcontractor may not subscribe to, contract with, pay, or otherwise use a Service Provider. A service provider may not help landlords agree not to compete on rental pricing, fees, or any other rental terms for residential dwelling units.\",\"citation\":\"Jersey City Mun. Code \u00a7 218-12 (Ord. 25-076)\",\"quoted_span\":\"It is unlawful for any real estate lessor, agent, or subcontractor thereof, to subscribe to, contract with, or otherwise exchange anything of value in return for or otherwise utilize the services of a Service Provider.\",\"doc_kind\":\"ordinance\",\"enacted_date\":\"2025-07-17\",\"effective_date_text\":null,\"key_value\":\"Unlawful for lessors, agents, or subcontractors to use a Service Provider; service providers may not facilitate agreements not to compete on rents, fees, or other terms\",\"exemptions\":[],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to real estate lessors, agents, and subcontractors for residential dwelling units in Jersey City. The text shown does not state unit-count, construction-date, or owner-type conditions. The exempt-dwellings section (\u00a7 218-13) is listed as unchanged and its content is not included in this text.\",\"predicates\":[]},\"confidence\":0.85}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "1625a08c-3b9f-4d87-873c-c9a7edd16bd6",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 778,
+  "total_cost_usd": 0.26785760000000003,
+  "ttft_ms": 9912,
+  "ttft_stream_ms": 3243,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 62655,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 62655,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 62655,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 62655,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 1483,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1483,
+    "output_tokens_details": {
+      "thinking_tokens": 927
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "00c29807-6b5f-40e6-ad2f-e1f5dee9693a"
+}

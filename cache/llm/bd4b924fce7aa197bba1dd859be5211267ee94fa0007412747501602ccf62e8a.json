@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 26100,
+  "duration_ms": 26365,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 2907,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 76984,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.3460936,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3575,
+      "provider": "firstParty",
+      "thinkingTokens": 2460,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"NJ\",\"level\":\"state\",\"category\":\"just_cause_eviction\",\"title\":\"Senior Citizens and Disabled Protected Tenancy Act (condo/co-op conversion)\",\"requirement\":\"Eligible senior, disabled, or disabled-veteran tenants in a building converted to a condominium, cooperative, or fee simple ownership may be protected from eviction for up to 40 years. They must have lived in the building at least one year before the conversion recording date, and their family income must be under the stated limit. The landlord or converter must notify all tenants who may be eligible of their right to file for protected tenancy.\",\"citation\":\"N.J.S.A. 2A:18-61.22 to -61.39\",\"quoted_span\":\"Tenants may be protected from eviction for 40 years if their family income is not more than three (3) times the average per person income in their county\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"Protection from eviction for up to 40 years\",\"exemptions\":[\"Tenants who are not at least 62 years old, permanently disabled, or a qualifying disabled veteran\",\"Tenants who did not live in the building at least one year before the conversion recording date\",\"Tenants whose family income exceeds the limit (greater of 3 times the county average per person income or $50,000)\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies only to tenants in a building being converted to a condominium, cooperative, or fee simple ownership. Tenants in Hudson County who do not qualify may have additional protection under the Tenant Protection Act of 1992 (N.J.S.A. 2A:18-61.40 to -61.59).\",\"predicates\":[{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":[\"age 62 or older before the conversion recording date, or permanently disabled, or honorably discharged veteran disabled at 60% or higher from service\",\"lived in the building at least one year before the conversion recording date\",\"family income not more than 3 times the county average per person income or $50,000, whichever is greater\",\"building converted to a condominium, cooperative, or fee simple ownership\"]}}]},\"confidence\":0.6},{\"jurisdiction\":\"NJ\",\"level\":\"state\",\"category\":\"just_cause_eviction\",\"title\":\"Tenant protections after foreclosure (Foreclosure Fairness Act)\",\"requirement\":\"Foreclosure alone is not grounds for evicting a residential tenant in New Jersey. A person who acquires a foreclosed property with rental units must give tenants written notice in English and Spanish within 10 business days after the sale. The notice must say that ownership changed and that tenants do not have to move because of the foreclosure. Any offer to pay a tenant to leave is voluntary, and the tenant may not be pressured to accept it.\",\"citation\":\"N.J.S.A. 2A:50-69 et seq.\",\"quoted_span\":\"Foreclosure alone is not grounds for eviction in New Jersey.\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":null,\"exemptions\":[],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to residential rental units in a property that is in foreclosure or has been sold after foreclosure.\",\"predicates\":[]},\"confidence\":0.55}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "f8b71f1d-7ee3-40ae-8750-1abe562c1d6c",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 166,
+  "total_cost_usd": 0.3460936,
+  "ttft_ms": 20052,
+  "ttft_stream_ms": 2907,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 76984,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 76984,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 76984,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 76984,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 3575,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 3575,
+    "output_tokens_details": {
+      "thinking_tokens": 2460
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "6cb8f5bb-ea18-43ac-b7aa-25545c5154f9"
+}

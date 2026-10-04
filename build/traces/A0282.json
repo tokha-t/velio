@@ -1,0 +1,840 @@
+{
+  "address_id": "A0282",
+  "as_of": "2027-07-02",
+  "evaluations": [
+    {
+      "included": true,
+      "jurisdiction": "Berkeley, CA",
+      "predicates": [],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0001"
+    },
+    {
+      "included": true,
+      "jurisdiction": "Berkeley, CA",
+      "predicates": [],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0002"
+    },
+    {
+      "included": true,
+      "jurisdiction": "Berkeley, CA",
+      "predicates": [
+        {
+          "facts_used": {
+            "flags": []
+          },
+          "predicate": "special_status_exemptions",
+          "reason": "no special-status exemption is flagged in the supplied facts",
+          "result": "true"
+        }
+      ],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0003"
+    },
+    {
+      "included": true,
+      "jurisdiction": "Berkeley, CA",
+      "predicates": [
+        {
+          "facts_used": {
+            "flags": []
+          },
+          "predicate": "special_status_exemptions",
+          "reason": "no special-status exemption is flagged in the supplied facts",
+          "result": "true"
+        }
+      ],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0004"
+    },
+    {
+      "included": true,
+      "jurisdiction": "Berkeley, CA",
+      "predicates": [
+        {
+          "facts_used": {},
+          "predicate": "tenant_level_conditions",
+          "reason": "tenant-level conditions do not block an address-level result",
+          "result": "true"
+        }
+      ],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0005"
+    },
+    {
+      "included": true,
+      "jurisdiction": "Berkeley, CA",
+      "predicates": [
+        {
+          "facts_used": {},
+          "predicate": "tenant_level_conditions",
+          "reason": "tenant-level conditions do not block an address-level result",
+          "result": "true"
+        }
+      ],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0006"
+    },
+    {
+      "included": true,
+      "jurisdiction": "Berkeley, CA",
+      "predicates": [
+        {
+          "facts_used": {
+            "cutoff": "1980",
+            "year_built": null
+          },
+          "predicate": "built_on_or_before",
+          "reason": "the construction year is missing",
+          "result": "unknown"
+        },
+        {
+          "facts_used": {
+            "flags": []
+          },
+          "predicate": "special_status_exemptions",
+          "reason": "no special-status exemption is flagged in the supplied facts",
+          "result": "true"
+        }
+      ],
+      "result": "unknown",
+      "status": "in_force",
+      "team_rule_id": "r-0007"
+    },
+    {
+      "included": true,
+      "jurisdiction": "Berkeley, CA",
+      "predicates": [
+        {
+          "facts_used": {
+            "cutoff": "1980-06-30",
+            "year_built": null
+          },
+          "predicate": "built_on_or_before",
+          "reason": "the construction year is missing",
+          "result": "unknown"
+        },
+        {
+          "facts_used": {
+            "flags": []
+          },
+          "predicate": "special_status_exemptions",
+          "reason": "no special-status exemption is flagged in the supplied facts",
+          "result": "true"
+        },
+        {
+          "facts_used": {},
+          "predicate": "tenant_level_conditions",
+          "reason": "tenant-level conditions do not block an address-level result",
+          "result": "true"
+        }
+      ],
+      "result": "unknown",
+      "status": "in_force",
+      "team_rule_id": "r-0008"
+    },
+    {
+      "included": true,
+      "jurisdiction": "Berkeley, CA",
+      "predicates": [
+        {
+          "facts_used": {
+            "exemption_max_units": 3,
+            "units_range": [
+              5,
+              null
+            ]
+          },
+          "predicate": "owner_occupied_exempt_max_units",
+          "reason": "the unit count rules out the small owner-occupied exemption",
+          "result": "true"
+        },
+        {
+          "facts_used": {
+            "flags": []
+          },
+          "predicate": "special_status_exemptions",
+          "reason": "no special-status exemption is flagged in the supplied facts",
+          "result": "true"
+        }
+      ],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0009"
+    },
+    {
+      "included": true,
+      "jurisdiction": "Berkeley, CA",
+      "predicates": [],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0010"
+    },
+    {
+      "included": true,
+      "jurisdiction": "Berkeley, CA",
+      "predicates": [
+        {
+          "facts_used": {
+            "flags": []
+          },
+          "predicate": "special_status_exemptions",
+          "reason": "no special-status exemption is flagged in the supplied facts",
+          "result": "true"
+        }
+      ],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0011"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Boston, MA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0012"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Boston, MA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0013"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Boston, MA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0014"
+    },
+    {
+      "included": true,
+      "jurisdiction": "CA",
+      "predicates": [],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0015"
+    },
+    {
+      "included": true,
+      "jurisdiction": "CA",
+      "predicates": [
+        {
+          "facts_used": {
+            "flags": []
+          },
+          "predicate": "special_status_exemptions",
+          "reason": "no special-status exemption is flagged in the supplied facts",
+          "result": "true"
+        },
+        {
+          "facts_used": {},
+          "predicate": "tenant_level_conditions",
+          "reason": "tenant-level conditions do not block an address-level result",
+          "result": "true"
+        }
+      ],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0016"
+    },
+    {
+      "included": true,
+      "jurisdiction": "CA",
+      "predicates": [
+        {
+          "facts_used": {
+            "boundary_year": 2012,
+            "year_built": null
+          },
+          "predicate": "rolling_new_construction_exempt_years",
+          "reason": "the construction year needed for the rolling exemption is missing",
+          "result": "unknown"
+        },
+        {
+          "facts_used": {
+            "exception_max_units": 2,
+            "units_range": [
+              5,
+              null
+            ]
+          },
+          "predicate": "owner_type",
+          "reason": "the unit count rules out the small-landlord exception",
+          "result": "true"
+        },
+        {
+          "facts_used": {
+            "flags": []
+          },
+          "predicate": "special_status_exemptions",
+          "reason": "no special-status exemption is flagged in the supplied facts",
+          "result": "true"
+        },
+        {
+          "facts_used": {},
+          "predicate": "tenant_level_conditions",
+          "reason": "tenant-level conditions do not block an address-level result",
+          "result": "true"
+        }
+      ],
+      "result": "unknown",
+      "status": "in_force",
+      "team_rule_id": "r-0017"
+    },
+    {
+      "included": true,
+      "jurisdiction": "CA",
+      "predicates": [
+        {
+          "facts_used": {
+            "boundary_year": 2012,
+            "year_built": null
+          },
+          "predicate": "rolling_new_construction_exempt_years",
+          "reason": "the construction year needed for the rolling exemption is missing",
+          "result": "unknown"
+        },
+        {
+          "facts_used": {
+            "exemption_max_units": 2,
+            "units_range": [
+              5,
+              null
+            ]
+          },
+          "predicate": "owner_occupied_exempt_max_units",
+          "reason": "the unit count rules out the small owner-occupied exemption",
+          "result": "true"
+        },
+        {
+          "facts_used": {
+            "units_range": [
+              5,
+              null
+            ]
+          },
+          "predicate": "owner_type",
+          "reason": "owner type is not in the address data",
+          "result": "unknown"
+        },
+        {
+          "facts_used": {
+            "flags": []
+          },
+          "predicate": "special_status_exemptions",
+          "reason": "no special-status exemption is flagged in the supplied facts",
+          "result": "true"
+        },
+        {
+          "facts_used": {},
+          "predicate": "tenant_level_conditions",
+          "reason": "tenant-level conditions do not block an address-level result",
+          "result": "true"
+        }
+      ],
+      "result": "unknown",
+      "status": "in_force",
+      "team_rule_id": "r-0018"
+    },
+    {
+      "included": true,
+      "jurisdiction": "CA",
+      "predicates": [
+        {
+          "facts_used": {},
+          "predicate": "tenant_level_conditions",
+          "reason": "tenant-level conditions do not block an address-level result",
+          "result": "true"
+        }
+      ],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0019"
+    },
+    {
+      "included": true,
+      "jurisdiction": "CA",
+      "predicates": [],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0020"
+    },
+    {
+      "included": true,
+      "jurisdiction": "CA",
+      "predicates": [
+        {
+          "facts_used": {
+            "exception_max_units": 4,
+            "units_range": [
+              5,
+              null
+            ]
+          },
+          "predicate": "owner_type",
+          "reason": "the unit count rules out the small-landlord exception",
+          "result": "true"
+        }
+      ],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0021"
+    },
+    {
+      "included": true,
+      "jurisdiction": "CA",
+      "predicates": [
+        {
+          "facts_used": {
+            "exception_max_units": 4,
+            "units_range": [
+              5,
+              null
+            ]
+          },
+          "predicate": "owner_type",
+          "reason": "the unit count rules out the small-landlord exception",
+          "result": "true"
+        },
+        {
+          "facts_used": {},
+          "predicate": "tenant_level_conditions",
+          "reason": "tenant-level conditions do not block an address-level result",
+          "result": "true"
+        }
+      ],
+      "result": "applies",
+      "status": "in_force",
+      "team_rule_id": "r-0022"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Cambridge, MA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0023"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Hoboken, NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0024"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Hoboken, NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0025"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Hoboken, NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0026"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Jersey City, NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0027"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Jersey City, NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0028"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Los Angeles, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0029"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Los Angeles, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0030"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Los Angeles, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0031"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Los Angeles, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0032"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Los Angeles, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0033"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Los Angeles, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0034"
+    },
+    {
+      "included": false,
+      "jurisdiction": "MA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0035"
+    },
+    {
+      "included": false,
+      "jurisdiction": "MA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0036"
+    },
+    {
+      "included": false,
+      "jurisdiction": "MA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0037"
+    },
+    {
+      "included": false,
+      "jurisdiction": "MA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0038"
+    },
+    {
+      "included": false,
+      "jurisdiction": "MA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0039"
+    },
+    {
+      "included": false,
+      "jurisdiction": "MA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0040"
+    },
+    {
+      "included": false,
+      "jurisdiction": "MA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0041"
+    },
+    {
+      "included": false,
+      "jurisdiction": "MA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0042"
+    },
+    {
+      "included": false,
+      "jurisdiction": "MA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0043"
+    },
+    {
+      "included": false,
+      "jurisdiction": "NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0044"
+    },
+    {
+      "included": false,
+      "jurisdiction": "NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0045"
+    },
+    {
+      "included": false,
+      "jurisdiction": "NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0046"
+    },
+    {
+      "included": false,
+      "jurisdiction": "NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0047"
+    },
+    {
+      "included": false,
+      "jurisdiction": "NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0048"
+    },
+    {
+      "included": false,
+      "jurisdiction": "NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0049"
+    },
+    {
+      "included": false,
+      "jurisdiction": "NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0050"
+    },
+    {
+      "included": false,
+      "jurisdiction": "NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0051"
+    },
+    {
+      "included": false,
+      "jurisdiction": "NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0052"
+    },
+    {
+      "included": false,
+      "jurisdiction": "NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0053"
+    },
+    {
+      "included": false,
+      "jurisdiction": "NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0054"
+    },
+    {
+      "included": false,
+      "jurisdiction": "NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0055"
+    },
+    {
+      "included": false,
+      "jurisdiction": "NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0056"
+    },
+    {
+      "included": false,
+      "jurisdiction": "NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0057"
+    },
+    {
+      "included": false,
+      "jurisdiction": "NJ",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0058"
+    },
+    {
+      "included": false,
+      "jurisdiction": "San Diego, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0059"
+    },
+    {
+      "included": false,
+      "jurisdiction": "San Diego, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0060"
+    },
+    {
+      "included": false,
+      "jurisdiction": "San Francisco, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0061"
+    },
+    {
+      "included": false,
+      "jurisdiction": "San Francisco, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0062"
+    },
+    {
+      "included": false,
+      "jurisdiction": "San Francisco, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0063"
+    },
+    {
+      "included": false,
+      "jurisdiction": "San Francisco, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0064"
+    },
+    {
+      "included": false,
+      "jurisdiction": "San Francisco, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0065"
+    },
+    {
+      "included": false,
+      "jurisdiction": "San Francisco, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0066"
+    },
+    {
+      "included": false,
+      "jurisdiction": "San Francisco, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0067"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Santa Ana, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0068"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Santa Ana, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0069"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Santa Ana, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0070"
+    },
+    {
+      "included": false,
+      "jurisdiction": "Santa Ana, CA",
+      "reason": "jurisdiction_not_in_stack",
+      "team_rule_id": "r-0071"
+    }
+  ],
+  "facts": {
+    "flags": [],
+    "units": null,
+    "units_range": [
+      5,
+      null
+    ],
+    "units_source": "use_code",
+    "year_built": null
+  },
+  "notes": "Not legal advice.",
+  "results": [
+    {
+      "conflict_flag": true,
+      "conflict_note": "Source conflict \u2014 human review: the ordinance says March 1, 2026, while a secondary alert says January 2026.",
+      "explanation": "Applies: Prohibition on sale or use of coordinated pricing algorithms to set rents or occupancy levels covers this address. As of 2027-07-02. Not legal advice.",
+      "result": "applies",
+      "team_rule_id": "r-0001"
+    },
+    {
+      "conflict_flag": false,
+      "explanation": "Applies: Berkeley tenant screening fee disclosures and ban on non-refundable fees for existing tenants covers this address. As of 2027-07-02. Not legal advice.",
+      "result": "applies",
+      "team_rule_id": "r-0002"
+    },
+    {
+      "conflict_flag": false,
+      "explanation": "Applies: Berkeley Rent Ordinance: just cause required for eviction (Measure BB changes) covers this address because no special-status exemption is flagged in the supplied facts. As of 2027-07-02. Not legal advice.",
+      "result": "applies",
+      "team_rule_id": "r-0003"
+    },
+    {
+      "conflict_flag": false,
+      "explanation": "Applies: Berkeley just cause for eviction coverage by unit type covers this address because no special-status exemption is flagged in the supplied facts. As of 2027-07-02. Not legal advice.",
+      "result": "applies",
+      "team_rule_id": "r-0004"
+    },
+    {
+      "conflict_flag": false,
+      "explanation": "Applies: Berkeley relocation assistance for owner move-in and Ellis Act evictions covers this address because tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
+      "result": "applies",
+      "team_rule_id": "r-0005"
+    },
+    {
+      "conflict_flag": false,
+      "explanation": "Applies: Berkeley 2026 Annual General Adjustment (AGA) Order covers this address because tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
+      "result": "applies",
+      "team_rule_id": "r-0006"
+    },
+    {
+      "conflict_flag": false,
+      "explanation": "Unknown: Berkeley Rent Ordinance: 5% cap on Annual General Adjustment (Measure BB) may cover this address, but the construction year is missing. As of 2027-07-02. Not legal advice.",
+      "result": "unknown",
+      "team_rule_id": "r-0007"
+    },
+    {
+      "conflict_flag": false,
+      "explanation": "Unknown: Berkeley rent control coverage by unit type may cover this address, but the construction year is missing. As of 2027-07-02. Not legal advice.",
+      "result": "unknown",
+      "team_rule_id": "r-0008"
+    },
+    {
+      "conflict_flag": false,
+      "explanation": "Applies: Berkeley Fair Chance Access to Housing Ordinance covers this address because the unit count rules out the small owner-occupied exemption; no special-status exemption is flagged in the supplied facts. As of 2027-07-02. Not legal advice.",
+      "result": "applies",
+      "team_rule_id": "r-0009"
+    },
+    {
+      "conflict_flag": false,
+      "explanation": "Applies: Berkeley security deposit interest covers this address. As of 2027-07-02. Not legal advice.",
+      "result": "applies",
+      "team_rule_id": "r-0010"
+    },
+    {
+      "conflict_flag": false,
+      "explanation": "Applies: Berkeley security deposit interest coverage by unit type covers this address because no special-status exemption is flagged in the supplied facts. As of 2027-07-02. Not legal advice.",
+      "result": "applies",
+      "team_rule_id": "r-0011"
+    },
+    {
+      "conflict_flag": false,
+      "explanation": "Applies: Cartwright Act: common pricing algorithm prohibition (AB 325) covers this address. As of 2027-07-02. Not legal advice.",
+      "result": "applies",
+      "team_rule_id": "r-0015"
+    },
+    {
+      "conflict_flag": true,
+      "conflict_note": "Source conflict \u2014 human review: the corpus provides a statutory formula but no single official 2026 screening-fee amount.",
+      "explanation": "Applies: California limits on residential application screening fees covers this address because no special-status exemption is flagged in the supplied facts; tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
+      "result": "applies",
+      "team_rule_id": "r-0016"
+    },
+    {
+      "conflict_flag": false,
+      "explanation": "Unknown: California Tenant Protection Act: just cause required to terminate a tenancy may cover this address, but the construction year needed for the rolling exemption is missing. As of 2027-07-02. Not legal advice.",
+      "result": "unknown",
+      "team_rule_id": "r-0017"
+    },
+    {
+      "conflict_flag": false,
+      "explanation": "Unknown: California statewide residential rent increase cap (AB 1482 as continued by SB 567) may cover this address, but the construction year needed for the rolling exemption is missing; owner type is not in the address data. As of 2027-07-02. Not legal advice.",
+      "result": "unknown",
+      "team_rule_id": "r-0018"
+    },
+    {
+      "conflict_flag": false,
+      "explanation": "Applies: California housing discrimination ban, including source of income covers this address because tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
+      "result": "applies",
+      "team_rule_id": "r-0019"
+    },
+    {
+      "conflict_flag": false,
+      "explanation": "Applies: California FEHA limits on using criminal history in tenant screening covers this address. As of 2027-07-02. Not legal advice.",
+      "result": "applies",
+      "team_rule_id": "r-0020"
+    },
+    {
+      "conflict_flag": false,
+      "explanation": "Applies: California security deposit cap (AB 12) covers this address because the unit count rules out the small-landlord exception. As of 2027-07-02. Not legal advice.",
+      "result": "applies",
+      "team_rule_id": "r-0021"
+    },
+    {
+      "conflict_flag": false,
+      "explanation": "Applies: California residential security deposit limits and return rules covers this address because the unit count rules out the small-landlord exception; tenant-level conditions do not block an address-level result. As of 2027-07-02. Not legal advice.",
+      "result": "applies",
+      "team_rule_id": "r-0022"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 16853,
+  "duration_ms": 17173,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1318,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 70472,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.30734560000000005,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2305,
+      "provider": "firstParty",
+      "thinkingTokens": 1496,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"San Diego, CA\",\"level\":\"city\",\"category\":\"just_cause_eviction\",\"title\":\"San Diego Tenant Protection: termination notice and relocation assistance for just cause evictions\",\"requirement\":\"Before ending a tenancy for at-fault just cause that can be cured, the landlord must give written notice and a chance to cure. For no-fault just cause, the landlord must give 30 or 60 days' written notice that states the basis for termination and the tenant's right to relocation assistance. The landlord must also notify the San Diego Housing Commission within three business days. For no-fault terminations, the landlord must pay relocation assistance equal to two months of actual rent, or three months if the tenant is a senior or disabled. The landlord may instead waive that amount of rent. If the unit is offered for rent again within five years, the landlord must first offer it to the displaced tenant. A landlord who fails to comply voids the termination notice. A landlord who attempts to recover possession in violation faces liability of at least three times actual economic damages.\",\"citation\":\"San Diego Mun. Code ch. 9, art. 8, div. 7\",\"quoted_span\":\"the direct payment to the tenant shall be in an amount equal to two months of actual rent\",\"doc_kind\":\"ordinance\",\"enacted_date\":\"2023-05-25\",\"effective_date_text\":\"effective 6-24-2023\",\"key_value\":\"No-fault just cause: relocation assistance of 2 months' actual rent (3 months if tenant is a senior or disabled), by direct payment or rent waiver\",\"exemptions\":[\"Relocation assistance is credited against any other relocation assistance required by federal, state, or other local law\",\"The landlord may screen a displaced tenant before re-offering the unit, using industry accepted methods\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to residential rental property subject to Division 7. The coverage definition (section 98.0705(a)) and the just cause grounds (section 98.0704) are not in this chunk. Relocation assistance is owed regardless of the tenant's income or length of tenancy.\",\"predicates\":[{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":\"Relocation amount rises from two to three months of rent if the tenant is a senior or disabled; the right to an offer to renew depends on the tenant's written request within 30 days of the termination notice\"}}]},\"confidence\":0.8}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "e72b7a12-927d-43b7-af17-fe7531a955c7",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 210,
+  "total_cost_usd": 0.30734560000000005,
+  "ttft_ms": 11988,
+  "ttft_stream_ms": 1318,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 70472,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 70472,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 70472,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 70472,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 2305,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 2305,
+    "output_tokens_details": {
+      "thinking_tokens": 1496
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "f74bdb0f-3dc8-4d2e-a3f4-ab946d362fe5"
+}

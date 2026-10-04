@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 17835,
+  "duration_ms": 18097,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 2254,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 67533,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.2956096,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2307,
+      "provider": "firstParty",
+      "thinkingTokens": 1337,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "```json\n{\"rules\":[{\"jurisdiction\":\"San Francisco, CA\",\"level\":\"city\",\"category\":\"just_cause_eviction\",\"title\":\"San Francisco eviction relocation payments (Rent Ordinance \u00a7 37.9C)\",\"requirement\":\"A landlord who serves a notice of termination of tenancy for owner or relative move-in, demolition or permanent removal of the unit from housing use, temporary capital improvement work, or substantial rehabilitation must pay relocation payments to tenants. The amounts depend on the date the eviction notice is served. For notices served 3/01/26 to 2/28/27, the payment is $8,245.00 per tenant, up to $24,733.00 per unit, plus $5,497.00 for each elderly (60 or older) or disabled tenant or household with minor children. Tenants evicted under the Ellis Act get separate, higher amounts. For notices served 3/01/26 to 2/28/27, the Ellis Act payment is $11,110.05 per tenant, up to $33,330.13 per unit, plus $7,443.90 for each elderly (62 or older) or disabled tenant.\",\"citation\":\"S.F. Admin. Code \u00a7 37.9C\",\"quoted_span\":\"Relocation Payments for Evictions based on Owner/Relative Move-in OR Demolition/Permanent Removal of Unit from Housing Use OR Temporary Capital Improvement Work* OR Substantial Rehabilitation\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"Notices served 3/01/26-2/28/27: $8,245.00 per tenant; $24,733.00 max per unit; +$5,497.00 per elderly (60+)/disabled tenant or household with minor child. Ellis Act: $11,110.05 per tenant; $33,330.13 max per unit; +$7,443.90 per elderly (62+)/disabled tenant.\",\"exemptions\":[\"Relocation payments for temporary capital improvement evictions lasting less than 20 days are governed by California Civil Code Section 1947.9, not Rent Ordinance Section 37.9C.\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to tenants given a notice of termination of tenancy for owner/relative move-in, demolition or permanent removal from housing use, temporary capital improvement work, substantial rehabilitation, or an Ellis Act withdrawal. The amount depends on the service date of the notice. The additional payment depends on whether a tenant is elderly or disabled, or the household has a minor child.\",\"predicates\":[{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":\"Eviction notice served on a rate-period date; additional amount for elderly (60+; 62+ for Ellis Act) or disabled tenants or households with minor children\"}}]},\"confidence\":0.6}],\"no_rule_reason\":null}\n```",
+  "result_index": 0,
+  "session_id": "d6ff18fe-ae49-4aa2-a503-05affec9cabe",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 139,
+  "total_cost_usd": 0.2956096,
+  "ttft_ms": 12556,
+  "ttft_stream_ms": 2254,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 67533,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 67533,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 67533,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 67533,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 2307,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 2307,
+    "output_tokens_details": {
+      "thinking_tokens": 1337
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "7fc11f6d-c0d4-4b93-ac1e-b832cf2c2a41"
+}

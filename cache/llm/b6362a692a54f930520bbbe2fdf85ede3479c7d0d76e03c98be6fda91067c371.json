@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 23400,
+  "duration_ms": 23668,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1064,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 70550,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.3173476,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3274,
+      "provider": "firstParty",
+      "thinkingTokens": 2373,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "```json\n{\"rules\":[{\"jurisdiction\":\"NJ\",\"level\":\"state\",\"category\":\"rent_increase_limits\",\"title\":\"NJ Anti-Eviction Act: rent increases must not be unconscionable\",\"requirement\":\"A rent increase must not be unconscionable, meaning so unreasonable that it shocks the conscience of a fair and honest person. It must also comply with any municipal ordinance governing rent increases. Before an owner can evict a tenant for not paying an increased rent, the owner must serve a valid notice to quit and notice of rent increase. The tenant may stay as long as they pay any legal increase.\",\"citation\":\"N.J.S.A. 2A:18-61.1\",\"quoted_span\":\"The increase in rent must not be unconscionable; it must not be so unreasonable as to shock the conscience of a fair and honest person and must comply with any municipal ordinances governing rent increases.\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"No dollar cap. Increase must not be unconscionable and must comply with municipal rent ordinances.\",\"exemptions\":[],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to residential tenancies covered by the Anti-Eviction Act. The text of this chunk states no unit-count or construction-date limits.\",\"predicates\":[]},\"confidence\":0.8},{\"jurisdiction\":\"NJ\",\"level\":\"state\",\"category\":\"rent_increase_limits\",\"title\":\"NJ: no rent increase to cover costs of building conversion\",\"requirement\":\"If a building is converted to a condominium, a cooperative, or fee simple ownership of units, rents may not be increased to cover costs resulting solely from the conversion. Rents may still be increased to cover the cost of new services or amenities. The prohibition applies to all tenants in the building, whether or not they are protected senior citizens or disabled persons.\",\"citation\":\"N.J.S.A. 2A:18-61.31\",\"quoted_span\":\"If a building is converted to a condominium or cooperative form of ownership, or to fee simple ownership of units, rents may not be increased to cover cos ts resulting solely from the conversion\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"No rent increase for costs resulting solely from condominium, cooperative or fee simple conversion\",\"exemptions\":[\"Rents may be increased to cover the cost of new services or amenities\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies only to buildings converted to condominium, cooperative or fee simple ownership of units.\",\"predicates\":[]},\"confidence\":0.65}],\"no_rule_reason\":null}\n```",
+  "result_index": 0,
+  "session_id": "4ac34b41-a764-4c0b-b88b-f5a4700550ee",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 158,
+  "total_cost_usd": 0.3173476,
+  "ttft_ms": 18643,
+  "ttft_stream_ms": 1064,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 70550,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 70550,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 70550,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 70550,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 3274,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 3274,
+    "output_tokens_details": {
+      "thinking_tokens": 2373
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "347dcdb1-1b0f-4173-a38a-600e138e748e"
+}

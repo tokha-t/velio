@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 11747,
+  "duration_ms": 12036,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 2127,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 66874,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.28385360000000004,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1395,
+      "provider": "firstParty",
+      "thinkingTokens": 947,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"San Francisco, CA\",\"level\":\"city\",\"category\":\"algorithmic_rent_setting\",\"title\":\"San Francisco ban on algorithmic devices used to set rents (Rent Ordinance \u00a7 37.10C)\",\"requirement\":\"It is prohibited to sell or use algorithmic devices, such as software that analyzes nonpublic competitor rental data to recommend rents for vacant units, to set rents or manage occupancy levels for residential units in San Francisco. A tenant or the City Attorney may bring a civil action over a violation.\",\"citation\":\"S.F. Admin. Code \u00a7 37.10C\",\"quoted_span\":\"The law prohibits the sale or use of algorithmic devices to set rents or manage occupancy levels for residential units in San Francisco.\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":\"went into effect on October 14, 2024\",\"key_value\":\"Ban on sale or use of algorithmic rent-setting devices; enforced by civil action by a tenant or the City Attorney\",\"exemptions\":[],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to residential units in San Francisco. The text states no unit-count, construction-date or owner-type limits.\",\"predicates\":[]},\"confidence\":0.9}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "13fcc3f7-13ce-444c-a52a-bed68a322f11",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 179,
+  "total_cost_usd": 0.28385360000000004,
+  "ttft_ms": 8933,
+  "ttft_stream_ms": 2126,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 66874,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 66874,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 66874,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 66874,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 1395,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1395,
+    "output_tokens_details": {
+      "thinking_tokens": 947
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "792715b7-1401-42cd-a430-7050e1a39976"
+}

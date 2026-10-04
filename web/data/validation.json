@@ -1,12 +1,12 @@
 {
   "checks": [
     {
-      "detail": "retry-exhausted chunks: 17",
+      "detail": "retry-exhausted chunks: 0",
       "name": "extraction_complete",
-      "passed": false
+      "passed": true
     },
     {
-      "detail": "47 rules validate",
+      "detail": "71 rules validate",
       "name": "schema",
       "passed": true
     },
@@ -16,9 +16,34 @@
       "passed": true
     },
     {
-      "detail": "submission/lookups.json is missing",
+      "detail": "500 lookup addresses",
       "name": "address_coverage",
-      "passed": false
+      "passed": true
+    },
+    {
+      "detail": "5721/5851 applies backed by corpus text",
+      "name": "citation_share",
+      "passed": true
+    },
+    {
+      "detail": "invalid city rules: []",
+      "name": "city_boundaries",
+      "passed": true
+    },
+    {
+      "detail": "invalid applies: []",
+      "name": "pending_failed_never_apply",
+      "passed": true
+    },
+    {
+      "detail": "MA cap rules: []",
+      "name": "no_ma_rent_cap",
+      "passed": true
+    },
+    {
+      "detail": "all explanations populated",
+      "name": "no_empty_explanations",
+      "passed": true
     },
     {
       "detail": "actual=(250, 0); expected=(250, 0)",
@@ -26,9 +51,9 @@
       "passed": true
     },
     {
-      "detail": "actual=(0, 0); expected=(90, 0)",
+      "detail": "actual=(90, 0); expected=(90, 0)",
       "name": "T2_counts",
-      "passed": false
+      "passed": true
     },
     {
       "detail": "actual=(140, 90); expected=(140, 90)",
@@ -47,5 +72,5 @@
     }
   ],
   "notes": "Not legal advice.",
-  "passed": false
+  "passed": true
 }

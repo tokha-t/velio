@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 15117,
+  "duration_ms": 15376,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 10465,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 72754,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.2995236,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 610,
+      "provider": "firstParty",
+      "thinkingTokens": 389,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[],\"no_rule_reason\":\"This chunk of D067 covers landlord identity and registration, habitability, housing code inspections, window guards, smoke and carbon monoxide detectors, locks, heat and utilities, rent receivership, lead-based paint disclosure, and drinking water test posting. None of it falls in the six target categories: rent increase limits, just cause eviction, security deposits, application or screening fees, screening restrictions, or algorithmic rent setting. The registration provision (N.J.S.A. 46:8-28.2) only sets a filing duty and a court continuance for the landlord to comply. It does not limit when a landlord may evict.\"}",
+  "result_index": 0,
+  "session_id": "a7202a5e-b6df-473e-ab14-1dab6f4f1d24",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 149,
+  "total_cost_usd": 0.2995236,
+  "ttft_ms": 13599,
+  "ttft_stream_ms": 10465,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 72754,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 72754,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 72754,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 72754,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 610,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 610,
+    "output_tokens_details": {
+      "thinking_tokens": 389
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "ae27c5b1-4443-4bb3-880a-4ebfe894ed9c"
+}

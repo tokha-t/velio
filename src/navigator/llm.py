@@ -26,13 +26,36 @@ def _payload(envelope: object) -> dict:
     return content
 
 
-def complete(prompt: str, *, doc_id: str, chunk_hash: str, prompt_version: str, model: str | None = None) -> dict:
+def _cache_path(prompt_version: str, model: str, identity: str) -> Path:
+    key = hashlib.sha256(f"{prompt_version}|{model}|{identity}".encode()).hexdigest()
+    return CACHE_ROOT / "llm" / f"{key}.json"
+
+
+def complete(
+    prompt: str,
+    *,
+    doc_id: str,
+    chunk_hash: str,
+    prompt_version: str,
+    model: str | None = None,
+    cache_identity: str | None = None,
+    allow_legacy_cache: bool = True,
+) -> dict:
+    """Return a cached extraction, keeping distinct document prompts distinct.
+
+    Older cache entries were keyed only by the normalized chunk text.  That is
+    reusable for ordinary chunks, but not when two documents have identical
+    text and different metadata (for example a bill page and its history).
+    """
     backend = os.getenv("NAV_LLM_BACKEND", "claude_cli")
     model = model or os.getenv("NAV_MODEL", "claude-sonnet-5-5")
-    key = hashlib.sha256(f"{prompt_version}|{model}|{chunk_hash}".encode()).hexdigest()
-    path = CACHE_ROOT / "llm" / f"{key}.json"
+    identity = cache_identity or chunk_hash
+    path = _cache_path(prompt_version, model, identity)
     if path.exists():
         return _payload(json.loads(path.read_text()))
+    legacy_path = _cache_path(prompt_version, model, chunk_hash)
+    if identity != chunk_hash and allow_legacy_cache and legacy_path.exists():
+        return _payload(json.loads(legacy_path.read_text()))
     if backend == "claude_cli":
         command = ["claude", "-p", "--output-format", "json", "--model", model]
         process = subprocess.run(command, input=prompt, text=True, capture_output=True, check=False, timeout=240)
@@ -49,5 +72,5 @@ def complete(prompt: str, *, doc_id: str, chunk_hash: str, prompt_version: str, 
         raise ValueError(f"Unsupported NAV_LLM_BACKEND={backend}")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(envelope, indent=2, sort_keys=True) + "\n")
-    _append_audit({"event": "llm_call", "at": datetime.now(timezone.utc).isoformat(), "backend": backend, "doc_id": doc_id, "chunk_hash": chunk_hash, "model": model, "prompt_version": prompt_version, "response_hash": hashlib.sha256(str(content).encode()).hexdigest(), "cache_key": key})
+    _append_audit({"event": "llm_call", "at": datetime.now(timezone.utc).isoformat(), "backend": backend, "doc_id": doc_id, "chunk_hash": chunk_hash, "cache_identity": identity, "model": model, "prompt_version": prompt_version, "response_hash": hashlib.sha256(str(content).encode()).hexdigest(), "cache_key": path.stem})
     return _payload(envelope)
