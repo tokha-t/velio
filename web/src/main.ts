@@ -305,6 +305,12 @@ function renderAddressResults(): void {
   const target = root.querySelector<HTMLDivElement>("#address-results");
   if (!target) return;
   const matches = addressSearchMatches();
+  const count = root.querySelector<HTMLElement>("#address-result-count");
+  if (count) {
+    count.textContent = state.query.trim()
+      ? `${matches.length} matching ${matches.length === 1 ? "address" : "addresses"}`
+      : "Recent addresses";
+  }
   target.innerHTML = matches.length
     ? matches.map((address) => `
       <button class=\"address-option${address.address_id === state.selectedAddressId ? " is-selected" : ""}\" type=\"button\" data-address-id=\"${escapeHtml(address.address_id)}\">
@@ -328,18 +334,26 @@ function bindAddressChoices(): void {
 
 function renderAddressTab(address: Address): string {
   return `
-    <div class=\"workspace\">
-      <aside class=\"search-panel\" aria-label=\"Address search\">
-        <label for=\"address-search\">Find an address</label>
-        <p class=\"field-help\">Search by address ID, street, postal city, or legal city.</p>
-        <input id=\"address-search\" type=\"search\" autocomplete=\"off\" value=\"${escapeHtml(state.query)}\" placeholder=\"A0001 or De Longpre\" />
-        <div id=\"address-results\" class=\"address-results\"></div>
+    <div class="workspace">
+      <aside class="search-panel" aria-label="Address search">
+        <div class="panel-heading">
+          <span>Address index</span>
+          <strong>${state.addresses.length}</strong>
+        </div>
+        <label for="address-search">Find an address</label>
+        <p class="field-help">Search by address ID, street, postal city, or legal city.</p>
+        <input id="address-search" type="search" autocomplete="off" value="${escapeHtml(state.query)}" placeholder="A0001 or De Longpre" />
+        <p id="address-result-count" class="address-result-count" aria-live="polite">Recent addresses</p>
+        <div id="address-results" class="address-results"></div>
       </aside>
-      <main class=\"address-workspace\">
-        <section class=\"jurisdiction-card\" aria-labelledby=\"jurisdiction-heading\">
-          <div class=\"section-title\">
-            <p>Selected address</p>
-            <h2 id=\"jurisdiction-heading\">${escapeHtml(addressLabel(address))}</h2>
+      <main class="address-workspace">
+        <section class="jurisdiction-card" aria-labelledby="jurisdiction-heading">
+          <div class="jurisdiction-title-row">
+            <div class="section-title">
+              <p>Jurisdiction profile</p>
+              <h2 id="jurisdiction-heading">${escapeHtml(addressLabel(address))}</h2>
+            </div>
+            <span class="confidence-chip">${escapeHtml(titleCase(address.jurisdiction_confidence))} confidence</span>
           </div>
           <div class=\"jurisdiction-grid\">
             <div><span>Postal city</span><strong>${escapeHtml(`${address.postal_city}, ${address.state}`)}</strong></div>
@@ -389,8 +403,8 @@ function renderChangesTab(): string {
   const tests = ["T1", "T2", "T3", "T4", "T5"];
   return `
     <main class=\"changes-workspace\">
-      <section class=\"changes-intro\">
-        <p>Change tests</p>
+      <section class="changes-intro">
+        <p>Scenario tests</p>
         <h2>How the supplied test cases change the answer</h2>
         <span>Counts and address lists reflect the current exported change artifacts.</span>
       </section>
@@ -420,28 +434,40 @@ function render(): void {
   const address = selectedAddress();
   const rulesCount = state.rules.length;
   root.innerHTML = `
-    <div class=\"site-shell\">
-      <div class=\"legal-banner\">Not legal advice. Prototype for a hackathon.</div>
-      <header class=\"topbar\">
-        <a class=\"brand\" href=\"#top\" aria-label=\"Rental Housing Law Navigator home\">Rental Housing Law Navigator</a>
-        <div class=\"data-summary\"><strong>${rulesCount}</strong> source rules <span aria-hidden=\"true\">/</span> <strong>${state.addresses.length}</strong> resolved addresses</div>
+    <div class="site-shell">
+      <a class="skip-link" href="#content">Skip to navigator content</a>
+      <div class="legal-banner"><span>Legal notice</span> Not legal advice. Prototype for a hackathon.</div>
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="Rental Housing Law Navigator home">
+          <span class="brand-mark" aria-hidden="true">RL</span>
+          <span><strong>Rental Housing Law Navigator</strong><small>Static research navigator</small></span>
+        </a>
+        <div class="data-summary" aria-label="Current data volume">
+          <span><strong>${rulesCount}</strong> source rules</span>
+          <i aria-hidden="true"></i>
+          <span><strong>${state.addresses.length}</strong> resolved addresses</span>
+        </div>
       </header>
-      <div id=\"top\" class=\"page-frame\">
-        <section class=\"page-intro\">
+      <div id="top" class="page-frame">
+        <section class="page-intro">
           <div>
             <p>Address and date review</p>
             <h1>Understand the rules that may apply to one rental address.</h1>
+            <div class="intro-meta"><span>6 rule categories</span><span>4 effective dates</span><span>Static local evidence</span></div>
           </div>
-          <div class=\"as-of-control\">
-            <label for=\"as-of-select\">As of date</label>
-            <select id=\"as-of-select\">${AS_OF_DATES.map((date) => `<option value=\"${date}\"${date === state.asOf ? " selected" : ""}>${displayDate(date)}</option>`).join("")}</select>
+          <div class="as-of-control">
+            <label for="as-of-select">As of date</label>
+            <select id="as-of-select">${AS_OF_DATES.map((date) => `<option value="${date}"${date === state.asOf ? " selected" : ""}>${displayDate(date)}</option>`).join("")}</select>
+            <span class="control-caption">Review results for a specific effective date.</span>
           </div>
         </section>
-        <nav class=\"tabs\" aria-label=\"Navigator views\">
-          <button class=\"tab-button${state.activeTab === "address" ? " is-active" : ""}\" type=\"button\" data-tab=\"address\">Address review</button>
-          <button class=\"tab-button${state.activeTab === "changes" ? " is-active" : ""}\" type=\"button\" data-tab=\"changes\">Change tests</button>
-        </nav>
-        ${state.activeTab === "address" ? renderAddressTab(address) : renderChangesTab()}
+        <div id="content" tabindex="-1">
+          <nav class="tabs" aria-label="Navigator views">
+            <button class="tab-button${state.activeTab === "address" ? " is-active" : ""}" type="button" data-tab="address">Address review</button>
+            <button class="tab-button${state.activeTab === "changes" ? " is-active" : ""}" type="button" data-tab="changes">Change tests</button>
+          </nav>
+          ${state.activeTab === "address" ? renderAddressTab(address) : renderChangesTab()}
+        </div>
       </div>
       <footer>All rule and address data shown here are local, static exports. As of ${displayDate(state.asOf)}. Not legal advice.</footer>
     </div>
