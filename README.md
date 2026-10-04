@@ -5,9 +5,6 @@ Rental Housing Law Navigator turns a supplied corpus of housing-law materials in
 ## Live site
 
 - [Production viewer on Vercel](https://web-seven-rho-19.vercel.app/)
-- GitHub Pages is configured through [the deployment workflow](.github/workflows/deploy-pages.yml) and will publish to <https://tokha-t.github.io/velio/> once Pages is enabled for the repository.
-
-GitHub currently rejects Pages for this private repository under the account's plan. The workflow is ready; enable a plan that supports private-repository Pages or make the repository public before enabling the site in repository settings.
 
 ## What it does
 
@@ -93,7 +90,6 @@ The model only proposes structured records from source text. Supporting quotes a
 | [build/](build/) | Intermediate deterministic artifacts. |
 | [submission/](submission/) | Public rule, lookup, change, finding, and validation outputs. |
 | [web/](web/) | Vite static viewer and the exported browser data. |
-| [.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml) | GitHub Pages build and deployment workflow. |
 
 ## Outputs
 
