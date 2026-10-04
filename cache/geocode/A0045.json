@@ -1,0 +1,477 @@
+{
+  "address_id": "A0045",
+  "attempts": [
+    {
+      "method": "census_oneline",
+      "response": {
+        "result": {
+          "addressMatches": [
+            {
+              "addressComponents": {
+                "city": "PACOIMA",
+                "fromAddress": "12801",
+                "preDirection": "",
+                "preQualifier": "",
+                "preType": "",
+                "state": "CA",
+                "streetName": "BRANFORD",
+                "suffixDirection": "",
+                "suffixQualifier": "",
+                "suffixType": "ST",
+                "toAddress": "12899",
+                "zip": "91331"
+              },
+              "coordinates": {
+                "x": -118.41212012105,
+                "y": 34.241771886514
+              },
+              "geographies": {
+                "120th Congressional Districts": [
+                  {
+                    "AREALAND": 219835746,
+                    "AREAWATER": 758258,
+                    "BASENAME": "29",
+                    "CD120": "29",
+                    "CDSESSN": "120",
+                    "CENTLAT": "+34.2392536",
+                    "CENTLON": "-118.4160986",
+                    "FUNCSTAT": "N",
+                    "GEOID": "0629",
+                    "INTPTLAT": "+34.2432592",
+                    "INTPTLON": "-118.4184366",
+                    "LSADC": "C2",
+                    "MTFCC": "G5200",
+                    "NAME": "Congressional District 29",
+                    "OBJECTID": 129,
+                    "OID": "2119042393002149",
+                    "STATE": "06",
+                    "STGEOMETRY_Area": 323577008.8652784,
+                    "STGEOMETRY_Length": 118488.64090385077
+                  }
+                ],
+                "2020 Census Blocks": [
+                  {
+                    "AREALAND": 88557,
+                    "AREAWATER": 0,
+                    "BASENAME": "1005",
+                    "BLKGRP": "1",
+                    "BLOCK": "1005",
+                    "CENTLAT": "+34.2429909",
+                    "CENTLON": "-118.4139622",
+                    "COUNTY": "037",
+                    "FUNCSTAT": "S",
+                    "GEOID": "060371048211005",
+                    "INTPTLAT": "+34.2429909",
+                    "INTPTLON": "-118.4139622",
+                    "LSADC": "BK",
+                    "LWBLKTYP": "L",
+                    "MTFCC": "G5040",
+                    "NAME": "Block 1005",
+                    "OBJECTID": 2270343,
+                    "OID": "210701001761316",
+                    "STATE": "06",
+                    "SUFFIX": "",
+                    "TRACT": "104821",
+                    "UR": "U"
+                  }
+                ],
+                "2020 Census Public Use Microdata Areas": [
+                  {
+                    "AREALAND": 49681598,
+                    "AREAWATER": 124624,
+                    "BASENAME": "Los Angeles County--LA (North Central/Arleta & Pacoima) & San Fernando Cities",
+                    "CENTLAT": "+34.2753012",
+                    "CENTLON": "-118.4102949",
+                    "FUNCSTAT": "S",
+                    "GEOID": "0603707",
+                    "INTPTLAT": "+34.2756280",
+                    "INTPTLON": "-118.4108459",
+                    "LSADC": "P0",
+                    "MTFCC": "G6120",
+                    "NAME": "Los Angeles County--LA (North Central/Arleta & Pacoima) & San Fernando Cities PUMA",
+                    "OBJECTID": 1060,
+                    "OID": "217704486282651",
+                    "PUMA": "03707",
+                    "STATE": "06"
+                  }
+                ],
+                "2020 Census ZIP Code Tabulation Areas": [
+                  {
+                    "AREALAND": 24202530,
+                    "AREAWATER": 100933,
+                    "BASENAME": "91331",
+                    "CENTLAT": "+34.2560278",
+                    "CENTLON": "-118.4193967",
+                    "FUNCSTAT": "S",
+                    "GEOID": "91331",
+                    "INTPTLAT": "+34.2552942",
+                    "INTPTLON": "-118.4197025",
+                    "LSADC": "Z5",
+                    "MTFCC": "G6350",
+                    "NAME": "ZCTA5 91331",
+                    "OBJECTID": 5128,
+                    "OID": "221704258472813",
+                    "ZCTA5": "91331",
+                    "ZCTA5CC": "B5"
+                  }
+                ],
+                "2026 State Legislative Districts - Lower": [
+                  {
+                    "AREALAND": 135770823,
+                    "AREAWATER": 532929,
+                    "BASENAME": "43",
+                    "CENTLAT": "+34.2546608",
+                    "CENTLON": "-118.4238283",
+                    "FUNCSTAT": "N",
+                    "GEOID": "06043",
+                    "INTPTLAT": "+34.2547007",
+                    "INTPTLON": "-118.4241181",
+                    "LDTYP": "O",
+                    "LSADC": "L3",
+                    "LSY": "2026",
+                    "MTFCC": "G5220",
+                    "NAME": "Assembly District 43",
+                    "OBJECTID": 1251,
+                    "OID": "2139042393385403",
+                    "SLDL": "043",
+                    "STATE": "06"
+                  }
+                ],
+                "2026 State Legislative Districts - Upper": [
+                  {
+                    "AREALAND": 575039653,
+                    "AREAWATER": 1184900,
+                    "BASENAME": "20",
+                    "CENTLAT": "+34.2851984",
+                    "CENTLON": "-118.3620466",
+                    "FUNCSTAT": "N",
+                    "GEOID": "06020",
+                    "INTPTLAT": "+34.2841333",
+                    "INTPTLON": "-118.3642754",
+                    "LDTYP": "O",
+                    "LSADC": "LU",
+                    "LSY": "2026",
+                    "MTFCC": "G5210",
+                    "NAME": "State Senate District 20",
+                    "OBJECTID": 1632,
+                    "OID": "2129042393385271",
+                    "SLDU": "020",
+                    "STATE": "06"
+                  }
+                ],
+                "Census Block Groups": [
+                  {
+                    "AREALAND": 354452,
+                    "AREAWATER": 0,
+                    "BASENAME": "1",
+                    "BLKGRP": "1",
+                    "CENTLAT": "+34.2450802",
+                    "CENTLON": "-118.4147192",
+                    "COUNTY": "037",
+                    "FUNCSTAT": "S",
+                    "GEOID": "060371048211",
+                    "INTPTLAT": "+34.2450802",
+                    "INTPTLON": "-118.4147192",
+                    "LSADC": "BG",
+                    "MTFCC": "G5030",
+                    "NAME": "Block Group 1",
+                    "OBJECTID": 126578,
+                    "OID": "208903717305561",
+                    "STATE": "06",
+                    "TRACT": "104821"
+                  }
+                ],
+                "Census Divisions": [
+                  {
+                    "AREALAND": 2321006265148,
+                    "AREAWATER": 295057188152,
+                    "BASENAME": "Pacific",
+                    "CENTLAT": "+56.3785915",
+                    "CENTLON": "-138.8914236",
+                    "DIVISION": "9",
+                    "FUNCSTAT": "S",
+                    "GEOID": "9",
+                    "INTPTLAT": "+19.8281671",
+                    "INTPTLON": "-155.4950421",
+                    "LSADC": "69",
+                    "MTFCC": "G1200",
+                    "NAME": "Pacific Division",
+                    "OBJECTID": 4,
+                    "OID": "2739020719804",
+                    "REGION": "4"
+                  }
+                ],
+                "Census Regions": [
+                  {
+                    "AREALAND": 4538933004900,
+                    "AREAWATER": 313750173666,
+                    "BASENAME": "West",
+                    "CENTLAT": "+49.9401545",
+                    "CENTLON": "-124.1894076",
+                    "FUNCSTAT": "S",
+                    "GEOID": "4",
+                    "INTPTLAT": "+19.8281671",
+                    "INTPTLON": "-155.4950421",
+                    "LSADC": "68",
+                    "MTFCC": "G1100",
+                    "NAME": "West Region",
+                    "OBJECTID": 2,
+                    "OID": "2729020719823",
+                    "REGION": "4"
+                  }
+                ],
+                "Census Tracts": [
+                  {
+                    "AREALAND": 531802,
+                    "AREAWATER": 0,
+                    "BASENAME": "1048.21",
+                    "CENTLAT": "+34.2465705",
+                    "CENTLON": "-118.4162955",
+                    "COUNTY": "037",
+                    "FUNCSTAT": "S",
+                    "GEOID": "06037104821",
+                    "INTPTLAT": "+34.2465705",
+                    "INTPTLON": "-118.4162955",
+                    "LSADC": "CT",
+                    "MTFCC": "G5020",
+                    "NAME": "Census Tract 1048.21",
+                    "OBJECTID": 47690,
+                    "OID": "207903717302365",
+                    "STATE": "06",
+                    "TRACT": "104821"
+                  }
+                ],
+                "Combined Statistical Areas": [
+                  {
+                    "AREALAND": 87986489781,
+                    "AREAWATER": 3476454643,
+                    "BASENAME": "Los Angeles-Long Beach, CA",
+                    "CENTLAT": "+34.4706964",
+                    "CENTLON": "-116.6480322",
+                    "CSA": "348",
+                    "FUNCSTAT": "S",
+                    "GEOID": "348",
+                    "HU100": "",
+                    "INTPTLAT": "+34.4636899",
+                    "INTPTLON": "-116.6586169",
+                    "LSADC": "M0",
+                    "MTFCC": "G3100",
+                    "NAME": "Los Angeles-Long Beach, CA CSA",
+                    "OBJECTID": 164,
+                    "OID": "2619034687908066",
+                    "POP100": ""
+                  }
+                ],
+                "Counties": [
+                  {
+                    "AREALAND": 10516107376,
+                    "AREAWATER": 1784884136,
+                    "BASENAME": "Los Angeles",
+                    "CENTLAT": "+34.1959609",
+                    "CENTLON": "-118.2618084",
+                    "COUNTY": "037",
+                    "COUNTYCC": "H1",
+                    "COUNTYNS": "00277283",
+                    "FUNCSTAT": "A",
+                    "GEOID": "06037",
+                    "INTPTLAT": "+34.1963983",
+                    "INTPTLON": "-118.2618616",
+                    "LSADC": "06",
+                    "MTFCC": "G4020",
+                    "NAME": "Los Angeles County",
+                    "OBJECTID": 2976,
+                    "OID": "275901063468976",
+                    "STATE": "06"
+                  }
+                ],
+                "County Subdivisions": [
+                  {
+                    "AREALAND": 1134804300,
+                    "AREAWATER": 4510463,
+                    "BASENAME": "San Fernando Valley",
+                    "CENTLAT": "+34.2511798",
+                    "CENTLON": "-118.4187335",
+                    "COUNTY": "037",
+                    "COUSUB": "92785",
+                    "COUSUBCC": "Z5",
+                    "COUSUBNS": "02378253",
+                    "FUNCSTAT": "S",
+                    "GEOID": "0603792785",
+                    "INTPTLAT": "+34.2495663",
+                    "INTPTLON": "-118.4179218",
+                    "LSADC": "22",
+                    "MTFCC": "G4040",
+                    "NAME": "San Fernando Valley CCD",
+                    "OBJECTID": 15952,
+                    "OID": "276901115259682",
+                    "STATE": "06"
+                  }
+                ],
+                "Incorporated Places": [
+                  {
+                    "AREALAND": 1218637107,
+                    "AREAWATER": 81549089,
+                    "BASENAME": "Los Angeles",
+                    "CBSAPCI": "Y",
+                    "CENTLAT": "+34.1069326",
+                    "CENTLON": "-118.4112607",
+                    "DISP_CLR": 3,
+                    "FUNCSTAT": "A",
+                    "GEOID": "0644000",
+                    "INTPTLAT": "+34.0193936",
+                    "INTPTLON": "-118.4108248",
+                    "LSADC": "25",
+                    "MTFCC": "G4110",
+                    "NAME": "Los Angeles city",
+                    "NECTAPCI": "N",
+                    "OBJECTID": 31972,
+                    "OID": "278901115263549",
+                    "PLACE": "44000",
+                    "PLACECC": "C1",
+                    "PLACENS": "02410877",
+                    "STATE": "06",
+                    "STGEOMETRY_Area": 1901273786.1129692,
+                    "STGEOMETRY_Length": 630494.4709674674
+                  }
+                ],
+                "Metropolitan Divisions": [
+                  {
+                    "AREALAND": 10516107376,
+                    "AREAWATER": 1784884136,
+                    "BASENAME": "Los Angeles-Long Beach-Glendale, CA",
+                    "CBSA": "31080",
+                    "CENTLAT": "+34.1959609",
+                    "CENTLON": "-118.2618084",
+                    "CSA": "348",
+                    "FUNCSTAT": "S",
+                    "GEOID": "3108031084",
+                    "HU100": "",
+                    "INTPTLAT": "+34.1963983",
+                    "INTPTLON": "-118.2618616",
+                    "LSADC": "M3",
+                    "METDIV": "31084",
+                    "MTFCC": "G3120",
+                    "NAME": "Los Angeles-Long Beach-Glendale, CA Metro Division",
+                    "OBJECTID": 32,
+                    "OID": "2639034687908170",
+                    "POP100": ""
+                  }
+                ],
+                "Metropolitan Statistical Areas": [
+                  {
+                    "AREALAND": 12570610302,
+                    "AREAWATER": 2190168236,
+                    "BASENAME": "Los Angeles-Long Beach-Anaheim, CA",
+                    "CBSA": "31080",
+                    "CENTLAT": "+34.1095847",
+                    "CENTLON": "-118.1805332",
+                    "CSA": "348",
+                    "FUNCSTAT": "S",
+                    "GEOID": "31080",
+                    "HU100": "",
+                    "INTPTLAT": "+34.1087033",
+                    "INTPTLON": "-118.1827533",
+                    "LSADC": "M1",
+                    "MTFCC": "G3110",
+                    "NAME": "Los Angeles-Long Beach-Anaheim, CA Metro Area",
+                    "OBJECTID": 599,
+                    "OID": "2629034687907530",
+                    "POP100": ""
+                  }
+                ],
+                "States": [
+                  {
+                    "AREALAND": 403676534536,
+                    "AREAWATER": 20288534055,
+                    "BASENAME": "California",
+                    "CENTLAT": "+37.1547616",
+                    "CENTLON": "-119.5277735",
+                    "DIVISION": "9",
+                    "FUNCSTAT": "A",
+                    "GEOID": "06",
+                    "INTPTLAT": "+37.1626642",
+                    "INTPTLON": "-119.5713456",
+                    "LSADC": "00",
+                    "MTFCC": "G4000",
+                    "NAME": "California",
+                    "OBJECTID": 6,
+                    "OID": "2749018475066",
+                    "REGION": "4",
+                    "STATE": "06",
+                    "STATENS": "01779778",
+                    "STUSAB": "CA"
+                  }
+                ],
+                "Unified School Districts": [
+                  {
+                    "AREALAND": 1812883262,
+                    "AREAWATER": 674919283,
+                    "BASENAME": "Los Angeles Unified School District",
+                    "CENTLAT": "+33.7759737",
+                    "CENTLON": "-118.4182916",
+                    "FUNCSTAT": "E",
+                    "GEOID": "0622710",
+                    "HIGRADE": "12",
+                    "INTPTLAT": "+33.9514587",
+                    "INTPTLON": "-118.2760162",
+                    "LOGRADE": "KG",
+                    "LSADC": "00",
+                    "MTFCC": "G5420",
+                    "NAME": "Los Angeles Unified School District",
+                    "OBJECTID": 6141,
+                    "OID": "284901116065700",
+                    "SDTYP": "",
+                    "SDUNI": "22710",
+                    "STATE": "06"
+                  }
+                ],
+                "Urban Areas": [
+                  {
+                    "AREALAND": 4242661808,
+                    "AREAWATER": 45567078,
+                    "BASENAME": "Los Angeles--Long Beach--Anaheim, CA",
+                    "CENTLAT": "+33.9845498",
+                    "CENTLON": "-118.1231636",
+                    "FUNCSTAT": "S",
+                    "GEOID": "51445",
+                    "INTPTLAT": "+33.9849958",
+                    "INTPTLON": "-118.1223950",
+                    "LSADC": "67",
+                    "MTFCC": "G3500",
+                    "NAME": "Los Angeles--Long Beach--Anaheim, CA Urban Area",
+                    "OBJECTID": 269,
+                    "OID": "27021435571723",
+                    "UA": "51445"
+                  }
+                ]
+              },
+              "matchedAddress": "12829 BRANFORD ST, PACOIMA, CA, 91331",
+              "tigerLine": {
+                "side": "R",
+                "tigerLineId": "141552057"
+              }
+            }
+          ],
+          "input": {
+            "address": {
+              "address": "12829 BRANFORD ST, Los Angeles, CA 91331"
+            },
+            "benchmark": {
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "benchmarkName": "Public_AR_Current",
+              "id": "4",
+              "isDefault": true
+            },
+            "vintage": {
+              "id": "4",
+              "isDefault": true,
+              "vintageDescription": "Current Vintage - Current Benchmark",
+              "vintageName": "Current_Current"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "selected_method": "census_oneline"
+}

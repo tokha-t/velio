@@ -1,0 +1,477 @@
+{
+  "address_id": "A0366",
+  "attempts": [
+    {
+      "method": "census_oneline",
+      "response": {
+        "result": {
+          "addressMatches": [
+            {
+              "addressComponents": {
+                "city": "EAST BOSTON",
+                "fromAddress": "230",
+                "preDirection": "",
+                "preQualifier": "",
+                "preType": "",
+                "state": "MA",
+                "streetName": "EVERETT",
+                "suffixDirection": "",
+                "suffixQualifier": "",
+                "suffixType": "ST",
+                "toAddress": "240",
+                "zip": "02128"
+              },
+              "coordinates": {
+                "x": -71.030306589214,
+                "y": 42.365643672949
+              },
+              "geographies": {
+                "120th Congressional Districts": [
+                  {
+                    "AREALAND": 157187154,
+                    "AREAWATER": 16217171,
+                    "BASENAME": "7",
+                    "CD120": "07",
+                    "CDSESSN": "120",
+                    "CENTLAT": "+42.3055203",
+                    "CENTLON": "-071.0794980",
+                    "FUNCSTAT": "N",
+                    "GEOID": "2507",
+                    "INTPTLAT": "+42.3054875",
+                    "INTPTLON": "-071.0794161",
+                    "LSADC": "C2",
+                    "MTFCC": "G5200",
+                    "NAME": "Congressional District 7",
+                    "OBJECTID": 197,
+                    "OID": "2119042393278144",
+                    "STATE": "25",
+                    "STGEOMETRY_Area": 317239644.3650998,
+                    "STGEOMETRY_Length": 206736.2278697142
+                  }
+                ],
+                "2020 Census Blocks": [
+                  {
+                    "AREALAND": 10091,
+                    "AREAWATER": 0,
+                    "BASENAME": "2008",
+                    "BLKGRP": "2",
+                    "BLOCK": "2008",
+                    "CENTLAT": "+42.3657518",
+                    "CENTLON": "-071.0297903",
+                    "COUNTY": "025",
+                    "FUNCSTAT": "S",
+                    "GEOID": "250250512002008",
+                    "INTPTLAT": "+42.3657518",
+                    "INTPTLON": "-071.0297903",
+                    "LSADC": "BK",
+                    "LWBLKTYP": "L",
+                    "MTFCC": "G5040",
+                    "NAME": "Block 2008",
+                    "OBJECTID": 6162000,
+                    "OID": "210701007748498",
+                    "STATE": "25",
+                    "SUFFIX": "",
+                    "TRACT": "051200",
+                    "UR": "U"
+                  }
+                ],
+                "2020 Census Public Use Microdata Areas": [
+                  {
+                    "AREALAND": 24830133,
+                    "AREAWATER": 6247299,
+                    "BASENAME": "Boston City--Back Bay, Beacon Hill, Charlestown, East Boston, Central & South End",
+                    "CENTLAT": "+42.3688851",
+                    "CENTLON": "-071.0354357",
+                    "FUNCSTAT": "S",
+                    "GEOID": "2500802",
+                    "INTPTLAT": "+42.3692408",
+                    "INTPTLON": "-071.0347399",
+                    "LSADC": "P0",
+                    "MTFCC": "G6120",
+                    "NAME": "Boston City--Back Bay, Beacon Hill, Charlestown, East Boston, Central & South End PUMA",
+                    "OBJECTID": 1225,
+                    "OID": "2177029550585568",
+                    "PUMA": "00802",
+                    "STATE": "25"
+                  }
+                ],
+                "2020 Census ZIP Code Tabulation Areas": [
+                  {
+                    "AREALAND": 13013997,
+                    "AREAWATER": 2887417,
+                    "BASENAME": "02128",
+                    "CENTLAT": "+42.3733903",
+                    "CENTLON": "-071.0162220",
+                    "FUNCSTAT": "S",
+                    "GEOID": "02128",
+                    "INTPTLAT": "+42.3630684",
+                    "INTPTLON": "-071.0114357",
+                    "LSADC": "Z5",
+                    "MTFCC": "G6350",
+                    "NAME": "ZCTA5 02128",
+                    "OBJECTID": 10863,
+                    "OID": "221704257530764",
+                    "ZCTA5": "02128",
+                    "ZCTA5CC": "B5"
+                  }
+                ],
+                "2026 State Legislative Districts - Lower": [
+                  {
+                    "AREALAND": 12191105,
+                    "AREAWATER": 8974588,
+                    "BASENAME": "1st Suffolk",
+                    "CENTLAT": "+42.3673333",
+                    "CENTLON": "-071.0129393",
+                    "FUNCSTAT": "N",
+                    "GEOID": "25123",
+                    "INTPTLAT": "+42.3630684",
+                    "INTPTLON": "-071.0114357",
+                    "LDTYP": "O",
+                    "LSADC": "07",
+                    "LSY": "2026",
+                    "MTFCC": "G5220",
+                    "NAME": "1st Suffolk District",
+                    "OBJECTID": 1183,
+                    "OID": "2139042393388213",
+                    "SLDL": "123",
+                    "STATE": "25"
+                  }
+                ],
+                "2026 State Legislative Districts - Upper": [
+                  {
+                    "AREALAND": 36723539,
+                    "AREAWATER": 37484423,
+                    "BASENAME": "Third Suffolk",
+                    "CENTLAT": "+42.3883733",
+                    "CENTLON": "-070.9957390",
+                    "FUNCSTAT": "N",
+                    "GEOID": "25D25",
+                    "INTPTLAT": "+42.3886230",
+                    "INTPTLON": "-070.9934427",
+                    "LDTYP": "O",
+                    "LSADC": "07",
+                    "LSY": "2026",
+                    "MTFCC": "G5210",
+                    "NAME": "Third Suffolk District",
+                    "OBJECTID": 1808,
+                    "OID": "2129042393388049",
+                    "SLDU": "D25",
+                    "STATE": "25"
+                  }
+                ],
+                "Census Block Groups": [
+                  {
+                    "AREALAND": 121750,
+                    "AREAWATER": 0,
+                    "BASENAME": "2",
+                    "BLKGRP": "2",
+                    "CENTLAT": "+42.3663547",
+                    "CENTLON": "-071.0321512",
+                    "COUNTY": "025",
+                    "FUNCSTAT": "S",
+                    "GEOID": "250250512002",
+                    "INTPTLAT": "+42.3663547",
+                    "INTPTLON": "-071.0321512",
+                    "LSADC": "BG",
+                    "MTFCC": "G5030",
+                    "NAME": "Block Group 2",
+                    "OBJECTID": 228196,
+                    "OID": "20890209986907",
+                    "STATE": "25",
+                    "TRACT": "051200"
+                  }
+                ],
+                "Census Divisions": [
+                  {
+                    "AREALAND": 162376291632,
+                    "AREAWATER": 24071106051,
+                    "BASENAME": "New England",
+                    "CENTLAT": "+44.0884319",
+                    "CENTLON": "-070.6636318",
+                    "DIVISION": "1",
+                    "FUNCSTAT": "S",
+                    "GEOID": "1",
+                    "INTPTLAT": "+44.0860059",
+                    "INTPTLON": "-070.6608882",
+                    "LSADC": "69",
+                    "MTFCC": "G1200",
+                    "NAME": "New England Division",
+                    "OBJECTID": 6,
+                    "OID": "2739020719807",
+                    "REGION": "1"
+                  }
+                ],
+                "Census Regions": [
+                  {
+                    "AREALAND": 419357207693,
+                    "AREAWATER": 50257795201,
+                    "BASENAME": "Northeast",
+                    "CENTLAT": "+42.7754036",
+                    "CENTLON": "-074.2183092",
+                    "FUNCSTAT": "S",
+                    "GEOID": "1",
+                    "INTPTLAT": "+42.7778249",
+                    "INTPTLON": "-074.2123732",
+                    "LSADC": "68",
+                    "MTFCC": "G1100",
+                    "NAME": "Northeast Region",
+                    "OBJECTID": 3,
+                    "OID": "2729020719824",
+                    "REGION": "1"
+                  }
+                ],
+                "Census Tracts": [
+                  {
+                    "AREALAND": 429617,
+                    "AREAWATER": 493577,
+                    "BASENAME": "512",
+                    "CENTLAT": "+42.3633889",
+                    "CENTLON": "-071.0338907",
+                    "COUNTY": "025",
+                    "FUNCSTAT": "S",
+                    "GEOID": "25025051200",
+                    "INTPTLAT": "+42.3636524",
+                    "INTPTLON": "-071.0339346",
+                    "LSADC": "CT",
+                    "MTFCC": "G5020",
+                    "NAME": "Census Tract 512",
+                    "OBJECTID": 69967,
+                    "OID": "20790210229293",
+                    "STATE": "25",
+                    "TRACT": "051200"
+                  }
+                ],
+                "Combined Statistical Areas": [
+                  {
+                    "AREALAND": 23800692836,
+                    "AREAWATER": 7148095996,
+                    "BASENAME": "Boston-Worcester-Providence, MA-RI-NH",
+                    "CENTLAT": "+42.3823496",
+                    "CENTLON": "-071.2405196",
+                    "CSA": "148",
+                    "FUNCSTAT": "S",
+                    "GEOID": "148",
+                    "HU100": "",
+                    "INTPTLAT": "+42.3823379",
+                    "INTPTLON": "-071.2392639",
+                    "LSADC": "M0",
+                    "MTFCC": "G3100",
+                    "NAME": "Boston-Worcester-Providence, MA-RI-NH CSA",
+                    "OBJECTID": 137,
+                    "OID": "2619034687907984",
+                    "POP100": ""
+                  }
+                ],
+                "Counties": [
+                  {
+                    "AREALAND": 150886864,
+                    "AREAWATER": 160489722,
+                    "BASENAME": "Suffolk",
+                    "CENTLAT": "+42.3487288",
+                    "CENTLON": "-070.9857079",
+                    "COUNTY": "025",
+                    "COUNTYCC": "H4",
+                    "COUNTYNS": "00606939",
+                    "FUNCSTAT": "N",
+                    "GEOID": "25025",
+                    "INTPTLAT": "+42.3327346",
+                    "INTPTLON": "-071.0135134",
+                    "LSADC": "06",
+                    "MTFCC": "G4020",
+                    "NAME": "Suffolk County",
+                    "OBJECTID": 2775,
+                    "OID": "27590210166934",
+                    "STATE": "25"
+                  }
+                ],
+                "County Subdivisions": [
+                  {
+                    "AREALAND": 125204346,
+                    "AREAWATER": 106896378,
+                    "BASENAME": "Boston",
+                    "CENTLAT": "+42.3322591",
+                    "CENTLON": "-071.0164764",
+                    "COUNTY": "025",
+                    "COUSUB": "07000",
+                    "COUSUBCC": "C5",
+                    "COUSUBNS": "00619463",
+                    "FUNCSTAT": "F",
+                    "GEOID": "2502507000",
+                    "INTPTLAT": "+42.3327346",
+                    "INTPTLON": "-071.0135134",
+                    "LSADC": "25",
+                    "MTFCC": "G4040",
+                    "NAME": "Boston city",
+                    "OBJECTID": 21283,
+                    "OID": "27690210186993",
+                    "STATE": "25"
+                  }
+                ],
+                "Incorporated Places": [
+                  {
+                    "AREALAND": 125204346,
+                    "AREAWATER": 106896378,
+                    "BASENAME": "Boston",
+                    "CBSAPCI": "Y",
+                    "CENTLAT": "+42.3322591",
+                    "CENTLON": "-071.0164764",
+                    "DISP_CLR": 1,
+                    "FUNCSTAT": "A",
+                    "GEOID": "2507000",
+                    "INTPTLAT": "+42.3327346",
+                    "INTPTLON": "-071.0135134",
+                    "LSADC": "25",
+                    "MTFCC": "G4110",
+                    "NAME": "Boston city",
+                    "NECTAPCI": "N",
+                    "OBJECTID": 32396,
+                    "OID": "27890210203331",
+                    "PLACE": "07000",
+                    "PLACECC": "C5",
+                    "PLACENS": "00619463",
+                    "STATE": "25",
+                    "STGEOMETRY_Area": 424977068.0984699,
+                    "STGEOMETRY_Length": 185861.14764265937
+                  }
+                ],
+                "Metropolitan Divisions": [
+                  {
+                    "AREALAND": 2882363462,
+                    "AREAWATER": 1411497289,
+                    "BASENAME": "Boston, MA",
+                    "CBSA": "14460",
+                    "CENTLAT": "+42.0627934",
+                    "CENTLON": "-070.8746343",
+                    "CSA": "148",
+                    "FUNCSTAT": "S",
+                    "GEOID": "1446014454",
+                    "HU100": "",
+                    "INTPTLAT": "+42.0625498",
+                    "INTPTLON": "-070.8754261",
+                    "LSADC": "M3",
+                    "METDIV": "14454",
+                    "MTFCC": "G3120",
+                    "NAME": "Boston, MA Metro Division",
+                    "OBJECTID": 5,
+                    "OID": "2639034687908156",
+                    "POP100": ""
+                  }
+                ],
+                "Metropolitan Statistical Areas": [
+                  {
+                    "AREALAND": 9029575024,
+                    "AREAWATER": 2654226021,
+                    "BASENAME": "Boston-Cambridge-Newton, MA-NH",
+                    "CBSA": "14460",
+                    "CENTLAT": "+42.5152660",
+                    "CENTLON": "-071.0208998",
+                    "CSA": "148",
+                    "FUNCSTAT": "S",
+                    "GEOID": "14460",
+                    "HU100": "",
+                    "INTPTLAT": "+42.5196629",
+                    "INTPTLON": "-071.0248422",
+                    "LSADC": "M1",
+                    "MTFCC": "G3110",
+                    "NAME": "Boston-Cambridge-Newton, MA-NH Metro Area",
+                    "OBJECTID": 213,
+                    "OID": "2629034687907138",
+                    "POP100": ""
+                  }
+                ],
+                "States": [
+                  {
+                    "AREALAND": 20204495062,
+                    "AREAWATER": 7130555467,
+                    "BASENAME": "Massachusetts",
+                    "CENTLAT": "+42.1618490",
+                    "CENTLON": "-071.4975238",
+                    "DIVISION": "1",
+                    "FUNCSTAT": "A",
+                    "GEOID": "25",
+                    "INTPTLAT": "+42.1565196",
+                    "INTPTLON": "-071.4895915",
+                    "LSADC": "00",
+                    "MTFCC": "G4000",
+                    "NAME": "Massachusetts",
+                    "OBJECTID": 44,
+                    "OID": "27490203627104",
+                    "REGION": "1",
+                    "STATE": "25",
+                    "STATENS": "00606926",
+                    "STUSAB": "MA"
+                  }
+                ],
+                "Unified School Districts": [
+                  {
+                    "AREALAND": 125204346,
+                    "AREAWATER": 106896378,
+                    "BASENAME": "Boston School District",
+                    "CENTLAT": "+42.3322591",
+                    "CENTLON": "-071.0164764",
+                    "FUNCSTAT": "E",
+                    "GEOID": "2502790",
+                    "HIGRADE": "12",
+                    "INTPTLAT": "+42.3327346",
+                    "INTPTLON": "-071.0135134",
+                    "LOGRADE": "PK",
+                    "LSADC": "00",
+                    "MTFCC": "G5420",
+                    "NAME": "Boston School District",
+                    "OBJECTID": 3578,
+                    "OID": "28490210251134",
+                    "SDTYP": "",
+                    "SDUNI": "02790",
+                    "STATE": "25"
+                  }
+                ],
+                "Urban Areas": [
+                  {
+                    "AREALAND": 4288980242,
+                    "AREAWATER": 185439525,
+                    "BASENAME": "Boston, MA--NH",
+                    "CENTLAT": "+42.3794876",
+                    "CENTLON": "-071.1422216",
+                    "FUNCSTAT": "S",
+                    "GEOID": "09271",
+                    "INTPTLAT": "+42.3789986",
+                    "INTPTLON": "-071.1423438",
+                    "LSADC": "67",
+                    "MTFCC": "G3500",
+                    "NAME": "Boston, MA--NH Urban Area",
+                    "OBJECTID": 1447,
+                    "OID": "27021206517502",
+                    "UA": "09271"
+                  }
+                ]
+              },
+              "matchedAddress": "230 EVERETT ST, EAST BOSTON, MA, 02128",
+              "tigerLine": {
+                "side": "L",
+                "tigerLineId": "85711961"
+              }
+            }
+          ],
+          "input": {
+            "address": {
+              "address": "230 Everett ST, East Boston, MA 02128"
+            },
+            "benchmark": {
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "benchmarkName": "Public_AR_Current",
+              "id": "4",
+              "isDefault": true
+            },
+            "vintage": {
+              "id": "4",
+              "isDefault": true,
+              "vintageDescription": "Current Vintage - Current Benchmark",
+              "vintageName": "Current_Current"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "selected_method": "census_oneline"
+}

@@ -1,0 +1,58 @@
+{
+  "address_id": "A0376",
+  "attempts": [
+    {
+      "method": "census_oneline",
+      "response": {
+        "result": {
+          "addressMatches": [],
+          "input": {
+            "address": {
+              "address": "ST JAMES ST, Roxbury, MA 02119"
+            },
+            "benchmark": {
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "benchmarkName": "Public_AR_Current",
+              "id": "4",
+              "isDefault": true
+            },
+            "vintage": {
+              "id": "4",
+              "isDefault": true,
+              "vintageDescription": "Current Vintage - Current Benchmark",
+              "vintageName": "Current_Current"
+            }
+          }
+        }
+      }
+    },
+    {
+      "method": "census_components",
+      "response": {
+        "result": {
+          "addressMatches": [],
+          "input": {
+            "address": {
+              "city": "Roxbury",
+              "state": "MA",
+              "street": "ST JAMES ST",
+              "zip": "02119"
+            },
+            "benchmark": {
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "benchmarkName": "Public_AR_Current",
+              "id": "4",
+              "isDefault": true
+            },
+            "vintage": {
+              "id": "4",
+              "isDefault": true,
+              "vintageDescription": "Current Vintage - Current Benchmark",
+              "vintageName": "Current_Current"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "address_id": "A0456",
+  "attempts": [
+    {
+      "method": "census_oneline",
+      "response": {
+        "result": {
+          "addressMatches": [
+            {
+              "addressComponents": {
+                "city": "SAN DIEGO",
+                "fromAddress": "2141",
+                "preDirection": "",
+                "preQualifier": "",
+                "preType": "",
+                "state": "CA",
+                "streetName": "CHATSWORTH",
+                "suffixDirection": "",
+                "suffixQualifier": "",
+                "suffixType": "BLVD",
+                "toAddress": "2183",
+                "zip": "92107"
+              },
+              "coordinates": {
+                "x": -117.228546774402,
+                "y": 32.738822467011
+              },
+              "geographies": {
+                "120th Congressional Districts": [
+                  {
+                    "AREALAND": 1073298379,
+                    "AREAWATER": 346327001,
+                    "BASENAME": "50",
+                    "CD120": "50",
+                    "CDSESSN": "120",
+                    "CENTLAT": "+32.9198317",
+                    "CENTLON": "-117.0980864",
+                    "FUNCSTAT": "N",
+                    "GEOID": "0650",
+                    "INTPTLAT": "+32.9187155",
+                    "INTPTLON": "-117.0958855",
+                    "LSADC": "C2",
+                    "MTFCC": "G5200",
+                    "NAME": "Congressional District 50",
+                    "OBJECTID": 317,
+                    "OID": "2119042393002045",
+                    "STATE": "06",
+                    "STGEOMETRY_Area": 2020277800.6414008,
+                    "STGEOMETRY_Length": 494247.3188931621
+                  }
+                ],
+                "2020 Census Blocks": [
+                  {
+                    "AREALAND": 5440,
+                    "AREAWATER": 0,
+                    "BASENAME": "2019",
+                    "BLKGRP": "2",
+                    "BLOCK": "2019",
+                    "CENTLAT": "+32.7389004",
+                    "CENTLON": "-117.2280344",
+                    "COUNTY": "073",
+                    "FUNCSTAT": "S",
+                    "GEOID": "060730069002019",
+                    "INTPTLAT": "+32.7389004",
+                    "INTPTLON": "-117.2280344",
+                    "LSADC": "BK",
+                    "LWBLKTYP": "L",
+                    "MTFCC": "G5040",
+                    "NAME": "Block 2019",
+                    "OBJECTID": 733693,
+                    "OID": "210701000809826",
+                    "STATE": "06",
+                    "SUFFIX": "",
+                    "TRACT": "006900",
+                    "UR": "U"
+                  }
+                ],
+                "2020 Census Public Use Microdata Areas": [
+                  {
+                    "AREALAND": 107752092,
+                    "AREAWATER": 701473503,
+                    "BASENAME": "San Diego County (West)--San Diego City (Southwest/Central Coastal)",
+                    "CENTLAT": "+32.8978846",
+                    "CENTLON": "-117.3089309",
+                    "FUNCSTAT": "S",
+                    "GEOID": "0607310",
+                    "INTPTLAT": "+32.8996483",
+                    "INTPTLON": "-117.2498574",
+                    "LSADC": "P0",
+                    "MTFCC": "G6120",
+                    "NAME": "San Diego County (West)--San Diego City (Southwest/Central Coastal) PUMA",
+                    "OBJECTID": 363,
+                    "OID": "217704486282044",
+                    "PUMA": "07310",
+                    "STATE": "06"
+                  }
+                ],
+                "2020 Census ZIP Code Tabulation Areas": [
+                  {
+                    "AREALAND": 7771248,
+                    "AREAWATER": 1253575,
+                    "BASENAME": "92107",
+                    "CENTLAT": "+32.7392275",
+                    "CENTLON": "-117.2455918",
+                    "FUNCSTAT": "S",
+                    "GEOID": "92107",
+                    "INTPTLAT": "+32.7390213",
+                    "INTPTLON": "-117.2456761",
+                    "LSADC": "Z5",
+                    "MTFCC": "G6350",
+                    "NAME": "ZCTA5 92107",
+                    "OBJECTID": 9833,
+                    "OID": "221704258474493",
+                    "ZCTA5": "92107",
+                    "ZCTA5CC": "B5"
+                  }
+                ],
+                "2026 State Legislative Districts - Lower": [
+                  {
+                    "AREALAND": 344728760,
+                    "AREAWATER": 560593060,
+                    "BASENAME": "77",
+                    "CENTLAT": "+32.8659729",
+                    "CENTLON": "-117.2608535",
+                    "FUNCSTAT": "N",
+                    "GEOID": "06077",
+                    "INTPTLAT": "+32.9057435",
+                    "INTPTLON": "-117.2527720",
+                    "LDTYP": "O",
+                    "LSADC": "L3",
+                    "LSY": "2026",
+                    "MTFCC": "G5220",
+                    "NAME": "Assembly District 77",
+                    "OBJECTID": 2394,
+                    "OID": "2139042393385695",
+                    "SLDL": "077",
+                    "STATE": "06"
+                  }
+                ],
+                "2026 State Legislative Districts - Upper": [
+                  {
+                    "AREALAND": 472325499,
+                    "AREAWATER": 166355451,
+                    "BASENAME": "39",
+                    "CENTLAT": "+32.7372601",
+                    "CENTLON": "-117.0995079",
+                    "FUNCSTAT": "N",
+                    "GEOID": "06039",
+                    "INTPTLAT": "+32.7372471",
+                    "INTPTLON": "-117.0983478",
+                    "LDTYP": "O",
+                    "LSADC": "LU",
+                    "LSY": "2026",
+                    "MTFCC": "G5210",
+                    "NAME": "State Senate District 39",
+                    "OBJECTID": 1624,
+                    "OID": "2129042393385230",
+                    "SLDU": "039",
+                    "STATE": "06"
+                  }
+                ],
+                "Census Block Groups": [
+                  {
+                    "AREALAND": 383119,
+                    "AREAWATER": 0,
+                    "BASENAME": "2",
+                    "BLKGRP": "2",
+                    "CENTLAT": "+32.7393341",
+                    "CENTLON": "-117.2264866",
+                    "COUNTY": "073",
+                    "FUNCSTAT": "S",
+                    "GEOID": "060730069002",
+                    "INTPTLAT": "+32.7393341",
+                    "INTPTLON": "-117.2264866",
+                    "LSADC": "BG",
+                    "MTFCC": "G5030",
+                    "NAME": "Block Group 2",
+                    "OBJECTID": 159184,
+                    "OID": "20890675688063",
+                    "STATE": "06",
+                    "TRACT": "006900"
+                  }
+                ],
+                "Census Divisions": [
+                  {
+                    "AREALAND": 2321006265148,
+                    "AREAWATER": 295057188152,
+                    "BASENAME": "Pacific",
+                    "CENTLAT": "+56.3785915",
+                    "CENTLON": "-138.8914236",
+                    "DIVISION": "9",
+                    "FUNCSTAT": "S",
+                    "GEOID": "9",
+                    "INTPTLAT": "+19.8281671",
+                    "INTPTLON": "-155.4950421",
+                    "LSADC": "69",
+                    "MTFCC": "G1200",
+                    "NAME": "Pacific Division",
+                    "OBJECTID": 4,
+                    "OID": "2739020719804",
+                    "REGION": "4"
+                  }
+                ],
+                "Census Regions": [
+                  {
+                    "AREALAND": 4538933004900,
+                    "AREAWATER": 313750173666,
+                    "BASENAME": "West",
+                    "CENTLAT": "+49.9401545",
+                    "CENTLON": "-124.1894076",
+                    "FUNCSTAT": "S",
+                    "GEOID": "4",
+                    "INTPTLAT": "+19.8281671",
+                    "INTPTLON": "-155.4950421",
+                    "LSADC": "68",
+                    "MTFCC": "G1100",
+                    "NAME": "West Region",
+                    "OBJECTID": 2,
+                    "OID": "2729020719823",
+                    "REGION": "4"
+                  }
+                ],
+                "Census Tracts": [
+                  {
+                    "AREALAND": 1820434,
+                    "AREAWATER": 0,
+                    "BASENAME": "69",
+                    "CENTLAT": "+32.7430457",
+                    "CENTLON": "-117.2219470",
+                    "COUNTY": "073",
+                    "FUNCSTAT": "S",
+                    "GEOID": "06073006900",
+                    "INTPTLAT": "+32.7430457",
+                    "INTPTLON": "-117.2219470",
+                    "LSADC": "CT",
+                    "MTFCC": "G5020",
+                    "NAME": "Census Tract 69",
+                    "OBJECTID": 49946,
+                    "OID": "20790676341695",
+                    "STATE": "06",
+                    "TRACT": "006900"
+                  }
+                ],
+                "Counties": [
+                  {
+                    "AREALAND": 10906080369,
+                    "AREAWATER": 815935129,
+                    "BASENAME": "San Diego",
+                    "CENTLAT": "+33.0281014",
+                    "CENTLON": "-116.7698832",
+                    "COUNTY": "073",
+                    "COUNTYCC": "H1",
+                    "COUNTYNS": "00277301",
+                    "FUNCSTAT": "A",
+                    "GEOID": "06073",
+                    "INTPTLAT": "+33.0193420",
+                    "INTPTLON": "-116.7698365",
+                    "LSADC": "06",
+                    "MTFCC": "G4020",
+                    "NAME": "San Diego County",
+                    "OBJECTID": 2623,
+                    "OID": "27590676180305",
+                    "STATE": "06"
+                  }
+                ],
+                "County Subdivisions": [
+                  {
+                    "AREALAND": 1809624922,
+                    "AREAWATER": 541868921,
+                    "BASENAME": "San Diego",
+                    "CENTLAT": "+32.8232607",
+                    "CENTLON": "-117.1021044",
+                    "COUNTY": "073",
+                    "COUSUB": "92780",
+                    "COUSUBCC": "Z5",
+                    "COUSUBNS": "01935283",
+                    "FUNCSTAT": "S",
+                    "GEOID": "0607392780",
+                    "INTPTLAT": "+32.8133962",
+                    "INTPTLON": "-117.1000062",
+                    "LSADC": "22",
+                    "MTFCC": "G4040",
+                    "NAME": "San Diego CCD",
+                    "OBJECTID": 27185,
+                    "OID": "27690676327037",
+                    "STATE": "06"
+                  }
+                ],
+                "Incorporated Places": [
+                  {
+                    "AREALAND": 844624048,
+                    "AREAWATER": 42079051,
+                    "BASENAME": "San Diego",
+                    "CBSAPCI": "Y",
+                    "CENTLAT": "+32.8303240",
+                    "CENTLON": "-117.1227002",
+                    "DISP_CLR": 2,
+                    "FUNCSTAT": "A",
+                    "GEOID": "0666000",
+                    "INTPTLAT": "+32.8303910",
+                    "INTPTLON": "-117.1209230",
+                    "LSADC": "25",
+                    "MTFCC": "G4110",
+                    "NAME": "San Diego city",
+                    "NECTAPCI": "N",
+                    "OBJECTID": 31957,
+                    "OID": "27890676334290",
+                    "PLACE": "66000",
+                    "PLACECC": "C1",
+                    "PLACENS": "02411782",
+                    "STATE": "06",
+                    "STGEOMETRY_Area": 1259336541.4881783,
+                    "STGEOMETRY_Length": 431221.57834888546
+                  }
+                ],
+                "Metropolitan Statistical Areas": [
+                  {
+                    "AREALAND": 10906080369,
+                    "AREAWATER": 815935129,
+                    "BASENAME": "San Diego-Chula Vista-Carlsbad, CA",
+                    "CBSA": "41740",
+                    "CENTLAT": "+33.0281014",
+                    "CENTLON": "-116.7698832",
+                    "CSA": "",
+                    "FUNCSTAT": "S",
+                    "GEOID": "41740",
+                    "HU100": "",
+                    "INTPTLAT": "+33.0193420",
+                    "INTPTLON": "-116.7698365",
+                    "LSADC": "M1",
+                    "MTFCC": "G3110",
+                    "NAME": "San Diego-Chula Vista-Carlsbad, CA Metro Area",
+                    "OBJECTID": 168,
+                    "OID": "2629034687907783",
+                    "POP100": ""
+                  }
+                ],
+                "States": [
+                  {
+                    "AREALAND": 403676534536,
+                    "AREAWATER": 20288534055,
+                    "BASENAME": "California",
+                    "CENTLAT": "+37.1547616",
+                    "CENTLON": "-119.5277735",
+                    "DIVISION": "9",
+                    "FUNCSTAT": "A",
+                    "GEOID": "06",
+                    "INTPTLAT": "+37.1626642",
+                    "INTPTLON": "-119.5713456",
+                    "LSADC": "00",
+                    "MTFCC": "G4000",
+                    "NAME": "California",
+                    "OBJECTID": 6,
+                    "OID": "2749018475066",
+                    "REGION": "4",
+                    "STATE": "06",
+                    "STATENS": "01779778",
+                    "STUSAB": "CA"
+                  }
+                ],
+                "Unified School Districts": [
+                  {
+                    "AREALAND": 526941869,
+                    "AREAWATER": 390329045,
+                    "BASENAME": "San Diego City Unified School District",
+                    "CENTLAT": "+32.7730961",
+                    "CENTLON": "-117.1862523",
+                    "FUNCSTAT": "E",
+                    "GEOID": "0634320",
+                    "HIGRADE": "12",
+                    "INTPTLAT": "+32.7737905",
+                    "INTPTLON": "-117.1878178",
+                    "LOGRADE": "KG",
+                    "LSADC": "00",
+                    "MTFCC": "G5420",
+                    "NAME": "San Diego City Unified School District",
+                    "OBJECTID": 1739,
+                    "OID": "28490676370980",
+                    "SDTYP": "",
+                    "SDUNI": "34320",
+                    "STATE": "06"
+                  }
+                ],
+                "Urban Areas": [
+                  {
+                    "AREALAND": 1748144238,
+                    "AREAWATER": 37479307,
+                    "BASENAME": "San Diego, CA",
+                    "CENTLAT": "+32.9115217",
+                    "CENTLON": "-117.1300861",
+                    "FUNCSTAT": "S",
+                    "GEOID": "78661",
+                    "INTPTLAT": "+32.9097919",
+                    "INTPTLON": "-117.1272943",
+                    "LSADC": "67",
+                    "MTFCC": "G3500",
+                    "NAME": "San Diego, CA Urban Area",
+                    "OBJECTID": 1317,
+                    "OID": "27021676369007",
+                    "UA": "78661"
+                  }
+                ]
+              },
+              "matchedAddress": "2151 CHATSWORTH BLVD, SAN DIEGO, CA, 92107",
+              "tigerLine": {
+                "side": "R",
+                "tigerLineId": "612889033"
+              }
+            }
+          ],
+          "input": {
+            "address": {
+              "address": "2151 CHATSWORTH BLVD, San Diego, CA 92107"
+            },
+            "benchmark": {
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "benchmarkName": "Public_AR_Current",
+              "id": "4",
+              "isDefault": true
+            },
+            "vintage": {
+              "id": "4",
+              "isDefault": true,
+              "vintageDescription": "Current Vintage - Current Benchmark",
+              "vintageName": "Current_Current"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "selected_method": "census_oneline"
+}
