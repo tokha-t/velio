@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 18188,
+  "duration_ms": 18485,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 2629,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 70719,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.30743360000000003,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2215,
+      "provider": "firstParty",
+      "thinkingTokens": 1650,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"Los Angeles, CA\",\"level\":\"city\",\"category\":\"rent_increase_limits\",\"title\":\"Los Angeles RSO annual allowable rent increase\",\"requirement\":\"For rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), the annual allowable rent increase is 3% for July 1, 2025 through June 30, 2026. Beginning February 2, 2026, a landlord can no longer add any extra percentage increase for utilities. RSO and SCEP surcharges are separate from rent and can be collected only after the landlord registers the units and gives the tenant written notice.\",\"citation\":\"Los Angeles Rent Stabilization Ordinance (RSO)\",\"quoted_span\":\"Annual rent increases for rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO), effective July 1, 2025, through June 30, 2026 is 3%\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":\"effective July 1, 2025, through June 30, 2026\",\"key_value\":\"3% annual allowable increase (July 1, 2025 - June 30, 2026); no added utility percentage beginning February 2, 2026\",\"exemptions\":[],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Rental units subject to the City of Los Angeles Rent Stabilization Ordinance (RSO). This page does not state the construction-date or unit-count criteria for RSO coverage. Non-RSO properties are directed to the Housing Department for allowable rent increases.\",\"predicates\":[]},\"confidence\":0.85}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "5a2cc8f0-0817-4311-a4e4-17ad3a36d752",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 177,
+  "total_cost_usd": 0.30743360000000003,
+  "ttft_ms": 15211,
+  "ttft_stream_ms": 2628,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 70719,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 70719,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 70719,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 70719,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 2215,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 2215,
+    "output_tokens_details": {
+      "thinking_tokens": 1650
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "b079438c-7d73-4469-b2ea-fcfe3185d7bd"
+}

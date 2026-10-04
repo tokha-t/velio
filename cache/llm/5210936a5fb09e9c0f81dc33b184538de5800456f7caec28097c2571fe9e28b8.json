@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 7099,
+  "duration_ms": 7371,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 2198,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 67887,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.2801756,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 622,
+      "provider": "firstParty",
+      "thinkingTokens": 433,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "```json\n{\"rules\":[],\"no_rule_reason\":\"Boston Housing Stability Notification Act FAQ (agency guidance) describes a pre-eviction notice duty: landlords must give a Notice of Tenants' Rights and Resources and send the Notice to Quit to the Office of Housing Stability. It does not set rent increase limits, just-cause grounds, security deposit rules, application or screening fees, screening restrictions, or algorithmic rent setting. It fits none of the six categories, and the FAQ does not state that eviction needs a just cause.\"}\n```",
+  "result_index": 0,
+  "session_id": "7aef8ebd-85c7-43fd-b880-7ebee55fbe3c",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 140,
+  "total_cost_usd": 0.2801756,
+  "ttft_ms": 5774,
+  "ttft_stream_ms": 2197,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 67887,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 67887,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 67887,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 67887,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 622,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 622,
+    "output_tokens_details": {
+      "thinking_tokens": 433
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "26680023-aece-4e91-8bf4-9aaec21e4196"
+}

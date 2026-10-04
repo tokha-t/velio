@@ -137,6 +137,13 @@ def evaluate_lookups(addresses: list[dict[str, Any]], rules: list[dict[str, Any]
 
 
 def _load_rules(path: Path | None = None) -> list[dict[str, Any]]:
+    if path is None:
+        errors_path = BUILD_ROOT / "extract_errors.json"
+        if errors_path.exists() and json.loads(errors_path.read_text()).get("errors"):
+            raise RuntimeError(
+                "Production lookups are blocked: extraction has retry-exhausted chunks in "
+                f"{errors_path}. Resume P1 from cache before generating submission outputs."
+            )
     source = path or BUILD_ROOT / "rules_internal.json"
     if not source.exists():
         raise FileNotFoundError(f"P2 requires {source}; finish P1 extraction and merge before generating production lookups")

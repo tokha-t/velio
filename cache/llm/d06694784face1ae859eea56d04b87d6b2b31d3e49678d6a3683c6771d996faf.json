@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 4742,
+  "duration_ms": 5014,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 887,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 75437,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.3097456,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 559,
+      "provider": "firstParty",
+      "thinkingTokens": 341,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[],\"no_rule_reason\":\"The page describes Boston's Housing Stability Notification Act (Sec. 10-11.7). It requires landlords to give tenants a Notice of Tenants' Rights and Resources and to notify the city when ending a tenancy. That is a notice and reporting duty. It does not match any of the six allowed categories: it sets no rent increase limit, no just-cause standard, no security deposit rule, no application or screening fee rule, no screening restriction, and no algorithmic rent-setting rule. The page also says a violation does not halt the eviction process. No record was emitted, to avoid forcing a mislabeled category.\"}",
+  "result_index": 0,
+  "session_id": "e01e4245-8573-410f-9b66-2cb12ec780ba",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 138,
+  "total_cost_usd": 0.3097456,
+  "ttft_ms": 3328,
+  "ttft_stream_ms": 887,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 75437,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 75437,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 75437,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 75437,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 559,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 559,
+    "output_tokens_details": {
+      "thinking_tokens": 341
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "625745ed-155b-4f80-9b9c-4a99bfc60a27"
+}

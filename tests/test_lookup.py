@@ -25,3 +25,18 @@ def test_results_are_sorted_and_explanations_are_never_empty():
     assert [item["team_rule_id"] for item in got] == ["a", "z"]
     assert all(item["explanation"] for item in got)
     assert all(set(item) == {"team_rule_id", "result", "explanation", "conflict_flag"} for item in got)
+
+
+def test_year_only_construction_cutoff_is_evaluated_without_a_date_parse_failure():
+    cutoff = rule(
+        "cutoff",
+        "CA",
+        "rent_increase_limits",
+        coverage_conditions={
+            "text": "built before 1980",
+            "predicates": [{"type": "built_on_or_before", "parameters": {"date": "1980", "basis": "certificate_of_occupancy"}}],
+        },
+    )
+    got = evaluate_lookups([address("old", ["CA"], year=1979), address("edge", ["CA"], year=1980)], [cutoff], date(2026, 10, 1))
+    assert got["old"][0]["result"] == "applies"
+    assert got["edge"][0]["result"] == "unknown"

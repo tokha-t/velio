@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 15568,
+  "duration_ms": 15847,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 2591,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 73859,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.31858359999999997,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2074,
+      "provider": "firstParty",
+      "thinkingTokens": 721,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"CA\",\"level\":\"state\",\"category\":\"just_cause_eviction\",\"title\":\"California Tenant Protection Act: just cause required to terminate a tenancy\",\"requirement\":\"After a tenant has continuously and lawfully occupied a residential unit for 12 months, the owner may end the tenancy only for a stated just cause. At-fault causes include nonpayment of rent, material lease breach, nuisance, waste, and criminal activity. No-fault causes include owner or relative move-in, withdrawal from the rental market, a government or court order to vacate, and demolition or substantial remodel. For no-fault terminations the owner must pay one month's rent as relocation assistance or waive the final month's rent. A notice that does not comply is void, and waiver of these rights is void.\",\"citation\":\"Cal. Civ. Code \u00a7 1946.2\",\"quoted_span\":\"Notwithstanding any other law, after a tenant has continuously and lawfully occupied a residential real property for 12 months, the owner of the residential real property shall not terminate a tenancy without just cause, which shall be stated in the written notice to terminate tenancy.\",\"doc_kind\":\"statute\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"Just cause required after 12 months of continuous lawful occupancy; no-fault termination requires one month's rent as relocation assistance or rent waiver\",\"exemptions\":[\"Transient and tourist hotel occupancy\",\"Nonprofit hospital, religious facility, extended care facility, licensed residential care facility for the elderly, or adult residential facility housing\",\"Dormitories owned and operated by a higher-education institution or a K-12 school\",\"Tenant shares bathroom or kitchen with an owner who lives on the property\",\"Single-family owner-occupied residences where the owner rents no more than two units or bedrooms, and mobilehomes\",\"Two-unit property in which the owner occupied one unit as a principal residence at the start of the tenancy, if neither unit is an ADU or JADU\",\"Housing issued a certificate of occupancy within the previous 15 years, unless it is a mobilehome\",\"Separately alienable residential property whose owner is not a REIT, corporation, or LLC with a corporate member, and where the tenant received the required written exemption notice\",\"Deed-restricted or subsidized affordable housing\",\"Property subject to a local just cause ordinance adopted on or before September 1, 2019, or to a more protective local ordinance adopted or amended after that date\"],\"yields_to_local\":true,\"coverage_conditions\":{\"text\":\"Applies to residential tenancies after 12 months of continuous lawful occupancy, except the listed exemptions. Does not apply where a qualifying local just cause ordinance governs. Housing with a certificate of occupancy within the previous 15 years is exempt.\",\"predicates\":[{\"type\":\"rolling_new_construction_exempt_years\",\"parameters\":{\"n\":15,\"basis\":\"certificate_of_occupancy\",\"text\":\"Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome.\"}},{\"type\":\"owner_type\",\"parameters\":{\"text\":\"Exempt if alienable separate from title to any other dwelling unit, the owner is not a REIT, corporation, or LLC with a corporate member, and the tenants were given the required written exemption notice. Single-family owner-occupied residences renting no more than two units or bedrooms are also exempt.\",\"max_units_if_small_landlord\":2}},{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":\"Transient hotels, nonprofit hospital or religious facility housing, care facilities, dormitories, shared bathroom or kitchen with owner, and deed-restricted or subsidized affordable housing.\"}},{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":\"Tenant has continuously and lawfully occupied the unit for 12 months, or 24 months if additional adult tenants were added before 24 months, unless all tenants have occupied for 12 months or more.\"}}]},\"confidence\":0.95}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "19b2d39e-87c1-4517-b083-bb8f6b36d23e",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 146,
+  "total_cost_usd": 0.31858359999999997,
+  "ttft_ms": 7484,
+  "ttft_stream_ms": 2591,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 73859,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 73859,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 73859,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 73859,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 2074,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 2074,
+    "output_tokens_details": {
+      "thinking_tokens": 721
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "6f86208f-0d37-4dfa-b0e0-38f2c5c30b8e"
+}

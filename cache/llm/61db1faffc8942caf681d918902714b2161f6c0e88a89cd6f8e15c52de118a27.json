@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 16104,
+  "duration_ms": 16692,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 7056,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 64701,
+      "cacheReadInputTokens": 10346,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.27539719999999995,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1452,
+      "provider": "firstParty",
+      "thinkingTokens": 674,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "```json\n{\"rules\":[{\"jurisdiction\":\"Berkeley, CA\",\"level\":\"city\",\"category\":\"algorithmic_rent_setting\",\"title\":\"Prohibition on sale or use of coordinated pricing algorithms to set rents or occupancy levels\",\"requirement\":\"It is unlawful to sell, license, or otherwise provide to Berkeley landlords a coordinated pricing algorithm that sets or recommends rents or occupancy levels for residential dwelling units in Berkeley. It is also unlawful for a landlord to use such an algorithm when setting rents or occupancy levels. Each month a violation continues, and each unit the algorithm was used for, is a separate violation. The City Attorney or an aggrieved tenant may sue for damages, injunctive relief, and civil penalties of up to $1,000 per violation, with attorney's fees awarded to the prevailing party.\",\"citation\":\"Berkeley Mun. Code ch. 13.63\",\"quoted_span\":\"It shall be unlawful to sell, license, or otherwise provide to City of Berkeley landlords any coordinated pricing algorithm that sets or recommends rents or occupancy levels\",\"doc_kind\":\"ordinance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"Ban on sale and use of coordinated pricing algorithms; civil penalties up to $1,000 per violation\",\"exemptions\":[\"Products that publish aggregated, anonymous rental data without recommending rent prices, fees, occupancy rates or other lease terms\",\"Products used to establish rent or income limits under affordable housing guidelines of a local, state, federal or other government\",\"Products or processes used for market research for project financing, appraisal, or research, testing or training for software development, if Competitor Data is not an input when a recommendation is calculated for a Berkeley landlord\",\"Competitor Data limited to nonpublic data on other landlords' properties that is less than 90 days old\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to the sale, licensing or provision of coordinated pricing algorithms to landlords of residential dwelling units in the City of Berkeley, and to landlords' use of them in setting rents or occupancy levels for such units. No unit-count or construction-date limits are stated.\",\"predicates\":[]},\"confidence\":0.95}],\"no_rule_reason\":null}\n```",
+  "result_index": 0,
+  "session_id": "94490aef-a847-47bf-aa24-eddcb67d1fa6",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 481,
+  "total_cost_usd": 0.27539719999999995,
+  "ttft_ms": 12061,
+  "ttft_stream_ms": 7056,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 64701,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 64701,
+    "cache_read_input_tokens": 10346,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 64701,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 64701,
+        "cache_read_input_tokens": 10346,
+        "input_tokens": 2,
+        "output_tokens": 1452,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1452,
+    "output_tokens_details": {
+      "thinking_tokens": 674
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "196c8ced-3da5-473e-a2b1-ebb9346f5ad6"
+}

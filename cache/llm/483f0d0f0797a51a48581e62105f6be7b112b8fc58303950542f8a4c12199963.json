@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 37793,
+  "duration_ms": 38255,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1943,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 71396,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.3421216,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 5413,
+      "provider": "firstParty",
+      "thinkingTokens": 3657,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"NJ\",\"level\":\"state\",\"category\":\"security_deposits\",\"title\":\"NJ Security Deposit Law: interest, notice and return within 30 days\",\"requirement\":\"A landlord must return the security deposit, plus interest earned less itemized deductions, within 30 days after the tenancy ends. Interest on the deposit belongs to the tenant. The landlord must give written notice of where the deposit is held within 30 days of receipt and at each annual interest payment. A landlord who wrongfully withholds the deposit can be sued for double the amount withheld, plus court costs and attorney's fees.\",\"citation\":\"N.J.S.A. 46:8-21.1\",\"quoted_span\":\"Within 30 days after the termination of a tenancy, a landlord must return the security deposit, plus interest earned less deductions, to the tenant\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"Return within 30 days of tenancy end; double damages if wrongfully withheld\",\"exemptions\":[\"Deposits for seasonal use or rental (a term of not more than 125 consecutive days for residential purposes by a person with a permanent residence elsewhere); the landlord must prove the use is seasonal\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to residential rental security deposits statewide, except seasonal use or rental.\",\"predicates\":[{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":[\"seasonal use or rental of not more than 125 consecutive days\"]}}]},\"confidence\":0.85},{\"jurisdiction\":\"NJ\",\"level\":\"state\",\"category\":\"screening_restrictions\",\"title\":\"NJ Law Against Discrimination: housing, including source of lawful income\",\"requirement\":\"A landlord or rental agency may not refuse to rent or discriminate in renting housing on protected grounds. These include race, creed, color, national origin, ancestry, sex, marital status, civil union and domestic partnership status, familial status, sexual orientation, gender identity or expression, disability, nationality, and source of lawful income. The law applies to all landlord-tenant relationships except the listed exemptions.\",\"citation\":\"N.J.S.A. 10:5-12\",\"quoted_span\":\"requires equal treatment in the sale or rental of housing regardless of race, creed, color, national origin, ancestry, sex, marital status, civil union status, domestic partnership status, familial status, affectional or sexual orientation, gender identity or expression, mental and physical disability, nationality, or source of lawful income\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"Source of lawful income is a protected ground\",\"exemptions\":[\"Two-family owner-occupied dwellings\",\"Rooms in an owner- or resident-occupied single home\",\"Residences planned exclusively for and occupied by one sex (as it pertains to familial status)\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to all landlord-tenant relationships except two-family owner-occupied dwellings, rooms in an owner- or resident-occupied single home, and single-sex residences (familial status only).\",\"predicates\":[{\"type\":\"owner_occupied_exempt_max_units\",\"parameters\":{\"n\":2,\"text\":\"two-family owner-occupied dwellings are exempt\"}},{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":[\"rooms in an owner- or resident-occupied single home\",\"residences planned exclusively for and occupied by one sex (familial status)\"]}}]},\"confidence\":0.8},{\"jurisdiction\":\"NJ\",\"level\":\"state\",\"category\":\"rent_increase_limits\",\"title\":\"NJ rent control is local only; newly constructed multiple dwellings exempt for 30 years\",\"requirement\":\"New Jersey has no state law that establishes, governs or controls rents. Municipalities may pass rent control or rent leveling ordinances. Under the Newly Constructed Multiple Dwellings Law, newly constructed multiple dwellings are exempt from any local rent control ordinance for 30 years after construction of the building is completed. Rents subsidized by governmental funding may also be exempt.\",\"citation\":\"N.J.S.A. 2A:42-84.5\",\"quoted_span\":\"newly constructed multiple dwellings shall be exempt from any local rent control ordinances for a period of 30 years following completion of construction of the building\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"No state rent cap; 30-year local rent control exemption for newly constructed multiple dwellings\",\"exemptions\":[\"Newly constructed multiple dwellings, for 30 years following completion of construction\",\"Rents subsidized by governmental funding may also be exempt\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Exemption from local rent control for multiple dwellings within 30 years of completed construction; subsidized rents may also be exempt.\",\"predicates\":[{\"type\":\"rolling_new_construction_exempt_years\",\"parameters\":{\"n\":30}},{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":[\"rents subsidized by governmental funding\"]}}]},\"confidence\":0.8}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "fb7e8842-724c-4c41-8a8b-430d9d944f28",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 161,
+  "total_cost_usd": 0.3421216,
+  "ttft_ms": 28373,
+  "ttft_stream_ms": 1943,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 71396,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 71396,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 71396,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 71396,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 5413,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 5413,
+    "output_tokens_details": {
+      "thinking_tokens": 3657
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "d6650d67-ea37-42e3-8211-c00c858dba4f"
+}

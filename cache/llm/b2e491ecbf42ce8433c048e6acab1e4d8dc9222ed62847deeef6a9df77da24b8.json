@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 8982,
+  "duration_ms": 9389,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1066,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 66902,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.2816956,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1168,
+      "provider": "firstParty",
+      "thinkingTokens": 674,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "```json\n{\"rules\":[{\"jurisdiction\":\"CA\",\"level\":\"state\",\"category\":\"security_deposits\",\"title\":\"California security deposit rules: nonrefundable-deposit ban and bad-faith damages\",\"requirement\":\"A lease or rental agreement may not describe any security deposit as \\\"nonrefundable.\\\" A landlord or successor in interest who claims or keeps a security deposit (or any part of it) in bad faith, or demands replacement security in bad faith, may owe statutory damages of up to twice the amount of the security, plus actual damages. The landlord or successor bears the burden of proving the amounts claimed were reasonable. A successor who receives any part of the security takes on the landlord's rights and duties for it. Claims may be brought in small claims court within its jurisdictional limit.\",\"citation\":\"Cal. Civ. Code \u00a7 1950.5\",\"quoted_span\":\"A lease or rental agreement shall not contain a provision characterizing any security as \u201cnonrefundable.\u201d\",\"doc_kind\":\"statute\",\"enacted_date\":null,\"effective_date_text\":\"Effective January 1, 2026.\",\"key_value\":\"Security may not be called nonrefundable; bad-faith retention damages up to twice the security amount\",\"exemptions\":[],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to any security held by a landlord under a lease or rental agreement. This chunk states no building-level conditions.\",\"predicates\":[]},\"confidence\":0.6}],\"no_rule_reason\":null}\n```",
+  "result_index": 0,
+  "session_id": "d10d27f5-d601-49cc-b336-5ece7a8f039c",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 261,
+  "total_cost_usd": 0.2816956,
+  "ttft_ms": 6053,
+  "ttft_stream_ms": 1066,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 66902,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 66902,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 66902,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 66902,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 1168,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1168,
+    "output_tokens_details": {
+      "thinking_tokens": 674
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "8fb5881e-8b9b-4e90-8b93-13a10449b3c0"
+}

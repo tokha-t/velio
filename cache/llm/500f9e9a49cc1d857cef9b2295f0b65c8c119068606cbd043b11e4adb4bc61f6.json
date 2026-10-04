@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 13386,
+  "duration_ms": 13628,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 3087,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 76011,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.3201216,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1367,
+      "provider": "firstParty",
+      "thinkingTokens": 661,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"MA\",\"level\":\"state\",\"category\":\"security_deposits\",\"title\":\"Massachusetts residential security deposit and prepaid rent limits\",\"requirement\":\"At or before the start of a residential tenancy, a lessor or the lessor's agent may require only the first month's rent, the last month's rent at the first month's rate, a security deposit of no more than one month's rent, and the cost of a key and lock. The deposit must be held in a separate interest-bearing bank account in Massachusetts, and the tenant must get a receipt and a signed statement of the premises' condition. The tenant is owed 5% yearly interest, or the lesser rate the bank paid. The lessor must return the deposit, less permitted deductions with an itemized list, within 30 days after the tenancy ends. A lessor who breaks these rules can forfeit the right to keep any of the deposit and owe triple damages.\",\"citation\":\"M.G.L. c. 186, \u00a7 15B\",\"quoted_span\":\"(iii) a security deposit equal to the first month's rent provided that such security deposit is deposited as required by subsection (3) and that the tenant is given the statement of condition as required by subsection (2)\",\"doc_kind\":\"statute\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"Security deposit capped at 1 month's rent; last month's rent prepaid at the first month's rate; 5% annual interest; return within 30 days\",\"exemptions\":[\"Lessor may enter and deduct from the deposit only for unpaid rent or water charges, unpaid tax increases under a conforming escalation clause, and reasonable repair of tenant-caused damage (wear and tear excluded)\",\"Executive office of housing and livable communities may authorize by regulation an optional fee in lieu of a security deposit, capped with any deposit at 1 month's rent in total\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to leases and tenancies of residential real property in Massachusetts. No unit-count, construction-date or owner-type limit appears in this text.\",\"predicates\":[]},\"confidence\":0.9}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "23b5cc0a-5274-46b7-9c97-137e0ff732f2",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 135,
+  "total_cost_usd": 0.3201216,
+  "ttft_ms": 8233,
+  "ttft_stream_ms": 3087,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 76011,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 76011,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 76011,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 76011,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 1367,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1367,
+    "output_tokens_details": {
+      "thinking_tokens": 661
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "b3140b57-f8ac-4b82-bc8c-3d607a8649cb"
+}

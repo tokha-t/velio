@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 11445,
+  "duration_ms": 11815,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1216,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 64544,
+      "cacheReadInputTokens": 10346,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.27597920000000004,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1573,
+      "provider": "firstParty",
+      "thinkingTokens": 997,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"Berkeley, CA\",\"level\":\"city\",\"category\":\"just_cause_eviction\",\"title\":\"Berkeley relocation assistance for owner move-in and Ellis Act evictions\",\"requirement\":\"Owners must pay tenants relocation assistance when evicting for an owner move-in. The Ellis Implementation Ordinance requires the same payments when a tenant is evicted so the owner can remove the property from the rental housing market. Both ordinances index the payments to inflation, and the Rent Board publishes the yearly increases. The Rent Board approved increases effective January 1, 2026.\",\"citation\":\"Berkeley Rent Stabilization and Good Cause for Eviction Ordinance (relocation assistance)\",\"quoted_span\":\"The Rent Stabilization and Good Cause for Eviction Ordinance requires owners to pay tenants relocation assistance in the event of an owner move-in eviction.\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":\"January 1, 2026\",\"key_value\":\"2026 standard relocation payment $19,413; additional payment for qualifying households $6,471 (1.5% CPI increase), effective January 1, 2026\",\"exemptions\":[],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to tenants evicted for an owner move-in or for an Ellis Act removal of the unit from the rental market. The additional payment applies only to qualifying households.\",\"predicates\":[{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":\"Additional $6,471 payment applies only to qualifying households; the text does not define who qualifies.\"}}]},\"confidence\":0.8}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "157c9144-ab0e-48de-8a45-3a78939531ab",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 297,
+  "total_cost_usd": 0.27597920000000004,
+  "ttft_ms": 8389,
+  "ttft_stream_ms": 1216,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 64544,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 64544,
+    "cache_read_input_tokens": 10346,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 64544,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 64544,
+        "cache_read_input_tokens": 10346,
+        "input_tokens": 2,
+        "output_tokens": 1573,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1573,
+    "output_tokens_details": {
+      "thinking_tokens": 997
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "c490129c-b925-4ac1-aefe-a41348d60bdb"
+}

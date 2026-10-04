@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from datetime import date
+import re
 from typing import Any, Literal
 
 Truth = Literal["true", "false", "unknown"]
@@ -41,6 +42,16 @@ def _decision(kind: str, result: Truth, reason: str, **facts: Any) -> PredicateD
     return PredicateDecision(kind, result, reason, facts)
 
 
+def _predicate_date(value: Any) -> date:
+    """Accept the internal date precision allowed for rule fields (YYYY[-MM][-DD])."""
+    text = str(value)
+    if re.fullmatch(r"\d{4}", text):
+        return date(int(text), 1, 1)
+    if re.fullmatch(r"\d{4}-\d{2}", text):
+        return date.fromisoformat(text + "-01")
+    return date.fromisoformat(text)
+
+
 def evaluate_predicate(predicate: dict[str, Any], facts: dict[str, Any], as_of: date) -> PredicateDecision:
     kind = predicate.get("type", "")
     params = predicate.get("parameters") or {}
@@ -48,7 +59,7 @@ def evaluate_predicate(predicate: dict[str, Any], facts: dict[str, Any], as_of: 
     low, high = _units(facts)
 
     if kind in {"built_on_or_before", "built_after"}:
-        cutoff = date.fromisoformat(params["date"])
+        cutoff = _predicate_date(params["date"])
         if year is None:
             return _decision(kind, "unknown", "the construction year is missing", year_built=None, cutoff=params["date"])
         if year == cutoff.year and params.get("basis") == "certificate_of_occupancy":

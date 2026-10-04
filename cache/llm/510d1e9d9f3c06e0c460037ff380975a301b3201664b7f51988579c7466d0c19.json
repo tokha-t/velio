@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 24430,
+  "duration_ms": 24729,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 2550,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 71216,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.3224216,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3515,
+      "provider": "firstParty",
+      "thinkingTokens": 1987,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"Berkeley, CA\",\"level\":\"city\",\"category\":\"rent_increase_limits\",\"title\":\"Berkeley Rent Ordinance: 5% cap on Annual General Adjustment (Measure BB)\",\"requirement\":\"For fully covered rental units, the yearly rent increase (Annual General Adjustment, or AGA) set by the Rent Board follows a CPI-based formula but can never be more than 5%. The cap does not stop a landlord with banked (unused) AGAs from raising rent above 5% to reach the rent ceiling.\",\"citation\":\"Berkeley Rent Ordinance, as amended by Measure BB (Nov. 2024)\",\"quoted_span\":\"The maximum AGA is 5%. This means that, if the formula in the Rent Ordinance results in an AGA that is greater than 5%, the AGA approved by the Board for that year can be no more than 5%.\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"Maximum Annual General Adjustment: 5%\",\"exemptions\":[\"Units exempt from the Rent Ordinance\",\"Partially covered units are not subject to the rent ceiling and AGA\",\"Landlords with banked AGAs may exceed 5% to reach the rent ceiling\",\"Units where the tenant shares a kitchen or bath with a landlord who lived on the property before the tenancy began\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to fully covered units, which include most units in multifamily properties built before 1980. New construction units (certificate of occupancy issued after 1980), most single-family homes and most condominiums are only partially covered. Government-owned or subsidized units are fully or partially covered depending on unit type and subsidy.\",\"predicates\":[{\"type\":\"built_on_or_before\",\"parameters\":{\"date\":\"1980\",\"basis\":\"certificate_of_occupancy\"}},{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":[\"Units where the tenant shares a kitchen or bath with a landlord who lived on the property before the tenancy\",\"Government-owned or subsidized units (Section 8, Shelter Plus Care, VASH, LIHTC, HOME and others), fully or partially covered depending on unit type\",\"Section 202 and Section 811 units, partially covered\",\"Most single-family homes and condominiums, partially covered\"]}}]},\"confidence\":0.85},{\"jurisdiction\":\"Berkeley, CA\",\"level\":\"city\",\"category\":\"just_cause_eviction\",\"title\":\"Berkeley Rent Ordinance: just cause required for eviction (Measure BB changes)\",\"requirement\":\"Tenants in fully or partially covered units cannot be evicted without just cause. Measure BB bars nonpayment evictions when rental debt is under one month of HUD Fair Market Rent for an equivalent unit. It bars evictions for refusing to sign a substantially similar new lease. Lease-breach evictions require harm to the landlord and unreasonable tenant behavior, and the notice must describe the breach. Eviction notices must point to the Rent Board, and copies must be filed with the Rent Board within three business days of service.\",\"citation\":\"Berkeley Rent Ordinance, as amended by Measure BB (Nov. 2024)\",\"quoted_span\":\"In Berkeley, tenants in units that are fully or partially covered by the Rent Ordinance cannot be evicted unless there is\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"Nonpayment eviction requires rental debt of at least one month of HUD Fair Market Rent (Oakland-Fremont metro) for an equivalent unit\",\"exemptions\":[\"Units exempt from the Rent Ordinance\",\"Units where the tenant shares a kitchen or bath with a landlord who lived on the property before the tenancy\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Covers tenants in fully or partially covered units. Units can be fully covered, partially covered or exempt; most multifamily units built before 1980 are fully covered, and new construction (certificate of occupancy after 1980), most single-family homes and most condominiums are partially covered.\",\"predicates\":[{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":[\"Units where the tenant shares a kitchen or bath with a landlord who lived on the property before the tenancy are exempt\",\"Government-owned or subsidized units are fully or partially covered depending on unit type and subsidy\"]}}]},\"confidence\":0.85}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "64ba635d-7e2f-4143-b071-d29d34c6de48",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 149,
+  "total_cost_usd": 0.3224216,
+  "ttft_ms": 16039,
+  "ttft_stream_ms": 2550,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 71216,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 71216,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 71216,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 71216,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 3515,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 3515,
+    "output_tokens_details": {
+      "thinking_tokens": 1987
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "8ed24296-0238-4d5a-a24b-71827d76228f"
+}

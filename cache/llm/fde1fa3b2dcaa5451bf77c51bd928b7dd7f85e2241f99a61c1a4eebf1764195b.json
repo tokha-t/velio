@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 19656,
+  "duration_ms": 20046,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 2687,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 73760,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.3222776,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2483,
+      "provider": "firstParty",
+      "thinkingTokens": 1310,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"Los Angeles, CA\",\"level\":\"city\",\"category\":\"just_cause_eviction\",\"title\":\"Los Angeles RSO/JCO relocation assistance for no-fault evictions\",\"requirement\":\"When a landlord ends a tenancy in a no-fault eviction covered by the Rent Stabilization Ordinance (RSO) or Just Cause Ordinance (JCO), the landlord must pay the tenant relocation assistance. Payment is per unit, not per tenant. It must be made available within 15 days of serving the written notice. The landlord may instead put the money in an escrow account within the same 15 days. If two or more tenants share a unit, each gets an equal share. If more than one amount applies to a unit, the higher amount is paid. Amounts depend on whether the tenant is an eligible or qualified tenant, how long they have lived in the unit, and household income. Lower income households displaced by demolition for new construction may get more under the Resident Protections Ordinance (RPO) and the State Housing Crisis Act.\",\"citation\":\"L.A. Mun. Code \u00a7\u00a7 151.09, 165.06 (RSO/JCO relocation assistance)\",\"quoted_span\":\"Payments shall be made available within fifteen (15) days of service of the written notice of eviction\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"Payable within 15 days of the notice. Chart A, households above low income, 7/1/2026-6/30/2027: eligible tenant $11,000 (under 3 years) or $14,400 (3+ years); qualified tenant $23,150 (under 3 years) or $27,400 (3+ years). Amounts increase each July 1.\",\"exemptions\":[\"Landlord may offset the tenant's accumulated rent against relocation assistance, unless the assistance is owed because a government agency ordered the tenant to vacate or comply for an unpermitted dwelling (LAMC 151.09.G.5, 165.06.J).\",\"Single-family dwelling subject to the JCO owned by a natural person who owns no more than four dwelling units and a single-family home on a separate lot in the City: one month's rent as a payment or credit (LAMC 165.06.A.6).\",\"RPO enhanced relocation applies only to Protected Units demolished for new construction; other tenants get the regular RSO or JCO amounts.\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to no-fault terminations of tenancy in units covered by the Los Angeles RSO or JCO. Amount depends on tenant status (eligible or qualified), length of tenancy, and household income. Single-family dwellings owned by natural persons with limited holdings get a reduced one-month-rent payment.\",\"predicates\":[{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":\"Single-family dwelling owned by a natural person who owns no more than four dwelling units and a single-family home on a separate lot in the City of Los Angeles gets one month's rent instead of the chart amount; Protected Units demolished for new construction fall under the RPO and State Housing Crisis Act.\"}},{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":\"Eligible tenant vs. qualified tenant (age 62+, disabled, or minor dependent children); tenancy under 3 years vs. 3 years or more; low income (80% AMI or less) tenants are paid regardless of tenancy length.\"}}]},\"confidence\":0.8}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "da63fd3e-01a4-40ab-aba1-c0853bc3dff1",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 160,
+  "total_cost_usd": 0.3222776,
+  "ttft_ms": 12105,
+  "ttft_stream_ms": 2687,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 73760,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 73760,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 73760,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 73760,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 2483,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 2483,
+    "output_tokens_details": {
+      "thinking_tokens": 1310
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "049f705d-5789-4179-bf89-80901bdd6fde"
+}

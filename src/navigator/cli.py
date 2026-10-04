@@ -6,7 +6,7 @@ import argparse
 def parser() -> argparse.ArgumentParser:
     result = argparse.ArgumentParser(prog="navigator")
     commands = result.add_subparsers(dest="command", required=True)
-    for name in ("extract", "resolve", "changes", "validate", "export-web", "all"):
+    for name in ("extract", "resolve", "merge", "changes", "validate", "export-web", "all"):
         commands.add_parser(name)
     lookup = commands.add_parser("lookup")
     lookup.add_argument("--as-of", required=True)
@@ -28,6 +28,21 @@ def main(argv: list[str] | None = None) -> int:
         from .lookup import run
 
         run(as_of=args.as_of, address_id=args.address)
+        return 0
+    if args.command == "merge":
+        from .merge import run
+
+        run()
+        return 0
+    if args.command == "changes":
+        from .changes import run
+
+        run()
+        return 0
+    if args.command == "validate":
+        from .validate import run
+
+        run()
         return 0
     print(f"{args.command}: scaffolded; not part of the current P0/P1 pilot")
     return 0

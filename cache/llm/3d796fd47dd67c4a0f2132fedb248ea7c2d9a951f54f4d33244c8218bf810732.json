@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 13651,
+  "duration_ms": 13949,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1117,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 68777,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.2965356,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1902,
+      "provider": "firstParty",
+      "thinkingTokens": 1197,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "```json\n{\"rules\":[{\"jurisdiction\":\"CA\",\"level\":\"state\",\"category\":\"screening_restrictions\",\"title\":\"California housing discrimination ban, including source of income\",\"requirement\":\"Owners of housing may not discriminate against or harass a person because of source of income or other protected traits. Source of income includes public assistance and housing subsidies such as Section 8 and HUD-VASH vouchers. Where a government rent subsidy applies, a landlord may not use an income standard that ignores the tenant's share of the rent. A landlord who uses credit history must also let the applicant give lawful, verifiable alternative evidence of ability to pay. The landlord must give the applicant reasonable time to provide it and must reasonably consider it.\",\"citation\":\"Cal. Gov. Code \u00a7 12955\",\"quoted_span\":\"to discriminate against or harass any person because of the race, color, religion, sex, gender, gender identity, gender expression, sexual orientation, marital status, national origin, ancestry, familial status, source of income, disability, veteran or military status, or genetic information of that person.\",\"doc_kind\":\"statute\",\"enacted_date\":null,\"effective_date_text\":\"Effective January 1, 2024\",\"key_value\":\"Source of income is a protected basis; with a government rent subsidy, alternative evidence must be accepted in place of credit history\",\"exemptions\":[\"Asking about the level or source of income is not source-of-income discrimination (subd. (p)(2))\",\"Owner may still request documents to verify employment, request landlord references, or verify identity (subd. (o)(2))\",\"Selection preferences based on age in a federally approved housing program are not age discrimination (subd. (d))\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to owners of any housing accommodation in California. The subsidy-specific provisions apply only where a government rent subsidy is involved.\",\"predicates\":[{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":[\"Government rent subsidy involved, for the income-standard and credit-history alternative-evidence provisions in subd. (o)\"]}}]},\"confidence\":0.9}],\"no_rule_reason\":null}\n```",
+  "result_index": 0,
+  "session_id": "e0d6d0b5-0ad5-4745-bb55-c16c642da121",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 183,
+  "total_cost_usd": 0.2965356,
+  "ttft_ms": 9527,
+  "ttft_stream_ms": 1117,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 68777,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 68777,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 68777,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 68777,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 1902,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1902,
+    "output_tokens_details": {
+      "thinking_tokens": 1197
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "cc2aa5ed-615c-4323-a53d-28b9f48f3582"
+}

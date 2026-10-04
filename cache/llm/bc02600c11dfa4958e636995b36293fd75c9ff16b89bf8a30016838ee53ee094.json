@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 13443,
+  "duration_ms": 13704,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1704,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 66450,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.28577759999999996,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1757,
+      "provider": "firstParty",
+      "thinkingTokens": 1006,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"Berkeley, CA\",\"level\":\"city\",\"category\":\"rent_increase_limits\",\"title\":\"Berkeley 2026 Annual General Adjustment (AGA) Order\",\"requirement\":\"Eligible landlords may raise the 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026. The 2026 AGA is 65% of the Bay Area CPI increase for July 1, 2024 to June 30, 2025 (1.5%). It does not adjust rents for tenancies that began on or after January 1, 2025 and had rents set under the Costa-Hawkins Rental Housing Act. Regulation 1148 sets the conditions for qualifying and the notice landlords must give tenants.\",\"citation\":\"Berkeley Mun. Code \u00a7 13.76.110 (Rent Board Reg. 1148)\",\"quoted_span\":\"adopted the Annual General Adjustment (AGA) Order for Year 2026 which will allow eligible landlords to increase the 2025 permanent rent ceilings by 1.0% no earlier than January 1, 2026\",\"doc_kind\":\"regulation\",\"enacted_date\":\"2025-10-16\",\"effective_date_text\":\"no earlier than January 1, 2026\",\"key_value\":\"1.0% general adjustment for 2026 (65% of CPI)\",\"exemptions\":[\"Tenancies that began on or after January 1, 2025 and had rents set under the Costa-Hawkins Rental Housing Act are not adjusted by the 2026 AGA\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to landlords eligible under Rent Board Regulation 1148 for units whose rent ceilings are set under the Berkeley rent stabilization program. Eligibility conditions and the required tenant notice are in Regulation 1148, which is not in this text.\",\"predicates\":[{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":\"Tenancy began on or after January 1, 2025 with rent set under Costa-Hawkins: 2026 AGA does not adjust rent. Landlord must meet Regulation 1148 qualifying conditions and give tenants required notice.\"}}]},\"confidence\":0.8}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "89678e02-596a-45ed-86cc-8659b69e5568",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 156,
+  "total_cost_usd": 0.28577759999999996,
+  "ttft_ms": 8893,
+  "ttft_stream_ms": 1704,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 66450,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 66450,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 66450,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 66450,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 1757,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1757,
+    "output_tokens_details": {
+      "thinking_tokens": 1006
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "d95ff5a0-f30a-4659-8f2f-091cfe734641"
+}

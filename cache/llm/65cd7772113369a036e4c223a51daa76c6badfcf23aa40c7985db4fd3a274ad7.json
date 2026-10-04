@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 18814,
+  "duration_ms": 19096,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 2786,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 76204,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.3307536,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2353,
+      "provider": "firstParty",
+      "thinkingTokens": 1309,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"CA\",\"level\":\"state\",\"category\":\"security_deposits\",\"title\":\"California residential security deposit limits and return rules\",\"requirement\":\"For residential rental agreements, a landlord may not demand or receive security of more than one month's rent, in addition to the first month's rent paid before initial occupancy. Landlords who are natural persons (or LLCs whose members are all natural persons) and own no more than two rental properties with no more than four units in total may charge up to two months' rent, unless the prospective tenant is a service member. The landlord may claim only amounts reasonably necessary for unpaid rent, damage beyond ordinary wear and tear, cleaning, and restoring or returning personal property. The landlord must offer an initial inspection, take photographs, and return the remaining security with an itemized statement within 21 calendar days after the tenant vacates.\",\"citation\":\"Cal. Civ. Code \u00a7 1950.5\",\"quoted_span\":\"a landlord shall not demand or receive security, however denominated, in an amount or value in excess of an amount equal to one month\u2019s rent, in addition to any rent for the first month paid on or before initial occupancy.\",\"doc_kind\":\"statute\",\"enacted_date\":null,\"effective_date_text\":\"This subdivision shall not apply to a security collected or demanded by the landlord before July 1, 2024.\",\"key_value\":\"Maximum security: 1 month's rent (2 months for qualifying small landlords); remaining security returned within 21 calendar days after move-out\",\"exemptions\":[\"Advance payment of not less than six months' rent is allowed if the lease term is six months or longer\",\"Mutual agreement for tenant-requested alterations for a specified fee, other than cleaning or repairs\",\"Two-month limit applies instead of one month for qualifying small landlords, but not when the prospective tenant is a service member\",\"Cap does not apply to security collected or demanded before July 1, 2024\",\"Itemized statement and documentation are not required if deductions for repairs and cleaning total $125 or less, or if the tenant validly waived the rights\",\"Initial inspection requirements do not apply when the tenancy is terminated under Code of Civil Procedure \u00a7 1161(2), (3), or (4)\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to security for a rental agreement for residential property used as the dwelling of the tenant. The two-month limit applies only to a landlord who is a natural person or an LLC whose members are all natural persons and who owns no more than two residential rental properties with no more than four dwelling units offered for rent in total.\",\"predicates\":[{\"type\":\"owner_type\",\"parameters\":{\"text\":\"Natural person, or LLC in which all members are natural persons, owning no more than two residential rental properties that collectively include no more than four dwelling units offered for rent (two-month security limit)\",\"max_units_if_small_landlord\":4}},{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":[\"Service member tenants: the two-month small-landlord limit does not apply, and a higher-than-standard security based on credit or housing history requires a written explanation and partial return after six months\"]}}]},\"confidence\":0.9}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "e4beec16-4f1a-4867-9c28-ba273dabcd45",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 171,
+  "total_cost_usd": 0.3307536,
+  "ttft_ms": 12289,
+  "ttft_stream_ms": 2786,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 76204,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 76204,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 76204,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 76204,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 2353,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 2353,
+    "output_tokens_details": {
+      "thinking_tokens": 1309
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "7a69cba0-e2ce-4bfe-bff6-11311d5f40db"
+}

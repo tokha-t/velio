@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 8923,
+  "duration_ms": 9299,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 4550,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 67411,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.2775016,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 545,
+      "provider": "firstParty",
+      "thinkingTokens": 381,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[],\"no_rule_reason\":\"M.G.L. c. 186, \u00a7 11 sets a 14-day written notice to quit for nonpayment of rent under a written lease, with a cure right and a hearing continuance when a government payment is delayed. It is an eviction-procedure notice rule. It does not limit rent increases, require just cause for eviction, govern security deposits, or regulate screening fees, screening criteria, or algorithmic rent setting, so it fits none of the six categories.\"}",
+  "result_index": 0,
+  "session_id": "4c8e2d98-c758-4a63-be67-4bd099f932a1",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 138,
+  "total_cost_usd": 0.2775016,
+  "ttft_ms": 7801,
+  "ttft_stream_ms": 4549,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 67411,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 67411,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 67411,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 67411,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 545,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 545,
+    "output_tokens_details": {
+      "thinking_tokens": 381
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "416ef058-e961-47a0-b718-c41e8df79e61"
+}

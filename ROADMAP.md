@@ -6,7 +6,7 @@ Agents: update the **Status** block when you finish a step: tick it, add one lin
 
 - Current phase: **2 — Coverage engine complete; production lookup generation blocked on CP1**
 - Last checkpoint passed: **CP2 address resolution** (500 rows; jurisdiction report complete)
-- Blockers: P1 full extraction/merge has not run, so `build/rules_internal.json` and `submission/rules.json` do not exist; CP3 production outputs cannot be generated without fabricating law. Vercel login remains a Human H1 task.
+- Blockers: P1 full extraction reached the Claude CLI session limit after 37 successful chunk responses; 17 retry-exhausted chunks are recorded in `build/extract_errors.json`. Partial `rules_internal.json` and `submission/rules.json` exist but are not eligible for CP1/CP3. Vercel login remains a Human H1 task.
 - Notes: 10:10 — Read CLAUDE.md and ROADMAP.md fully; confirmed a fresh repo and began Lane A P0.
 - Notes: 10:14 — Python 3.12 pinned; CLI works; Claude smoke response cached; 54 source-text hashes recorded. Creating/pushing private GitHub repo `velio`.
 - Notes: 10:24 — Five-document pilot verified after fixing cached Claude-envelope decoding: 7 records, all 7 quotes normalized-exact verified; 8 tests pass. Two cached reruns are byte-identical (`e0a6904e…`); stopped for human review before status integration/full run.
@@ -14,6 +14,7 @@ Agents: update the **Status** block when you finish a step: tick it, add one lin
 - Notes: 10:36 — P2 deterministic engine complete: three-valued coverage, date/status decision table, CA supersession, named conflict flags, explanations, CLI wiring, and per-address trace writer. 22 tests pass, including 12 §8/CP3 golden cases. Compilation passes; 500 resolved addresses include zero Santa Ana rows. Production outputs remain gated on the missing P1 rules artifact; CP3 not claimed.
 - Notes: P0 re-verified — Python 3.12.14, CLI, 54-document corpus manifest/hash table, cached Claude CLI smoke response, and 22 tests pass. P1 pilot re-ran from cache: 5 documents → 7 normalized-exact quote-verified records (`e0a6904e…`); stopped for human review before full extraction.
 - Notes: P2 re-verified after the P1 pilot — 12 §8/CP3 golden tests and 22 total tests pass; compilation passes; 500 distinct resolved address IDs contain no Santa Ana rows. `rules_internal.json` is still absent, so production lookups were intentionally not generated and CP3 remains unclaimed.
+- Notes: P1 pipeline unblocked in code — four-worker chunk extraction, one retry per job, deterministic error artifact, link-only research loading, source-text date/status resolution, merge/export, schema validation, and test-ID mapping added. Full run produced 47 partial merged rules with 100% verified quotes; rerun when the Claude CLI limit resets to fill the 17 recorded misses. CP1/CP3 remain unclaimed.
 
 ## Lanes
 

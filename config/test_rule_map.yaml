@@ -1,0 +1,15 @@
+test_rule_ids:
+  CA-ALG-01:
+    - 'AB 325|16729'
+  NJ-ALG-01:
+    - 'P\.?L\.?\s*2026,?\s*c\.?\s*43|\(FAIR\)|\bFAIR\s+Act\b'
+  JC-ALG-01:
+    - 'Jersey City.*(?:218|algorithm)'
+  HOB-ALG-01:
+    - 'Hoboken.*(?:158|algorithm)'
+  MA-ALG-P1:
+    - 'S\.?\s*2983'
+  MA-ALG-P2:
+    - 'H\.?\s*5222'
+  MA-RENT-P1:
+    - '25-21|ballot'

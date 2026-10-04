@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 10579,
+  "duration_ms": 10849,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1478,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 68629,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.28972359999999997,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1280,
+      "provider": "firstParty",
+      "thinkingTokens": 693,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "```json\n{\"rules\":[{\"jurisdiction\":\"MA\",\"level\":\"state\",\"category\":\"security_deposits\",\"title\":\"Massachusetts security deposit statute: lease terms and tenant waivers void; vacation rentals excluded\",\"requirement\":\"Any lease term that conflicts with the security deposit section, and any waiver of its provisions by a tenant or prospective tenant, is against public policy and void and unenforceable. The section does not apply to leases, rentals, occupancies or tenancies of 100 days or less that are for a vacation or recreational purpose.\",\"citation\":\"M.G.L. c. 186, \u00a7 15B\",\"quoted_span\":\"Any provision of a lease which conflicts with any provision of this section and any waiver by a tenant or prospective tenant of any provision of this section shall be deemed to be against public policy and therefore void and unenforceable.\",\"doc_kind\":\"statute\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":null,\"exemptions\":[\"Leases, rentals, occupancies or tenancies of one hundred days or less in duration for a vacation or recreational purpose\",\"Liability under the subsection on the rental advance does not apply to a city or town that acquires title under chapter sixty, or to a foreclosing mortgagee or mortgagee in possession that is a financial institution chartered by the commonwealth or the United States\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to leases and tenancies other than vacation or recreational rentals of 100 days or less.\",\"predicates\":[{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":[\"Vacation or recreational lease, rental, occupancy or tenancy of one hundred days or less\"]}}]},\"confidence\":0.6}],\"no_rule_reason\":null}\n```",
+  "result_index": 0,
+  "session_id": "428a3579-ced8-46c1-a50a-e0b1429a2668",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 156,
+  "total_cost_usd": 0.28972359999999997,
+  "ttft_ms": 6652,
+  "ttft_stream_ms": 1478,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 68629,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 68629,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 68629,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 68629,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 1280,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1280,
+    "output_tokens_details": {
+      "thinking_tokens": 693
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "08c4f9c5-9622-4bab-8010-21933bb5da73"
+}

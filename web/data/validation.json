@@ -1,0 +1,51 @@
+{
+  "checks": [
+    {
+      "detail": "retry-exhausted chunks: 17",
+      "name": "extraction_complete",
+      "passed": false
+    },
+    {
+      "detail": "47 rules validate",
+      "name": "schema",
+      "passed": true
+    },
+    {
+      "detail": "unverified: none",
+      "name": "quote_verification",
+      "passed": true
+    },
+    {
+      "detail": "submission/lookups.json is missing",
+      "name": "address_coverage",
+      "passed": false
+    },
+    {
+      "detail": "actual=(250, 0); expected=(250, 0)",
+      "name": "T1_counts",
+      "passed": true
+    },
+    {
+      "detail": "actual=(0, 0); expected=(90, 0)",
+      "name": "T2_counts",
+      "passed": false
+    },
+    {
+      "detail": "actual=(140, 90); expected=(140, 90)",
+      "name": "T3_counts",
+      "passed": true
+    },
+    {
+      "detail": "actual=(110, 0); expected=(110, 0)",
+      "name": "T4_counts",
+      "passed": true
+    },
+    {
+      "detail": "actual=(0, 0); expected=(0, 0)",
+      "name": "T5_counts",
+      "passed": true
+    }
+  ],
+  "notes": "Not legal advice.",
+  "passed": false
+}

@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 17061,
+  "duration_ms": 17501,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1344,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 72580,
+      "cacheReadInputTokens": 10346,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.3158032,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2341,
+      "provider": "firstParty",
+      "thinkingTokens": 1326,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"Berkeley, CA\",\"level\":\"city\",\"category\":\"application_screening_fees\",\"title\":\"Berkeley tenant screening fee disclosures and ban on non-refundable fees for existing tenants\",\"requirement\":\"An owner or agent who charges a fee to obtain a consumer credit report or process a rental application in Berkeley must give a clear tenant screening fee rights statement and a statement of the state-law maximum fee, in the application or in a separate disclosure before taking the fee (BMC 13.78.010). An owner may not charge an existing tenant a non-refundable fee to renew a tenancy, including fees tied to a roommate leaving or being added or replaced (BMC 13.78.016). Chapter 13.78 applies to all residential rental agreements despite contrary lease terms, and conflicting lease provisions are unenforceable (BMC 13.78.018).\",\"citation\":\"Berkeley Mun. Code ch. 13.78\",\"quoted_span\":\"cannot charge a non-refundable fee to any existing tenant for the purpose of renewing a tenancy, in whole or in part\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"No non-refundable fees to existing tenants; screening fee rights statement and state fee cap statement required before fee is received\",\"exemptions\":[],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to owners of residential rental property in Berkeley and all residential rental agreements regardless of contract language.\",\"predicates\":[]},\"confidence\":0.8},{\"jurisdiction\":\"CA\",\"level\":\"state\",\"category\":\"application_screening_fees\",\"title\":\"California tenant screening fee limits and conditions (as summarized by Berkeley Rent Board)\",\"requirement\":\"State law caps the tenant screening fee. The Berkeley Rent Board page lists the 2026 maximum as $68.96. Fees may be used for items such as a consumer credit report. The applicant must receive a copy of the report, a receipt, an itemized list of out-of-pocket expenses and time spent, and a refund of any unused portion. A landlord must use a reusable screening report if the tenant provides one. A landlord may not charge a screening fee if no unit is available. A landlord must refund the fee to applicants not selected, or instead review applications in the order received and charge no screening fee to any applicant not considered.\",\"citation\":\"Cal. Civ. Code \u00a7 1950.6\",\"quoted_span\":\"The landlord cannot charge a prospective tenant a screening fee if no rental unit is actually available.\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"$68.96 maximum screening fee for 2026 (per Berkeley Rent Board page)\",\"exemptions\":[],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to landlords charging screening fees to prospective tenants of residential rental units.\",\"predicates\":[]},\"confidence\":0.7}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "713f23c0-af67-492b-af1e-0ec4f6df8f77",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 336,
+  "total_cost_usd": 0.3158032,
+  "ttft_ms": 11754,
+  "ttft_stream_ms": 1344,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 72580,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 72580,
+    "cache_read_input_tokens": 10346,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 72580,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 72580,
+        "cache_read_input_tokens": 10346,
+        "input_tokens": 2,
+        "output_tokens": 2341,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 2341,
+    "output_tokens_details": {
+      "thinking_tokens": 1326
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "444c8a84-e861-4b93-b838-db9589db1019"
+}

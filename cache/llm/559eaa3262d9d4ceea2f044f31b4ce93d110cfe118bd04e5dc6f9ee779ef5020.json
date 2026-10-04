@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 13865,
+  "duration_ms": 14133,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 4706,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 67779,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.28778360000000003,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1426,
+      "provider": "firstParty",
+      "thinkingTokens": 716,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"MA\",\"level\":\"state\",\"category\":\"just_cause_eviction\",\"title\":\"Notice required to terminate a tenancy at will\",\"requirement\":\"A landlord or tenant may end a tenancy at will with written notice of three months. If rent is payable at intervals shorter than three months, the notice period is the interval between payment days or thirty days, whichever is longer. For nonpayment of rent, the landlord may end the tenancy with fourteen days' written notice to quit. That notice must include the statutory notification about the tenant's right to pay within ten days. This section sets notice and procedure requirements. It does not require a stated cause for ending the tenancy.\",\"citation\":\"M.G.L. c. 186, \u00a7 12\",\"quoted_span\":\"Estates at will may be determined by either party by three months' notice in writing for that purpose given to the other party\",\"doc_kind\":\"statute\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"3 months' written notice (or the rent-payment interval or 30 days, whichever is longer, if rent is paid more often than every 3 months); 14 days' notice to quit for nonpayment\",\"exemptions\":[\"A tenant who has not received a similar nonpayment notice in the preceding twelve months keeps the tenancy if the full rent due is paid or tendered within ten days of receiving the notice\",\"If nonpayment was caused by a failure or delay of the federal government, the commonwealth or a municipality in mailing or delivering a subsistence or rental payment, the court must continue the hearing at least seven days and treat the tenancy as not terminated if all rent due is tendered in that time\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to tenancies at will. Tenancy type and the tenant's notice history are tenant-level facts, not address-level facts.\",\"predicates\":[{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":[\"Tenancy is an estate at will\",\"For the ten-day cure right, tenant has not received a similar notice to quit for nonpayment in the preceding twelve months\"]}}]},\"confidence\":0.5}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "53dde75c-691f-45d7-9a04-be0fb06ce72d",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 162,
+  "total_cost_usd": 0.28778360000000003,
+  "ttft_ms": 9748,
+  "ttft_stream_ms": 4706,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 67779,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 67779,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 67779,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 67779,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 1426,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1426,
+    "output_tokens_details": {
+      "thinking_tokens": 716
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "393e95a4-1aff-46ea-9c94-5d5b5e70ed1a"
+}

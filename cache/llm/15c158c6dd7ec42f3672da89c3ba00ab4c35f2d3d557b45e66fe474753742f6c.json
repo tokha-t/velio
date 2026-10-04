@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 5044,
+  "duration_ms": 5299,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1129,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 67926,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.2789716,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 486,
+      "provider": "firstParty",
+      "thinkingTokens": 388,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[],\"no_rule_reason\":\"Bill-history page for S.2983 (194th). It gives only the title, committee report and action log, and no operative provisions. Nothing in it states a requirement, so there is nothing to quote verbatim. The bill text itself comes from a separate document.\"}",
+  "result_index": 0,
+  "session_id": "7c5afd24-e263-422c-ae31-1a803bc7c25c",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 160,
+  "total_cost_usd": 0.2789716,
+  "ttft_ms": 4450,
+  "ttft_stream_ms": 1129,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 67926,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 67926,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 67926,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 67926,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 486,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 486,
+    "output_tokens_details": {
+      "thinking_tokens": 388
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "51074c8f-6f8c-4025-a56d-449a980c6635"
+}

@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 15964,
+  "duration_ms": 16287,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1946,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 71697,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.3076756,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1848,
+      "provider": "firstParty",
+      "thinkingTokens": 1386,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"CA\",\"level\":\"state\",\"category\":\"screening_restrictions\",\"title\":\"California FEHA limits on using criminal history in tenant screening\",\"requirement\":\"Housing providers may check an applicant's criminal history, but they cannot consider arrests that did not lead to a conviction, sealed or expunged records, or juvenile justice records. They cannot have blanket bans on all people with a criminal history. A denial based on a conviction must be directly related to the applicant's ability to be a good tenant and not a threat to the health and safety of others or the property. Providers should weigh the nature and severity of the crime and the time since the conduct.\",\"citation\":\"California Fair Employment and Housing Act (FEHA)\",\"quoted_span\":\"Housing providers are also prohibited from having \u201cblanket bans\u201d of all people with a criminal history.\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"No blanket ban on applicants with a criminal history; convictions must be directly related to tenancy\",\"exemptions\":[],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to housing providers statewide, including landlords, property managers and tenant screening companies. The page gives no unit-count, age-of-building or owner-type threshold for this rule.\",\"predicates\":[]},\"confidence\":0.7}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "d426af99-aeaa-44d3-9c17-0430d31d4f9e",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 196,
+  "total_cost_usd": 0.3076756,
+  "ttft_ms": 12612,
+  "ttft_stream_ms": 1946,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 71697,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 71697,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 71697,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 71697,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 1848,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1848,
+    "output_tokens_details": {
+      "thinking_tokens": 1386
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "9585ed88-288c-43bd-b83c-d7cc356ed6ab"
+}

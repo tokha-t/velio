@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 17519,
+  "duration_ms": 17801,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 3644,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 69583,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.29761960000000004,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1688,
+      "provider": "firstParty",
+      "thinkingTokens": 807,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"CA\",\"level\":\"state\",\"category\":\"application_screening_fees\",\"title\":\"California limits on residential application screening fees\",\"requirement\":\"A landlord or their agent may charge an applicant a screening fee only to cover actual out-of-pocket costs of gathering information on the applicant, plus the reasonable value of time spent. The fee may not exceed $30 per applicant, adjusted annually for CPI since January 1, 1998. No fee may be charged when the landlord knows or should know that no unit is or will soon be available. A fee may be charged only if the landlord offers either a first-come, first-qualified screening process (applicants are charged only when their application is actually considered) or a full refund to unselected applicants within 7 days of selecting a tenant or 30 days of application, whichever is first. The landlord must give an itemized receipt, return any unused portion if no reference check or credit report is obtained, and give the applicant a copy of the credit report within 7 days of receiving it.\",\"citation\":\"Cal. Civ. Code \u00a7 1950.6\",\"quoted_span\":\"In no case shall the amount of the application screening fee charged by the landlord or their agent be greater than thirty dollars ($30) per applicant.\",\"doc_kind\":\"statute\",\"enacted_date\":null,\"effective_date_text\":\"Effective January 1, 2026.\",\"key_value\":\"Fee capped at actual out-of-pocket costs and at $30 per applicant, adjusted annually by CPI since 1998-01-01\",\"exemptions\":[\"Section does not preempt provisions or regulations governing the collection of deposits and fees under federal or state housing assistance programs (subd. (l))\",\"A landlord may accept a reusable screening report under Section 1950.1 (subd. (g))\",\"Screening fee is not an 'advance fee' under Bus. & Prof. Code \u00a7 10026 and is not 'security' under Civ. Code \u00a7 1950.5 (subd. (k))\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to landlords (owners of residential rental property) and their agents who charge an application screening fee to applicants for residential rental units. Does not preempt federal or state housing assistance program rules on deposits and fees.\",\"predicates\":[{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":\"Federal or state housing assistance programs governing collection of deposits and fees\"}},{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":\"Applicant-level duties: fee only when a unit is or will soon be available; receipt and credit report copy must be provided; refund rules apply to unselected applicants\"}}]},\"confidence\":0.95}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "6631f2ef-c7f0-4595-8fef-25cea515ba18",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 170,
+  "total_cost_usd": 0.29761960000000004,
+  "ttft_ms": 9263,
+  "ttft_stream_ms": 3644,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 69583,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 69583,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 69583,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 69583,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 1688,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1688,
+    "output_tokens_details": {
+      "thinking_tokens": 807
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "d08a5284-5fd6-47e1-82f9-9dc95e390ad8"
+}

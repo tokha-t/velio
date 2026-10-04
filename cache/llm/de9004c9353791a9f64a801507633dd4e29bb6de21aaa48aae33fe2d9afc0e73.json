@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 3091,
+  "duration_ms": 3330,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1315,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 67068,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.2729896,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 231,
+      "provider": "firstParty",
+      "thinkingTokens": 129,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[],\"no_rule_reason\":\"The supplied section text for Cal. Civ. Code \u00a7 1946.2 contains only leginfo.legislature.ca.gov navigation and search-form boilerplate (menus, code and section selectors). It has no statutory text and states no operative legal requirement.\"}",
+  "result_index": 0,
+  "session_id": "21d313f4-5795-4fb3-ac1f-6b8e47efe35d",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 143,
+  "total_cost_usd": 0.2729896,
+  "ttft_ms": 2348,
+  "ttft_stream_ms": 1315,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 67068,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 67068,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 67068,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 67068,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 231,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 231,
+    "output_tokens_details": {
+      "thinking_tokens": 129
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "977e2c25-582e-4189-a0e1-49c0b34f4f93"
+}

@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 4896,
+  "duration_ms": 5159,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 3010,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 68921,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.2804716,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 238,
+      "provider": "firstParty",
+      "thinkingTokens": 143,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[],\"no_rule_reason\":\"Chunk holds only leginfo.legislature.ca.gov page navigation (menus, code selector lists). It has no section text for Cal. Civ. Code \u00a7 1950.5, so no operative requirement can be extracted or quoted.\"}",
+  "result_index": 0,
+  "session_id": "48f20488-4027-4c50-b37d-be3d98358eb9",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 156,
+  "total_cost_usd": 0.2804716,
+  "ttft_ms": 3772,
+  "ttft_stream_ms": 3010,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 68921,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 68921,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 68921,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 68921,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 238,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 238,
+    "output_tokens_details": {
+      "thinking_tokens": 143
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "da3aca0f-bd0b-4c16-91e4-6f49da502505"
+}

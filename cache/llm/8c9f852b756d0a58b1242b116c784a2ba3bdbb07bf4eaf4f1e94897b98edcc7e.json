@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 13605,
+  "duration_ms": 13902,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 2905,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 68788,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.2932296,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1567,
+      "provider": "firstParty",
+      "thinkingTokens": 860,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"NJ\",\"level\":\"state\",\"category\":\"application_screening_fees\",\"title\":\"Residential rental application fee capped at $50\",\"requirement\":\"A landlord or agent may not require an application or similar fee to apply to lease or sublease a residential rental property that is more than $50. The cap is adjusted each year by the Director of the Division of Consumer Affairs in proportion to the percent change in the regional Consumer Price Index, and only if that change is greater than zero. A landlord who violates the cap is liable for a penalty of up to $500 for a first offense, up to $750 for a second offense and up to $1,000 for each later offense. The amount wrongfully charged is remitted to the applicant.\",\"citation\":\"N.J.S.A. 46:8-18.1 (P.L.2025, c.405)\",\"quoted_span\":\"A landlord, or agent thereof, shall not require an application or other similar fee to apply to lease or sublease a residential rental property for dwelling purposes, which exceeds $50.\",\"doc_kind\":\"statute\",\"enacted_date\":\"2026-01-20\",\"effective_date_text\":\"first day of the fourth month next following the date of enactment\",\"key_value\":\"$50 maximum application fee, adjusted annually for CPI\",\"exemptions\":[\"A dwelling unit located in a one-family or two-family dwelling that is offered for rent\",\"A licensee of the New Jersey Real Estate Commission, unless the licensee is the landlord of the residential rental property\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to residential rental properties statewide, except units in one-family or two-family dwellings and fees charged by Real Estate Commission licensees who are not the landlord.\",\"predicates\":[{\"type\":\"owner_occupied_exempt_max_units\",\"parameters\":{\"n\":2,\"text\":\"Dwelling unit in a one-family or two-family dwelling offered for rent is exempt\"}},{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":[\"New Jersey Real Estate Commission licensee who is not the landlord\"]}}]},\"confidence\":0.95}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "ea415244-4aab-4872-b0de-2ff9f5c27b75",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 166,
+  "total_cost_usd": 0.2932296,
+  "ttft_ms": 9279,
+  "ttft_stream_ms": 2905,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 68788,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 68788,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 68788,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 68788,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 1567,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1567,
+    "output_tokens_details": {
+      "thinking_tokens": 860
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "8a96e00e-6544-4c23-99f8-806db949d909"
+}

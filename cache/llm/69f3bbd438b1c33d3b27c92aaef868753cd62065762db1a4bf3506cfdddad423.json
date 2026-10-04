@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 14231,
+  "duration_ms": 14477,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 3664,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 74833,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.3190496,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1731,
+      "provider": "firstParty",
+      "thinkingTokens": 966,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"MA\",\"level\":\"state\",\"category\":\"screening_restrictions\",\"title\":\"Massachusetts anti-discrimination law: unlawful housing practices\",\"requirement\":\"Owners, lessees, brokers, managing agents and others with the right to rent, lease or sell housing may not refuse to rent or lease, or treat a person worse in the terms, conditions or services of housing, because of race, religious creed, color, national origin, sex, gender identity, sexual orientation, age, genetic information, ancestry, marital status, veteran or armed forces status, blindness, hearing impairment or other handicap. They may not make written or oral inquiries or records about those traits of a person seeking to rent, lease or buy.\",\"citation\":\"M.G.L. c. 151B, \u00a7 4\",\"quoted_span\":\"to refuse to rent or lease or sell or negotiate for sale or otherwise to deny to or withhold from any person or group of persons such accommodations because of the race, religious creed, color, national origin, sex, gender identity, sexual orientation\",\"doc_kind\":\"statute\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":null,\"exemptions\":[\"The age protection does not apply to minors.\",\"The age protection does not apply to residency in state-aided or federally-aided housing developments for the elderly.\",\"The age protection does not apply to housing developments assisted under the federal low income housing tax credit and intended for persons 55 or over or 62 or over.\",\"The age protection does not apply to communities built expressly for persons 55 or over or 62 or over if the owner or manager registers biennially with the executive office of housing and livable communities.\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies to owners, lessees, sublessees, licensed real estate brokers, assignees, managing agents and others with the right to rent, lease or sell publicly assisted or multiple dwelling or contiguously located housing accommodations. Age-based protection has exceptions for certain age-restricted housing.\",\"predicates\":[{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":[\"state-aided or federally-aided elderly housing\",\"low income housing tax credit housing for persons 55+ or 62+\",\"registered 55+ or 62+ communities\"]}}]},\"confidence\":0.8}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "04cce054-688f-4e16-b353-8fedea0c3ddf",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 142,
+  "total_cost_usd": 0.3190496,
+  "ttft_ms": 9946,
+  "ttft_stream_ms": 3664,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 74833,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 74833,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 74833,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 74833,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 1731,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1731,
+    "output_tokens_details": {
+      "thinking_tokens": 966
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "02aabf46-ebe5-4ee8-9e3c-7de07925ecd9"
+}

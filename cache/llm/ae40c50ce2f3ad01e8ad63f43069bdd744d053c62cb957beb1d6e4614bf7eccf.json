@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 4845,
+  "duration_ms": 5088,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1527,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 75131,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.30711160000000004,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 418,
+      "provider": "firstParty",
+      "thinkingTokens": 229,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[],\"no_rule_reason\":\"Chunk is M.G.L. c. 151B \u00a7 4 subsections 16-19, mostly employment discrimination (handicap, sexual harassment of employees, seniority and retirement, genetic information). The one housing-related text, subsection 18's ban on sexual harassment of tenants and prospective tenants, fits none of the six categories: rent increase limits, just cause eviction, security deposits, application screening fees, screening restrictions, algorithmic rent setting. The rest is website sign-in and registration boilerplate.\"}",
+  "result_index": 0,
+  "session_id": "3877ba47-1777-4ec7-a629-d01a4d2d05d0",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 133,
+  "total_cost_usd": 0.30711160000000004,
+  "ttft_ms": 3230,
+  "ttft_stream_ms": 1527,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 75131,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 75131,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 75131,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 75131,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 418,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 418,
+    "output_tokens_details": {
+      "thinking_tokens": 229
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "1a6951b0-37e4-4fe0-874b-77d05990a1ce"
+}

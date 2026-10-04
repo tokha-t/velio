@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 38612,
+  "duration_ms": 38896,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 3002,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 72270,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.3419576,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 5047,
+      "provider": "firstParty",
+      "thinkingTokens": 3198,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"Los Angeles, CA\",\"level\":\"city\",\"category\":\"just_cause_eviction\",\"title\":\"Los Angeles Just Cause for Eviction Ordinance (JCO)\",\"requirement\":\"Landlords in the City of Los Angeles may not end a tenancy without just cause. At-fault reasons include failure to pay rent, uncured lease violations, nuisance or damage, illegal use, refusal to renew a similar agreement, and refusal of reasonable access. No-fault reasons include owner or family move-in, demolition, removal from the rental market, government order, and conversion to non-residential or affordable housing. No-fault evictions require relocation assistance. The JCO covers most residential properties not regulated by the Rent Stabilization Ordinance (RSO). It applies once the tenant has lived in the unit at least six months or the original lease has expired, whichever comes first.\",\"citation\":\"Los Angeles Just Cause for Eviction Ordinance (JCO)\",\"quoted_span\":\"It prohibits terminations of tenancies without just cause and requires relocation assistance for no-fault evictions.\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"Just cause required; relocation assistance for no-fault evictions; applies after 6 months in unit or original lease expiry\",\"exemptions\":[\"Transient hotels\",\"Licensed care facilities\",\"Fraternity or sorority houses\",\"Owner's roommate\",\"Cooperatives under certain circumstances\",\"Some non-profit facilities for the homeless or short-term substance abuse treatment centers\",\"Some properties owned by HACLA or the government\",\"Units regulated by the Rent Stabilization Ordinance (RSO)\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Covers most residential properties in the City of Los Angeles not regulated by the RSO, including buildings newer than October 1, 1978 and single-family dwellings. The tenant must have lived in the unit at least six months or the original lease must have expired, whichever comes first.\",\"predicates\":[{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":[\"transient hotels\",\"licensed care facilities\",\"fraternity or sorority houses\",\"owner's roommate\",\"cooperatives under certain circumstances\",\"some non-profit facilities for the homeless or short-term substance abuse treatment centers\",\"some properties owned by HACLA or the government\",\"units regulated by the Rent Stabilization Ordinance (RSO)\"]}},{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":[\"tenant has lived in the same unit at least six months or the original lease expired, whichever comes first\"]}}]},\"confidence\":0.85},{\"jurisdiction\":\"CA\",\"level\":\"state\",\"category\":\"rent_increase_limits\",\"title\":\"California Tenant Protection Act of 2019 (AB 1482) annual rent increase cap\",\"requirement\":\"Annual rent increases on covered units are limited to 5% plus the regional percentage change in the cost of living, or 10%, whichever is lower. State law may regulate rent in buildings older than 15 years. Units built within the last 15 years are not covered, on a rolling basis. Units already subject to the City of Los Angeles RSO are not covered by this cap.\",\"citation\":\"Cal. Civ. Code \u00a7 1947.12\",\"quoted_span\":\"rent increases are limited to no more than 5% plus the percentage change in the cost of living for the region in which the property is located, or 10% whichever is lower\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"5% plus regional cost-of-living change, or 10%, whichever is lower\",\"exemptions\":[\"Units constructed within the last 15 years (rolling basis)\",\"Units restricted by deed, regulatory restrictions, or other recorded document limiting affordability to low or moderate-income households\",\"Certain dormitories\",\"Two-unit property where the second unit was occupied by an owner for the entire tenancy\",\"Single-family homes and condominiums not owned by a real estate trust, a corporation, or an LLC with at least one corporate member, if the landlord gave the tenant written notice of the exemption\",\"Units already subject to the City of Los Angeles RSO\"],\"yields_to_local\":true,\"coverage_conditions\":{\"text\":\"Applies to buildings older than 15 years, measured on a rolling basis. Excludes affordability-restricted units, certain dormitories, owner-occupied two-unit properties, qualifying single-family homes and condominiums, and units already subject to the Los Angeles RSO.\",\"predicates\":[{\"type\":\"rolling_new_construction_exempt_years\",\"parameters\":{\"n\":15}},{\"type\":\"owner_occupied_exempt_max_units\",\"parameters\":{\"n\":2}},{\"type\":\"owner_type\",\"parameters\":{\"text\":\"Single-family homes and condominiums are exempt only if not owned by a real estate trust, a corporation, or an LLC with at least one corporate member\"}},{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":[\"units restricted by deed, regulatory restrictions, or other recorded document limiting affordability to low or moderate-income households\",\"certain dormitories\",\"units already subject to the City of Los Angeles RSO\"]}},{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":[\"single-family home or condominium exemption requires the landlord to have notified the tenant in writing that the tenancy is not subject to the just cause and rent increase limitations\"]}}]},\"confidence\":0.7}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "2ba389c7-2ede-439c-9df4-f1cbb03b8179",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 150,
+  "total_cost_usd": 0.3419576,
+  "ttft_ms": 28504,
+  "ttft_stream_ms": 3001,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 72270,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 72270,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 72270,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 72270,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 5047,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 5047,
+    "output_tokens_details": {
+      "thinking_tokens": 3198
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "94abf443-9b29-4246-b6cf-fec7fbdc6d0b"
+}
