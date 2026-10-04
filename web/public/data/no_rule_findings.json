@@ -1,0 +1,358 @@
+{
+  "findings": [
+    {
+      "category": "rent_increase_limits",
+      "docs_checked": [
+        "D010",
+        "D011",
+        "D012",
+        "D013",
+        "D014"
+      ],
+      "jurisdiction": "Boston, MA",
+      "reason": "No in-force rule was extracted at this jurisdiction level. Failed: Mass. H.3744 (193rd)."
+    },
+    {
+      "category": "just_cause_eviction",
+      "docs_checked": [
+        "D010",
+        "D011",
+        "D012",
+        "D013",
+        "D014"
+      ],
+      "jurisdiction": "Boston, MA",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "security_deposits",
+      "docs_checked": [
+        "D010",
+        "D011",
+        "D012",
+        "D013",
+        "D014"
+      ],
+      "jurisdiction": "Boston, MA",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "application_screening_fees",
+      "docs_checked": [
+        "D010",
+        "D011",
+        "D012",
+        "D013",
+        "D014"
+      ],
+      "jurisdiction": "Boston, MA",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "algorithmic_rent_setting",
+      "docs_checked": [
+        "D010",
+        "D011",
+        "D012",
+        "D013",
+        "D014"
+      ],
+      "jurisdiction": "Boston, MA",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "rent_increase_limits",
+      "docs_checked": [
+        "D029",
+        "D031"
+      ],
+      "jurisdiction": "Cambridge, MA",
+      "reason": "No in-force city rent-cap rule was extracted; an in-force state rule in the address stack says M.G.L. c. 40P, \u00a7 4."
+    },
+    {
+      "category": "just_cause_eviction",
+      "docs_checked": [
+        "D029",
+        "D031"
+      ],
+      "jurisdiction": "Cambridge, MA",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "security_deposits",
+      "docs_checked": [
+        "D029",
+        "D031"
+      ],
+      "jurisdiction": "Cambridge, MA",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "application_screening_fees",
+      "docs_checked": [
+        "D029",
+        "D031"
+      ],
+      "jurisdiction": "Cambridge, MA",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "algorithmic_rent_setting",
+      "docs_checked": [
+        "D029",
+        "D031"
+      ],
+      "jurisdiction": "Cambridge, MA",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "just_cause_eviction",
+      "docs_checked": [
+        "D032",
+        "D033",
+        "D034"
+      ],
+      "jurisdiction": "Hoboken, NJ",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "security_deposits",
+      "docs_checked": [
+        "D032",
+        "D033",
+        "D034"
+      ],
+      "jurisdiction": "Hoboken, NJ",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "application_screening_fees",
+      "docs_checked": [
+        "D032",
+        "D033",
+        "D034"
+      ],
+      "jurisdiction": "Hoboken, NJ",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "screening_restrictions",
+      "docs_checked": [
+        "D032",
+        "D033",
+        "D034"
+      ],
+      "jurisdiction": "Hoboken, NJ",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "just_cause_eviction",
+      "docs_checked": [
+        "D035",
+        "D036"
+      ],
+      "jurisdiction": "Jersey City, NJ",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "security_deposits",
+      "docs_checked": [
+        "D035",
+        "D036"
+      ],
+      "jurisdiction": "Jersey City, NJ",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "application_screening_fees",
+      "docs_checked": [
+        "D035",
+        "D036"
+      ],
+      "jurisdiction": "Jersey City, NJ",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "screening_restrictions",
+      "docs_checked": [
+        "D035",
+        "D036"
+      ],
+      "jurisdiction": "Jersey City, NJ",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "security_deposits",
+      "docs_checked": [
+        "D039",
+        "D040",
+        "D041",
+        "D042",
+        "D043"
+      ],
+      "jurisdiction": "Los Angeles, CA",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "application_screening_fees",
+      "docs_checked": [
+        "D039",
+        "D040",
+        "D041",
+        "D042",
+        "D043"
+      ],
+      "jurisdiction": "Los Angeles, CA",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "screening_restrictions",
+      "docs_checked": [
+        "D039",
+        "D040",
+        "D041",
+        "D042",
+        "D043"
+      ],
+      "jurisdiction": "Los Angeles, CA",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "algorithmic_rent_setting",
+      "docs_checked": [
+        "D039",
+        "D040",
+        "D041",
+        "D042",
+        "D043"
+      ],
+      "jurisdiction": "Los Angeles, CA",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "algorithmic_rent_setting",
+      "docs_checked": [
+        "D045",
+        "D046",
+        "D047",
+        "D048",
+        "D049",
+        "D050",
+        "D051",
+        "D052",
+        "D053",
+        "D057",
+        "D058"
+      ],
+      "jurisdiction": "MA",
+      "reason": "No in-force rule was extracted at this jurisdiction level. Pending: Mass. H.5222 (194th); Mass. S.2983 (194th)."
+    },
+    {
+      "category": "algorithmic_rent_setting",
+      "docs_checked": [
+        "D065",
+        "D066",
+        "D067",
+        "D068",
+        "D069"
+      ],
+      "jurisdiction": "NJ",
+      "reason": "No in-force rule was extracted at this jurisdiction level."
+    },
+    {
+      "category": "rent_increase_limits",
+      "docs_checked": [],
+      "jurisdiction": "Newark, NJ",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "just_cause_eviction",
+      "docs_checked": [],
+      "jurisdiction": "Newark, NJ",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "security_deposits",
+      "docs_checked": [],
+      "jurisdiction": "Newark, NJ",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "application_screening_fees",
+      "docs_checked": [],
+      "jurisdiction": "Newark, NJ",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "screening_restrictions",
+      "docs_checked": [],
+      "jurisdiction": "Newark, NJ",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "algorithmic_rent_setting",
+      "docs_checked": [],
+      "jurisdiction": "Newark, NJ",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "rent_increase_limits",
+      "docs_checked": [
+        "D073",
+        "D076"
+      ],
+      "jurisdiction": "San Diego, CA",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "security_deposits",
+      "docs_checked": [
+        "D073",
+        "D076"
+      ],
+      "jurisdiction": "San Diego, CA",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "application_screening_fees",
+      "docs_checked": [
+        "D073",
+        "D076"
+      ],
+      "jurisdiction": "San Diego, CA",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "screening_restrictions",
+      "docs_checked": [
+        "D073",
+        "D076"
+      ],
+      "jurisdiction": "San Diego, CA",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "algorithmic_rent_setting",
+      "docs_checked": [
+        "D073",
+        "D076"
+      ],
+      "jurisdiction": "San Diego, CA",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    },
+    {
+      "category": "application_screening_fees",
+      "docs_checked": [
+        "D078",
+        "D079",
+        "D080",
+        "D081",
+        "D082",
+        "D083"
+      ],
+      "jurisdiction": "San Francisco, CA",
+      "reason": "No in-force rule was extracted at this jurisdiction level from the checked documents."
+    }
+  ],
+  "notes": "Generated from extracted records at 2026-10-01. Not legal advice."
+}

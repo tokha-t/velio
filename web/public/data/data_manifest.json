@@ -7,6 +7,7 @@
     "lookups_2026-01-02.json": "build/lookups_2026-01-02.json",
     "lookups_2026-10-01.json": "submission/lookups.json",
     "lookups_2027-07-02.json": "build/lookups_2027-07-02.json",
+    "no_rule_findings.json": "submission/no_rule_findings.json",
     "rules.json": "build/rules_internal.json",
     "submission_rules.json": "submission/rules.json",
     "validation.json": "web/data/validation.json"

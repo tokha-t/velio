@@ -586,7 +586,7 @@
       "A0490",
       "A0495"
     ],
-    "notes": "Key-to-team mapping: NJ-ALG-01 -> r-0043. Dates: 2027-07-02, 2026-10-01. Deterministic lookup comparison. Not legal advice."
+    "notes": "Key-to-team mapping: NJ-ALG-01 -> r-0044. Dates: 2027-07-02, 2026-10-01. Deterministic lookup comparison. Not legal advice."
   },
   "T4": {
     "affected_address_ids": [
@@ -702,7 +702,7 @@
       "A0488"
     ],
     "conflict_flag_address_ids": [],
-    "notes": "Key-to-team mapping: MA-ALG-P1 -> missing; MA-ALG-P2 -> r-0035. Dates: 2026-10-01. Deterministic lookup comparison. Not legal advice."
+    "notes": "Key-to-team mapping: MA-ALG-P1 -> r-0036; MA-ALG-P2 -> r-0035. Dates: 2026-10-01. Deterministic lookup comparison. Not legal advice."
   },
   "T5": {
     "affected_address_ids": [],

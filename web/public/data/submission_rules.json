@@ -1734,6 +1734,46 @@
     },
     {
       "also_in_docs": [],
+      "base_status": "pending",
+      "category": "algorithmic_rent_setting",
+      "citation": "Mass. S.2983 (194th)",
+      "confidence": 0.6,
+      "corpus_text": true,
+      "coverage_conditions": {
+        "predicates": [],
+        "text": "Operative coverage terms are not stated in this text."
+      },
+      "doc_kind": "bill",
+      "effective_date": null,
+      "effective_date_text": null,
+      "effective_rule_text": null,
+      "enacted_date": null,
+      "exemptions": null,
+      "jurisdiction": "MA",
+      "key_value": null,
+      "level": "state",
+      "quote_char_range": [
+        192,
+        235
+      ],
+      "quote_match_method": "normalized_exact",
+      "quote_verified": true,
+      "quoted_span": "An Act prohibiting algorithmic rent setting",
+      "requirement": "Bill reported favorably by the Senate Committee on Housing on March 12, 2026, that would prohibit algorithmic rent setting. The bill's operative provisions are not shown on this page; only its title, committee report and history appear.",
+      "retrieved_at": "2026-10-01T22:36Z",
+      "source_doc_id": "D046",
+      "source_tier": "official",
+      "source_url": "https://malegislature.gov/Bills/194/S2983",
+      "status": "pending",
+      "team_rule_id": "r-0036",
+      "test_rule_ids": [
+        "MA-ALG-P1"
+      ],
+      "title": "An Act prohibiting algorithmic rent setting (S.2983)",
+      "yields_to_local": false
+    },
+    {
+      "also_in_docs": [],
       "base_status": "in_force",
       "category": "application_screening_fees",
       "citation": "M.G.L. c. 112, \u00a7 87DDD\u00bd",
@@ -1765,7 +1805,7 @@
       "source_tier": "official",
       "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXVI/Chapter112/Section87DDD%201~2",
       "status": "in_force",
-      "team_rule_id": "r-0036",
+      "team_rule_id": "r-0037",
       "test_rule_ids": [],
       "title": "Massachusetts broker fee payable only by the party who hired the broker",
       "yields_to_local": false
@@ -1813,7 +1853,7 @@
       "source_tier": "official",
       "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section12",
       "status": "in_force",
-      "team_rule_id": "r-0037",
+      "team_rule_id": "r-0038",
       "test_rule_ids": [],
       "title": "Notice required to terminate a tenancy at will",
       "yields_to_local": false
@@ -1860,7 +1900,7 @@
       "source_tier": "official",
       "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section18",
       "status": "in_force",
-      "team_rule_id": "r-0038",
+      "team_rule_id": "r-0039",
       "test_rule_ids": [],
       "title": "Reprisal against tenants for protected activity prohibited",
       "yields_to_local": false
@@ -1898,7 +1938,7 @@
       "source_tier": "official",
       "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleVII/Chapter40P/Section4",
       "status": "in_force",
-      "team_rule_id": "r-0039",
+      "team_rule_id": "r-0040",
       "test_rule_ids": [],
       "title": "General prohibition on local rent control",
       "yields_to_local": false
@@ -1947,7 +1987,7 @@
       "source_tier": "official",
       "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter151B/Section4",
       "status": "in_force",
-      "team_rule_id": "r-0040",
+      "team_rule_id": "r-0041",
       "test_rule_ids": [],
       "title": "Massachusetts anti-discrimination law: unlawful housing practices",
       "yields_to_local": false
@@ -1985,7 +2025,7 @@
       "source_tier": "official",
       "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXI/Chapter151B/Section4",
       "status": "in_force",
-      "team_rule_id": "r-0041",
+      "team_rule_id": "r-0042",
       "test_rule_ids": [],
       "title": "Massachusetts bar on discrimination against public assistance and housing subsidy recipients",
       "yields_to_local": false
@@ -2023,7 +2063,7 @@
       "source_tier": "official",
       "source_url": "https://malegislature.gov/Laws/GeneralLaws/PartII/TitleI/Chapter186/Section15B",
       "status": "in_force",
-      "team_rule_id": "r-0042",
+      "team_rule_id": "r-0043",
       "test_rule_ids": [],
       "title": "Massachusetts residential security deposit and prepaid rent limits",
       "yields_to_local": false
@@ -2073,7 +2113,7 @@
       "source_tier": "official",
       "source_url": "https://pub.njleg.state.nj.us/Bills/2026/AL26/43_.HTM",
       "status": "not_yet_effective",
-      "team_rule_id": "r-0043",
+      "team_rule_id": "r-0044",
       "test_rule_ids": [
         "NJ-ALG-01"
       ],
@@ -2129,7 +2169,7 @@
       "source_tier": "official",
       "source_url": "https://pub.njleg.gov/bills/2024/PL25/405_.HTM",
       "status": "in_force",
-      "team_rule_id": "r-0044",
+      "team_rule_id": "r-0045",
       "test_rule_ids": [],
       "title": "Residential rental application fee capped at $50",
       "yields_to_local": false
@@ -2181,7 +2221,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0045",
+      "team_rule_id": "r-0046",
       "test_rule_ids": [],
       "title": "New Jersey Anti-Eviction Act: eviction only for listed causes, with notice to quit",
       "yields_to_local": false
@@ -2236,7 +2276,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0046",
+      "team_rule_id": "r-0047",
       "test_rule_ids": [],
       "title": "New Jersey Anti-Eviction Act (good cause required for eviction)",
       "yields_to_local": false
@@ -2286,7 +2326,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0047",
+      "team_rule_id": "r-0048",
       "test_rule_ids": [],
       "title": "Senior Citizens and Disabled Protected Tenancy Act (condo/co-op conversion)",
       "yields_to_local": false
@@ -2341,7 +2381,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0048",
+      "team_rule_id": "r-0049",
       "test_rule_ids": [],
       "title": "Good cause required to refuse lease renewal",
       "yields_to_local": false
@@ -2379,7 +2419,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0049",
+      "team_rule_id": "r-0050",
       "test_rule_ids": [],
       "title": "Tenant protections after foreclosure (Foreclosure Fairness Act)",
       "yields_to_local": false
@@ -2417,7 +2457,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0050",
+      "team_rule_id": "r-0051",
       "test_rule_ids": [],
       "title": "NJ Anti-Eviction Act: rent increases must not be unconscionable",
       "yields_to_local": false
@@ -2455,7 +2495,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0051",
+      "team_rule_id": "r-0052",
       "test_rule_ids": [],
       "title": "NJ: no rent increase to cover costs of building conversion",
       "yields_to_local": false
@@ -2508,7 +2548,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0052",
+      "team_rule_id": "r-0053",
       "test_rule_ids": [],
       "title": "NJ rent control is local only; newly constructed multiple dwellings exempt for 30 years",
       "yields_to_local": false
@@ -2560,7 +2600,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/oag/dcr/downloads/kyrhousing02.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0053",
+      "team_rule_id": "r-0054",
       "test_rule_ids": [],
       "title": "NJ Law Against Discrimination: source of lawful income protection in rental housing",
       "yields_to_local": false
@@ -2615,7 +2655,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0054",
+      "team_rule_id": "r-0055",
       "test_rule_ids": [],
       "title": "NJ Law Against Discrimination: housing, including source of lawful income",
       "yields_to_local": false
@@ -2661,7 +2701,7 @@
       "source_tier": "official",
       "source_url": "https://pub.njleg.gov/bills/2020/PL21/110_.HTM",
       "status": "in_force",
-      "team_rule_id": "r-0055",
+      "team_rule_id": "r-0056",
       "test_rule_ids": [],
       "title": "New Jersey Fair Chance in Housing Act",
       "yields_to_local": false
@@ -2708,7 +2748,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0056",
+      "team_rule_id": "r-0057",
       "test_rule_ids": [],
       "title": "NJ Security Deposit Law: interest, notice and return within 30 days",
       "yields_to_local": false
@@ -2754,7 +2794,7 @@
       "source_tier": "official",
       "source_url": "https://www.nj.gov/dca/codes/publications/pdf_lti/t_i_r.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0057",
+      "team_rule_id": "r-0058",
       "test_rule_ids": [],
       "title": "New Jersey Security Deposit Law: deposit cap, increase limit and handling",
       "yields_to_local": false
@@ -2819,7 +2859,7 @@
       "source_tier": "official",
       "source_url": "https://docs.sandiego.gov/municode/municodechapter09/ch09art08division07.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0058",
+      "team_rule_id": "r-0059",
       "test_rule_ids": [],
       "title": "San Diego Residential Tenant Protections: just cause required for termination of tenancy",
       "yields_to_local": false
@@ -2864,7 +2904,7 @@
       "source_tier": "official",
       "source_url": "https://docs.sandiego.gov/municode/municodechapter09/ch09art08division07.pdf",
       "status": "in_force",
-      "team_rule_id": "r-0059",
+      "team_rule_id": "r-0060",
       "test_rule_ids": [],
       "title": "San Diego Tenant Protection: termination notice and relocation assistance for just cause evictions",
       "yields_to_local": false
@@ -2902,7 +2942,7 @@
       "source_tier": "official",
       "source_url": "https://www.sf.gov/news/new-law-prohibits-algorithmic-devices-used-set-rents-san-francisco",
       "status": "in_force",
-      "team_rule_id": "r-0060",
+      "team_rule_id": "r-0061",
       "test_rule_ids": [],
       "title": "San Francisco ban on algorithmic devices used to set rents (Rent Ordinance \u00a7 37.10C)",
       "yields_to_local": false
@@ -2940,7 +2980,7 @@
       "source_tier": "official",
       "source_url": "https://sf.gov/information/overview-just-cause-evictions",
       "status": "in_force",
-      "team_rule_id": "r-0061",
+      "team_rule_id": "r-0062",
       "test_rule_ids": [],
       "title": "San Francisco Rent Ordinance just cause eviction requirement",
       "yields_to_local": false
@@ -2991,7 +3031,7 @@
       "source_tier": "official",
       "source_url": "https://www.sf.gov/reports--current-rates-including-rent-increase-relocation-sec-deposit",
       "status": "in_force",
-      "team_rule_id": "r-0062",
+      "team_rule_id": "r-0063",
       "test_rule_ids": [],
       "title": "San Francisco relocation payments for no-fault evictions, notices served 3/01/26 \u2013 2/28/27",
       "yields_to_local": false
@@ -3029,7 +3069,7 @@
       "source_tier": "official",
       "source_url": "https://www.sf.gov/reports--current-rates-including-rent-increase-relocation-sec-deposit",
       "status": "in_force",
-      "team_rule_id": "r-0063",
+      "team_rule_id": "r-0064",
       "test_rule_ids": [],
       "title": "San Francisco allowable annual rent increase, March 1, 2026 \u2013 February 28, 2027",
       "yields_to_local": false
@@ -3067,7 +3107,7 @@
       "source_tier": "official",
       "source_url": "https://www.sf.gov/news--annual-rent-increase-3126-22827-announced",
       "status": "in_force",
-      "team_rule_id": "r-0064",
+      "team_rule_id": "r-0065",
       "test_rule_ids": [],
       "title": "San Francisco annual allowable rent increase, 3/1/2026 to 2/28/2027",
       "yields_to_local": false
@@ -3112,7 +3152,7 @@
       "source_tier": "official",
       "source_url": "https://sf-hrc.org/fair-chance-ordinance",
       "status": "in_force",
-      "team_rule_id": "r-0065",
+      "team_rule_id": "r-0066",
       "test_rule_ids": [],
       "title": "San Francisco Fair Chance Ordinance (affordable housing)",
       "yields_to_local": false
@@ -3150,7 +3190,7 @@
       "source_tier": "official",
       "source_url": "https://www.sf.gov/reports--current-rates-including-rent-increase-relocation-sec-deposit",
       "status": "in_force",
-      "team_rule_id": "r-0066",
+      "team_rule_id": "r-0067",
       "test_rule_ids": [],
       "title": "San Francisco security deposit interest rate, March 1, 2026 \u2013 February 28, 2027",
       "yields_to_local": false
@@ -3207,7 +3247,7 @@
       "source_tier": "official",
       "source_url": "https://santa-ana.gov/santa-ana-city-council-adopts-rent-stabilization-and-just-cause-eviction-ordinances-effective-nov-19",
       "status": "in_force",
-      "team_rule_id": "r-0067",
+      "team_rule_id": "r-0068",
       "test_rule_ids": [],
       "title": "Santa Ana Just Cause Eviction Ordinance",
       "yields_to_local": false
@@ -3245,7 +3285,7 @@
       "source_tier": "official",
       "source_url": "https://santa-ana.gov/departments/rent-stabilization",
       "status": "in_force",
-      "team_rule_id": "r-0068",
+      "team_rule_id": "r-0069",
       "test_rule_ids": [],
       "title": "Santa Ana Just Cause Eviction protections",
       "yields_to_local": false
@@ -3297,7 +3337,7 @@
       "source_tier": "official",
       "source_url": "https://santa-ana.gov/santa-ana-city-council-adopts-rent-stabilization-and-just-cause-eviction-ordinances-effective-nov-19",
       "status": "in_force",
-      "team_rule_id": "r-0069",
+      "team_rule_id": "r-0070",
       "test_rule_ids": [],
       "title": "Santa Ana Rent Stabilization Ordinance",
       "yields_to_local": false
@@ -3335,7 +3375,7 @@
       "source_tier": "official",
       "source_url": "https://santa-ana.gov/departments/rent-stabilization",
       "status": "in_force",
-      "team_rule_id": "r-0070",
+      "team_rule_id": "r-0071",
       "test_rule_ids": [],
       "title": "Santa Ana Rent Stabilization: annual maximum rent increase",
       "yields_to_local": false
