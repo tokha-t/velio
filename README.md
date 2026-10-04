@@ -2,6 +2,8 @@
 
 Rental Housing Law Navigator turns a supplied corpus of housing-law materials into an auditable, date-specific answer for every address in the organizer dataset. It covers selected California, New Jersey, and Massachusetts state and local rules. It is a research prototype, **not legal advice**.
 
+Live demo: [tokha-t.github.io/velio](https://tokha-t.github.io/velio/).
+
 ## Run it
 
 The starter pack is intentionally not redistributed. Put the organizer-supplied `starter_pack/` beside this README. Optional human-saved link-only research belongs in `research/link_only/` using that directory's documented format.
