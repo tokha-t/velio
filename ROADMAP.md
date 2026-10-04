@@ -4,7 +4,7 @@ Agents: update the **Status** block when you finish a step: tick it, add one lin
 
 ## Status
 
-- Current phase: **5 — P5 complete; P6 blocked pending release inputs**
+- Current phase: **6 — unified main pushed; public Pages deployment blocked by plan**
 - Last checkpoint passed: **CP4 changes and validation** (all checks green)
 - Blockers: No Lane A extraction or validation blocker. CP5 still needs Lane B's deployed web app; Vercel login remains a Human H1 task.
 - Notes: 10:10 — Read CLAUDE.md and ROADMAP.md fully; confirmed a fresh repo and began Lane A P0.
@@ -19,7 +19,8 @@ Agents: update the **Status** block when you finish a step: tick it, add one lin
 - Notes: 16:16 — Human-saved D032–D035 research copies loaded successfully as `link_only_research` / `corpus_text=false`; full cached extraction completed with zero retry-exhausted chunks. CP1 passed: 71 schema-valid records, 100% quote verification, 21/23 recall checks found, and all required AB 325, FAIR, S.2983, H.5222, c.40P, Hoboken and Jersey City anchors present.
 - Notes: 16:16 — Fixed a deterministic cache-key collision between the identical D046/D047 chunks, regenerated all four dated lookup sets, and passed CP3/CP4: 500 addresses; 31 tests; T1 250/0, T2 90/0, T3 140/90, T4 110/0, T5 0/0; validation report all green.
 - Notes: 16:30 — P5 generated deterministic no-rule findings (36) and conflict notes (4), and added public README plus METHOD. P6 warm-cache reproducibility and release checks are next; public deployment remains a Human H1 action.
-- Notes: 16:45 — Main worktree warm-cache rerun reproduced submission JSON byte-for-byte and 32 tests pass. Fresh checkout reproduction is blocked by the missing `uv` executable and by the four intentionally untracked human-saved link-only files (D032–D035); without those inputs CP3 T2/T3 correctly fail. No public push or visibility change was made.
+- Notes: 16:45 — Main worktree warm-cache rerun reproduced submission JSON byte-for-byte and 32 tests pass. Fresh checkout reproduction is blocked by the missing `uv` executable. D032–D035 are now committed as explicitly authorized saved research inputs; no corpus input remains untracked.
+- Notes: 17:00 — Consolidated all committed work into `/Users/lost_home/Documents/hack-nation` on `main` and pushed `4954449` to GitHub. The Pages workflow builds successfully, but GitHub rejects deployment because this private repository's current plan does not support Pages. Public visibility was not changed.
 
 ## Lanes
 
