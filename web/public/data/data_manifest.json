@@ -1,0 +1,14 @@
+{
+  "files": {
+    "addresses_resolved.json": "build/addresses_resolved.json",
+    "changes.json": "submission/changes.json",
+    "changes_detail.json": "submission/changes_detail.json",
+    "lookups_2025-12-31.json": "build/lookups_2025-12-31.json",
+    "lookups_2026-01-02.json": "build/lookups_2026-01-02.json",
+    "lookups_2026-10-01.json": "submission/lookups.json",
+    "lookups_2027-07-02.json": "build/lookups_2027-07-02.json",
+    "rules.json": "build/rules_internal.json",
+    "submission_rules.json": "submission/rules.json",
+    "validation.json": "web/data/validation.json"
+  }
+}
