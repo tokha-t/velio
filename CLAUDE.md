@@ -33,7 +33,7 @@ Default query date: **`2026-10-01`**. Minimum viable entry: Modules A + B on all
 4. **"unknown" beats guessing.** If a rule's geography matches the address and a needed fact is missing, report `unknown`. Never silently omit it: a missed applicable rule is the costliest error.
 5. **"Not legal advice"** on every UI view and in every output's notes. Every answer shows its as-of date. Keep enacted, pending, not-yet-effective and failed law visibly separate.
 6. Never suggest ways to avoid or structure around a rule. Never score tenants. No non-public data.
-7. No bulk scraping. ecode360, amlegal, Municode, gocodebook: single pages read by a human only (§7.9).
+7. No bulk scraping. ecode360, amlegal, Municode, gocodebook: single pages read by a human only (§7.9). Never use BrightData (an event perk) or any unblocker or proxy to get past a site's blocks: that breaks the organizers' "if their terms allow it" condition.
 8. `starter_pack/` is read-only input. Never edit it.
 9. Secrets live in `.env` only (gitignored). The repo goes public under MIT at submission.
 
@@ -86,6 +86,17 @@ Always fill the optional `source_doc_id`, `effective_date`, `key_value`, `exempt
 How we are judged:
 - **Hack-Nation form rubric:** technical depth, communication, innovation — ⅓ each.
 - **Challenge scoring:** the earlier brief weighted extraction 25, address coverage 20 (a missed applicable rule cost 2×; "unknown" earned partial credit), citations 15, change tracking 15, plain language 10, responsible design 10, scalability path 5. v5 dropped the published weights. Treat them as the best proxy.
+
+### 3.3 Event perks (claimed on HackOS; codes never go in the repo)
+
+| Perk | Use in this build |
+|---|---|
+| Anthropic API credits ($25) | HackOS marks the shared pool "All Redeemed". If the credits reached the Console, set `ANTHROPIC_API_KEY` and use `NAV_LLM_BACKEND=anthropic` (fastest, parallel). Otherwise stay on `claude_cli` and run 4–6 `claude -p` calls in parallel. |
+| ElevenLabs Creator, 1 month (131k credits) | Optional voice-over for the demo and tech videos. The code comes from the ElevenLabs Discord bot, using the Luma email. The team intro stays in Tokha's own voice. |
+| Lovable Pro, 1 month (100 credits) | Fallback for the web UI if Lane B slips. Lovable is an accepted demo host on the submission form. Build from the same JSON contract (§3.1, §6). |
+| BrightData ($300) | Not used in this track (rule 7). |
+
+The participation certificate unlocks after 18:00: set the name under HackOS → Certificate.
 
 ---
 

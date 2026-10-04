@@ -1,0 +1,374 @@
+{
+  "rules": [
+    {
+      "category": "just_cause_eviction",
+      "citation": "Berkeley Rent Stabilization and Eviction for Just Cause Ordinance",
+      "confidence": 0.8,
+      "corpus_text": true,
+      "coverage_conditions": {
+        "predicates": [
+          {
+            "parameters": {
+              "text": [
+                "Golden Duplex",
+                "owner shares kitchen or bath with tenant",
+                "ADU property with owner occupancy",
+                "university rental units such as dormitories",
+                "nonprofit cooperative"
+              ]
+            },
+            "type": "special_status_exemptions"
+          }
+        ],
+        "text": "Covered regardless of construction date or unit type, except exempt categories."
+      },
+      "doc_kind": "agency_guidance",
+      "effective_date_text": null,
+      "enacted_date": null,
+      "exemptions": [
+        "Golden Duplex: duplex owner-occupied on December 31, 1979 with an owner currently living in one of the units",
+        "Unit where the owner shares a kitchen or bath with the tenant, if the owner lived on the property when the tenancy started",
+        "Tenancies started after Nov 7, 2018 on properties where one unit is an ADU and either unit is owner-occupied",
+        "University rental units such as dormitories",
+        "Nonprofit Cooperative"
+      ],
+      "jurisdiction": "Berkeley, CA",
+      "key_value": "Just cause for eviction: Yes for fully and partially covered units; No for exempt units",
+      "level": "city",
+      "quote_char_range": [
+        1233,
+        1285
+      ],
+      "quote_match_method": "normalized_exact",
+      "quote_verified": true,
+      "quoted_span": "Most condominiums** Partially Covered Yes No Yes Yes",
+      "requirement": "Just cause for eviction applies to both fully covered and partially covered units, including new construction after June 1980, condominiums, single-family homes with tenancies beginning on or after January 1, 1996, and certain subsidized units. Exempt units are not covered.",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "source_doc_id": "D009",
+      "source_tier": "official",
+      "source_url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/Rent%20Ordinance%20Coverage%20by%20Unit%20Type.pdf",
+      "title": "Berkeley just cause for eviction coverage by unit type",
+      "yields_to_local": false
+    },
+    {
+      "category": "rent_increase_limits",
+      "citation": "Berkeley Rent Stabilization and Eviction for Just Cause Ordinance",
+      "confidence": 0.8,
+      "corpus_text": true,
+      "coverage_conditions": {
+        "predicates": [
+          {
+            "parameters": {
+              "basis": "certificate_of_occupancy",
+              "date": "1980-06-30"
+            },
+            "type": "built_on_or_before"
+          },
+          {
+            "parameters": {
+              "text": [
+                "Golden Duplex",
+                "owner shares kitchen or bath with tenant",
+                "ADU property with owner occupancy",
+                "university rental units such as dormitories",
+                "nonprofit cooperative",
+                "condominium",
+                "government-subsidized units (Section 202, Section 811, Rental Supplement Program, Section 8 Loan Management Set Aside, Project-based Section 8 with HUD-insured or HUD-held mortgage)"
+              ]
+            },
+            "type": "special_status_exemptions"
+          },
+          {
+            "parameters": {
+              "text": [
+                "Single-family home covered only if the current tenancy began before 1996"
+              ]
+            },
+            "type": "tenant_level_conditions"
+          }
+        ],
+        "text": "Fully covered if multifamily property built before 1980, single-family home with tenancy that began before 1996, or rooming house. Units built with a Certificate of Occupancy after June 1980, condominiums, single-family homes with tenancies beginning on or after January 1, 1996, and certain subsidized units are not subject to rent control. Exempt categories are not covered."
+      },
+      "doc_kind": "agency_guidance",
+      "effective_date_text": null,
+      "enacted_date": null,
+      "exemptions": [
+        "Golden Duplex: duplex owner-occupied on December 31, 1979 with an owner currently living in one of the units",
+        "Unit where the owner shares a kitchen or bath with the tenant, if the owner lived on the property when the tenancy started",
+        "Tenancies started after Nov 7, 2018 on properties where one unit is an ADU and either unit is owner-occupied",
+        "University rental units such as dormitories",
+        "Nonprofit Cooperative"
+      ],
+      "jurisdiction": "Berkeley, CA",
+      "key_value": "Rent control: Yes for fully covered units; No for partially covered units; No for exempt units",
+      "level": "city",
+      "quote_char_range": [
+        662,
+        748
+      ],
+      "quote_match_method": "normalized_exact",
+      "quote_verified": true,
+      "quoted_span": "Most units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes",
+      "requirement": "Rent control applies to fully covered units: most units in multifamily properties built before 1980, single-family homes with tenancies that began before 1996, and rooming houses. New construction that received a Certificate of Occupancy after June 1980, condominiums, single-family homes with tenancies beginning on or after January 1, 1996, and certain subsidized units are only partially covered and are not subject to rent control. Exempt units are not covered.",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "source_doc_id": "D009",
+      "source_tier": "official",
+      "source_url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/Rent%20Ordinance%20Coverage%20by%20Unit%20Type.pdf",
+      "title": "Berkeley rent control coverage by unit type",
+      "yields_to_local": false
+    },
+    {
+      "category": "security_deposits",
+      "citation": "Berkeley Rent Stabilization and Eviction for Just Cause Ordinance",
+      "confidence": 0.75,
+      "corpus_text": true,
+      "coverage_conditions": {
+        "predicates": [
+          {
+            "parameters": {
+              "text": [
+                "Golden Duplex",
+                "owner shares kitchen or bath with tenant",
+                "ADU property with owner occupancy",
+                "university rental units such as dormitories",
+                "nonprofit cooperative"
+              ]
+            },
+            "type": "special_status_exemptions"
+          }
+        ],
+        "text": "Covered regardless of construction date or unit type, except exempt categories."
+      },
+      "doc_kind": "agency_guidance",
+      "effective_date_text": null,
+      "enacted_date": null,
+      "exemptions": [
+        "Golden Duplex: duplex owner-occupied on December 31, 1979 with an owner currently living in one of the units",
+        "Unit where the owner shares a kitchen or bath with the tenant, if the owner lived on the property when the tenancy started",
+        "Tenancies started after Nov 7, 2018 on properties where one unit is an ADU and either unit is owner-occupied",
+        "University rental units such as dormitories",
+        "Nonprofit Cooperative"
+      ],
+      "jurisdiction": "Berkeley, CA",
+      "key_value": "Security deposit interest: Yes for fully and partially covered units; No for exempt units",
+      "level": "city",
+      "quote_char_range": [
+        750,
+        847
+      ],
+      "quote_match_method": "normalized_exact",
+      "quote_verified": true,
+      "quoted_span": "Single family homes with current tenancies that began before 1996** Fully Covered Yes Yes Yes Yes",
+      "requirement": "Security deposit interest applies to fully covered and partially covered units. Exempt units are not covered.",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "source_doc_id": "D009",
+      "source_tier": "official",
+      "source_url": "https://rentboard.berkeleyca.gov/sites/default/files/documents/Rent%20Ordinance%20Coverage%20by%20Unit%20Type.pdf",
+      "title": "Berkeley security deposit interest coverage by unit type",
+      "yields_to_local": false
+    },
+    {
+      "category": "rent_increase_limits",
+      "citation": "Cal. Civ. Code \u00a7 1947.12",
+      "confidence": 0.95,
+      "corpus_text": true,
+      "coverage_conditions": {
+        "predicates": [
+          {
+            "parameters": {
+              "basis": "certificate_of_occupancy",
+              "n": 15,
+              "text": "Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome"
+            },
+            "type": "rolling_new_construction_exempt_years"
+          },
+          {
+            "parameters": {
+              "n": 2,
+              "text": "Two separate dwelling units in a single structure where the owner occupied one unit as principal residence at the beginning of the tenancy"
+            },
+            "type": "owner_occupied_exempt_max_units"
+          },
+          {
+            "parameters": {
+              "text": "Separately alienable residential property exempt only if the owner is not a REIT, corporation, LLC with a corporate member, or mobilehome park management, and written exemption notice was given"
+            },
+            "type": "owner_type"
+          },
+          {
+            "parameters": {
+              "text": "Deed-restricted or subsidized affordable housing; dormitories; housing under stricter local rent or price control; mobilehome homeowners"
+            },
+            "type": "special_status_exemptions"
+          },
+          {
+            "parameters": {
+              "text": "Initial rent for a new tenancy is not capped; at most two increases per 12 months for the same tenant in occupancy"
+            },
+            "type": "tenant_level_conditions"
+          }
+        ],
+        "text": "Applies to residential rental dwellings and units statewide, including mobilehome park units, unless an exemption applies. Housing with a certificate of occupancy issued within the previous 15 years is exempt. Housing under a stricter local rent control is exempt. Owner-occupied two-unit properties and separately alienable properties with qualifying non-corporate owners are exempt."
+      },
+      "doc_kind": "statute",
+      "effective_date_text": "This section shall become operative on April 1, 2024.",
+      "enacted_date": null,
+      "exemptions": [
+        "Housing restricted as affordable housing by deed, regulatory agreement or other recorded document, or covered by a housing subsidy agreement for very low, low or moderate income households",
+        "Dormitories owned and operated by an institution of higher education or a K-12 school",
+        "Housing subject to a public entity's rent or price control that limits annual increases to less than the state cap",
+        "Housing issued a certificate of occupancy within the previous 15 years, unless it is a mobilehome",
+        "Residential property that is alienable separate from title to any other dwelling unit, if the owner is not a real estate investment trust, a corporation, an LLC with a corporate member, or a mobilehome park management, and tenants were given the required written exemption notice",
+        "A property with two separate dwelling units in a single structure where the owner occupied one unit as a principal residence at the start of the tenancy and continues to live there, and neither unit is an accessory or junior accessory dwelling unit",
+        "Homeowners of a mobilehome",
+        "New tenancies where no prior tenant remains in lawful possession, for the initial rental rate only"
+      ],
+      "jurisdiction": "CA",
+      "key_value": "Annual increase capped at the lower of 5% plus local CPI change or 10%; at most two increases per 12 months; operative 2024-04-01; repealed 2030-01-01",
+      "level": "state",
+      "quote_char_range": [
+        1284,
+        1532
+      ],
+      "quote_match_method": "normalized_exact",
+      "quote_verified": true,
+      "quoted_span": "an owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower",
+      "requirement": "An owner of residential real property may not raise the gross rental rate for a dwelling or unit by more than 5 percent plus the local percentage change in the cost of living, or 10 percent, whichever is lower, over any 12-month period. The base is the lowest gross rental rate charged in the 12 months before the increase takes effect. A tenant who stays in occupancy may not be given more than two increases in a 12-month period. The owner may set the initial rent for a new tenancy, and the cap applies to later increases. Owners must give notice of increases under Section 827. Waivers of these rights are void. Tenants may recover injunctive relief, damages and attorney's fees, and up to three times the overcharge for willful violations. The section is operative April 1, 2024 and is repealed on January 1, 2030.",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "source_doc_id": "D024",
+      "source_tier": "official",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1947.12",
+      "title": "California statewide residential rent increase cap (AB 1482 as continued by SB 567)",
+      "yields_to_local": true
+    },
+    {
+      "category": "rent_increase_limits",
+      "citation": "Jersey City Mun. Code ch. 260",
+      "confidence": 0.8,
+      "corpus_text": true,
+      "coverage_conditions": {
+        "predicates": [
+          {
+            "parameters": {
+              "n": 5
+            },
+            "type": "min_units"
+          },
+          {
+            "parameters": {
+              "text": "Other exemptions permitted by the Rent Control Ordinance, which owners request through a Rent Control Exemption Request; the criteria are not listed on this page"
+            },
+            "type": "special_status_exemptions"
+          }
+        ],
+        "text": "Covers rental properties in Jersey City with 5 or more units. Properties with 1-4 units are exempt. Other ordinance exemptions may apply, but the page does not list them."
+      },
+      "doc_kind": "agency_guidance",
+      "effective_date_text": null,
+      "enacted_date": null,
+      "exemptions": [
+        "All 1-4 unit properties are exempt from rent control",
+        "Other exemptions permitted by the Rent Control Ordinance, requested through a Rent Control Exemption Request"
+      ],
+      "jurisdiction": "Jersey City, NJ",
+      "key_value": "1-4 unit properties exempt from rent control; this page states no percentage cap",
+      "level": "city",
+      "quote_char_range": [
+        3961,
+        4028
+      ],
+      "quote_match_method": "normalized_exact",
+      "quote_verified": true,
+      "quoted_span": "(Please Note: All 1-4 Unit Properties are exempt from rent control)",
+      "requirement": "Jersey City's Office of Landlord/Tenant Relations administers and enforces the Rent Control Ordinance, Chapter 260 of the Jersey City Municipal Code. Properties with 1-4 units are exempt from rent control. The ordinance allows other exemptions, which an owner can request from the Office. Landlords apply for rent increases, such as capital improvement, vacancy capital improvement and hardship increases, through the city's online portal.",
+      "retrieved_at": "2026-10-01T22:36Z",
+      "source_doc_id": "D036",
+      "source_tier": "official",
+      "source_url": "https://www.jerseycitynj.gov/landlordtenant",
+      "title": "Jersey City Rent Control Ordinance (Chapter 260)",
+      "yields_to_local": false
+    },
+    {
+      "category": "algorithmic_rent_setting",
+      "citation": "Mass. H.5222 (194th)",
+      "confidence": 0.6,
+      "corpus_text": true,
+      "coverage_conditions": {
+        "predicates": [],
+        "text": "Bill text not supplied; page gives only the title and committee history, so no coverage conditions can be stated."
+      },
+      "doc_kind": "bill",
+      "effective_date_text": null,
+      "enacted_date": null,
+      "exemptions": [],
+      "jurisdiction": "MA",
+      "key_value": null,
+      "level": "state",
+      "quote_char_range": [
+        192,
+        274
+      ],
+      "quote_match_method": "normalized_exact",
+      "quote_verified": true,
+      "quoted_span": "An Act relative to preventing algorithmic rent fixing in the rental housing market",
+      "requirement": "Bill that, according to its title, would prevent algorithmic rent fixing in the Massachusetts rental housing market. The supplied page shows only the title, sponsor (Joint Committee on Housing), and history. The history shows the bill was reported favorably by the Housing committee on 3/12/2026 and referred to House Ways and Means. The operative text is not in this document, so no prohibition details, scope, or penalties can be extracted.",
+      "retrieved_at": "2026-10-01T22:36Z",
+      "source_doc_id": "D045",
+      "source_tier": "official",
+      "source_url": "https://malegislature.gov/Bills/194/H5222",
+      "title": "H.5222: An Act relative to preventing algorithmic rent fixing in the rental housing market",
+      "yields_to_local": false
+    },
+    {
+      "category": "algorithmic_rent_setting",
+      "citation": "P.L.2026, c.43",
+      "confidence": 0.93,
+      "corpus_text": true,
+      "coverage_conditions": {
+        "predicates": [
+          {
+            "parameters": {
+              "text": [
+                "inpatient medical care",
+                "licensed long-term care",
+                "detention or correctional facilities",
+                "government-run affordability controls"
+              ]
+            },
+            "type": "special_status_exemptions"
+          }
+        ],
+        "text": "Applies statewide to rental property owners, coordinators and other persons dealing with residential dwelling units in New Jersey, which include houses, apartments, accessory units and other primary-residence units."
+      },
+      "doc_kind": "statute",
+      "effective_date_text": "This act shall take effect on the first day of the twelfth month next following the date of enactment.",
+      "enacted_date": "2026-07-20",
+      "exemptions": [
+        "Spreadsheets that operate without artificial intelligence and require human analysis are not algorithmic devices",
+        "Databases that only use an algorithm to query unprocessed data are not algorithmic devices",
+        "Coordinating function excludes research, statistical analysis or testing that is not used to set or recommend rents or lease terms",
+        "Coordinating function excludes publicly available rent estimates provided at no cost",
+        "Coordinating function excludes real estate brokerage databases available on equal terms that do not set or recommend rents or collect competitively sensitive information to do so",
+        "Government entities setting or limiting rents through affordability controls are excluded from coordinator and coordinating function",
+        "Residential dwelling unit excludes inpatient medical care, licensed long-term care, and detention or correctional facilities"
+      ],
+      "jurisdiction": "NJ",
+      "key_value": "Unlawful to use or operate algorithmic rent-setting coordinators (violation of the NJ Antitrust Act)",
+      "level": "state",
+      "quote_char_range": [
+        8862,
+        8907
+      ],
+      "quote_match_method": "normalized_exact",
+      "quote_verified": true,
+      "quoted_span": "any person to perform a coordinating function",
+      "requirement": "It is unlawful, and a violation of the New Jersey Antitrust Act, for a rental property owner (or its agent or subcontractor) to pay for or subscribe to a coordinator's services. It is also unlawful for a coordinator to facilitate an agreement among rental property owners that restricts competition, for two or more persons to engage in or facilitate parallel pricing coordination, and for any person to perform a coordinating function. A coordinator is a person who operates algorithmic revenue management software or an algorithmic device that sets or recommends rental prices, material lease terms or occupancy levels using the competitively sensitive information of other owners. The Attorney General receives complaints and may adopt rules. Municipalities may not enact ordinances that conflict with the act.",
+      "retrieved_at": "2026-10-01T22:56Z",
+      "source_doc_id": "D069",
+      "source_tier": "official",
+      "source_url": "https://pub.njleg.state.nj.us/Bills/2026/AL26/43_.HTM",
+      "title": "Forbidding the Algorithmic Inflation of Rent (FAIR) Act",
+      "yields_to_local": false
+    }
+  ]
+}

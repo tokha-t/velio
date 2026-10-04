@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 13947,
+  "duration_ms": 14213,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1155,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 62836,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.27347160000000004,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1972,
+      "provider": "firstParty",
+      "thinkingTokens": 1077,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"NJ\",\"level\":\"state\",\"category\":\"algorithmic_rent_setting\",\"title\":\"Forbidding the Algorithmic Inflation of Rent (FAIR) Act\",\"requirement\":\"It is unlawful, and a violation of the New Jersey Antitrust Act, for a rental property owner (or its agent or subcontractor) to pay for or subscribe to a coordinator's services. It is also unlawful for a coordinator to facilitate an agreement among rental property owners that restricts competition, for two or more persons to engage in or facilitate parallel pricing coordination, and for any person to perform a coordinating function. A coordinator is a person who operates algorithmic revenue management software or an algorithmic device that sets or recommends rental prices, material lease terms or occupancy levels using the competitively sensitive information of other owners. The Attorney General receives complaints and may adopt rules. Municipalities may not enact ordinances that conflict with the act.\",\"citation\":\"P.L.2026, c.43\",\"quoted_span\":\"any person to perform a coordinating function\",\"doc_kind\":\"statute\",\"enacted_date\":\"2026-07-20\",\"effective_date_text\":\"This act shall take effect on the first day of the twelfth month next following the date of enactment.\",\"key_value\":\"Unlawful to use or operate algorithmic rent-setting coordinators (violation of the NJ Antitrust Act)\",\"exemptions\":[\"Spreadsheets that operate without artificial intelligence and require human analysis are not algorithmic devices\",\"Databases that only use an algorithm to query unprocessed data are not algorithmic devices\",\"Coordinating function excludes research, statistical analysis or testing that is not used to set or recommend rents or lease terms\",\"Coordinating function excludes publicly available rent estimates provided at no cost\",\"Coordinating function excludes real estate brokerage databases available on equal terms that do not set or recommend rents or collect competitively sensitive information to do so\",\"Government entities setting or limiting rents through affordability controls are excluded from coordinator and coordinating function\",\"Residential dwelling unit excludes inpatient medical care, licensed long-term care, and detention or correctional facilities\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Applies statewide to rental property owners, coordinators and other persons dealing with residential dwelling units in New Jersey, which include houses, apartments, accessory units and other primary-residence units.\",\"predicates\":[{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":[\"inpatient medical care\",\"licensed long-term care\",\"detention or correctional facilities\",\"government-run affordability controls\"]}}]},\"confidence\":0.93}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "7a653ca3-4d4d-48a9-a29c-901cd478ba6e",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 158,
+  "total_cost_usd": 0.27347160000000004,
+  "ttft_ms": 9053,
+  "ttft_stream_ms": 1154,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 62836,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 62836,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 62836,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 62836,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 1972,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1972,
+    "output_tokens_details": {
+      "thinking_tokens": 1077
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "10876ee6-b132-4482-9393-2f3a40478c13"
+}

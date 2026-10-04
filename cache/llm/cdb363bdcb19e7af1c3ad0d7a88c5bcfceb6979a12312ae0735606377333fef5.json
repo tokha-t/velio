@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 17947,
+  "duration_ms": 18258,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1404,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 63849,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.2821636,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 2436,
+      "provider": "firstParty",
+      "thinkingTokens": 991,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"CA\",\"level\":\"state\",\"category\":\"rent_increase_limits\",\"title\":\"California statewide residential rent increase cap (AB 1482 as continued by SB 567)\",\"requirement\":\"An owner of residential real property may not raise the gross rental rate for a dwelling or unit by more than 5 percent plus the local percentage change in the cost of living, or 10 percent, whichever is lower, over any 12-month period. The base is the lowest gross rental rate charged in the 12 months before the increase takes effect. A tenant who stays in occupancy may not be given more than two increases in a 12-month period. The owner may set the initial rent for a new tenancy, and the cap applies to later increases. Owners must give notice of increases under Section 827. Waivers of these rights are void. Tenants may recover injunctive relief, damages and attorney's fees, and up to three times the overcharge for willful violations. The section is operative April 1, 2024 and is repealed on January 1, 2030.\",\"citation\":\"Cal. Civ. Code \u00a7 1947.12\",\"quoted_span\":\"an owner of residential real property shall not, over the course of any 12-month period, increase the gross rental rate for a dwelling or a unit more than 5 percent plus the percentage change in the cost of living, or 10 percent, whichever is lower\",\"doc_kind\":\"statute\",\"enacted_date\":null,\"effective_date_text\":\"This section shall become operative on April 1, 2024.\",\"key_value\":\"Annual increase capped at the lower of 5% plus local CPI change or 10%; at most two increases per 12 months; operative 2024-04-01; repealed 2030-01-01\",\"exemptions\":[\"Housing restricted as affordable housing by deed, regulatory agreement or other recorded document, or covered by a housing subsidy agreement for very low, low or moderate income households\",\"Dormitories owned and operated by an institution of higher education or a K-12 school\",\"Housing subject to a public entity's rent or price control that limits annual increases to less than the state cap\",\"Housing issued a certificate of occupancy within the previous 15 years, unless it is a mobilehome\",\"Residential property that is alienable separate from title to any other dwelling unit, if the owner is not a real estate investment trust, a corporation, an LLC with a corporate member, or a mobilehome park management, and tenants were given the required written exemption notice\",\"A property with two separate dwelling units in a single structure where the owner occupied one unit as a principal residence at the start of the tenancy and continues to live there, and neither unit is an accessory or junior accessory dwelling unit\",\"Homeowners of a mobilehome\",\"New tenancies where no prior tenant remains in lawful possession, for the initial rental rate only\"],\"yields_to_local\":true,\"coverage_conditions\":{\"text\":\"Applies to residential rental dwellings and units statewide, including mobilehome park units, unless an exemption applies. Housing with a certificate of occupancy issued within the previous 15 years is exempt. Housing under a stricter local rent control is exempt. Owner-occupied two-unit properties and separately alienable properties with qualifying non-corporate owners are exempt.\",\"predicates\":[{\"type\":\"rolling_new_construction_exempt_years\",\"parameters\":{\"n\":15,\"basis\":\"certificate_of_occupancy\",\"text\":\"Housing that has been issued a certificate of occupancy within the previous 15 years, unless the housing is a mobilehome\"}},{\"type\":\"owner_occupied_exempt_max_units\",\"parameters\":{\"n\":2,\"text\":\"Two separate dwelling units in a single structure where the owner occupied one unit as principal residence at the beginning of the tenancy\"}},{\"type\":\"owner_type\",\"parameters\":{\"text\":\"Separately alienable residential property exempt only if the owner is not a REIT, corporation, LLC with a corporate member, or mobilehome park management, and written exemption notice was given\"}},{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":\"Deed-restricted or subsidized affordable housing; dormitories; housing under stricter local rent or price control; mobilehome homeowners\"}},{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":\"Initial rent for a new tenancy is not capped; at most two increases per 12 months for the same tenant in occupancy\"}}]},\"confidence\":0.95}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "206cde6d-628b-45fa-8d57-dcebb70ad33c",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 166,
+  "total_cost_usd": 0.2821636,
+  "ttft_ms": 8939,
+  "ttft_stream_ms": 1403,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 63849,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 63849,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 63849,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 63849,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 2436,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 2436,
+    "output_tokens_details": {
+      "thinking_tokens": 991
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "98345158-d024-4d4a-b51f-d4fc05ba9718"
+}
