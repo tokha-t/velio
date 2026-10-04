@@ -4,7 +4,7 @@ Agents: update the **Status** block when you finish a step: tick it, add one lin
 
 ## Status
 
-- Current phase: **3 — P1–P3 complete; CP4 passed**
+- Current phase: **5 — P5 complete; P6 reproducibility verification in progress**
 - Last checkpoint passed: **CP4 changes and validation** (all checks green)
 - Blockers: No Lane A extraction or validation blocker. CP5 still needs Lane B's deployed web app; Vercel login remains a Human H1 task.
 - Notes: 10:10 — Read CLAUDE.md and ROADMAP.md fully; confirmed a fresh repo and began Lane A P0.
@@ -18,6 +18,7 @@ Agents: update the **Status** block when you finish a step: tick it, add one lin
 - Notes: P3 implemented against the deterministic lookup contract — changes and validation outputs are generated, with T1 250, T3 140/90, T4 110, and T5 0 already matching. Validation remains deliberately red for the 17 extraction failures, missing CP3 lookups, and T2 (0/90 until human-saved Hoboken/Jersey City research copies arrive).
 - Notes: 16:16 — Human-saved D032–D035 research copies loaded successfully as `link_only_research` / `corpus_text=false`; full cached extraction completed with zero retry-exhausted chunks. CP1 passed: 71 schema-valid records, 100% quote verification, 21/23 recall checks found, and all required AB 325, FAIR, S.2983, H.5222, c.40P, Hoboken and Jersey City anchors present.
 - Notes: 16:16 — Fixed a deterministic cache-key collision between the identical D046/D047 chunks, regenerated all four dated lookup sets, and passed CP3/CP4: 500 addresses; 31 tests; T1 250/0, T2 90/0, T3 140/90, T4 110/0, T5 0/0; validation report all green.
+- Notes: 16:30 — P5 generated deterministic no-rule findings (36) and conflict notes (4), and added public README plus METHOD. P6 warm-cache reproducibility and release checks are next; public deployment remains a Human H1 action.
 
 ## Lanes
 
@@ -146,10 +147,10 @@ Nice to have:
 
 ## P5 — Findings, docs, stretch (Lane A), 14:45–16:00
 
-- [ ] `submission/no_rule_findings.json` (§7.7).
-- [ ] Conflict notes for the four open questions (§7.5).
-- [ ] `README.md`: what it does, how to run (`uv sync && python -m navigator all`), where the starter pack goes, architecture diagram, outputs, validation numbers, limitations, not legal advice.
-- [ ] `submission/METHOD.md`, one page: pipeline, guardrails, uncertainty handling, validation numbers, scalability path (adding a city = drop texts into the corpus, rerun the same pipeline; Santa Ana proves it with zero addresses).
+- [x] `submission/no_rule_findings.json` (§7.7).
+- [x] Conflict notes for the four open questions (§7.5).
+- [x] `README.md`: what it does, how to run (`uv sync && python -m navigator all`), where the starter pack goes, architecture diagram, outputs, validation numbers, limitations, not legal advice.
+- [x] `submission/METHOD.md`, one page: pipeline, guardrails, uncertainty handling, validation numbers, scalability path (adding a city = drop texts into the corpus, rerun the same pipeline; Santa Ana proves it with zero addresses).
 - [ ] Stretch, only if CP4 is green:
   1. Confidence per answer = f(quote verified, source tier, date certainty, fact completeness).
   2. Spanish templates.

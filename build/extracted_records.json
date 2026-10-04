@@ -1052,37 +1052,6 @@
     {
       "category": "security_deposits",
       "citation": "Cal. Civ. Code \u00a7 1950.5",
-      "confidence": 0.6,
-      "corpus_text": true,
-      "coverage_conditions": {
-        "predicates": [],
-        "text": "Applies to any security held by a landlord under a lease or rental agreement. This chunk states no building-level conditions."
-      },
-      "doc_kind": "statute",
-      "effective_date_text": "Effective January 1, 2026.",
-      "enacted_date": null,
-      "exemptions": [],
-      "jurisdiction": "CA",
-      "key_value": "Security may not be called nonrefundable; bad-faith retention damages up to twice the security amount",
-      "level": "state",
-      "quote_char_range": [
-        26178,
-        26283
-      ],
-      "quote_match_method": "normalized_exact",
-      "quote_verified": true,
-      "quoted_span": "A lease or rental agreement shall not contain a provision characterizing any security as \u201cnonrefundable.\u201d",
-      "requirement": "A lease or rental agreement may not describe any security deposit as \"nonrefundable.\" A landlord or successor in interest who claims or keeps a security deposit (or any part of it) in bad faith, or demands replacement security in bad faith, may owe statutory damages of up to twice the amount of the security, plus actual damages. The landlord or successor bears the burden of proving the amounts claimed were reasonable. A successor who receives any part of the security takes on the landlord's rights and duties for it. Claims may be brought in small claims court within its jurisdictional limit.",
-      "retrieved_at": "2026-10-01T22:35Z",
-      "source_doc_id": "D025",
-      "source_tier": "official",
-      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
-      "title": "California security deposit rules: nonrefundable-deposit ban and bad-faith damages",
-      "yields_to_local": false
-    },
-    {
-      "category": "security_deposits",
-      "citation": "Cal. Civ. Code \u00a7 1950.5",
       "confidence": 0.9,
       "corpus_text": true,
       "coverage_conditions": {
@@ -1132,6 +1101,37 @@
       "source_tier": "official",
       "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
       "title": "California residential security deposit limits and return rules",
+      "yields_to_local": false
+    },
+    {
+      "category": "security_deposits",
+      "citation": "Cal. Civ. Code \u00a7 1950.5",
+      "confidence": 0.6,
+      "corpus_text": true,
+      "coverage_conditions": {
+        "predicates": [],
+        "text": "Applies to any security held by a landlord under a lease or rental agreement. This chunk states no building-level conditions."
+      },
+      "doc_kind": "statute",
+      "effective_date_text": "Effective January 1, 2026.",
+      "enacted_date": null,
+      "exemptions": [],
+      "jurisdiction": "CA",
+      "key_value": "Security may not be called nonrefundable; bad-faith retention damages up to twice the security amount",
+      "level": "state",
+      "quote_char_range": [
+        26178,
+        26283
+      ],
+      "quote_match_method": "normalized_exact",
+      "quote_verified": true,
+      "quoted_span": "A lease or rental agreement shall not contain a provision characterizing any security as \u201cnonrefundable.\u201d",
+      "requirement": "A lease or rental agreement may not describe any security deposit as \"nonrefundable.\" A landlord or successor in interest who claims or keeps a security deposit (or any part of it) in bad faith, or demands replacement security in bad faith, may owe statutory damages of up to twice the amount of the security, plus actual damages. The landlord or successor bears the burden of proving the amounts claimed were reasonable. A successor who receives any part of the security takes on the landlord's rights and duties for it. Claims may be brought in small claims court within its jurisdictional limit.",
+      "retrieved_at": "2026-10-01T22:35Z",
+      "source_doc_id": "D025",
+      "source_tier": "official",
+      "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&sectionNum=1950.5",
+      "title": "California security deposit rules: nonrefundable-deposit ban and bad-faith damages",
       "yields_to_local": false
     },
     {
