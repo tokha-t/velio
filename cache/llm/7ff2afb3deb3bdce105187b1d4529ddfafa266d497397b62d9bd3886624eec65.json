@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 13225,
+  "duration_ms": 13545,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1997,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 69424,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.2962736,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 1617,
+      "provider": "firstParty",
+      "thinkingTokens": 1000,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "{\"rules\":[{\"jurisdiction\":\"Jersey City, NJ\",\"level\":\"city\",\"category\":\"rent_increase_limits\",\"title\":\"Jersey City Rent Control Ordinance (Chapter 260)\",\"requirement\":\"Jersey City's Office of Landlord/Tenant Relations administers and enforces the Rent Control Ordinance, Chapter 260 of the Jersey City Municipal Code. Properties with 1-4 units are exempt from rent control. The ordinance allows other exemptions, which an owner can request from the Office. Landlords apply for rent increases, such as capital improvement, vacancy capital improvement and hardship increases, through the city's online portal.\",\"citation\":\"Jersey City Mun. Code ch. 260\",\"quoted_span\":\"(Please Note: All 1-4 Unit Properties are exempt from rent control)\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"1-4 unit properties exempt from rent control; this page states no percentage cap\",\"exemptions\":[\"All 1-4 unit properties are exempt from rent control\",\"Other exemptions permitted by the Rent Control Ordinance, requested through a Rent Control Exemption Request\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Covers rental properties in Jersey City with 5 or more units. Properties with 1-4 units are exempt. Other ordinance exemptions may apply, but the page does not list them.\",\"predicates\":[{\"type\":\"min_units\",\"parameters\":{\"n\":5}},{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":\"Other exemptions permitted by the Rent Control Ordinance, which owners request through a Rent Control Exemption Request; the criteria are not listed on this page\"}}]},\"confidence\":0.8}],\"no_rule_reason\":null}",
+  "result_index": 0,
+  "session_id": "3e965292-02d7-4261-914d-3fee64da7f73",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 143,
+  "total_cost_usd": 0.2962736,
+  "ttft_ms": 9891,
+  "ttft_stream_ms": 1996,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 69424,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 69424,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 69424,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 69424,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 1617,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 1617,
+    "output_tokens_details": {
+      "thinking_tokens": 1000
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "0d60e42c-e23c-4582-a133-0f5e1043dc48"
+}

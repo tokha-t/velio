@@ -1,0 +1,98 @@
+{
+  "api_error_status": null,
+  "duration_api_ms": 24720,
+  "duration_ms": 25047,
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "fast_mode_state": "off",
+  "first_content_frame_ms": 1361,
+  "is_error": false,
+  "modelUsage": {
+    "claude-sonnet-5-5": {
+      "cacheCreationInputTokens": 63119,
+      "cacheReadInputTokens": 12018,
+      "canonicalModel": "claude-sonnet-5-5",
+      "contextWindow": 1000000,
+      "costBasis": "list",
+      "costUSD": 0.2932336,
+      "inputTokens": 2,
+      "maxOutputTokens": 128000,
+      "outputTokens": 3835,
+      "provider": "firstParty",
+      "thinkingTokens": 1801,
+      "webSearchRequests": 0
+    }
+  },
+  "num_turns": 1,
+  "permission_denials": [],
+  "queued_turn_count": 0,
+  "result": "```json\n{\"rules\":[{\"jurisdiction\":\"Berkeley, CA\",\"level\":\"city\",\"category\":\"rent_increase_limits\",\"title\":\"Berkeley rent control coverage by unit type\",\"requirement\":\"Rent control applies to fully covered units: most units in multifamily properties built before 1980, single-family homes with tenancies that began before 1996, and rooming houses. New construction that received a Certificate of Occupancy after June 1980, condominiums, single-family homes with tenancies beginning on or after January 1, 1996, and certain subsidized units are only partially covered and are not subject to rent control. Exempt units are not covered.\",\"citation\":\"Berkeley Rent Stabilization and Eviction for Just Cause Ordinance\",\"quoted_span\":\"Most units in multifamily properties built before 1980** Fully Covered Yes Yes Yes Yes\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"Rent control: Yes for fully covered units; No for partially covered units; No for exempt units\",\"exemptions\":[\"Golden Duplex: duplex owner-occupied on December 31, 1979 with an owner currently living in one of the units\",\"Unit where the owner shares a kitchen or bath with the tenant, if the owner lived on the property when the tenancy started\",\"Tenancies started after Nov 7, 2018 on properties where one unit is an ADU and either unit is owner-occupied\",\"University rental units such as dormitories\",\"Nonprofit Cooperative\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Fully covered if multifamily property built before 1980, single-family home with tenancy that began before 1996, or rooming house. Units built with a Certificate of Occupancy after June 1980, condominiums, single-family homes with tenancies beginning on or after January 1, 1996, and certain subsidized units are not subject to rent control. Exempt categories are not covered.\",\"predicates\":[{\"type\":\"built_on_or_before\",\"parameters\":{\"date\":\"1980-06-30\",\"basis\":\"certificate_of_occupancy\"}},{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":[\"Golden Duplex\",\"owner shares kitchen or bath with tenant\",\"ADU property with owner occupancy\",\"university rental units such as dormitories\",\"nonprofit cooperative\",\"condominium\",\"government-subsidized units (Section 202, Section 811, Rental Supplement Program, Section 8 Loan Management Set Aside, Project-based Section 8 with HUD-insured or HUD-held mortgage)\"]}},{\"type\":\"tenant_level_conditions\",\"parameters\":{\"text\":[\"Single-family home covered only if the current tenancy began before 1996\"]}}]},\"confidence\":0.8},{\"jurisdiction\":\"Berkeley, CA\",\"level\":\"city\",\"category\":\"just_cause_eviction\",\"title\":\"Berkeley just cause for eviction coverage by unit type\",\"requirement\":\"Just cause for eviction applies to both fully covered and partially covered units, including new construction after June 1980, condominiums, single-family homes with tenancies beginning on or after January 1, 1996, and certain subsidized units. Exempt units are not covered.\",\"citation\":\"Berkeley Rent Stabilization and Eviction for Just Cause Ordinance\",\"quoted_span\":\"Most condominiums** Partially Covered Yes No Yes Yes\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"Just cause for eviction: Yes for fully and partially covered units; No for exempt units\",\"exemptions\":[\"Golden Duplex: duplex owner-occupied on December 31, 1979 with an owner currently living in one of the units\",\"Unit where the owner shares a kitchen or bath with the tenant, if the owner lived on the property when the tenancy started\",\"Tenancies started after Nov 7, 2018 on properties where one unit is an ADU and either unit is owner-occupied\",\"University rental units such as dormitories\",\"Nonprofit Cooperative\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Covered regardless of construction date or unit type, except exempt categories.\",\"predicates\":[{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":[\"Golden Duplex\",\"owner shares kitchen or bath with tenant\",\"ADU property with owner occupancy\",\"university rental units such as dormitories\",\"nonprofit cooperative\"]}}]},\"confidence\":0.8},{\"jurisdiction\":\"Berkeley, CA\",\"level\":\"city\",\"category\":\"security_deposits\",\"title\":\"Berkeley security deposit interest coverage by unit type\",\"requirement\":\"Security deposit interest applies to fully covered and partially covered units. Exempt units are not covered.\",\"citation\":\"Berkeley Rent Stabilization and Eviction for Just Cause Ordinance\",\"quoted_span\":\"Single family homes with current tenancies that began before 1996** Fully Covered Yes Yes Yes Yes\",\"doc_kind\":\"agency_guidance\",\"enacted_date\":null,\"effective_date_text\":null,\"key_value\":\"Security deposit interest: Yes for fully and partially covered units; No for exempt units\",\"exemptions\":[\"Golden Duplex: duplex owner-occupied on December 31, 1979 with an owner currently living in one of the units\",\"Unit where the owner shares a kitchen or bath with the tenant, if the owner lived on the property when the tenancy started\",\"Tenancies started after Nov 7, 2018 on properties where one unit is an ADU and either unit is owner-occupied\",\"University rental units such as dormitories\",\"Nonprofit Cooperative\"],\"yields_to_local\":false,\"coverage_conditions\":{\"text\":\"Covered regardless of construction date or unit type, except exempt categories.\",\"predicates\":[{\"type\":\"special_status_exemptions\",\"parameters\":{\"text\":[\"Golden Duplex\",\"owner shares kitchen or bath with tenant\",\"ADU property with owner occupancy\",\"university rental units such as dormitories\",\"nonprofit cooperative\"]}}]},\"confidence\":0.75}],\"no_rule_reason\":null}\n```",
+  "result_index": 0,
+  "session_id": "db0093e9-78fc-47df-b802-07a68d0a3d33",
+  "stop_reason": "end_turn",
+  "subagent_stats": {
+    "by_type": {},
+    "completed": 0,
+    "failed": 0,
+    "killed": {
+      "parent": 0,
+      "system": 0,
+      "user": 0
+    },
+    "max_depth": 0,
+    "refused": {
+      "budget": 0,
+      "concurrency_limit": 0,
+      "depth_limit": 0
+    },
+    "requested": {
+      "background": 0,
+      "foreground": 0,
+      "unset": 0
+    },
+    "spawned": 0,
+    "spawned_by_subagents": 0,
+    "started_in_background": 0
+  },
+  "subtype": "success",
+  "terminal_reason": "completed",
+  "time_to_request_ms": 186,
+  "total_cost_usd": 0.2932336,
+  "ttft_ms": 14946,
+  "ttft_stream_ms": 1361,
+  "type": "result",
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 63119,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 63119,
+    "cache_read_input_tokens": 12018,
+    "fallback_credit": null,
+    "inference_geo": "not_available",
+    "input_tokens": 2,
+    "iterations": [
+      {
+        "cache_creation": {
+          "ephemeral_1h_input_tokens": 63119,
+          "ephemeral_5m_input_tokens": 0
+        },
+        "cache_creation_input_tokens": 63119,
+        "cache_read_input_tokens": 12018,
+        "input_tokens": 2,
+        "output_tokens": 3835,
+        "type": "message"
+      }
+    ],
+    "output_tokens": 3835,
+    "output_tokens_details": {
+      "thinking_tokens": 1801
+    },
+    "server_tool_use": {
+      "web_fetch_requests": 0,
+      "web_search_requests": 0
+    },
+    "service_tier": "standard",
+    "speed": "standard"
+  },
+  "uuid": "f5ded819-1978-432f-98d9-30d679b57758"
+}

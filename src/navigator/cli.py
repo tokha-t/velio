@@ -24,5 +24,10 @@ def main(argv: list[str] | None = None) -> int:
 
         run(pilot=args.pilot, smoke=args.smoke)
         return 0
+    if args.command == "lookup":
+        from .lookup import run
+
+        run(as_of=args.as_of, address_id=args.address)
+        return 0
     print(f"{args.command}: scaffolded; not part of the current P0/P1 pilot")
     return 0

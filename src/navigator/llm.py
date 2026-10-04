@@ -16,13 +16,23 @@ def _append_audit(record: dict[str, object]) -> None:
         handle.write(json.dumps(record, sort_keys=True) + "\n")
 
 
+def _payload(envelope: object) -> dict:
+    content = envelope.get("result", envelope) if isinstance(envelope, dict) else envelope
+    if isinstance(content, str):
+        stripped = content.strip().removeprefix("```json").removesuffix("```").strip()
+        return json.loads(stripped)
+    if not isinstance(content, dict):
+        raise TypeError(f"LLM response must decode to an object, got {type(content).__name__}")
+    return content
+
+
 def complete(prompt: str, *, doc_id: str, chunk_hash: str, prompt_version: str, model: str | None = None) -> dict:
     backend = os.getenv("NAV_LLM_BACKEND", "claude_cli")
     model = model or os.getenv("NAV_MODEL", "claude-sonnet-5-5")
     key = hashlib.sha256(f"{prompt_version}|{model}|{chunk_hash}".encode()).hexdigest()
     path = CACHE_ROOT / "llm" / f"{key}.json"
     if path.exists():
-        return json.loads(path.read_text())
+        return _payload(json.loads(path.read_text()))
     if backend == "claude_cli":
         command = ["claude", "-p", "--output-format", "json", "--model", model]
         process = subprocess.run(command, input=prompt, text=True, capture_output=True, check=False, timeout=240)
@@ -40,7 +50,4 @@ def complete(prompt: str, *, doc_id: str, chunk_hash: str, prompt_version: str, 
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(envelope, indent=2, sort_keys=True) + "\n")
     _append_audit({"event": "llm_call", "at": datetime.now(timezone.utc).isoformat(), "backend": backend, "doc_id": doc_id, "chunk_hash": chunk_hash, "model": model, "prompt_version": prompt_version, "response_hash": hashlib.sha256(str(content).encode()).hexdigest(), "cache_key": key})
-    if isinstance(content, str):
-        stripped = content.strip().removeprefix("```json").removesuffix("```").strip()
-        return json.loads(stripped)
-    return content
+    return _payload(envelope)

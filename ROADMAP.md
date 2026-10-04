@@ -4,12 +4,16 @@ Agents: update the **Status** block when you finish a step: tick it, add one lin
 
 ## Status
 
-- Current phase: **1 — Module A extraction (pilot)**
-- Last checkpoint passed: **P0 local setup** (tests, CLI, cache, corpus manifest)
-- Blockers: Vercel login remains a Human H1 task; no `.env` API key, so the documented cached `claude_cli` fallback is active.
+- Current phase: **2 — Coverage engine complete; production lookup generation blocked on CP1**
+- Last checkpoint passed: **CP2 address resolution** (500 rows; jurisdiction report complete)
+- Blockers: P1 full extraction/merge has not run, so `build/rules_internal.json` and `submission/rules.json` do not exist; CP3 production outputs cannot be generated without fabricating law. Vercel login remains a Human H1 task.
 - Notes: 10:10 — Read CLAUDE.md and ROADMAP.md fully; confirmed a fresh repo and began Lane A P0.
-- Notes: 10:14 — Python 3.12 pinned; 6 tests pass; CLI works; Claude smoke response cached; 54 source-text hashes recorded. Creating/pushing private GitHub repo `velio`.
+- Notes: 10:14 — Python 3.12 pinned; CLI works; Claude smoke response cached; 54 source-text hashes recorded. Creating/pushing private GitHub repo `velio`.
+- Notes: 10:24 — Five-document pilot verified after fixing cached Claude-envelope decoding: 7 records, all 7 quotes normalized-exact verified; 8 tests pass. Two cached reruns are byte-identical (`e0a6904e…`); stopped for human review before status integration/full run.
 - Notes: 10:18 — Lane B P1b complete: 500 resolved rows, 97.0% Census matches, 99.8% place/confident fallback; CP2 passed.
+- Notes: 10:36 — P2 deterministic engine complete: three-valued coverage, date/status decision table, CA supersession, named conflict flags, explanations, CLI wiring, and per-address trace writer. 22 tests pass, including 12 §8/CP3 golden cases. Compilation passes; 500 resolved addresses include zero Santa Ana rows. Production outputs remain gated on the missing P1 rules artifact; CP3 not claimed.
+- Notes: P0 re-verified — Python 3.12.14, CLI, 54-document corpus manifest/hash table, cached Claude CLI smoke response, and 22 tests pass. P1 pilot re-ran from cache: 5 documents → 7 normalized-exact quote-verified records (`e0a6904e…`); stopped for human review before full extraction.
+- Notes: P2 re-verified after the P1 pilot — 12 §8/CP3 golden tests and 22 total tests pass; compilation passes; 500 distinct resolved address IDs contain no Santa Ana rows. `rules_internal.json` is still absent, so production lookups were intentionally not generated and CP3 remains unclaimed.
 
 ## Lanes
 
@@ -51,11 +55,11 @@ Agents: update the **Status** block when you finish a step: tick it, add one lin
 
 ## P1 — Module A extraction (Lane A), 09:15–11:45
 
-- [ ] `corpus.py`: load the manifest and texts, strip the 2-line header into metadata, build the normalization map, chunk by section, attach definitions to each chunk.
-- [ ] `verify.py`: normalized exact match → retry → `rapidfuzz` snap (≥ 95) → drop. Unit tests with nasty whitespace and curly quotes.
-- [ ] `extract.py` + `prompts/extract_v1.md`: pydantic output model with the CLAUDE.md §6.1 fields and predicate vocabulary.
+- [x] `corpus.py`: load the manifest and texts, strip the 2-line header into metadata, build the normalization map, chunk by section, attach definitions to each chunk.
+- [x] `verify.py`: normalized exact match → retry → `rapidfuzz` snap (≥ 95) → drop. Unit tests with nasty whitespace and curly quotes.
+- [x] `extract.py` + `prompts/extract_v1.md`: pydantic output model with the CLAUDE.md §6.1 fields and predicate vocabulary.
   - The prompt lists the 6 categories, the citation style (§7.8), "only rules stated in this text", and the `doc_kind` labels.
-- [ ] **Pilot** on D024 (AB 1482), D069 (FAIR), D036 (JC), D045 (H.5222), D009 (Berkeley coverage). Print the records. **The human reviews for 5 min at ~10:15.**
+- [x] **Pilot** on D024 (AB 1482), D069 (FAIR), D036 (JC), D045 (H.5222), D009 (Berkeley coverage). Print the records. **The human reviews for 5 min at ~10:15.** *(Awaiting human review; full run deliberately not started.)*
 - [ ] `status.py`: doc kind → status; bill session logic (193rd dead, 194th pending); relative effective-date resolver. Unit test: FAIR → 2027-07-01.
 - [ ] Full run on all 54 docs, plus `research/link_only/*.txt` once saved (`corpus_text=false`).
 - [ ] `merge.py`: dedupe on (jurisdiction, category, citation), prefer official sources, deterministic sort, `r-0001` IDs, `config/test_rule_map.yaml` by citation pattern.
@@ -94,14 +98,14 @@ Nice to have:
 
 ## P2 — Coverage engine + lookups (Lane A), 11:45–13:45
 
-- [ ] `coverage.py`: three-valued evaluation of each predicate (CLAUDE.md §6.1), including the year-edge rule and the rolling window from `as_of`.
-- [ ] `lookup.py`:
+- [x] `coverage.py`: three-valued evaluation of each predicate (CLAUDE.md §6.1), including the year-edge rule and the rolling window from `as_of`.
+- [x] `lookup.py` engine:
   - stack match → status at date → coverage → supersession (§7.4) → conflict flags (§7.5);
   - decision table §7.3;
-  - one trace per address in `build/traces/`.
-- [ ] `explain.py`: plain-language templates; every string ends "As of {date}. Not legal advice."
+  - trace writer implemented; production traces await `build/rules_internal.json`.
+- [x] `explain.py`: plain-language templates; every string ends "As of {date}. Not legal advice."
 - [ ] Write `submission/lookups.json` (as_of 2026-10-01, all 500), plus `build/lookups_{2025-12-31,2026-01-02,2027-07-02}.json`.
-- [ ] `tests/test_golden.py` from the CLAUDE.md §8 expected behaviors.
+- [x] `tests/test_golden.py` from the CLAUDE.md §8 expected behaviors.
 
 **CP3 (13:45):** all 500 addresses present; golden tests pass; invariants pass (city rules stay in their city; no MA rent cap; Santa Ana absent; pending/failed never `applies`).
 
@@ -178,6 +182,8 @@ Nice to have:
   - citation share with and without the research copies.
 - Limits: link-only texts, owner data, certificate-of-occupancy dates.
 
+Optional: ElevenLabs voice-over (Creator perk) for videos 2 and 3. Keep video 1 in your own voice.
+
 Photo: JPG/PNG/WebP ≤ 10 MB.
 
 ## H4 — Submit, 17:30–17:50 (both are required)
@@ -200,6 +206,7 @@ Photo: JPG/PNG/WebP ≤ 10 MB.
 4. Pipeline & audit tab (keep the validation report in the README).
 5. Nice-to-have link-only pages (Newark, WBUR, SD).
 6. Web polish: ship a plain table UI rather than miss CP5.
+7. Lane B still behind at 13:30: build the UI in Lovable (Pro perk) from the same JSON contract. Lovable is an accepted demo host.
 
 **Never cut:**
 - A + B on all 500 addresses.
@@ -211,6 +218,7 @@ Photo: JPG/PNG/WebP ≤ 10 MB.
 **Fallbacks**
 - Geocoder down or slow: dataset-based jurisdiction with low confidence and `unknown` city rules for county datasets (CLAUDE.md §7.1).
 - LLM backend failing: switch `NAV_LLM_BACKEND`.
+- Extraction too slow on `claude_cli`: run 4–6 `claude -p` calls in parallel, or add an Anthropic key if the $25 hackathon credits reached your Console (CLAUDE.md §3.3).
 - Running late at 12:30: freeze extraction as-is and move on to P2.
 
 ---
