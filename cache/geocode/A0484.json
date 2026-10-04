@@ -1,0 +1,58 @@
+{
+  "address_id": "A0484",
+  "attempts": [
+    {
+      "method": "census_oneline",
+      "response": {
+        "result": {
+          "addressMatches": [],
+          "input": {
+            "address": {
+              "address": "1801 08TH AV, San Francisco, CA "
+            },
+            "benchmark": {
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "benchmarkName": "Public_AR_Current",
+              "id": "4",
+              "isDefault": true
+            },
+            "vintage": {
+              "id": "4",
+              "isDefault": true,
+              "vintageDescription": "Current Vintage - Current Benchmark",
+              "vintageName": "Current_Current"
+            }
+          }
+        }
+      }
+    },
+    {
+      "method": "census_components",
+      "response": {
+        "result": {
+          "addressMatches": [],
+          "input": {
+            "address": {
+              "city": "San Francisco",
+              "state": "CA",
+              "street": "1801 08TH AV",
+              "zip": ""
+            },
+            "benchmark": {
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "benchmarkName": "Public_AR_Current",
+              "id": "4",
+              "isDefault": true
+            },
+            "vintage": {
+              "id": "4",
+              "isDefault": true,
+              "vintageDescription": "Current Vintage - Current Benchmark",
+              "vintageName": "Current_Current"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

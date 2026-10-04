@@ -24,7 +24,7 @@ COMMON_PARAMS = {
     "format": "json",
 }
 STATE_NAMES = {"CA": "California", "NJ": "New Jersey", "MA": "Massachusetts"}
-CITY_ONLY_DATASETS = ("DataSF", "Boston assessor", "Cambridge assessor", "NJOGIS")
+CITY_ONLY_DATASETS = ("DataSF", "Boston Property", "Cambridge", "NJOGIS")
 BOSTON_NEIGHBORHOODS = {
     "Allston",
     "Brighton",
@@ -52,6 +52,10 @@ def _dataset_city(row: Mapping[str, str]) -> str:
     if postal_city == "San Ysidro":
         return "San Diego"
     return postal_city
+
+
+def _is_city_only_dataset(source_dataset: str) -> bool:
+    return any(marker in source_dataset for marker in CITY_ONLY_DATASETS)
 
 
 def _request_json(endpoint: str, params: Mapping[str, str], attempts: int = 3) -> dict[str, Any]:
@@ -144,13 +148,20 @@ def resolve_row(row: Mapping[str, str], cache_record: Mapping[str, Any]) -> dict
         place = places[0] if places else None
         county = counties[0] if counties else None
 
-    if place:
+    dataset_is_authoritative = _is_city_only_dataset(source_dataset)
+    census_city_name = _canonical_place(str(place["NAME"])) if place else None
+    if dataset_is_authoritative and census_city_name != dataset_city:
+        # Municipal/city assessor sources are authoritative for legal-city scope.
+        # This also prevents a same-street Census match in a neighboring city.
+        legal_city_name = dataset_city
+        confidence = "high"
+    elif place:
         legal_city_name: str | None = _canonical_place(str(place["NAME"]))
         confidence = "high"
     elif match:
         legal_city_name = None
         confidence = "high"
-    elif source_dataset.startswith(CITY_ONLY_DATASETS):
+    elif dataset_is_authoritative:
         legal_city_name = dataset_city
         confidence = "high"
     else:

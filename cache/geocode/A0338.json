@@ -1,0 +1,58 @@
+{
+  "address_id": "A0338",
+  "attempts": [
+    {
+      "method": "census_oneline",
+      "response": {
+        "result": {
+          "addressMatches": [],
+          "input": {
+            "address": {
+              "address": "521-523 S 17TH, Newark, NJ 07417"
+            },
+            "benchmark": {
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "benchmarkName": "Public_AR_Current",
+              "id": "4",
+              "isDefault": true
+            },
+            "vintage": {
+              "id": "4",
+              "isDefault": true,
+              "vintageDescription": "Current Vintage - Current Benchmark",
+              "vintageName": "Current_Current"
+            }
+          }
+        }
+      }
+    },
+    {
+      "method": "census_components",
+      "response": {
+        "result": {
+          "addressMatches": [],
+          "input": {
+            "address": {
+              "city": "Newark",
+              "state": "NJ",
+              "street": "521-523 S 17TH",
+              "zip": "07417"
+            },
+            "benchmark": {
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "benchmarkName": "Public_AR_Current",
+              "id": "4",
+              "isDefault": true
+            },
+            "vintage": {
+              "id": "4",
+              "isDefault": true,
+              "vintageDescription": "Current Vintage - Current Benchmark",
+              "vintageName": "Current_Current"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

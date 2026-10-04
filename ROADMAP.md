@@ -9,6 +9,7 @@ Agents: update the **Status** block when you finish a step: tick it, add one lin
 - Blockers: Vercel login remains a Human H1 task; no `.env` API key, so the documented cached `claude_cli` fallback is active.
 - Notes: 10:10 — Read CLAUDE.md and ROADMAP.md fully; confirmed a fresh repo and began Lane A P0.
 - Notes: 10:14 — Python 3.12 pinned; 6 tests pass; CLI works; Claude smoke response cached; 54 source-text hashes recorded. Creating/pushing private GitHub repo `velio`.
+- Notes: 10:18 — Lane B P1b complete: 500 resolved rows, 97.0% Census matches, 99.8% place/confident fallback; CP2 passed.
 
 ## Lanes
 
@@ -69,12 +70,12 @@ Agents: update the **Status** block when you finish a step: tick it, add one lin
 
 ## P1b — Resolve + facts (Lane B), 09:15–10:45
 
-- [ ] `geocode.py`: Census one-line geographies (`layers=all`), 6–8 threads, cache → `cache/geocode/`. Retry with the component endpoint. Fallbacks per CLAUDE.md §7.1.
-- [ ] `facts.py`:
+- [x] `geocode.py`: Census one-line geographies (`layers=all`), 6–8 threads, cache → `cache/geocode/`. Retry with the component endpoint. Fallbacks per CLAUDE.md §7.1.
+- [x] `facts.py`:
   - year; units; `units_range` from use code/description (NJ `(\d+)\s*U`, class 4C ≥ 5, Boston/SF/Cambridge code ranges);
   - flags (`subsidized` for A/125, `elderly` for A/118, `affordable` from the NJ description);
   - the A0227 fix.
-- [ ] Write `build/addresses_resolved.json` (500 rows, shape in CLAUDE.md §6.2) and `build/jurisdiction_report.md` (match rate, postal ≠ legal rows, unincorporated rows, low-confidence rows).
+- [x] Write `build/addresses_resolved.json` (500 rows, shape in CLAUDE.md §6.2) and `build/jurisdiction_report.md` (match rate, postal ≠ legal rows, unincorporated rows, low-confidence rows).
 
 **CP2 (10:45):** 500 rows; ≥ 95% geocoded with a place or a confident dataset fallback; the report lists every postal ≠ legal case. Merge `lane-b` → `main`.
 

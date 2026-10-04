@@ -1,0 +1,477 @@
+{
+  "address_id": "A0336",
+  "attempts": [
+    {
+      "method": "census_oneline",
+      "response": {
+        "result": {
+          "addressMatches": [
+            {
+              "addressComponents": {
+                "city": "CAMBRIDGE",
+                "fromAddress": "101",
+                "preDirection": "N",
+                "preQualifier": "",
+                "preType": "",
+                "state": "MA",
+                "streetName": "FIRST",
+                "suffixDirection": "",
+                "suffixQualifier": "",
+                "suffixType": "ST",
+                "toAddress": "199",
+                "zip": "02141"
+              },
+              "coordinates": {
+                "x": -71.075526736217,
+                "y": 42.372482137906
+              },
+              "geographies": {
+                "120th Congressional Districts": [
+                  {
+                    "AREALAND": 157187154,
+                    "AREAWATER": 16217171,
+                    "BASENAME": "7",
+                    "CD120": "07",
+                    "CDSESSN": "120",
+                    "CENTLAT": "+42.3055203",
+                    "CENTLON": "-071.0794980",
+                    "FUNCSTAT": "N",
+                    "GEOID": "2507",
+                    "INTPTLAT": "+42.3054875",
+                    "INTPTLON": "-071.0794161",
+                    "LSADC": "C2",
+                    "MTFCC": "G5200",
+                    "NAME": "Congressional District 7",
+                    "OBJECTID": 197,
+                    "OID": "2119042393278144",
+                    "STATE": "25",
+                    "STGEOMETRY_Area": 317239644.3650998,
+                    "STGEOMETRY_Length": 206736.2278697142
+                  }
+                ],
+                "2020 Census Blocks": [
+                  {
+                    "AREALAND": 1033,
+                    "AREAWATER": 0,
+                    "BASENAME": "3004",
+                    "BLKGRP": "3",
+                    "BLOCK": "3004",
+                    "CENTLAT": "+42.3725243",
+                    "CENTLON": "-071.0756754",
+                    "COUNTY": "017",
+                    "FUNCSTAT": "S",
+                    "GEOID": "250173521013004",
+                    "INTPTLAT": "+42.3725243",
+                    "INTPTLON": "-071.0756754",
+                    "LSADC": "BK",
+                    "LWBLKTYP": "L",
+                    "MTFCC": "G5040",
+                    "NAME": "Block 3004",
+                    "OBJECTID": 5493079,
+                    "OID": "210701007941144",
+                    "STATE": "25",
+                    "SUFFIX": "",
+                    "TRACT": "352101",
+                    "UR": "U"
+                  }
+                ],
+                "2020 Census Public Use Microdata Areas": [
+                  {
+                    "AREALAND": 16560312,
+                    "AREAWATER": 1829523,
+                    "BASENAME": "Middlesex County (East)--Cambridge",
+                    "CENTLAT": "+42.3758425",
+                    "CENTLON": "-071.1184834",
+                    "FUNCSTAT": "S",
+                    "GEOID": "2500611",
+                    "INTPTLAT": "+42.3760428",
+                    "INTPTLON": "-071.1186798",
+                    "LSADC": "P0",
+                    "MTFCC": "G6120",
+                    "NAME": "Middlesex County (East)--Cambridge PUMA",
+                    "OBJECTID": 1456,
+                    "OID": "2177029550585566",
+                    "PUMA": "00611",
+                    "STATE": "25"
+                  }
+                ],
+                "2020 Census ZIP Code Tabulation Areas": [
+                  {
+                    "AREALAND": 1576704,
+                    "AREAWATER": 26516,
+                    "BASENAME": "02141",
+                    "CENTLAT": "+42.3703313",
+                    "CENTLON": "-071.0820747",
+                    "FUNCSTAT": "S",
+                    "GEOID": "02141",
+                    "INTPTLAT": "+42.3702998",
+                    "INTPTLON": "-071.0825603",
+                    "LSADC": "Z5",
+                    "MTFCC": "G6350",
+                    "NAME": "ZCTA5 02141",
+                    "OBJECTID": 6040,
+                    "OID": "221704257530780",
+                    "ZCTA5": "02141",
+                    "ZCTA5CC": "B5"
+                  }
+                ],
+                "2026 State Legislative Districts - Lower": [
+                  {
+                    "AREALAND": 6485368,
+                    "AREAWATER": 245700,
+                    "BASENAME": "26th Middlesex",
+                    "CENTLAT": "+42.3743685",
+                    "CENTLON": "-071.0908038",
+                    "FUNCSTAT": "N",
+                    "GEOID": "25084",
+                    "INTPTLAT": "+42.3742801",
+                    "INTPTLON": "-071.0911194",
+                    "LDTYP": "O",
+                    "LSADC": "07",
+                    "LSY": "2026",
+                    "MTFCC": "G5220",
+                    "NAME": "26th Middlesex District",
+                    "OBJECTID": 2195,
+                    "OID": "2139042393388271",
+                    "SLDL": "084",
+                    "STATE": "25"
+                  }
+                ],
+                "2026 State Legislative Districts - Upper": [
+                  {
+                    "AREALAND": 26037781,
+                    "AREAWATER": 3512867,
+                    "BASENAME": "Middlesex and Suffolk",
+                    "CENTLAT": "+42.3876455",
+                    "CENTLON": "-071.0641047",
+                    "FUNCSTAT": "N",
+                    "GEOID": "25D26",
+                    "INTPTLAT": "+42.3909217",
+                    "INTPTLON": "-071.0616626",
+                    "LDTYP": "O",
+                    "LSADC": "07",
+                    "LSY": "2026",
+                    "MTFCC": "G5210",
+                    "NAME": "Middlesex and Suffolk District",
+                    "OBJECTID": 1809,
+                    "OID": "2129042393388050",
+                    "SLDU": "D26",
+                    "STATE": "25"
+                  }
+                ],
+                "Census Block Groups": [
+                  {
+                    "AREALAND": 175052,
+                    "AREAWATER": 0,
+                    "BASENAME": "3",
+                    "BLKGRP": "3",
+                    "CENTLAT": "+42.3724876",
+                    "CENTLON": "-071.0761514",
+                    "COUNTY": "017",
+                    "FUNCSTAT": "S",
+                    "GEOID": "250173521013",
+                    "INTPTLAT": "+42.3724876",
+                    "INTPTLON": "-071.0761514",
+                    "LSADC": "BG",
+                    "MTFCC": "G5030",
+                    "NAME": "Block Group 3",
+                    "OBJECTID": 18998,
+                    "OID": "2089015682166618",
+                    "STATE": "25",
+                    "TRACT": "352101"
+                  }
+                ],
+                "Census Divisions": [
+                  {
+                    "AREALAND": 162376291632,
+                    "AREAWATER": 24071106051,
+                    "BASENAME": "New England",
+                    "CENTLAT": "+44.0884319",
+                    "CENTLON": "-070.6636318",
+                    "DIVISION": "1",
+                    "FUNCSTAT": "S",
+                    "GEOID": "1",
+                    "INTPTLAT": "+44.0860059",
+                    "INTPTLON": "-070.6608882",
+                    "LSADC": "69",
+                    "MTFCC": "G1200",
+                    "NAME": "New England Division",
+                    "OBJECTID": 6,
+                    "OID": "2739020719807",
+                    "REGION": "1"
+                  }
+                ],
+                "Census Regions": [
+                  {
+                    "AREALAND": 419357207693,
+                    "AREAWATER": 50257795201,
+                    "BASENAME": "Northeast",
+                    "CENTLAT": "+42.7754036",
+                    "CENTLON": "-074.2183092",
+                    "FUNCSTAT": "S",
+                    "GEOID": "1",
+                    "INTPTLAT": "+42.7778249",
+                    "INTPTLON": "-074.2123732",
+                    "LSADC": "68",
+                    "MTFCC": "G1100",
+                    "NAME": "Northeast Region",
+                    "OBJECTID": 3,
+                    "OID": "2729020719824",
+                    "REGION": "1"
+                  }
+                ],
+                "Census Tracts": [
+                  {
+                    "AREALAND": 400465,
+                    "AREAWATER": 17063,
+                    "BASENAME": "3521.01",
+                    "CENTLAT": "+42.3711759",
+                    "CENTLON": "-071.0725825",
+                    "COUNTY": "017",
+                    "FUNCSTAT": "S",
+                    "GEOID": "25017352101",
+                    "INTPTLAT": "+42.3716411",
+                    "INTPTLON": "-071.0739629",
+                    "LSADC": "CT",
+                    "MTFCC": "G5020",
+                    "NAME": "Census Tract 3521.01",
+                    "OBJECTID": 52755,
+                    "OID": "207903709898302",
+                    "STATE": "25",
+                    "TRACT": "352101"
+                  }
+                ],
+                "Combined Statistical Areas": [
+                  {
+                    "AREALAND": 23800692836,
+                    "AREAWATER": 7148095996,
+                    "BASENAME": "Boston-Worcester-Providence, MA-RI-NH",
+                    "CENTLAT": "+42.3823496",
+                    "CENTLON": "-071.2405196",
+                    "CSA": "148",
+                    "FUNCSTAT": "S",
+                    "GEOID": "148",
+                    "HU100": "",
+                    "INTPTLAT": "+42.3823379",
+                    "INTPTLON": "-071.2392639",
+                    "LSADC": "M0",
+                    "MTFCC": "G3100",
+                    "NAME": "Boston-Worcester-Providence, MA-RI-NH CSA",
+                    "OBJECTID": 137,
+                    "OID": "2619034687907984",
+                    "POP100": ""
+                  }
+                ],
+                "Counties": [
+                  {
+                    "AREALAND": 2118363230,
+                    "AREAWATER": 75219794,
+                    "BASENAME": "Middlesex",
+                    "CENTLAT": "+42.4853699",
+                    "CENTLON": "-071.3915833",
+                    "COUNTY": "017",
+                    "COUNTYCC": "H4",
+                    "COUNTYNS": "00606935",
+                    "FUNCSTAT": "N",
+                    "GEOID": "25017",
+                    "INTPTLAT": "+42.4817215",
+                    "INTPTLON": "-071.3949160",
+                    "LSADC": "06",
+                    "MTFCC": "G4020",
+                    "NAME": "Middlesex County",
+                    "OBJECTID": 2897,
+                    "OID": "27590260056194",
+                    "STATE": "25"
+                  }
+                ],
+                "County Subdivisions": [
+                  {
+                    "AREALAND": 16567875,
+                    "AREAWATER": 1831964,
+                    "BASENAME": "Cambridge",
+                    "CENTLAT": "+42.3758513",
+                    "CENTLON": "-071.1185017",
+                    "COUNTY": "017",
+                    "COUSUB": "11000",
+                    "COUSUBCC": "C5",
+                    "COUSUBNS": "00619396",
+                    "FUNCSTAT": "F",
+                    "GEOID": "2501711000",
+                    "INTPTLAT": "+42.3760428",
+                    "INTPTLON": "-071.1186798",
+                    "LSADC": "25",
+                    "MTFCC": "G4040",
+                    "NAME": "Cambridge city",
+                    "OBJECTID": 23971,
+                    "OID": "27690260070071",
+                    "STATE": "25"
+                  }
+                ],
+                "Incorporated Places": [
+                  {
+                    "AREALAND": 16567875,
+                    "AREAWATER": 1831964,
+                    "BASENAME": "Cambridge",
+                    "CBSAPCI": "Y",
+                    "CENTLAT": "+42.3758513",
+                    "CENTLON": "-071.1185017",
+                    "DISP_CLR": 2,
+                    "FUNCSTAT": "A",
+                    "GEOID": "2511000",
+                    "INTPTLAT": "+42.3760428",
+                    "INTPTLON": "-071.1186798",
+                    "LSADC": "25",
+                    "MTFCC": "G4110",
+                    "NAME": "Cambridge city",
+                    "NECTAPCI": "N",
+                    "OBJECTID": 26515,
+                    "OID": "27890260079915",
+                    "PLACE": "11000",
+                    "PLACECC": "C5",
+                    "PLACENS": "00619396",
+                    "STATE": "25",
+                    "STGEOMETRY_Area": 33736729.201956116,
+                    "STGEOMETRY_Length": 35847.8206625421
+                  }
+                ],
+                "Metropolitan Divisions": [
+                  {
+                    "AREALAND": 3393969078,
+                    "AREAWATER": 945392016,
+                    "BASENAME": "Cambridge-Newton-Framingham, MA",
+                    "CBSA": "14460",
+                    "CENTLAT": "+42.5615454",
+                    "CENTLON": "-071.1328840",
+                    "CSA": "148",
+                    "FUNCSTAT": "S",
+                    "GEOID": "1446015764",
+                    "HU100": "",
+                    "INTPTLAT": "+42.5637220",
+                    "INTPTLON": "-071.1285896",
+                    "LSADC": "M3",
+                    "METDIV": "15764",
+                    "MTFCC": "G3120",
+                    "NAME": "Cambridge-Newton-Framingham, MA Metro Division",
+                    "OBJECTID": 2,
+                    "OID": "2639034687908157",
+                    "POP100": ""
+                  }
+                ],
+                "Metropolitan Statistical Areas": [
+                  {
+                    "AREALAND": 9029575024,
+                    "AREAWATER": 2654226021,
+                    "BASENAME": "Boston-Cambridge-Newton, MA-NH",
+                    "CBSA": "14460",
+                    "CENTLAT": "+42.5152660",
+                    "CENTLON": "-071.0208998",
+                    "CSA": "148",
+                    "FUNCSTAT": "S",
+                    "GEOID": "14460",
+                    "HU100": "",
+                    "INTPTLAT": "+42.5196629",
+                    "INTPTLON": "-071.0248422",
+                    "LSADC": "M1",
+                    "MTFCC": "G3110",
+                    "NAME": "Boston-Cambridge-Newton, MA-NH Metro Area",
+                    "OBJECTID": 213,
+                    "OID": "2629034687907138",
+                    "POP100": ""
+                  }
+                ],
+                "States": [
+                  {
+                    "AREALAND": 20204495062,
+                    "AREAWATER": 7130555467,
+                    "BASENAME": "Massachusetts",
+                    "CENTLAT": "+42.1618490",
+                    "CENTLON": "-071.4975238",
+                    "DIVISION": "1",
+                    "FUNCSTAT": "A",
+                    "GEOID": "25",
+                    "INTPTLAT": "+42.1565196",
+                    "INTPTLON": "-071.4895915",
+                    "LSADC": "00",
+                    "MTFCC": "G4000",
+                    "NAME": "Massachusetts",
+                    "OBJECTID": 44,
+                    "OID": "27490203627104",
+                    "REGION": "1",
+                    "STATE": "25",
+                    "STATENS": "00606926",
+                    "STUSAB": "MA"
+                  }
+                ],
+                "Unified School Districts": [
+                  {
+                    "AREALAND": 16567875,
+                    "AREAWATER": 1831964,
+                    "BASENAME": "Cambridge School District",
+                    "CENTLAT": "+42.3758513",
+                    "CENTLON": "-071.1185017",
+                    "FUNCSTAT": "E",
+                    "GEOID": "2503270",
+                    "HIGRADE": "12",
+                    "INTPTLAT": "+42.3760428",
+                    "INTPTLON": "-071.1186798",
+                    "LOGRADE": "PK",
+                    "LSADC": "00",
+                    "MTFCC": "G5420",
+                    "NAME": "Cambridge School District",
+                    "OBJECTID": 7027,
+                    "OID": "28490260156017",
+                    "SDTYP": "",
+                    "SDUNI": "03270",
+                    "STATE": "25"
+                  }
+                ],
+                "Urban Areas": [
+                  {
+                    "AREALAND": 4288980242,
+                    "AREAWATER": 185439525,
+                    "BASENAME": "Boston, MA--NH",
+                    "CENTLAT": "+42.3794876",
+                    "CENTLON": "-071.1422216",
+                    "FUNCSTAT": "S",
+                    "GEOID": "09271",
+                    "INTPTLAT": "+42.3789986",
+                    "INTPTLON": "-071.1423438",
+                    "LSADC": "67",
+                    "MTFCC": "G3500",
+                    "NAME": "Boston, MA--NH Urban Area",
+                    "OBJECTID": 1447,
+                    "OID": "27021206517502",
+                    "UA": "09271"
+                  }
+                ]
+              },
+              "matchedAddress": "151 N FIRST ST, CAMBRIDGE, MA, 02141",
+              "tigerLine": {
+                "side": "L",
+                "tigerLineId": "650194854"
+              }
+            }
+          ],
+          "input": {
+            "address": {
+              "address": "151 North First St, Cambridge, MA "
+            },
+            "benchmark": {
+              "benchmarkDescription": "Public Address Ranges - Current Benchmark",
+              "benchmarkName": "Public_AR_Current",
+              "id": "4",
+              "isDefault": true
+            },
+            "vintage": {
+              "id": "4",
+              "isDefault": true,
+              "vintageDescription": "Current Vintage - Current Benchmark",
+              "vintageName": "Current_Current"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "selected_method": "census_oneline"
+}
