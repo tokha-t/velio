@@ -15,6 +15,7 @@ Agents: update the **Status** block when you finish a step: tick it, add one lin
 - Notes: P0 re-verified — Python 3.12.14, CLI, 54-document corpus manifest/hash table, cached Claude CLI smoke response, and 22 tests pass. P1 pilot re-ran from cache: 5 documents → 7 normalized-exact quote-verified records (`e0a6904e…`); stopped for human review before full extraction.
 - Notes: P2 re-verified after the P1 pilot — 12 §8/CP3 golden tests and 22 total tests pass; compilation passes; 500 distinct resolved address IDs contain no Santa Ana rows. `rules_internal.json` is still absent, so production lookups were intentionally not generated and CP3 remains unclaimed.
 - Notes: P1 pipeline unblocked in code — four-worker chunk extraction, one retry per job, deterministic error artifact, link-only research loading, source-text date/status resolution, merge/export, schema validation, and test-ID mapping added. Full run produced 47 partial merged rules with 100% verified quotes; rerun when the Claude CLI limit resets to fill the 17 recorded misses. CP1/CP3 remain unclaimed.
+- Notes: P3 implemented against the deterministic lookup contract — changes and validation outputs are generated, with T1 250, T3 140/90, T4 110, and T5 0 already matching. Validation remains deliberately red for the 17 extraction failures, missing CP3 lookups, and T2 (0/90 until human-saved Hoboken/Jersey City research copies arrive).
 
 ## Lanes
 
